@@ -22,9 +22,17 @@
 #define CACHE_PATH "/persistent/res-cache"
 #define MAX_PREFETCH_REQUESTS 4
 
+// 필수 리소스 다운로드가 일시적 오류로 실패했을 때 재시도하는 최대 횟수.
+// 404 같은 영구 오류는 재시도하지 않고 즉시 실패 처리한다.
+#define MAX_FETCH_ATTEMPTS 3
+
 #define MAKE_CACHED_PATH(_var_name, _content_id) \
 	char _var_name[sizeof(CACHE_PATH) + strlen(_content_id) + 1]; \
 	snprintf(_var_name, sizeof(_var_name), CACHE_PATH "/%s", (_content_id))
+
+#define MAKE_FETCH_URL(_var_name, _content_id) \
+	char _var_name[sizeof(TAISEI_BUILDCONF_DATA_PATH) + strlen(_content_id) + 1]; \
+	snprintf(_var_name, sizeof(_var_name), TAISEI_BUILDCONF_DATA_PATH "/%s", (_content_id))
 
 #define FETCH_CONTENT_ID(_fetch) \
 	((_fetch)->url + sizeof(TAISEI_BUILDCONF_DATA_PATH))
@@ -46,6 +54,25 @@ EM_JS(void, update_dl_status, (int done, int total), {
 			: "Prefetching resources… (" + done + "/" + total + ")",
 	true);
 });
+
+// 다운로드를 포기한 리소스를 셸 상태 표시줄에 알린다. 조용히 멈추는 대신
+// 사용자와 QA가 어떤 파일이 왜 실패했는지 바로 볼 수 있게 한다.
+// 필수 리소스였다면 곧 log_fatal → abort()가 뒤따르고, 셸의 onerror/onAbort가
+// 상태 표시를 "Aborted()"로 덮어쓸 수 있다. 셸이 원인을 되살릴 수 있도록
+// 마지막 실패 메시지를 Module["lastDownloadError"]에도 남긴다.
+EM_JS(void, report_dl_failure, (const char *url, int status), {
+	var msg = "Failed to download " + UTF8ToString(url) + " (HTTP status " + status + ")";
+	console.error(msg);
+	Module["lastDownloadError"] = msg;
+	if(typeof Module["setStatus"] === "function") {
+		Module["setStatus"]("Error: " + msg, true);
+	}
+});
+
+// 네트워크 단절(status 0), 타임아웃, 과부하, 서버 오류만 재시도 대상으로 본다.
+static bool fetch_status_is_transient(int status) {
+	return status == 0 || status == 408 || status == 429 || status >= 500;
+}
 
 static void prefetch_next(FetchFSContext *ctx) {
 	while(ctx->requests.num_elements_occupied < MAX_PREFETCH_REQUESTS) {
@@ -97,8 +124,7 @@ static void fetch_onerror(emscripten_fetch_t *fetch) {
 static emscripten_fetch_t *fetch_begin_request(FetchFSContext *ctx, const char *content_id) {
 	emscripten_fetch_t *fetch;
 
-	char url[sizeof(TAISEI_BUILDCONF_DATA_PATH) + strlen(content_id) + 1];
-	snprintf(url, sizeof(url), TAISEI_BUILDCONF_DATA_PATH "/%s", content_id);
+	MAKE_FETCH_URL(url, content_id);
 
 	if(ht_lookup(&ctx->requests, url, (void**)&fetch)) {
 		return fetch;
@@ -145,7 +171,10 @@ static SDL_IOStream *vfs_fetch_open(VFSResIndexFSContext *resindex_ctx, const ch
 		return cached_rw;
 	}
 
-	for(;;) {
+	// 이전에는 200이 아닐 때 무한히 재요청해서, 파일 누락이나 404 시 로딩이
+	// 영원히 멈추고 서버에 요청이 쏟아졌다. 일시적 오류만 제한 횟수로 재시도하고
+	// 그 외에는 VFS 오류로 실패를 돌려준다.
+	for(int attempt = 1;; ++attempt) {
 		fetch = fetch_begin_request(ctx, content_id);
 		fetch_wait(fetch);
 
@@ -153,7 +182,20 @@ static SDL_IOStream *vfs_fetch_open(VFSResIndexFSContext *resindex_ctx, const ch
 			break;
 		}
 
+		int status = fetch->status;
 		emscripten_fetch_close(fetch);
+
+		if(attempt < MAX_FETCH_ATTEMPTS && fetch_status_is_transient(status)) {
+			log_warn("Retrying %s (attempt %i of %i)", content_id, attempt + 1, MAX_FETCH_ATTEMPTS);
+			emscripten_sleep(500 * attempt);
+			continue;
+		}
+
+		MAKE_FETCH_URL(url, content_id);
+		log_error("Giving up on %s after %i attempt(s); last HTTP status %i", url, attempt, status);
+		report_dl_failure(url, status);
+		vfs_set_error("Failed to download %s (HTTP status %i)", url, status);
+		return NULL;
 	}
 
 	SDL_IOStream *memrw = NOT_NULL(SDL_IOFromConstMem(fetch->data, fetch->numBytes));
