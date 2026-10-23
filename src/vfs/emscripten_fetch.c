@@ -57,9 +57,13 @@ EM_JS(void, update_dl_status, (int done, int total), {
 
 // 다운로드를 포기한 리소스를 셸 상태 표시줄에 알린다. 조용히 멈추는 대신
 // 사용자와 QA가 어떤 파일이 왜 실패했는지 바로 볼 수 있게 한다.
+// 필수 리소스였다면 곧 log_fatal → abort()가 뒤따르고, 셸의 onerror/onAbort가
+// 상태 표시를 "Aborted()"로 덮어쓸 수 있다. 셸이 원인을 되살릴 수 있도록
+// 마지막 실패 메시지를 Module["lastDownloadError"]에도 남긴다.
 EM_JS(void, report_dl_failure, (const char *url, int status), {
 	var msg = "Failed to download " + UTF8ToString(url) + " (HTTP status " + status + ")";
 	console.error(msg);
+	Module["lastDownloadError"] = msg;
 	if(typeof Module["setStatus"] === "function") {
 		Module["setStatus"]("Error: " + msg, true);
 	}
