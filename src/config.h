@@ -76,9 +76,12 @@
 #ifdef __EMSCRIPTEN__
 	#define CONFIG_VSYNC_DEFAULT 1
 	#define CONFIG_FXAA_DEFAULT 0
+	// 웹에서는 공격 키를 계속 누르기 불편하므로 자동 발사(Shoot by default)를 기본으로 켠다. 공격 키를 누르는 동안은 발사가 멈춘다.
+	#define CONFIG_SHOT_INVERTED_DEFAULT 1
 #else
 	#define CONFIG_VSYNC_DEFAULT 0
 	#define CONFIG_FXAA_DEFAULT 1
+	#define CONFIG_SHOT_INVERTED_DEFAULT 0
 #endif
 
 #define CONFIG_CHUNKSIZE_DEFAULT 512
@@ -111,7 +114,7 @@
 	CONFIGDEF_FLOAT     (TEXT_QUALITY,              "text_quality",                         1.0) \
 	CONFIGDEF_FLOAT     (FG_QUALITY,                "fg_quality",                           1.0) \
 	CONFIGDEF_FLOAT     (BG_QUALITY,                "bg_quality",                           1.0) \
-	CONFIGDEF_INT       (SHOT_INVERTED,             "shot_inverted",                        0) \
+	CONFIGDEF_INT       (SHOT_INVERTED,             "shot_inverted",                        CONFIG_SHOT_INVERTED_DEFAULT) \
 	CONFIGDEF_INT       (FOCUS_LOSS_PAUSE,          "focus_loss_pause",                     1) \
 	CONFIGDEF_INT       (PARTICLES,                 "particles",                            1) \
 	CONFIGDEF_INT       (FXAA,                      "fxaa",                                 CONFIG_FXAA_DEFAULT) \
