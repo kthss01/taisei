@@ -102,8 +102,8 @@ static const CharacterProfile profiles[NUM_PROFILES] = {
 	},
 	[PROFILE_HINA] = {
 		.name = "hina",
-		.fullname = N_("Kagiyama Hina"),
-		.title = N_("Gyroscopic Pestilence God"),
+		.fullname = N_("CLIMBER"),
+		.title = N_("Mountain Pass Ascender"),
 		.species = N_("Pestilence God"),
 		.area_of_study = N_("Gyroscopic Stabilization"),
 		.description = N_("Guardian of Yōkai Mountain. Her angular momentum is out of this world!\n\nShe seems awfully concerned with your health and safety, to the point of being quite overbearing.\n\nYou’re old enough to decide your own path in life, though."),
@@ -124,8 +124,8 @@ static const CharacterProfile profiles[NUM_PROFILES] = {
 	},
 	[PROFILE_WRIGGLE] = {
 		.name = "wriggle",
-		.fullname = N_("Wriggle Nightbug"),
-		.title = N_("Insect Rights Activist"),
+		.fullname = N_("RANDONNEUR"),
+		.title = N_("Long-Distance Wayfarer"),
 		.species = N_("Insect"),
 		.area_of_study = N_("Evolutionary Socio-Entomology"),
 		.description = N_("A bright bug - or was it insect? - far from her usual stomping grounds.\n\nShe feels that Insects have lost their “rightful place” in history, whatever that means.\n\nIf she thinks she has a raw evolutionary deal, someone ought to tell her about the trilobites…"),
@@ -135,8 +135,8 @@ static const CharacterProfile profiles[NUM_PROFILES] = {
 	},
 	[PROFILE_KURUMI] = {
 		.name = "kurumi",
-		.fullname = N_("Kurumi"),
-		.title = N_("High-Society Phlebotomist"),
+		.fullname = N_("CLASSIC"),
+		.title = N_("Vintage Boulevard Lady"),
 		.species = N_("Vampire"),
 		.area_of_study = N_("Hematology"),
 		.description = N_("Vampiric blast from the past. Doesn’t she know Gensōkyō already has new bloodsuckers in town?\n\nSucking blood is what she’s good at, but her current job is a gatekeeper, and her true passion is high fashion.\n\nEveryone’s got multiple side-hustles these days…"),
@@ -146,8 +146,8 @@ static const CharacterProfile profiles[NUM_PROFILES] = {
 	},
 	[PROFILE_IKU] = {
 		.name = "iku",
-		.fullname = N_("Nagae Iku"),
-		.title = N_("Fulminologist of the Heavens"),
+		.fullname = N_("AERO"),
+		.title = N_("Aero Road Sprinter"),
 		.species = N_("Oarfish"),
 		.area_of_study = N_("Meteorology (Fulminology)"),
 		.description = N_("Messenger from the clouds, and an amateur meteorologist.\n\nSeems to have been reading a few too many outdated psychiatry textbooks in recent times.\n\nDespite being so formal and stuffy, she seems to be the only one who knows what’s going on."),

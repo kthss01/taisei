@@ -70,8 +70,8 @@
 
 // 자전거 의인화 테마 1차 시험: 스테이지 1 보스를 MINIVELO(임시 이름)로 교체. 내부 id cirno는 유지한다.
 #define TITLE_CIRNO(actor) TITLE(actor, N_("MINIVELO"), N_("Folding Bike Trickster"))
-#define TITLE_HINA(actor) TITLE(actor, N_("Kagiyama Hina"), N_("Gyroscopic Pestilence God"));
-#define TITLE_WRIGGLE(actor) TITLE(actor, N_("Wriggle Nightbug"), N_("Insect Rights Activist"));
-#define TITLE_KURUMI(actor) TITLE(actor, N_("Kurumi"), N_("High-Society Phlebotomist"));
-#define TITLE_IKU(actor) TITLE(actor, N_("Nagae Iku"), N_("Fulminologist of the Heavens"));
+#define TITLE_HINA(actor) TITLE(actor, N_("CLIMBER"), N_("Mountain Pass Ascender"));
+#define TITLE_WRIGGLE(actor) TITLE(actor, N_("RANDONNEUR"), N_("Long-Distance Wayfarer"));
+#define TITLE_KURUMI(actor) TITLE(actor, N_("CLASSIC"), N_("Vintage Boulevard Lady"));
+#define TITLE_IKU(actor) TITLE(actor, N_("AERO"), N_("Aero Road Sprinter"));
 #define TITLE_ELLY(actor) TITLE(actor, N_("Elly"), N_("The Theoretical Reaper"));

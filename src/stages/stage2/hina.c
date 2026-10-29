@@ -40,9 +40,9 @@ void stage2_draw_hina_spellbg(Boss *h, int time) {
 }
 
 Boss *stage2_spawn_hina(cmplx pos) {
-	Boss *hina = create_boss(N_("Kagiyama Hina"), "hina", pos);
+	Boss *hina = create_boss(N_("CLIMBER"), "hina", pos);
 	boss_set_portrait(hina, "hina", NULL, "normal");
-	hina->glowcolor = RGBA_MUL_ALPHA(0.7, 0.2, 0.3, 0.5);
+	hina->glowcolor = RGBA_MUL_ALPHA(0.75, 0.7, 0.95, 0.5);
 	hina->shadowcolor = hina->glowcolor;
 	return hina;
 }

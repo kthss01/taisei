@@ -6711,3 +6711,37 @@ msgstr "표라니요? 호수에 들어가는 데요?"
 #: src/dialog/youmu.c
 msgid "Then I’ll bury you in snow and ride right over you!"
 msgstr "그럼 눈 속에 파묻고 그 위로 달려 버릴 거야!"
+
+# ---- 자전거 테마 임시 이름: 나머지 보스 4명 ----
+
+#: src/stages/stage2/hina.c src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "CLIMBER"
+msgstr "클라이머"
+
+#: src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "Mountain Pass Ascender"
+msgstr "고갯길의 등반가"
+
+#: src/stages/stage2/wriggle.c src/stages/stage3/wriggle.c src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "RANDONNEUR"
+msgstr "랑도너"
+
+#: src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "Long-Distance Wayfarer"
+msgstr "장거리 여행자"
+
+#: src/stages/stage4/kurumi.c src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "CLASSIC"
+msgstr "클래식"
+
+#: src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "Vintage Boulevard Lady"
+msgstr "빈티지 대로의 숙녀"
+
+#: src/stages/stage5/iku.c src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "AERO"
+msgstr "에어로"
+
+#: src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "Aero Road Sprinter"
+msgstr "에어로 로드의 승부사"

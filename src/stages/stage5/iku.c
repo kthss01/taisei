@@ -107,10 +107,10 @@ static void iku_nonspell_spawn_cloud(void) {
 }
 
 Boss *stage5_spawn_iku(cmplx pos) {
-	Boss *iku = create_boss(N_("Nagae Iku"), "iku", pos);
+	Boss *iku = create_boss(N_("AERO"), "iku", pos);
 	boss_set_portrait(iku, "iku", NULL, "normal");
-	iku->glowcolor = RGB(0.2, 0.4, 0.5);
-	iku->shadowcolor = RGBA_MUL_ALPHA(0.65, 0.2, 0.75, 0.5);
+	iku->glowcolor = RGB(0.8, 0.1, 0.15);
+	iku->shadowcolor = RGBA_MUL_ALPHA(0.9, 0.2, 0.2, 0.5);
 	return iku;
 }
 
