@@ -504,7 +504,8 @@ static CutsceneState *cutscene_state_new(const CutscenePhase phases[]) {
 void cutscene_enter(CallChain next, CutsceneID id) {
 	assert((uint)id < NUM_CUTSCENE_IDS);
 
-	bool interruptible = progress_is_cutscene_unlocked(id);
+	// 인트로(프롤로그)는 첫 시청에도 Esc/X로 건너뛸 수 있게 한다. 해금은 아래에서 즉시 기록되므로 건너뛰어도 다시 나오지 않는다.
+	bool interruptible = (id == CUTSCENE_ID_INTRO) || progress_is_cutscene_unlocked(id);
 	progress_unlock_cutscene(id);
 	const Cutscene *cs = g_cutscenes + id;
 
