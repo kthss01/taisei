@@ -24,7 +24,7 @@
 #include "video.h"
 
 #define SELECTED_SUBSHOT(m) (((CharMenuContext*)(m)->context)->subshot)
-#define DESCRIPTION_WIDTH (SCREEN_W / 3 + 40)
+#define DESCRIPTION_WIDTH 308
 
 enum {
 	F_HAPPY,
@@ -62,6 +62,13 @@ static const char facedefs[NUM_CHARACTERS][NUM_FACES][FACENAME_LEN] = {
 		[F_SURPRISED] = PORTRAIT_STATIC_FACE_SPRITE_NAME(youmu, surprised),
 		[F_UNAMUSED]  = PORTRAIT_STATIC_FACE_SPRITE_NAME(youmu, unamused),
 	},
+};
+
+// 캐릭터별 포인트 색: 초상화 림라이트·글로우·칭호·칩에 쓴다
+static const Color char_accent_colors[NUM_CHARACTERS] = {
+	[PLR_CHAR_REIMU]  = { { 0.93, 0.36, 0.38, 1 } },
+	[PLR_CHAR_MARISA] = { { 0.97, 0.80, 0.40, 1 } },
+	[PLR_CHAR_YOUMU]  = { { 0.50, 0.86, 0.74, 1 } },
 };
 
 typedef struct CharMenuContext {
@@ -173,9 +180,47 @@ void draw_char_menu(MenuData *menu) {
 
 	assert(menu->cursor < 3);
 	PlayerCharacter *selected_char = plrchar_get((CharacterID)(uintptr_t)dynarray_get(&menu->entries, menu->cursor).arg);
+	Color accent = char_accent_colors[selected_char->id];
+	float shown = 1 - menu_fade(menu);
+	float settled = menu->drawdata[1];  // 선택 캐릭터가 자리를 잡은 정도(0~1)
 
-	draw_main_menu_bg(menu, SCREEN_W/4+100, 0, 0.1 * (0.5 + 0.5 * menu->drawdata[1]), "menu/mainmenubg", selected_char->menu_texture_name);
+	draw_main_menu_bg(menu, SCREEN_W/4+100, 0, 0.1 * (0.5 + 0.5 * settled), "menu/mainmenubg", selected_char->menu_texture_name);
+
+	// 왼쪽 열 가독성용 그라데이션
+	draw_ui_panel(&(UIPanelParams) {
+		.x = 230, .y = SCREEN_H / 2,
+		.w = 460, .h = SCREEN_H,
+		.fill = RGBA(0.02, 0.03, 0.06, 0.66 * shown),
+		.fill2 = RGBA(0.02, 0.03, 0.06, 0),
+		.gradient_dir_x = 1,
+	});
+
 	draw_menu_title(menu, _("Select Character"));
+
+	Font *font_title = res_font("title");
+	Font *font_heading = res_font("heading");
+	Font *font_std = res_font("standard");
+	Font *font_small = res_font("small");
+	ShaderProgram *text_shader = res_shader("text_ui");
+	ShaderProgram *portrait_shader = res_shader("sprite_portrait");
+	ShaderProgram *sprite_shader = res_shader("sprite_default");
+
+	const float col_x = 48;                        // 왼쪽 열 시작
+	const float portrait_cx = SCREEN_W / 2 + 230;  // 초상화 중심 x
+
+	// 초상화 뒤 글로우: 선택 캐릭터 색으로 천천히 숨 쉰다
+	{
+		float breath = 0.5 + 0.5 * sin(menu->frames / 40.0);
+		float g = (0.5 + 0.12 * breath) * shown * settled;
+
+		r_draw_sprite(&(SpriteParams) {
+			.sprite = res_sprite("ui/glow"),
+			.shader = sprite_shader,
+			.pos = { portrait_cx, SCREEN_H * 0.55 },
+			.scale.both = 3.2,
+			.color = RGBA(accent.r * g, accent.g * g, accent.b * g, 0),
+		});
+	}
 
 	CharacterID current_char = 0;
 
@@ -188,8 +233,7 @@ void draw_char_menu(MenuData *menu) {
 		assert(pchar->id == i);
 
 		Sprite *spr = portrait_get_base_sprite(pchar->lower_name, NULL);  // TODO cache this
-		const char *name = _(pchar->full_name);
-		const char *title = _(pchar->title);
+		Color accent_i = char_accent_colors[i];
 
 		if(menu->cursor == i) {
 			current_char = pchar->id;
@@ -208,137 +252,163 @@ void draw_char_menu(MenuData *menu) {
 			face = facedefs[i][F_UNAMUSED];
 		}
 
-		float pofs = max(0.0f, e->drawdata * 1.5f - 0.5f);
-		pofs = glm_ease_back_in(pofs);
+		// 선택되지 않은 캐릭터는 오른쪽으로 미끄러지며 어두워진다
+		float pofs = glm_ease_quad_in(clamp(e->drawdata * 1.5f - 0.5f, 0.0f, 1.0f));
 
 		if(i != menu->selected) {
 			pofs = lerp(pofs, 1, menu_fade(menu));
 		}
 
-		float pbrightness = 0.6 + 0.4 * o;
+		float pbrightness = 0.55 + 0.45 * (1 - e->drawdata);
+		float breath_y = 2 * sin(menu->frames / 50.0);
 
 		SpriteParams portrait_params = {
-			.pos = { SCREEN_W/2 + 240 + 320 * pofs, SCREEN_H - spr->h * 0.5 },
+			.pos = { portrait_cx + 260 * pofs, SCREEN_H - spr->h * 0.5 + breath_y },
 			.sprite = spr,
-			.shader = res_shader("sprite_default"),
-			.color = RGBA(pbrightness, pbrightness, pbrightness, 1),
-			// .flip.x = true,
+			.shader = portrait_shader,
+			.color = RGBA_MUL_ALPHA(pbrightness, pbrightness, pbrightness, 1 - pofs),
+			// 바닥 페이드 시작, 림라이트 세기, 채도, 대비
+			.shader_params.vec = { 0.84, 0.55, 1.08, 1.06 },
+			.shader_params.mat = {
+				{ accent_i.r, accent_i.g, accent_i.b, 3.0 },  // 림 색, 두께(텍셀)
+				{ 0.8, -0.6, 0, 0 },                           // 빛 방향: 오른쪽 위
+			},
 		};
 
 		r_draw_sprite(&portrait_params);
+
+		// 표정 파츠는 페이드·림 없이 그대로 얹는다
 		portrait_params.sprite = res_sprite(face);
+		portrait_params.shader_params.vec[0] = 2;
+		portrait_params.shader_params.vec[1] = 0;
 		r_draw_sprite(&portrait_params);
 
-		r_mat_mv_push();
-		r_mat_mv_translate(SCREEN_W/4, SCREEN_H/3, 0);
+		// 이름과 칭호: 선택된 캐릭터만, 전환 때 왼쪽에서 밀려 들어온다
+		float vis = clamp(o, 0.0f, 1.0f) * shown;
 
-		r_mat_mv_push();
+		if(vis > 1e-3) {
+			float slide = 24 * (1 - vis);
 
-		if(e->drawdata != 0) {
-			r_mat_mv_translate(0, -300 * e->drawdata, 0);
-			r_mat_mv_rotate(M_PI * e->drawdata, 1, 0, 0);
+			text_draw(_(pchar->full_name), &(TextParams) {
+				.pos = { col_x - slide, 168 },
+				.font_ptr = font_title,
+				.shader_ptr = text_shader,
+				.color = RGBA_MUL_ALPHA(1, 1, 1, vis),
+			});
+
+			text_draw(_(pchar->title), &(TextParams) {
+				.pos = { col_x - slide, 196 },
+				.font_ptr = font_std,
+				.shader_ptr = text_shader,
+				.color = color_mul_scalar(accent_i, vis),
+			});
 		}
-
-		text_draw(name, &(TextParams) {
-			.align = ALIGN_CENTER,
-			.font = "big",
-			.shader_ptr = res_shader("text_default"),
-			.color = RGBA(o, o, o, o),
-		});
-
-		r_mat_mv_pop();
-
-		if(e->drawdata) {
-			o = 1 - e->drawdata * 3;
-		} else {
-			o = 1;
-		}
-
-		text_draw(title, &(TextParams) {
-			.align = ALIGN_CENTER,
-			.pos = { 20*(1-o), 30 },
-			.shader_ptr = res_shader("text_default"),
-			.color = RGBA(o, o, o, o),
-		});
-
-		r_mat_mv_pop();
 	});
 
-	r_mat_mv_push();
-	r_mat_mv_translate(SCREEN_W/4, SCREEN_H/3, 0);
-
+	// 샷 모드 카드: 활성 카드만 설명을 펼친다
 	ShotModeID current_subshot = SELECTED_SUBSHOT(menu);
-
-	float f = menu->drawdata[0]-PLR_SHOT_A;
-	float selbg_ofs = 200 + (100-70)*f-20*f - font_get_lineskip(res_font("standard")) * 0.7;
-
-	r_color4(0, 0, 0, 0.5);
-	r_shader_standard_notex();
-	r_mat_mv_push();
-	r_mat_mv_translate(-150, selbg_ofs + menu->drawdata[2] * 0.5, 0);
-	r_mat_mv_scale(650, menu->drawdata[2], 1);
-	r_draw_quad();
-	r_shader_standard();
-	r_mat_mv_pop();
+	float f = menu->drawdata[0] - PLR_SHOT_A;
+	const float card_w = DESCRIPTION_WIDTH + 32;
+	const float card_x = col_x + card_w / 2;
+	const float left = col_x + 16;
+	float card_top = 236;
 
 	for(ShotModeID shot = PLR_SHOT_A; shot < NUM_SHOT_MODES_PER_CHARACTER; shot++) {
 		PlayerMode *mode = plrmode_find(current_char, shot);
 		assume(mode != NULL);
-		int shotidx = shot-PLR_SHOT_A;
+		int shotidx = shot - PLR_SHOT_A;
 
-		float o = 1-fabs(f - shotidx);
-		float al = 0.2+o;
+		float act = clamp(1 - fabs(f - shotidx), 0.0f, 1.0f);  // 1 = 활성 카드
+		float h = 50 + act * menu->drawdata[2];
 
-		Color clr;
-
-		if(shot == current_subshot && shot == PLR_SHOT_A) {
-			clr = RGBA(0.9*al, 0.6*al, 0.2*al, 1*al);
-		} else if(shot == current_subshot && shot == PLR_SHOT_B) {
-			clr = RGBA(0.2*al, 0.6*al, 0.9*al, 1*al);
-		} else {
-			clr = RGBA(al, al, al, al);
-		}
-
-		char buf[64];
-		snprintf(buf, sizeof(buf), "%s: %s", prefixes[shot - PLR_SHOT_A], _(mode->name));
-
-		double y = 200 + (100-70*f)*shotidx-20*f;
-		text_draw(buf, &(TextParams) {
-			.align = ALIGN_CENTER,
-			.pos = { 0, y},
-			.shader_ptr = res_shader("text_default"),
-			.color = clr,
+		draw_ui_panel(&(UIPanelParams) {
+			.x = card_x, .y = card_top + h / 2,
+			.w = card_w, .h = h,
+			.radius = 12, .border = 1,
+			.fill = RGBA(0.03, 0.04, 0.08, (0.35 + 0.4 * act) * shown),
+			.fill2 = RGBA(0.03, 0.04, 0.08, (0.25 + 0.4 * act) * shown),
+			.border_color = RGBA(accent.r, accent.g, accent.b, (0.2 + 0.7 * act) * shown),
 		});
 
-		if(shot == current_subshot) {
+		text_draw(prefixes[shotidx], &(TextParams) {
+			.pos = { left, card_top + 20 },
+			.font_ptr = font_small,
+			.shader_ptr = text_shader,
+			.color = color_mul_scalar(accent, (0.55 + 0.45 * act) * shown),
+		});
+
+		text_draw(_(mode->name), &(TextParams) {
+			.pos = { left, card_top + 42 },
+			.font_ptr = font_heading,
+			.shader_ptr = text_shader,
+			.color = RGBA_MUL_ALPHA(1, 1, 1, (0.55 + 0.45 * act) * shown),
+		});
+
+		if(act > 1e-3 && shot == current_subshot) {
 			text_draw_wrapped(_(mode->description), DESCRIPTION_WIDTH, &(TextParams) {
-				.align = ALIGN_CENTER,
-				.pos = { 0, y + 30 },
-				.shader_ptr = res_shader("text_default"),
-				.color = { o, o, o, o },
+				.pos = { left, card_top + 68 },
+				.font_ptr = font_std,
+				.shader_ptr = text_shader,
+				.color = RGBA_MUL_ALPHA(1, 1, 1, 0.85 * act * shown),
 			});
 		}
+
+		card_top += h + 10;
 	}
 
-	r_mat_mv_pop();
+	// 아래: 캐릭터 칩 — 세 명을 한눈에 보여 주고, 선택된 칩은 그 캐릭터 색으로 채운다
+	const float chip_y = 522;
+	float pulse = (0.5 + 0.3 * sin(menu->frames / 20.0)) * shown * settled;
+	float chip_x = col_x + 22;
+	ShaderProgram *chip_text_shader = res_shader("text_default");
 
-	float o = 0.3*sin(menu->frames/20.0)+0.5;
-	o *= 1 - dynarray_get(&menu->entries, menu->cursor).drawdata;
-	r_shader("sprite_default");
-
-	r_draw_sprite(&(SpriteParams) {
-		.sprite = res_sprite("menu/arrow"),
-		.pos = { 30, SCREEN_H/3+10 },
-		.color = RGBA(o, o, o, o),
-		.scale = { 0.5, 0.7 },
+	text_draw("‹", &(TextParams) {
+		.pos = { col_x, chip_y + 8 },
+		.font_ptr = font_heading,
+		.shader_ptr = text_shader,
+		.color = color_mul_scalar(accent, pulse),
 	});
 
-	r_draw_sprite(&(SpriteParams) {
-		.sprite = res_sprite("menu/arrow"),
-		.pos = { 30 + 340, SCREEN_H/3+10 },
-		.color = RGBA(o, o, o, o),
-		.scale = { 0.5, 0.7 },
-		.flip.x = true,
+	for(CharacterID c = 0; c < NUM_CHARACTERS; ++c) {
+		PlayerCharacter *pc = plrchar_get(c);
+		float sel = 1 - dynarray_get(&menu->entries, c).drawdata;
+		const char *name = _(pc->proper_name);
+		float tw = text_width(font_std, name, 0);
+		float cw = tw + 28;
+		Color ac = char_accent_colors[c];
+
+		draw_ui_panel(&(UIPanelParams) {
+			.x = chip_x + cw / 2, .y = chip_y,
+			.w = cw, .h = 28,
+			.radius = 14, .border = 1,
+			.fill = RGBA(ac.r, ac.g, ac.b, 0.9 * sel * shown),
+			.border_color = RGBA(1, 1, 1, (0.18 + 0.4 * sel) * shown),
+		});
+
+		Color text_color = color_lerp(RGBA_MUL_ALPHA(1, 1, 1, 0.7), RGBA(0.06, 0.06, 0.1, 1), sel);
+
+		text_draw(name, &(TextParams) {
+			.pos = { chip_x + 14, chip_y + 6 },
+			.font_ptr = font_std,
+			.shader_ptr = chip_text_shader,
+			.color = color_mul_scalar(text_color, shown),
+		});
+
+		chip_x += cw + 8;
+	}
+
+	text_draw("›", &(TextParams) {
+		.pos = { chip_x + 2, chip_y + 8 },
+		.font_ptr = font_heading,
+		.shader_ptr = text_shader,
+		.color = color_mul_scalar(accent, pulse),
+	});
+
+	text_draw(_("‹ ›  Character     Up / Down  Shot     Z  Confirm     X  Back"), &(TextParams) {
+		.pos = { col_x, SCREEN_H - 26 },
+		.font_ptr = font_small,
+		.shader_ptr = text_shader,
+		.color = RGBA_MUL_ALPHA(1, 1, 1, 0.45 * shown),
 	});
 
 	r_state_pop();
@@ -419,4 +489,9 @@ void preload_char_menu(ResourceGroup *rg) {
 	portrait_preload_face_sprite(rg, "youmu", "eyes_closed", RESF_DEFAULT);
 	portrait_preload_face_sprite(rg, "youmu", "relaxed", RESF_DEFAULT);
 	portrait_preload_face_sprite(rg, "youmu", "sigh", RESF_DEFAULT);
+
+	// 캐릭터 선택 화면 연출용 자원
+	res_group_preload(rg, RES_SPRITE, RESF_DEFAULT, "ui/glow", NULL);
+	res_group_preload(rg, RES_SHADER_PROGRAM, RESF_DEFAULT, "ui_panel", "sprite_portrait", "text_ui", NULL);
+	res_group_preload(rg, RES_FONT, RESF_DEFAULT, "title", "heading", NULL);
 }
