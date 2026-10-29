@@ -133,8 +133,8 @@ msgid "There was something unsettling in the air—"
 msgstr "공기 속에는 어딘가 꺼림칙한 기운이 감돌고 있었다—"
 
 #: src/cutscenes/intro.inc.h:16
-msgid "*Ring-ring.* A bright little bell, then the whir of spinning wheels racing past the torii.\n"
-msgstr "*따릉따릉.* 맑은 방울 소리에 이어, 바퀴 구르는 소리가 도리이 앞을 휙 스쳐 지나갔다.\n"
+msgid "Ring-ring! A bright little bell, then the whir of spinning wheels racing past the torii.\n"
+msgstr "따릉따릉! 맑은 방울 소리에 이어, 바퀴 구르는 소리가 도리이 앞을 휙 스쳐 지나갔다.\n"
 
 #: src/cutscenes/intro.inc.h:17
 msgid "Whoa! Somethin’ just zoomed right past the gate!"
@@ -197,8 +197,8 @@ msgid "Then the riders and this strange air may be connected."
 msgstr "그렇다면 그 라이더들과 이 이상한 기운은 관계가 있을지도 모르겠네요."
 
 #: src/cutscenes/intro.inc.h:47
-msgid "*Ring-ring.* The bell sounded once more— from far down the shrine road, as if waiting for them.\n"
-msgstr "*따릉따릉.* 방울 소리가 다시 울렸다— 신사 길 저 아래에서, 마치 셋을 기다리기라도 하듯.\n"
+msgid "Ring-ring! The bell sounded once more— from far down the shrine road, as if waiting for them.\n"
+msgstr "따릉따릉! 방울 소리가 다시 울렸다— 신사 길 저 아래에서, 마치 셋을 기다리기라도 하듯.\n"
 
 #: src/cutscenes/intro.inc.h:48
 msgid "Hear that? They’re callin’ us out!"
@@ -1388,8 +1388,8 @@ msgid "Ah, whatever. As long as it stays quiet."
 msgstr "아, 몰라. 조용하기만 하면 됐지."
 
 #: src/cutscenes/reimu_good_end.inc.h:65
-msgid "*Ring-ring.* Every so often, a bell still sounded on the mountain road, and fresh tracks appeared in the morning dew.\n"
-msgstr "*따릉따릉.* 산길에서는 이따금 방울 소리가 들렸고, 아침 이슬 위에는 새 바퀴 자국이 나 있었다.\n"
+msgid "Ring-ring! Every so often, a bell still sounded on the mountain road, and fresh tracks appeared in the morning dew.\n"
+msgstr "따릉따릉! 산길에서는 이따금 방울 소리가 들렸고, 아침 이슬 위에는 새 바퀴 자국이 나 있었다.\n"
 
 #: src/cutscenes/reimu_good_end.inc.h:66
 msgid "They’re still out there, huh? Whoever they are."

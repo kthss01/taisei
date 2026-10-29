@@ -13,7 +13,7 @@
 		{},
 	}},
 	{ "cutscenes/opening/01", {
-		T_NARRATOR("*Ring-ring.* A bright little bell, then the whir of spinning wheels racing past the torii.\n"),
+		T_NARRATOR("Ring-ring! A bright little bell, then the whir of spinning wheels racing past the torii.\n"),
 		T_MARISA("Whoa! Somethin’ just zoomed right past the gate!"),
 		T_REIMU("And it didn’t even stop to make a donation."),
 		{},
@@ -44,7 +44,7 @@
 		{},
 	}},
 	{ "cutscenes/opening/04", {
-		T_NARRATOR("*Ring-ring.* The bell sounded once more— from far down the shrine road, as if waiting for them.\n"),
+		T_NARRATOR("Ring-ring! The bell sounded once more— from far down the shrine road, as if waiting for them.\n"),
 		T_MARISA("Hear that? They’re callin’ us out!"),
 		T_YOUMU("Then we shouldn’t keep them waiting."),
 		T_REIMU("Fine. Let’s go see who’s been tearing up my road."),
