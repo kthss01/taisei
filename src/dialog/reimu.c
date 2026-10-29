@@ -49,26 +49,28 @@ DIALOG_TASK(reimu, Stage1PreBoss) {
 	// You can find the list of events per dialogue in dialog_interface.h
 	// All of them should be signaled eventually.
 	EVENT(boss_appears);
-	MSG(cirno, "Nobody can stop me now!");
-	// Reveal Cirno’s portrait
+	// 자전거 의인화 테마 1차 시험: 스테이지 1 보스는 MINIVELO(임시 이름). 내부 id cirno는 유지한다.
+	MSG(cirno, "Ding-ding! Coming through~!");
+	// Reveal the boss portrait
 	SHOW(cirno);
 	FACE(cirno, normal);
-	MSG(cirno, "Mwahahaha!");
+	MSG(cirno, "Whoa, a shrine maiden! You’re just in time for my grand tour!");
 
 	FACE(reimu, puzzled);
-	MSG(reimu, "What’s gotten into you all of a sudden?");
+	MSG(reimu, "A tour? Who are you supposed to be?");
 	// Titles are not yet implemented, but this should work once they are.
 	// Right now this does nothing.
 	TITLE_CIRNO(cirno);
-	MSG(cirno, "Gah! Y-you again?! Are you here to get in the way of my plans?!");
+	MSG(cirno, "MINIVELO, at your service! This lake is my new shortcut, so I’m collecting tolls!");
 
-	MSG(reimu, "What ‘plans'? Freezing frogs?");
+	MSG(reimu, "Tolls? On a frozen lake?");
 	FACE(reimu, sigh);
 	MSG(reimu, "Anyway, I don’t really care. So if you could just—");
 	EVENT(music_changes);
 
 	FACE(reimu, annoyed);
-	MSG(cirno, "I’ll never tell you! Prepare to be chilled to the bone!");
+	FACE(cirno, angry);
+	MSG(cirno, "No skipping the line! Catch me if you can~!");
 	// Teardown, must be at the very bottom.
 	DIALOG_END();
 }
@@ -87,10 +89,10 @@ DIALOG_TASK(reimu, Stage1PostBoss) {
 	// Bosses also have a "defeated" face to go along with the variant, but all the other faces can be used as well.
 	// It’s best to set the face to "defeated" in the beginning of a post-battle dialogue, and change it later if needed.
 	FACE(cirno, defeated);
-	MSG(cirno, "Chill out! I didn’t mean it like that!");
+	MSG(cirno, "Owww… I folded up a little too fast there…");
 	FACE(reimu, smug);
 	MSG(reimu, "You could have just let me through, you know.");
-	MSG(cirno, "Not fair! You broke the rules! I wasn’t ready yet…");
+	MSG(cirno, "Not fair! You didn’t even buy a ticket…");
 
 	DIALOG_END();
 }

@@ -25,11 +25,12 @@ DIALOG_TASK(marisa, Stage1PreBoss) {
 	MSG(marisa, "…even though it’s half-way through summer already.");
 
 	EVENT(boss_appears);
-	MSG(cirno, "Don’t you like the cold weather???");
+	// 자전거 의인화 테마 1차 시험: 스테이지 1 보스는 MINIVELO(임시 이름). 내부 id cirno는 유지한다.
+	MSG(cirno, "Beep beep! Move it, broom girl!");
 
 	SHOW(cirno);
 	FACE(cirno, normal);
-	MSG(cirno, "It should be winter all the time!");
+	MSG(cirno, "I brought this cold air straight down from the mountain pass. Pretty neat, huh?");
 
 	FACE(marisa, normal);
 	MSG(marisa, "Mind paying to get my coat cleaned, then?");
@@ -37,13 +38,13 @@ DIALOG_TASK(marisa, Stage1PreBoss) {
 	MSG(marisa, "I was gonna get it done in the fall, but now…");
 
 	TITLE_CIRNO(cirno);
-	MSG(cirno, "Why would I do that?! You’re never going to pay me back!");
+	MSG(cirno, "Pay YOU? Nope! Around here, *you* pay the toll!");
 	EVENT(music_changes);
 	FACE(cirno, angry);
-	MSG(cirno, "I’m gonna turn you into an ice cube!");
+	MSG(cirno, "Let’s race! Loser pushes the bike home!");
 
 	FACE(marisa, smug);
-	MSG(marisa, "Really? I prefer shaved ice, myself.");
+	MSG(marisa, "Race a broom? You’re on.");
 
 	DIALOG_END();
 }
@@ -57,11 +58,11 @@ DIALOG_TASK(marisa, Stage1PostBoss) {
 	FACE(cirno, defeated);
 
 	FACE(marisa, smug);
-	MSG(marisa, "Why don’t you go play with your new friend, the one from Hell?");
-	MSG(marisa, "Maybe then it’d be more of a fair fight.");
+	MSG(marisa, "Thought a bike could outrun a broom?");
+	MSG(marisa, "Come back when you’ve got a tailwind.");
 
 	MSG(cirno, "Ouch…");
-	MSG(cirno, "I-I mean, last time she lost! And next time, you will too!");
+	MSG(cirno, "I-I only lost ’cause my chain slipped! Next time you’re toast!");
 
 	MSG(marisa, "Sure, sure.");
 

@@ -24,12 +24,13 @@ DIALOG_TASK(youmu, Stage1PreBoss) {
 	MSG(youmu, "I suppose falling snow can be just as pretty as cherry blossoms…");
 
 	EVENT(boss_appears);
+	// 자전거 의인화 테마 1차 시험: 스테이지 1 보스는 MINIVELO(임시 이름). 내부 id cirno는 유지한다.
 	MSG(cirno, "Hey!");
 	SHOW(cirno);
 
-	MSG(cirno, "I’m cooler than you, so get off my lake!");
+	MSG(cirno, "This path’s mine today! Got a ticket, sword girl?");
 	FACE(youmu, unamused);
-	MSG(youmu, "I can see you’re quite cold, yes.");
+	MSG(youmu, "A ticket? For a lake?");
 	FACE(youmu, smug);
 	MSG(youmu, "I tend to dislike dueling those weaker than myself, so I’d appreciate it if you’d step aside.");
 
@@ -41,7 +42,7 @@ DIALOG_TASK(youmu, Stage1PreBoss) {
 
 	EVENT(music_changes);
 	FACE(cirno, angry);
-	MSG(cirno, "But if I turn you into a snowflake, you’ll have to chop yourself in half!");
+	MSG(cirno, "Then I’ll bury you in snow and ride right over you!");
 
 	DIALOG_END();
 }

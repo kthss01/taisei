@@ -90,11 +90,12 @@ static const CharacterProfile profiles[NUM_PROFILES] = {
 	},
 	[PROFILE_CIRNO] = {
 		.name = "cirno",
-		.fullname = N_("Cirno"),
-		.title = N_("Thermodynamic Ice Fairy"),
-		.species = N_("Fairy"),
-		.area_of_study = N_("Thermodynamics"),
-		.description = N_("The lovably-foolish ice fairy.\n\nPerhaps she’s a bit dissatisfied after her recent duels with secret gods and hellish fairies?\n\nConsider going easy on her."),
+		// 자전거 의인화 테마 1차 시험 (임시 이름 MINIVELO). 내부 id와 표정 이름은 유지한다.
+		.fullname = N_("MINIVELO"),
+		.title = N_("Folding Bike Trickster"),
+		.species = N_("Folding Bicycle"),
+		.area_of_study = N_("Shortcuts"),
+		.description = N_("A pocket-sized folding bike who treats every lake, mountain pass, and shrine road as her personal tour route.\n\nShe collects ticket stubs, stamps, and shortcuts—and she will absolutely cut in line.\n\nTry not to let her get a head start."),
 		.background = "stage1/cirnobg",
 		.unlock = PBGM_STAGE1_BOSS,
 		.faces = FACES("normal", "angry", "defeated"),

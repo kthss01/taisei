@@ -24,10 +24,12 @@ void stage1_draw_cirno_spellbg(Boss *c, int time) {
 }
 
 Boss *stage1_spawn_cirno(cmplx pos) {
-	Boss *cirno = create_boss(N_("Cirno"), "cirno", pos);
+	// 자전거 의인화 테마 1차 시험: 표시 이름과 색만 MINIVELO(임시 이름, 민트·크림)로 바꾸고
+	// 내부 id "cirno"와 패턴·판정은 그대로 둔다.
+	Boss *cirno = create_boss(N_("MINIVELO"), "cirno", pos);
 	boss_set_portrait(cirno, "cirno", NULL, "normal");
-	cirno->shadowcolor = RGBA_MUL_ALPHA(0.6, 0.7, 1.0, 0.25);
-	cirno->glowcolor = RGB(0.2, 0.35, 0.5);
+	cirno->shadowcolor = RGBA_MUL_ALPHA(0.70, 0.95, 0.85, 0.25);
+	cirno->glowcolor = RGB(0.30, 0.70, 0.58);
 	return cirno;
 }
 

@@ -68,7 +68,8 @@
 #define PRELOAD_FACE(face) \
 	portrait_preload_face_sprite(ARGS.preload_group, _charname, #face, ARGS.preload_rflags)
 
-#define TITLE_CIRNO(actor) TITLE(actor, N_("Cirno"), N_("Thermodynamic Ice Fairy"))
+// 자전거 의인화 테마 1차 시험: 스테이지 1 보스를 MINIVELO(임시 이름)로 교체. 내부 id cirno는 유지한다.
+#define TITLE_CIRNO(actor) TITLE(actor, N_("MINIVELO"), N_("Folding Bike Trickster"))
 #define TITLE_HINA(actor) TITLE(actor, N_("Kagiyama Hina"), N_("Gyroscopic Pestilence God"));
 #define TITLE_WRIGGLE(actor) TITLE(actor, N_("Wriggle Nightbug"), N_("Insect Rights Activist"));
 #define TITLE_KURUMI(actor) TITLE(actor, N_("Kurumi"), N_("High-Society Phlebotomist"));

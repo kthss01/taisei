@@ -6603,3 +6603,111 @@ msgstr ""
 #: src/i18n/i18n.h:17
 msgid "System"
 msgstr "시스템"
+
+# ---- 자전거 의인화 테마 1차 시험: 스테이지 1 보스 MINIVELO(임시 이름). 말투: 발랄하고 장난기 있는 반말 ----
+
+#: src/stages/stage1/cirno.c src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "MINIVELO"
+msgstr "미니벨로"
+
+#: src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "Folding Bike Trickster"
+msgstr "접이식 자전거 장난꾸러기"
+
+#: src/menu/charprofile.c
+msgid "Folding Bicycle"
+msgstr "접이식 자전거"
+
+#: src/menu/charprofile.c
+msgid "Shortcuts"
+msgstr "지름길"
+
+#: src/menu/charprofile.c
+msgid ""
+"A pocket-sized folding bike who treats every lake, mountain pass, and shrine road as her personal tour route.\n"
+"\n"
+"She collects ticket stubs, stamps, and shortcuts—and she will absolutely cut in line.\n"
+"\n"
+"Try not to let her get a head start."
+msgstr ""
+"주머니에 쏙 들어가는 접이식 자전거 아가씨. 호수든 고갯길이든 신사 참배길이든 전부 자기 투어 코스로 여긴다.\n"
+"\n"
+"티켓 조각과 도장과 지름길을 모으는 게 취미이고, 새치기는 기본이다.\n"
+"\n"
+"먼저 출발하게 두지 않는 게 좋다."
+
+#: src/dialog/reimu.c
+msgid "Ding-ding! Coming through~!"
+msgstr "따르릉! 지나갈게~!"
+
+#: src/dialog/reimu.c
+msgid "Whoa, a shrine maiden! You’re just in time for my grand tour!"
+msgstr "우와, 무녀다! 내 그랜드 투어에 딱 맞춰 왔네!"
+
+#: src/dialog/reimu.c
+msgid "A tour? Who are you supposed to be?"
+msgstr "투어? 넌 또 뭐야?"
+
+#: src/dialog/reimu.c
+msgid "MINIVELO, at your service! This lake is my new shortcut, so I’m collecting tolls!"
+msgstr "미니벨로, 잘 부탁해! 이 호수는 내 새 지름길이니까 통행료를 받는 중이야!"
+
+#: src/dialog/reimu.c
+msgid "Tolls? On a frozen lake?"
+msgstr "통행료? 얼어붙은 호수에서?"
+
+#: src/dialog/reimu.c
+msgid "No skipping the line! Catch me if you can~!"
+msgstr "새치기 금지! 잡을 수 있으면 잡아 봐~!"
+
+#: src/dialog/reimu.c
+msgid "Owww… I folded up a little too fast there…"
+msgstr "아야야… 너무 급하게 접혀 버렸어…"
+
+#: src/dialog/reimu.c
+msgid "Not fair! You didn’t even buy a ticket…"
+msgstr "치사해! 표도 안 샀으면서…"
+
+#: src/dialog/marisa.c
+msgid "Beep beep! Move it, broom girl!"
+msgstr "빵빵! 비켜, 빗자루 언니!"
+
+#: src/dialog/marisa.c
+msgid "I brought this cold air straight down from the mountain pass. Pretty neat, huh?"
+msgstr "이 찬 공기, 고갯길에서 곧장 싣고 내려온 거야. 멋지지?"
+
+#: src/dialog/marisa.c
+msgid "Pay YOU? Nope! Around here, *you* pay the toll!"
+msgstr "내가 너한테? 싫어! 여기선 *네가* 통행료를 내는 거라고!"
+
+#: src/dialog/marisa.c
+msgid "Let’s race! Loser pushes the bike home!"
+msgstr "경주하자! 지는 쪽이 자전거 끌고 집에 가기!"
+
+#: src/dialog/marisa.c
+msgid "Race a broom? You’re on."
+msgstr "빗자루랑 경주? 좋다구."
+
+#: src/dialog/marisa.c
+msgid "Thought a bike could outrun a broom?"
+msgstr "자전거로 빗자루를 따돌릴 수 있을 줄 알았냐?"
+
+#: src/dialog/marisa.c
+msgid "Come back when you’ve got a tailwind."
+msgstr "순풍이라도 등에 업고 다시 오라구."
+
+#: src/dialog/marisa.c
+msgid "I-I only lost ’cause my chain slipped! Next time you’re toast!"
+msgstr "체, 체인이 빠져서 진 것뿐이야! 다음엔 네가 끝장이라고!"
+
+#: src/dialog/youmu.c
+msgid "This path’s mine today! Got a ticket, sword girl?"
+msgstr "오늘 이 길은 내 거야! 표는 있어, 칼잡이 언니?"
+
+#: src/dialog/youmu.c
+msgid "A ticket? For a lake?"
+msgstr "표라니요? 호수에 들어가는 데요?"
+
+#: src/dialog/youmu.c
+msgid "Then I’ll bury you in snow and ride right over you!"
+msgstr "그럼 눈 속에 파묻고 그 위로 달려 버릴 거야!"
