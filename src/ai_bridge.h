@@ -59,3 +59,18 @@ void ai_bridge_on_hit(void);
 void ai_bridge_on_death(bool counted);
 void ai_bridge_on_bomb(void);
 void ai_bridge_on_cheat(void);
+
+// --- exported to the host (see ai/bridge/taisei-ai-bridge.mjs); declared here for -Wmissing-prototypes ---
+
+int taisei_ai_abi_version(void);
+const char *taisei_ai_layout(void);
+int taisei_ai_layout_size(void);
+void taisei_ai_set_observe(int on);
+int taisei_ai_enable(void);
+int taisei_ai_resume(void);
+void taisei_ai_suspend(int reason);
+void taisei_ai_disable(int reason);
+void taisei_ai_request_restart(void);
+void taisei_ai_set_seed(int lo, int hi, int sticky);
+void taisei_ai_clear_seed(void);
+int taisei_ai_submit(int episode, int target_frame, int hold, int edges);

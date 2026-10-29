@@ -311,6 +311,8 @@ AI_EXPORT int taisei_ai_submit(int episode, int target_frame, int hold, int edge
 
 // ---------------------------------------------------------------- layout
 
+static void jappend(const char *fmt, ...) __attribute__((format(printf, 1, 2)));
+
 static void jappend(const char *fmt, ...) {
 	va_list ap;
 	va_start(ap, fmt);
