@@ -12,11 +12,12 @@
 #include "i18n/i18n.h"
 
 void stage1_draw_cirno_spellbg(Boss *c, int time) {
+	// 자전거 테마 1차: 스펠 배경을 MINIVELO 콘셉트 시트에서 만든 임시 타일로 바꾼다(메뉴 배경 cirnobg는 유지).
 	r_color4(0.5, 0.5, 0.5, 1.0);
-	fill_viewport(time/700.0, time/700.0, 1, "stage1/cirnobg");
+	fill_viewport(time/700.0, time/700.0, 1, "stage1/minivelobg");
 	r_blend(BLEND_MOD);
 	r_color4(0.7, 0.7, 0.7, 0.5);
-	fill_viewport(-time/700.0 + 0.5, time/700.0+0.5, 0.4, "stage1/cirnobg");
+	fill_viewport(-time/700.0 + 0.5, time/700.0+0.5, 0.4, "stage1/minivelobg");
 	r_blend(BLEND_PREMUL_ALPHA);
 	r_color4(0.35, 0.35, 0.35, 0.0);
 	fill_viewport(0, -time/100.0, 0, "stage1/snowlayer");
