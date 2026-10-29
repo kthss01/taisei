@@ -101,6 +101,7 @@ DIALOG_TASK(reimu, Stage1PostBoss) {
  * Stage 2
  */
 
+// 자전거 테마: 클라이머 대사
 DIALOG_TASK(reimu, Stage2PreBoss) {
 	DIALOG_BEGIN(Stage2PreBoss);
 
@@ -116,36 +117,38 @@ DIALOG_TASK(reimu, Stage2PreBoss) {
 	MSG(reimu, "I almost miss them.");
 
 	EVENT(boss_appears);
-	MSG(hina, "Ah, it’s Ms. Hakurei.");
+	MSG(hina, "…Footsteps. On my climb.");
 	SHOW(hina);
 	FACE(reimu, normal);
 	FACE(hina, normal);
-	MSG(hina, "I thought you might come.");
+	MSG(hina, "Ms. Hakurei. I thought you might come.");
 	FACE(hina, concerned);
-	MSG(hina, "But once again, you’re trying to go places you shouldn’t.");
-	MSG(hina, "What a troubled girl…");
+	MSG(hina, "But this pass is steeper than it looks.");
+	MSG(hina, "And you don’t even have low gears…");
 
 	FACE(reimu, sigh);
 	MSG(reimu, "So much for ‘deserted’…");
 	FACE(reimu, normal);
-	MSG(reimu, "Do you even know what you’re protecting me from this time?");
+	MSG(reimu, "Gears? Who are you, and why are you guarding the road?");
 
 	TITLE_HINA(hina);
 
 	FACE(hina, normal);
-	MSG(hina, "A bright girl like you should know that Yōkai Mountain is especially dangerous today.");
+	MSG(hina, "CLIMBER. I ride this mountain every morning.");
+	MSG(hina, "Today the wind up top feels wrong. The summit is dangerous.");
 	FACE(hina, concerned);
-	MSG(hina, "You ought to turn back now, my dear.");
+	MSG(hina, "Turn back. Coast down while your legs are still fresh.");
 
 	FACE(reimu, sigh);
-	MSG(reimu, "(She… she completely ignored my question.)");
+	MSG(reimu, "(She talks like she’s saving her breath for the hill.)");
 	FACE(reimu, puzzled);
 	MSG(reimu, "Does it matter that the Gods asked me to come this time?");
 
 	EVENT(music_changes);
 
-	MSG(hina, "I know better than the mountain Gods this time.");
-	MSG(hina, "If you do not turn back immediately, I’ll have to repel you by force.");
+	FACE(hina, serious);
+	MSG(hina, "The Gods don’t climb. I do.");
+	MSG(hina, "If you won’t turn back, I’ll drop you on the next switchback.");
 
 	FACE(reimu, sigh);
 	MSG(reimu, "So annoying…");
@@ -153,6 +156,7 @@ DIALOG_TASK(reimu, Stage2PreBoss) {
 	DIALOG_END();
 }
 
+// 자전거 테마: 클라이머 대사
 DIALOG_TASK(reimu, Stage2PostBoss) {
 	DIALOG_BEGIN(Stage2PostBoss);
 
@@ -165,10 +169,10 @@ DIALOG_TASK(reimu, Stage2PostBoss) {
 	FACE(hina, defeated);
 	FACE(reimu, normal);
 
-	MSG(hina, "So I lost… you can keep going then, I suppose.");
+	MSG(hina, "So I lost… go on, then. The summit is yours.");
 	FACE(reimu, puzzled);
-	MSG(reimu, "You should know by now that I can handle it. Why are you being so overbearing?");
-	MSG(hina, "Just don’t say I didn’t warn you, when you inevitably get mauled by whatever’s out there…");
+	MSG(reimu, "I can handle a hill. Why are you being so overbearing?");
+	MSG(hina, "Just don’t say I didn’t warn you, when you run out of legs halfway up…");
 
 	FACE(reimu, unamused);
 	MSG(reimu, "(Ignored again…)");
@@ -180,6 +184,7 @@ DIALOG_TASK(reimu, Stage2PostBoss) {
  * Stage 3
  */
 
+// 자전거 테마: 랑도너 대사
 DIALOG_TASK(reimu, Stage3PreBoss) {
 	DIALOG_BEGIN(Stage3PreBoss);
 
@@ -190,45 +195,46 @@ DIALOG_TASK(reimu, Stage3PreBoss) {
 	MSG(reimu, "Aside from everyone being whipped up into a frenzy, I can’t see anything abnormal yet.");
 
 	EVENT(boss_appears);
-	MSG(wriggle, "Well, to your human eyes, insects may seem ‘normal’…");
+	MSG(wriggle, "Nothing abnormal? Then you haven’t checked the stars tonight!");
 
 	SHOW(wriggle);
 	FACE(wriggle, proud);
-	MSG(wriggle, "… but there was a time when we reigned supreme!");
+	MSG(wriggle, "The whole route is written up there, checkpoint by checkpoint!");
 
 	FACE(reimu, puzzled);
-	MSG(reimu, "Eh? You? Aren’t you a bit far from home?");
-	MSG(reimu, "Besides, ‘reigned supreme’? I’ve never heard of insects ruling over Gensōkyō.");
+	MSG(reimu, "Eh? Who are you? Aren’t you a bit far from home?");
+	MSG(reimu, "Besides, a route in the sky? Nobody draws roads on constellations.");
 
 	TITLE_WRIGGLE(wriggle);
 	FACE(wriggle, outraged);
-	MSG(wriggle, "'Far from home'? But you’ve intruded on my secret lair!");
+	MSG(wriggle, "‘Far from home’ is my whole job! I’m RANDONNEUR, and you’re on my checkpoint!");
 	FACE(wriggle, proud);
-	MSG(wriggle, "Haven’t you heard of the Car—…");
-	MSG(wriggle, "Carb—…");
+	MSG(wriggle, "Haven’t you heard of the great Bre—…");
+	MSG(wriggle, "Brev—…");
 	FACE(reimu, puzzled);
-	MSG(wriggle, "That period of history?");
-	MSG(wriggle, "It was the greatest time, everyone should’ve heard of it by now!");
+	MSG(wriggle, "That really, really long ride?");
+	MSG(wriggle, "Twelve hundred kilometers, barely any sleep! Everyone should’ve heard of it by now!");
 
-	MSG(reimu, "Seems pretty far-fetched to me, honestly. But you yōkai are always coming up with the craziest theories…");
+	MSG(reimu, "Seems pretty far-fetched to me, honestly. Who rides that far for fun?");
 
 	FACE(wriggle, outraged);
-	MSG(wriggle, "Don’t lump us great insects in with common yōkai!");
+	MSG(wriggle, "Don’t lump us long-haulers in with weekend cruisers!");
 	FACE(wriggle, proud);
-	MSG(wriggle, "I’m going to restore us to our rightful glory of old!");
+	MSG(wriggle, "I’m going to stamp every checkpoint in Gensōkyō, one constellation at a time!");
 
 	FACE(reimu, puzzled);
-	MSG(reimu, "Giant insects? But you’re tiny.");
+	MSG(reimu, "Every checkpoint? But you’re just one girl with a map.");
 	FACE(reimu, unamused);
-	MSG(reimu, "And I still don’t know what you mean by ‘glory of old.’");
+	MSG(reimu, "And I still don’t know what any of this has to do with me.");
 
 	EVENT(music_changes);
 
-	MSG(wriggle, "You don’t seem very educated about our history.");
-	MSG(wriggle, "Allow me to be your teacher!");
+	MSG(wriggle, "Nobody passes this control without a stamp. Those are the rules!");
+	MSG(wriggle, "Allow me to be your checkpoint!");
 	DIALOG_END();
 }
 
+// 자전거 테마: 랑도너 대사
 DIALOG_TASK(reimu, Stage3PostBoss) {
 	DIALOG_BEGIN(Stage3PostBoss);
 
@@ -239,16 +245,16 @@ DIALOG_TASK(reimu, Stage3PostBoss) {
 	FACE(wriggle, defeated);
 
 	FACE(reimu, smug);
-	MSG(reimu, "Giant insects roaming Gensōkyō, huh?");
-	MSG(reimu, "Sounds like one of Sanae’s ‘nuclear’ experiments.");
+	MSG(reimu, "Stamping the whole night sky, huh?");
+	MSG(reimu, "Sounds like one of Sanae’s ‘weekend projects.’");
 
-	MSG(wriggle, "B-but I saw it clearly… the glorious past of insectkind…");
+	MSG(wriggle, "B-but I plotted it so carefully… every star a checkpoint…");
 
 	FACE(reimu, unamused);
 	MSG(reimu, "Don’t you have a pretty sweet deal as it is, though?");
-	MSG(reimu, "You practically own Gensōkyō’s forests.");
+	MSG(reimu, "You already know every road in Gensōkyō by heart.");
 
-	MSG(wriggle, "But can’t we ever hope for more…?");
+	MSG(wriggle, "But can’t I ever hope for one more kilometer…?");
 
 	DIALOG_END();
 }
@@ -257,6 +263,7 @@ DIALOG_TASK(reimu, Stage3PostBoss) {
  * Stage 4
  */
 
+// 자전거 테마: 클래식 대사
 DIALOG_TASK(reimu, Stage4PreBoss) {
 	DIALOG_BEGIN(Stage4PreBoss);
 
@@ -278,7 +285,7 @@ DIALOG_TASK(reimu, Stage4PreBoss) {
 
 	SHOW(kurumi);
 	FACE(kurumi, tsun);
-	MSG(kurumi, "Oi, that’s what I should be asking!");
+	MSG(kurumi, "Goodness, a guest barging in before teatime? I should be asking you that.");
 
 	FACE(reimu, puzzled);
 	MSG(reimu, "…?");
@@ -288,9 +295,9 @@ DIALOG_TASK(reimu, Stage4PreBoss) {
 
 	FACE(kurumi, normal);
 	TITLE_KURUMI(kurumi);
-	MSG(kurumi, "I have no idea what you mean by ‘strange thoughts’, but I’ll be honest with you…");
-	MSG(kurumi, "Your clothing is giving me some strange thoughts!");
-	MSG(kurumi, "Where’d you even get that outfit?! Dumpster diving?! For real!");
+	MSG(kurumi, "I am CLASSIC. I know nothing of ‘strange thoughts’, but I must be honest…");
+	MSG(kurumi, "Your attire is giving me some rather strange thoughts.");
+	MSG(kurumi, "Those enormous sleeves! They would tangle in a chain before the first corner.");
 
 	FACE(reimu, unamused);
 	MSG(reimu, "Ugh, another prissy mansion-dweller.");
@@ -300,7 +307,7 @@ DIALOG_TASK(reimu, Stage4PreBoss) {
 	MSG(reimu, "Just… stop whatever it is you’re doing, right now.");
 
 	FACE(kurumi, dissatisfied);
-	MSG(kurumi, "Once you get some fashion sense, maybe I will!");
+	MSG(kurumi, "Once you learn to dress for a proper ride, perhaps I shall.");
 
 	FACE(reimu, unamused);
 	MSG(reimu, "… so you *are* behind this, huh?");
@@ -308,18 +315,18 @@ DIALOG_TASK(reimu, Stage4PreBoss) {
 	MSG(reimu, "Besides, haven’t you ever seen a shrine maiden before?");
 
 	FACE(kurumi, normal);
-	MSG(kurumi, "You’re a shrine maiden?");
+	MSG(kurumi, "A shrine maiden? Without a basket? Without a bell?");
 	FACE(reimu, unamused);
-	MSG(kurumi, "More like… BRINE maiden!");
+	MSG(kurumi, "However do you carry the offerings home, dear?");
 
 	FACE(reimu, assertive);
 	MSG(reimu, "T-this is what a shrine maiden wears. It’s a uniform.");
 
-	MSG(kurumi, "Uniform? Are you kidding me?!");
-	MSG(kurumi, "I’ve seen a real shrine maiden before, and she didn’t look anything like you!");
-	MSG(kurumi, "What’s with those patterns, anyways? It’s completely unorthodox! It’s not even using the right type of fabric!");
+	MSG(kurumi, "A uniform? Oh, surely you jest.");
+	MSG(kurumi, "I once met a real shrine maiden, and she wore a long skirt with a proper skirt guard!");
+	MSG(kurumi, "And those patterns! No mudguards, no lamp, not even a kickstand! Most unorthodox!");
 	FACE(kurumi, tsun);
-	MSG(kurumi, "Get out of here, fake-maiden!");
+	MSG(kurumi, "Do go home and change, Miss Imitation.");
 
 	FACE(reimu, irritated);
 	MSG(reimu, "… ARGH!");
@@ -331,7 +338,7 @@ DIALOG_TASK(reimu, Stage4PreBoss) {
 	MSG(reimu, "Everything else feels terrible against my skin—");
 	FACE(reimu, irritated);
 
-	MSG(kurumi, "Whoa, hey, sorry, didn’t mean to make you all—");
+	MSG(kurumi, "Oh dear, I didn’t mean to upset you so— shall I put the kettle on?");
 
 	EVENT(music_changes);
 
@@ -342,6 +349,7 @@ DIALOG_TASK(reimu, Stage4PreBoss) {
 	DIALOG_END();
 }
 
+// 자전거 테마: 클래식 대사
 DIALOG_TASK(reimu, Stage4PostBoss) {
 	DIALOG_BEGIN(Stage4PostBoss);
 
@@ -353,14 +361,14 @@ DIALOG_TASK(reimu, Stage4PostBoss) {
 	FACE(reimu, irritated);
 	MSG(reimu, "That’s what you get for insulting my outfit like that.");
 
-	MSG(kurumi, "Ouch ouch ouch…");
+	MSG(kurumi, "Ouch ouch ouch… my poor spokes…");
 	MSG(kurumi, "W-wait, what happened?");
 
 	MSG(reimu, "What do you mean ‘what happened’?");
 
-	MSG(kurumi, "(M-maybe if I fake having amnesia… yeah, that’s it…!)");
+	MSG(kurumi, "(P-perhaps if I pretend a bolt came loose in my memory… yes, quite…!)");
 	FACE(kurumi, normal);
-	MSG(kurumi, "O-oof, my head! Ow! How did I even get here???");
+	MSG(kurumi, "O-oh, my head! Wherever am I? Has someone forgotten to oil me?");
 	MSG(kurumi, "W-wait! Aren’t you that girl from a long while back?");
 
 	FACE(reimu, sigh);
@@ -371,8 +379,8 @@ DIALOG_TASK(reimu, Stage4PostBoss) {
 	MSG(reimu, "This feeling is annoying, whatever it is. Make it stop, or tell me how to make it stop.");
 
 	FACE(kurumi, defeated);
-	MSG(kurumi, "Huh? I-I don’t know! I barely remember anything!");
-	MSG(kurumi, "(Ugh, her outfit really does suck though…)");
+	MSG(kurumi, "Huh? I-I couldn’t say! I barely remember a thing!");
+	MSG(kurumi, "(Those sleeves really would catch in a chain, though…)");
 
 	MSG(reimu, "(Just another victim…?)");
 	FACE(reimu, normal);
@@ -385,6 +393,7 @@ DIALOG_TASK(reimu, Stage4PostBoss) {
  * Stage 5
  */
 
+// 자전거 테마: 에어로 대사
 DIALOG_TASK(reimu, Stage5PreBoss) {
 	DIALOG_BEGIN(Stage5PreBoss);
 
@@ -401,23 +410,23 @@ DIALOG_TASK(reimu, Stage5PreBoss) {
 	WAIT_SKIPPABLE(60);
 	SHOW(iku);
 	FACE(iku, normal);
-	MSG(iku, "Or perchance it a side effect of the tower’s mere presence?");
+	MSG(iku, "Or maybe you just can’t handle the speed up here?");
 
 	MSG(reimu, "Oh, it’s you. Why did you attack me earlier, anyway?");
 
 	TITLE_IKU(iku);
 	FACE(iku, smile);
-	MSG(iku, "Ah, apologies. It must have been friendly fire.");
+	MSG(iku, "Ha! Sorry, you drifted into my line. Racing incident.");
 	FACE(iku, eyes_closed);
-	MSG(iku, "Things are quite hectic here. I beg your understanding.");
-	MSG(iku, "But it has been a while, has it not?");
+	MSG(iku, "Things get hectic in a crosswind like this. No hard feelings.");
+	MSG(iku, "But it’s been a while, hasn’t it? AERO, remember?");
 
 	FACE(reimu, normal);
 	MSG(reimu, "Err, right, yes, it has been a while. Nice to see you again.");
 
 	FACE(iku, serious);
-	MSG(iku, "This tower is unlike anything I have seen before.");
-	MSG(iku, "Since word spread through the clouds, I’ve learned that the culprit is connected to ‘parallel universes.’");
+	MSG(iku, "This tower is unlike any course I’ve ever ridden.");
+	MSG(iku, "Word travels fast in the clouds. The culprit is tied to ‘parallel universes.’");
 
 	FACE(reimu, puzzled);
 	MSG(reimu, "You mean like Otherworlds? That’s not too out of the ordinary these days.");
@@ -428,54 +437,54 @@ DIALOG_TASK(reimu, Stage5PreBoss) {
 	MSG(reimu, "But what are you even doing here?");
 
 	FACE(iku, eyes_closed);
-	MSG(iku, "It is not just the Netherworld and Gensōkyō being affected.");
+	MSG(iku, "It’s not just the Netherworld and Gensōkyō feeling the drag.");
 	FACE(iku, serious);
-	MSG(iku, "In Bhava-agra, the Eldest Daughter’s personality has experienced some changes, too.");
+	MSG(iku, "In Bhava-agra, the Eldest Daughter’s personality has shifted, too.");
 
 	FACE(reimu, surprised);
 	MSG(reimu, "It’s spreading that fast?!");
 
 	FACE(iku, smile);
-	MSG(iku, "Initially, I had no plans towards interfering.");
+	MSG(iku, "Honestly? I wasn’t planning to get involved.");
 	FACE(reimu, normal);
 	FACE(iku, serious);
-	MSG(iku, "However, the tower’s psychological effects began to intensify, and I began to fear that nobody would take charge.");
+	MSG(iku, "But the tower’s pull kept getting stronger, and nobody was taking a turn at the front.");
 
 	FACE(reimu, sigh);
 	MSG(reimu, "(Do people have this little faith in me…?)");
 
 	FACE(iku, eyes_closed);
-	MSG(iku, "As more minds began to fall prey, I considered a theory…");
+	MSG(iku, "As more minds got dropped from the pack, I came up with a theory…");
 	FACE(reimu, normal);
-	MSG(iku, "Is this machine incompatible with the existence of fantasy?");
+	MSG(iku, "This machine is a headwind against fantasy itself.");
 	FACE(iku, normal);
-	MSG(iku, "That may be why you feel a sense of dread about the place.");
+	MSG(iku, "That’s why this place feels like riding straight into a gale.");
 
 	FACE(reimu, normal);
 	MSG(reimu, "Well, that settles it. Where’s the owner, then?");
 
 	FACE(iku, smile);
-	MSG(iku, "To be frank, I am not sure whether you are up to the task.");
-	MSG(iku, "You are still relatively composed, yes, but your mental state seems to be deteriorating.");
+	MSG(iku, "Straight ahead. But frankly? I’m not sure you can hold the pace.");
+	MSG(iku, "You’re still composed, sure, but you’re starting to wobble.");
 
 	FACE(reimu, irritated);
-	MSG(reimu, "Deteriorating? But I just got here!");
+	MSG(reimu, "Wobble? But I just got here!");
 
 	EVENT(music_changes);
-	MSG(iku, "You are still so worrisome. You ought to go home before you lose yourself.");
+	MSG(iku, "Sit on my wheel and I’ll tow you home before you crack.");
 
 	FACE(reimu, irritated);
 	MSG(reimu, "No!");
 
 	FACE(iku, serious);
-	MSG(iku, "I beg your pardon?");
+	MSG(iku, "Come again?");
 
 	MSG(reimu, "Don’t keep telling me how little you think of me. I’m sick of it!");
 	FACE(reimu, assertive);
 	MSG(reimu, "I’m going to give everyone a reason to have faith in me!");
 
-	MSG(iku, "It seems your resolve is unwavering. Very well, then.");
-	MSG(iku, "Allow me to test your resistance to their infuriating machine!");
+	MSG(iku, "Ha! Now that’s a rider’s answer. Fine.");
+	MSG(iku, "Show me you can hold your line against their machine — starting with me!");
 
 	DIALOG_END();
 }
@@ -493,6 +502,7 @@ DIALOG_TASK(reimu, Stage5PostMidBoss) {
 	DIALOG_END();
 }
 
+// 자전거 테마: 에어로 대사
 DIALOG_TASK(reimu, Stage5PostBoss) {
 	DIALOG_BEGIN(Stage5PostBoss);
 
@@ -502,16 +512,16 @@ DIALOG_TASK(reimu, Stage5PostBoss) {
 	FACE(iku, defeated);
 
 	MSG(iku, "Ah…");
-	MSG(iku, "I was wrong for doubting you, I suppose…");
+	MSG(iku, "Guess I shouldn’t have doubted you…");
 
 	FACE(reimu, unamused);
 	MSG(reimu, "Somehow I don’t feel too satisfied by that.");
 
 	FACE(iku, eyes_closed);
-	MSG(iku, "To be honest with you, I’m glad you arrived after all.");
-	MSG(iku, "I know now that I would not have been able to defeat her.");
+	MSG(iku, "Truth is, I’m glad you showed up after all.");
+	MSG(iku, "I couldn’t have taken her down solo. Not into this headwind.");
 	FACE(reimu, normal);
-	MSG(iku, "Since you’re still able to think clearly, perhaps Gensōkyō will be saved after all.");
+	MSG(iku, "But you’re still riding straight. Maybe Gensōkyō will make it after all.");
 
 	FACE(reimu, sigh);
 	MSG(reimu, "Finally.");
@@ -520,7 +530,7 @@ DIALOG_TASK(reimu, Stage5PostBoss) {
 	MSG(reimu, "I’ll need to take this seriously.");
 
 	FACE(iku, normal);
-	MSG(iku, "Glad to hear it.");
+	MSG(iku, "Good. The road ahead is yours.");
 
 	DIALOG_END();
 }

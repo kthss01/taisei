@@ -70,6 +70,7 @@ DIALOG_TASK(youmu, Stage1PostBoss) {
  * Stage 2
  */
 
+// 자전거 테마: 클라이머 대사
 DIALOG_TASK(youmu, Stage2PreBoss) {
 	DIALOG_BEGIN(Stage2PreBoss);
 
@@ -82,29 +83,29 @@ DIALOG_TASK(youmu, Stage2PreBoss) {
 	MSG(youmu, "A shame, I’ve heard this is usually quite a lovely place.");
 
 	EVENT(boss_appears);
-	MSG(hina, "Oh my, what’s this? A new face?");
+	MSG(hina, "…Shh. Listen.");
 	SHOW(hina);
-	MSG(hina, "And who might you be, dear?");
+	MSG(hina, "The mountain is breathing hard today. Who are you?");
 
 	MSG(youmu, "Konpaku Yōmu. I am on a mission from Lady Yuyuko to investigate—");
 
 	TITLE_HINA(hina);
-	MSG(hina, "I’ve never heard of this ‘Lady Yuyuko’ you speak of, but I can’t let this slide.");
+	MSG(hina, "Two swords. A half-phantom. That’s a lot of weight for this climb.");
 	FACE(youmu, normal);
 	FACE(hina, serious);
-	MSG(hina, "Young girls such as yourself shouldn’t be sent to do such dangerous errands!");
+	MSG(hina, "Turn back. The summit doesn’t forgive extra grams.");
 
 	FACE(youmu, embarrassed);
-	MSG(youmu, "‘Y-Young girl’?! I’ll have you know that I am an expert swordswoman—");
-	MSG(youmu, "—having mastered my technique over *decades*—");
-	MSG(youmu, "—dare I say even the best in Gensōkyō—");
+	MSG(youmu, "‘E-Extra grams’?! I’ll have you know these blades are perfectly balanced—");
+	MSG(youmu, "—forged and honed over *decades*—");
+	MSG(youmu, "—dare I say the finest steel in Gensōkyō—");
 
 	FACE(hina, normal);
-	MSG(hina, "Aww… but you’re so adorable! No way someone like you could be into that.");
-	MSG(hina, "Are you sure this ‘expert swordswoman’ thing isn’t just some sort of teenage phase?");
+	MSG(hina, "Steel is heavy.");
+	MSG(hina, "And the ghost. Does it count as luggage?");
 
 	FACE(youmu, unamused);
-	MSG(youmu, "It’s not a PHASE, mo—");
+	MSG(youmu, "It is NOT luggage! Both halves of me together weigh barely forty ki—");
 	FACE(youmu, embarrassed);
 	MSG(youmu, "…!!");
 
@@ -113,6 +114,7 @@ DIALOG_TASK(youmu, Stage2PreBoss) {
 	DIALOG_END();
 }
 
+// 자전거 테마: 클라이머 대사
 DIALOG_TASK(youmu, Stage2PostBoss) {
 	DIALOG_BEGIN(Stage2PostBoss);
 
@@ -121,18 +123,18 @@ DIALOG_TASK(youmu, Stage2PostBoss) {
 	VARIANT(hina, defeated);
 	FACE(hina, defeated);
 
-	MSG(hina, "Did you just call me ‘mom’…?");
+	MSG(hina, "Did you just tell me your weight…?");
 
 	FACE(youmu, eyes_closed);
 	MSG(youmu, "I did not.");
-	MSG(youmu, "It must be the madness overcoming you.");
+	MSG(youmu, "It must be the thin mountain air playing tricks on your ears.");
 	MSG(youmu, "Yes, indeed.");
 
 	FACE(hina, normal);
-	MSG(hina, "My, my…~");
+	MSG(hina, "…Good power-to-weight ratio.");
 
 	FACE(youmu, unamused);
-	MSG(youmu, "Don’t you dare.");
+	MSG(youmu, "Don’t you dare write that down.");
 
 	DIALOG_END();
 }
@@ -141,6 +143,7 @@ DIALOG_TASK(youmu, Stage2PostBoss) {
  * Stage 3
  */
 
+// 자전거 테마: 랑도너 대사
 DIALOG_TASK(youmu, Stage3PreBoss) {
 	DIALOG_BEGIN(Stage3PreBoss);
 
@@ -153,17 +156,17 @@ DIALOG_TASK(youmu, Stage3PreBoss) {
 	MSG(youmu, "Something is definitely amiss.");
 
 	EVENT(boss_appears);
-	MSG(wriggle, "Amiss?");
+	MSG(wriggle, "Amiss? Nope!");
 	SHOW(wriggle);
-	MSG(wriggle, "Perhaps you’re frightened by our growing, overwhelming influence?");
+	MSG(wriggle, "You’re right on course! This is checkpoint three of the Great Night Brevet!");
 
 	FACE(youmu, eyes_closed);
-	MSG(youmu, "Bugs do not concern me at the moment.");
+	MSG(youmu, "Races do not concern me at the moment.");
 
 	FACE(wriggle, outraged);
-	MSG(wriggle, "Oh, so all insects are ‘bugs’ now, hmm? I see how it is!");
+	MSG(wriggle, "A race?! A brevet is NOT a race, it’s a journey! I see how it is!");
 	TITLE_WRIGGLE(wriggle);
-	MSG(wriggle, "Ever heard of beetles? Flies? Show us some respect!");
+	MSG(wriggle, "Ever heard of control cards? Night lamps? Napping in a ditch at 3 AM? Show some respect!");
 
 	FACE(youmu, normal);
 	MSG(youmu, "Apologies, I meant no offense.");
@@ -171,34 +174,35 @@ DIALOG_TASK(youmu, Stage3PreBoss) {
 	MSG(youmu, "I am on a mission from Lady Yuyuko to end whatever is causing the disturbance—");
 
 	FACE(wriggle, proud);
-	MSG(wriggle, "Oh, oh, I understand now.");
+	MSG(wriggle, "Oh, oh, I get it now!");
 	FACE(wriggle, calm);
-	MSG(wriggle, "The power wielded by an army of giant insects would surely raise some concerns.");
+	MSG(wriggle, "A thousand riders rolling through the night by starlight would surely raise some concerns.");
 	FACE(wriggle, proud);
-	MSG(wriggle, "Simply put, we want to restore our rightful place in history!");
-	MSG(wriggle, "It’s only natural that the lower inhabitants of the mountain would get nervous in the face of our natural dominance.");
+	MSG(wriggle, "Simply put, we’re charting a route that goes all the way up to the stars!");
+	MSG(wriggle, "Of course folks down the mountain get nervous when that many headlamps come their way!");
 	FACE(wriggle, calm);
-	MSG(wriggle, "Your apology is accepted. You shall not fear our wrath—");
+	MSG(wriggle, "Don’t worry, I’ll stamp your card too. You’re welcome to ride along—");
 
 	FACE(youmu, unamused);
-	MSG(youmu, "… no, no, bugs alone wouldn’t cause this kind of disturbance…");
+	MSG(youmu, "… no, no, a few cyclists wouldn’t cause this kind of disturbance…");
 	FACE(youmu, eyes_closed);
-	MSG(youmu, "All they’re capable of is ruining my carefully manicured garden.");
+	MSG(youmu, "All they’re capable of is leaving tire tracks across my carefully raked garden paths.");
 
-	MSG(wriggle, "Did you just say you’re…");
+	MSG(wriggle, "Did you just say you…");
 	FACE(wriggle, outraged);
-	MSG(wriggle, "… a gardener?!");
+	MSG(wriggle, "… don’t want your card stamped?!");
 
 	EVENT(music_changes);
 
 	FACE(youmu, puzzled);
-	MSG(wriggle, "Your true face is finally revealed!");
-	MSG(wriggle, "My light shines brighter than ever now! I shall teach this lowly usurper due respect!");
-	MSG(wriggle, "So that we may live above beyond your green thumb once and for all!");
+	MSG(wriggle, "Skipping a checkpoint is the one thing a randonneur can never forgive!");
+	MSG(wriggle, "My lamp shines brighter than ever now! I’ll guide you to every control point by force!");
+	MSG(wriggle, "Follow my map, and no one will ever get lost under these stars again!");
 
 	DIALOG_END();
 }
 
+// 자전거 테마: 랑도너 대사
 DIALOG_TASK(youmu, Stage3PostBoss) {
 	DIALOG_BEGIN(Stage3PostBoss);
 
@@ -209,11 +213,11 @@ DIALOG_TASK(youmu, Stage3PostBoss) {
 
 	FACE(youmu, eyes_closed);
 	MSG(youmu, "Are you aware of the legend of the Tonbokiri?");
-	MSG(youmu, "It was said its blade could cut insects in half simply by them landing on it.");
+	MSG(youmu, "It was said its blade could sever anything that so much as touched its edge.");
 	FACE(youmu, smug);
-	MSG(youmu, "Undoubtedly, that is what has transpired today.");
+	MSG(youmu, "Undoubtedly, your map met the same fate today.");
 
-	MSG(wriggle, "That’s not the past I saw…");
+	MSG(wriggle, "That’s not the route I planned…");
 
 	MSG(youmu, "How unfortunate for you.");
 	FACE(youmu, chuuni);
@@ -221,7 +225,7 @@ DIALOG_TASK(youmu, Stage3PostBoss) {
 	FACE(youmu, eeeeh);
 	MSG(youmu, "… ugh, that’s a little much, even for me, isn’t it?");
 
-	MSG(wriggle, "Seems about right, honestly…");
+	MSG(wriggle, "Seems about right, honestly… I’ll stamp your card anyway.");
 
 	FACE(youmu, unamused);
 	MSG(youmu, "…");
@@ -233,6 +237,7 @@ DIALOG_TASK(youmu, Stage3PostBoss) {
  * Stage 4
  */
 
+// 자전거 테마: 클래식 대사
 DIALOG_TASK(youmu, Stage4PreBoss) {
 	DIALOG_BEGIN(Stage4PreBoss);
 
@@ -248,14 +253,14 @@ DIALOG_TASK(youmu, Stage4PreBoss) {
 
 	EVENT(boss_appears);
 	SHOW(kurumi);
-	MSG(kurumi, "Really? This mansion is actually pretty trashy, though.");
+	MSG(kurumi, "Oh my, such a hurry. You’ll never enjoy the ride at that pace, dear.");
 	FACE(youmu, relaxed);
 	MSG(youmu, "Who might you be?");
 
 	TITLE_KURUMI(kurumi);
 	FACE(kurumi, tsun);
-	MSG(kurumi, "Hmph! I’m Kurumi, a lone black rose drowning in a sea of bad taste!");
-	MSG(kurumi, "You better remember that!");
+	MSG(kurumi, "I am CLASSIC. Steel frame, wicker basket, and a bell I polish every morning.");
+	MSG(kurumi, "Do remember that, won’t you?");
 
 	FACE(youmu, eyes_closed);
 	MSG(youmu, "Perhaps I will.");
@@ -263,23 +268,23 @@ DIALOG_TASK(youmu, Stage4PreBoss) {
 	MSG(youmu, "Are you an associate of this… mansion-tower’s denizens, then?");
 
 	FACE(kurumi, dissatisfied);
-	MSG(kurumi, "Of course not! Who do you take me for?!");
-	MSG(kurumi, "No WAY I’d want to associate myself with the dweebs running this mansion!");
-	MSG(kurumi, "They dress like they’ve fallen out of a bad 80s anime!");
+	MSG(kurumi, "Goodness, no. Whatever gave you that idea?");
+	MSG(kurumi, "I would never associate myself with the sort who run this mansion.");
+	MSG(kurumi, "They ride in clip-in shoes and drink their tea from plastic bottles. Unthinkable.");
 
 	FACE(youmu, eyes_closed);
 	MSG(youmu, "I see. I have no immediate reason to distrust you.");
 	FACE(youmu, puzzled);
-	MSG(youmu, "… what’s an ‘80s anime’, though, if I may ask?");
+	MSG(youmu, "… what is a ‘clip-in shoe’, though, if I may ask?");
 
 	FACE(kurumi, normal);
-	MSG(kurumi, "I don’t know, don’t ask me!");
-	MSG(kurumi, "The lady in the tower talks about it a lot, so it must be something horrible for sure.");
+	MSG(kurumi, "I haven’t the faintest idea, dear.");
+	MSG(kurumi, "The lady in the tower speaks of them constantly, so they must be dreadful indeed.");
 
 	FACE(youmu, unamused);
 	MSG(youmu, "Didn’t you just say you weren’t associated with them?");
 
-	MSG(kurumi, "Yeah, but I was lying to see how gullible you were.");
+	MSG(kurumi, "Ah, yes. That was a little fib, to see how gullible you were. More tea?");
 
 	FACE(youmu, embarrassed);
 	MSG(youmu, "O-of course. I-I knew that.");
@@ -290,12 +295,13 @@ DIALOG_TASK(youmu, Stage4PreBoss) {
 
 	EVENT(music_changes);
 
-	MSG(kurumi, "Nope. You’ve got a dance with a gorgeous vampire scheduled first!");
-	MSG(kurumi, "En garde, brooding swordsgirl!");
+	MSG(kurumi, "I’m afraid not. You have a slow waltz around the garden scheduled first.");
+	MSG(kurumi, "Mind the bell, hurried swordsgirl!");
 
 	DIALOG_END();
 }
 
+// 자전거 테마: 클래식 대사
 DIALOG_TASK(youmu, Stage4PostBoss) {
 	DIALOG_BEGIN(Stage4PostBoss);
 
@@ -305,16 +311,16 @@ DIALOG_TASK(youmu, Stage4PostBoss) {
 	FACE(kurumi, defeated);
 
 	FACE(youmu, eyes_closed);
-	MSG(youmu, "Despite your inferior technique, I must thank you.");
-	MSG(youmu, "‘Dancing’ with you has been a pleasant distraction on the path to completing my mission.");
+	MSG(youmu, "Despite your leisurely technique, I must thank you.");
+	MSG(youmu, "‘Waltzing’ with you has been a pleasant distraction on the path to completing my mission.");
 	FACE(youmu, chuuni);
 	MSG(youmu, "Tell your ‘leader’ that I am coming for them.");
 
-	MSG(kurumi, "(She earnestly talks like a manga anti-hero…)");
+	MSG(kurumi, "(She speaks like the hero of a penny novel… how charming.)");
 	FACE(kurumi, normal);
-	MSG(kurumi, "O-Oh, okay then!");
+	MSG(kurumi, "Oh, very well, dear.");
 	FACE(kurumi, defeated);
-	MSG(kurumi, "I’m sick of guarding this creepy, spooky mansion anyways.");
+	MSG(kurumi, "I’m quite weary of being parked in this creepy, spooky mansion anyway.");
 
 	FACE(youmu, unamused);
 	MSG(youmu, "S-… spooky?");
@@ -322,20 +328,20 @@ DIALOG_TASK(youmu, Stage4PostBoss) {
 	FACE(kurumi, puzzled);
 	MSG(kurumi, "…?");
 	FACE(kurumi, normal);
-	MSG(kurumi, "… yeah! I thought it was gonna be all ‘scientific’ or whatever, but then they made it haunted, with like, ghosts and stuff!");
+	MSG(kurumi, "… why, yes! I expected a proper bicycle shed, but they made it haunted, with ghosts and such!");
 
 	FACE(youmu, eeeeh);
 	MSG(youmu, "G-…");
 	MSG(youmu, "GHOSTS?!");
 
-	MSG(kurumi, "Scary vengeful ghosts! Trying to kill you, even!");
+	MSG(kurumi, "Dreadful vengeful ghosts! They ring their bells in the dark, even!");
 	MSG(kurumi, "But surely a strong swordsgirl like yourself could handle it.");
 
 	FACE(youmu, embarrassed);
 	MSG(youmu, "B-Bring it on! Nothing will stand in my way!");
 
 	FACE(kurumi, tsun);
-	MSG(kurumi, "(Teehee, so gullible.)");
+	MSG(kurumi, "(Hehe, so gullible. Now, where did I leave the teapot?)");
 
 	DIALOG_END();
 }
@@ -344,6 +350,7 @@ DIALOG_TASK(youmu, Stage4PostBoss) {
  * Stage 5
  */
 
+// 자전거 테마: 에어로 대사
 DIALOG_TASK(youmu, Stage5PreBoss) {
 	DIALOG_BEGIN(Stage5PreBoss);
 
@@ -359,34 +366,34 @@ DIALOG_TASK(youmu, Stage5PreBoss) {
 	MSG(youmu, "Will it be a legendary duel? One to go down in the history of Gensōkyō?!");
 
 	EVENT(boss_appears);
-	MSG(iku, "Oh, the gardener from the Netherworld?");
+	MSG(iku, "Oh? The gardener from the Netherworld, finally catching up?");
 	SHOW(iku);
-	MSG(iku, "It’s no surprise to see you here.");
-	MSG(iku, "Your mistress has been taken by the Tower’s presence, I assume?");
+	MSG(iku, "Took you long enough. I’ve been up here since sunrise.");
+	MSG(iku, "Let me guess. Your mistress got blown off course by the Tower’s winds?");
 
 	FACE(youmu, normal);
 	MSG(youmu, "Lady Yuyuko is in a safe, undisclosed location.");
 
-	MSG(iku, "The Hakurei Shrine, I presume?");
+	MSG(iku, "The Hakurei Shrine. Downhill, sheltered, free tea. Obviously.");
 
 	FACE(youmu, surprised);
 	MSG(youmu, "Wh-who told you?! Are you in league with them too?!");
 
 	FACE(iku, smile);
-	MSG(iku, "Of course not, but where else would she be at a time like this?");
+	MSG(iku, "Nobody. Where else would anyone sit out a headwind like this?");
 
 	FACE(youmu, unamused);
 	MSG(youmu, "Hmph. Perhaps we have become too predictable.");
 	MSG(youmu, "I am here to settle this matter. You need not concern yourself—");
 
 	FACE(iku, normal);
-	MSG(iku, "On the contrary, I would say.");
+	MSG(iku, "Wrong. This is my stretch of road.");
 	TITLE_IKU(iku);
 	FACE(youmu, normal);
-	MSG(iku, "I decided to do some research on my own.");
-	MSG(iku, "This tower is controlled by a machine…");
+	MSG(iku, "I scouted ahead. First one up the tower, of course.");
+	MSG(iku, "This tower is driven by a machine…");
 	FACE(iku, serious);
-	MSG(iku, "… and the machine’s effects seem to go well beyond Gensōkyō’s boundaries.");
+	MSG(iku, "… and its wind is blowing well past Gensōkyō’s boundaries.");
 
 	FACE(youmu, normal);
 	MSG(youmu, "Including the heavens, I presume? I see.");
@@ -396,9 +403,9 @@ DIALOG_TASK(youmu, Stage5PreBoss) {
 	MSG(youmu, "Konpaku Yōmu, the greatest swordswoman to live and die, will settle this incident once and—");
 
 	FACE(iku, smile);
-	MSG(iku, "It seems that the machine has also overinflated your ego, Swordswoman of Hakugyokurō.");
+	MSG(iku, "Looks like the machine pumped your ego way past its rated pressure, Swordswoman of Hakugyokurō.");
 	FACE(iku, serious);
-	MSG(iku, "Would caution not be prudent in this situation?");
+	MSG(iku, "Blow out on a descent like this and nobody’s catching you.");
 
 	FACE(youmu, eyes_closed);
 	MSG(youmu, "Overinflated ego? Nonsense.");
@@ -415,15 +422,15 @@ DIALOG_TASK(youmu, Stage5PreBoss) {
 	MSG(youmu, "Shall we duel so that I may demonstrate to your satisfaction?!");
 
 	FACE(iku, serious);
-	MSG(iku, "W-wait, that is not what I meant, I simply—");
+	MSG(iku, "W-wait, I said ease off the pace, not sprint for the line—");
 
 	MSG(youmu, "I can see it in your expression! The doubt! The fear!");
 	MSG(youmu, "But I have become one with my swords, achieving a perfection that no other before me has been able—");
 
 	EVENT(music_changes);
 
-	MSG(iku, "Ah, I haven’t the time for this nonsense!");
-	MSG(iku, "I will not allow you to march onwards to your demise!");
+	MSG(iku, "Ugh, fine! You want a sprint? You’ve got one!");
+	MSG(iku, "Stay on my wheel if you can! I won’t let you crash out before the top!");
 
 	MSG(youmu, "Finally! Then, witness the overwhelming strength of my Rōkanken!");
 
@@ -442,6 +449,7 @@ DIALOG_TASK(youmu, Stage5PostMidBoss) {
 	DIALOG_END();
 }
 
+// 자전거 테마: 에어로 대사
 DIALOG_TASK(youmu, Stage5PostBoss) {
 	DIALOG_BEGIN(Stage5PostBoss);
 
@@ -453,10 +461,10 @@ DIALOG_TASK(youmu, Stage5PostBoss) {
 	FACE(youmu, eyes_closed);
 	MSG(youmu, "All according to plan.");
 
-	MSG(iku, "Your logic is so twisted…");
-	MSG(iku, "Alas, it cannot be helped. You have likely been affected since before your arrival.");
-	MSG(iku, "I have no choice but to let you through, despite my reservations.");
-	MSG(iku, "Perhaps pure intentions lurk behind that ego of yours.");
+	MSG(iku, "You didn’t even draft once… Who rides like that…");
+	MSG(iku, "Whatever. The machine’s wind probably got to you long before you got here.");
+	MSG(iku, "I don’t like it, but a loss is a loss. The road’s yours.");
+	MSG(iku, "Maybe there’s a decent rider hiding under all that ego.");
 
 	MSG(youmu, "And perhaps I truly have gone mad. What of it?");
 	MSG(youmu, "My mission is crystal clear:");
@@ -464,10 +472,10 @@ DIALOG_TASK(youmu, Stage5PostBoss) {
 	MSG(youmu, "… to carry out Lady Yuyuko’s mission, and to bring peace to Gensōkyō and all connected realms!");
 	MSG(youmu, "I will not fail!");
 
-	MSG(iku, "I-I see.");
-	MSG(iku, "Ascend the staircase. You will find the perpetrator waiting for you there.");
-	MSG(iku, "Be prepared. The technology she possesses is from a so-called ‘parallel universe’.");
-	MSG(iku, "It is unlike anything any of us have encountered before. Even I am not sure of its specifics.");
+	MSG(iku, "O-okay then.");
+	MSG(iku, "Climb the staircase. The one behind all this is waiting at the top.");
+	MSG(iku, "Heads up. Her machine is built from parts out of a so-called ‘parallel universe’.");
+	MSG(iku, "Nothing I’ve ever raced against. Even I can’t read its line.");
 
 	FACE(youmu, eyes_closed);
 	MSG(youmu, "Fear not, I will slice her infernal machine in half like an invasive weed.");

@@ -74,41 +74,43 @@ DIALOG_TASK(marisa, Stage1PostBoss) {
  */
 
 DIALOG_TASK(marisa, Stage2PreBoss) {
+	// 자전거 테마: 클라이머 대사
 	DIALOG_BEGIN(Stage2PreBoss);
 
 	ACTOR_LEFT(marisa);
 	ACTOR_RIGHT(hina);
 	HIDE(hina);
 	FACE(marisa, unamused);
-	MSG(marisa, "Geez, this place is kinda sad now.");
-	MSG(marisa, "What would be causin’ the yōkai to get all weird, anyways?");
+	MSG(marisa, "Geez, this mountain road just keeps goin’ up ‘n up.");
+	MSG(marisa, "What’s got the yōkai around here all twitchy, anyways?");
 
 	EVENT(boss_appears);
-	MSG(hina, "Why hello, Ms. Kirisame.");
+	MSG(hina, "…You’re climbing without gears.");
 	SHOW(hina);
 	FACE(hina, normal);
-	MSG(hina, "You seem to be as reckless as always. I recommend turning back.");
+	MSG(hina, "The grade gets steeper past here. Turn back.");
 
 	FACE(marisa, happy);
-	MSG(marisa, "Thanks for the advice! I’ll be ignoring it, though.");
-	MSG(marisa, "See ya.");
+	MSG(marisa, "Gears? I’ve got a broom. Brooms don’t do ‘steep’.");
+	MSG(marisa, "See ya at the top.");
 
 	TITLE_HINA(hina);
 	FACE(hina, serious);
-	MSG(hina, "Oh my… you’re quite the rebellious one, aren’t you?");
-	MSG(hina, "Such confidence, ignoring my warning like that.");
+	MSG(hina, "…You skipped the warm-up.");
+	MSG(hina, "And you laugh at the mountain.");
 
 	FACE(marisa, smug);
-	MSG(marisa, "I’ll take that as a compliment.");
+	MSG(marisa, "I laugh at everything. It’s part of my charm.");
 
 	EVENT(music_changes);
-	MSG(hina, "And do you know what happens to naughty girls who don’t listen to their elders?");
-	MSG(hina, "They get showered in misfortune for years!");
+	MSG(hina, "The mountain doesn’t forgive those who sprint the first switchback.");
+	MSG(hina, "Lowest gear. Full climb. Try to keep up.");
 
 	DIALOG_END();
 }
 
 DIALOG_TASK(marisa, Stage2PostBoss) {
+	// 자전거 테마: 클라이머 대사
 	DIALOG_BEGIN(Stage2PostBoss);
 
 	ACTOR_LEFT(marisa);
@@ -116,15 +118,15 @@ DIALOG_TASK(marisa, Stage2PostBoss) {
 	VARIANT(hina, defeated);
 	FACE(hina, defeated);
 	FACE(marisa, unamused);
-	MSG(marisa, "You’re way more snippy than usual today.");
-	MSG(marisa, "It’s kinda annoyin’, honestly.");
+	MSG(marisa, "You’re way quieter than a bike oughta be. Not even a bell?");
+	MSG(marisa, "Kinda spooky, honestly.");
 
-	MSG(hina, "H-how mean…");
-	MSG(hina, "Don’t you see I was just trying to keep you safe…?");
+	MSG(hina, "…Out of breath.");
+	MSG(hina, "I only wanted you to pace yourself… The summit is still far.");
 
-	MSG(marisa, "Don’t get all motherly on me now.");
+	MSG(marisa, "Don’t go all coach on me now.");
 	FACE(marisa, sweat_smile);
-	MSG(marisa, "I’ve had enough of that for a lifetime.");
+	MSG(marisa, "I’ve had enough folks tellin’ me to slow down for a lifetime.");
 
 	DIALOG_END();
 }
@@ -134,6 +136,7 @@ DIALOG_TASK(marisa, Stage2PostBoss) {
  */
 
 DIALOG_TASK(marisa, Stage3PreBoss) {
+	// 자전거 테마: 랑도너 대사
 	DIALOG_BEGIN(Stage3PreBoss);
 
 	ACTOR_LEFT(marisa);
@@ -143,42 +146,42 @@ DIALOG_TASK(marisa, Stage3PreBoss) {
 	MSG(marisa, "Geez, everyone’s getting even more reckless the further up I go. What gives?");
 
 	EVENT(boss_appears);
-	MSG(wriggle, "Wait ‘til you meet their leader!");
+	MSG(wriggle, "Checkpoint ahead! Stop and get your card stamped!");
 	SHOW(wriggle);
 
-	MSG(marisa, "Yeah, I’m gonna have to ask their leader a bunch‘a questions for sure.");
+	MSG(marisa, "Card? I don’t remember signin’ up for anything.");
 
 	FACE(wriggle, proud);
-	MSG(wriggle, "Feel free to go ahead. I’m listening.");
+	MSG(wriggle, "Everyone on this road is riding the brevet! Six hundred kilometers, no excuses!");
 
-	MSG(marisa, "Oh, you’re the messenger?");
+	MSG(marisa, "Oh, so you’re the gatekeeper?");
 	FACE(marisa, happy);
-	MSG(marisa, "Mind passin’ a message along?");
+	MSG(marisa, "Mind wavin’ me through?");
 
 	TITLE_WRIGGLE(wriggle);
 	FACE(wriggle, outraged);
-	MSG(wriggle, "Um, OBVIOUSLY I’m not the messenger!");
+	MSG(wriggle, "Gatekeeper?! I’m not some checkpoint volunteer!");
 	FACE(wriggle, proud);
-	MSG(wriggle, "Yeah, I’m the great leader of Insectkind!");
+	MSG(wriggle, "I’m RANDONNEUR! I ride the whole route, start to finish!");
 
 	FACE(marisa, smug);
-	MSG(marisa, "Great leader? What, did the insects unionize or somethin’?");
+	MSG(marisa, "The whole route? What, on purpose? For fun?");
 
 	FACE(wriggle, outraged);
-	MSG(wriggle, "No! I told you, I’m the leader! The mastermind!");
+	MSG(wriggle, "Yes, for fun! Rain, night, headwinds — that’s the best part!");
 	FACE(wriggle, calm);
-	MSG(wriggle, "So, what’s your question?");
+	MSG(wriggle, "Anyway, you had a question?");
 
 	FACE(marisa, normal);
 	MSG(marisa, "Hmm, guess I forgot.");
 	MSG(marisa, "What’s yer deal, anyways?");
 
 	FACE(wriggle, proud);
-	MSG(wriggle, "We insects have three demands:");
-	MSG(wriggle, "First: say nay to insect spray!");
-	MSG(wriggle, "Second: swat the swatters!");
+	MSG(wriggle, "A true randonneur lives by three rules:");
+	MSG(wriggle, "First: always carry your own spare tube!");
+	MSG(wriggle, "Second: when the map gets soggy, navigate by the stars!");
 	FACE(wriggle, outraged);
-	MSG(wriggle, "Third: the right to bite!");
+	MSG(wriggle, "Third: never, EVER skip a checkpoint!");
 	MSG(wriggle, "Fourth—!");
 
 	FACE(marisa, unamused);
@@ -187,14 +190,15 @@ DIALOG_TASK(marisa, Stage3PreBoss) {
 
 	EVENT(music_changes);
 	FACE(wriggle, proud);
-	MSG(wriggle, "Maybe I know more than you think.");
+	MSG(wriggle, "Maybe my map shows more than you think.");
 	FACE(wriggle, outraged);
-	MSG(wriggle, "But it’s NOTHING I’d tell an usurper of Insectkind’s glory!");
+	MSG(wriggle, "But I’m NOT sharing my route with someone who cuts corners on a broom!");
 
 	DIALOG_END();
 }
 
 DIALOG_TASK(marisa, Stage3PostBoss) {
+	// 자전거 테마: 랑도너 대사
 	DIALOG_BEGIN(Stage3PostBoss);
 
 	ACTOR_LEFT(marisa);
@@ -206,20 +210,20 @@ DIALOG_TASK(marisa, Stage3PostBoss) {
 	MSG(marisa, "Tougher than usual, but not tough enough.");
 	MSG(marisa, "Where’d ya pick up those new moves, anyway?");
 
-	MSG(wriggle, "Aw! It was, um… the great vision of our glorious Insect past!");
-	MSG(wriggle, "It was in the age of Car—… Carb—… the age of Carbs!");
+	MSG(wriggle, "Aw! I, um… plotted them from the constellations!");
+	MSG(wriggle, "Follow the Great Bicycle in the sky and you never get lost!");
 
 	FACE(marisa, puzzled);
-	MSG(marisa, "‘Glorious insect past’? ‘Carbs’?");
+	MSG(marisa, "‘Great Bicycle’? In the sky?");
 	FACE(marisa, normal);
-	MSG(marisa, "Oh, ya must mean the Carboniferous Period. With the giant bug- err, insects, ‘n all that.");
-	MSG(marisa, "I remember that doctor at Eientei goin’ off about it once.");
+	MSG(marisa, "Oh, ya must mean that old star chart with the wheels drawn in. Two big circles ‘n a handlebar.");
+	MSG(marisa, "I remember that doctor at Eientei goin’ off about star charts once.");
 	FACE(marisa, sweat_smile);
 	MSG(marisa, "Only time I’d seen her so excited…");
 
 	MSG(wriggle, "Yeah, that!");
 	FACE(wriggle, proud);
-	MSG(wriggle, "Do you want to be an ally in our glorious conquest…?");
+	MSG(wriggle, "Wanna ride the next brevet with me? I’ll lend you a spare map!");
 
 	FACE(marisa, smug);
 	MSG(marisa, "Maybe later.");
@@ -234,6 +238,7 @@ DIALOG_TASK(marisa, Stage3PostBoss) {
  */
 
 DIALOG_TASK(marisa, Stage4PreBoss) {
+	// 자전거 테마: 클래식 대사
 	DIALOG_BEGIN(Stage4PreBoss);
 
 	ACTOR_LEFT(marisa);
@@ -246,79 +251,80 @@ DIALOG_TASK(marisa, Stage4PreBoss) {
 	MSG(marisa, "… how generic can you get?");
 
 	EVENT(boss_appears);
-	MSG(kurumi, "And to top it off, a western witch!");
+	MSG(kurumi, "And a witch arriving on a broom, no less. How very traditional.");
 	SHOW(kurumi);
-	MSG(kurumi, "Seen it a thousand times already. It’s such a boring motif.");
+	MSG(kurumi, "Do mind the gravel, dear. It scratches the paintwork.");
 
 	FACE(marisa, happy);
-	MSG(marisa, "Right? But I make up for it with my devilish charm.");
+	MSG(marisa, "Traditional? I’m the fastest thing in Gensōkyō. Ask any bike girl.");
 
 	FACE(kurumi, dissatisfied);
-	MSG(kurumi, "But that theme is so overdone…");
+	MSG(kurumi, "Fastest… Everyone is in such a hurry these days.");
 	FACE(kurumi, normal);
-	MSG(kurumi, "What’s next? A maid?");
+	MSG(kurumi, "What comes next? Frames as light as a feather?");
 	FACE(marisa, normal);
-	MSG(kurumi, "A little girl with almost no dialogue who becomes a fan-favourite anyways?");
-	MSG(kurumi, "One that’ll have her personality massacred by the fans?");
+	MSG(kurumi, "Twenty-two gears, and not a single basket to carry flowers home in?");
+	MSG(kurumi, "Tires so thin they cannot even manage a cobblestone lane?");
 
 	FACE(marisa, smug);
-	MSG(marisa, "Maybe they’ll even make her something edgy like a vampire to drive up sales.");
+	MSG(marisa, "Maybe they’ll paint ‘em red ‘n black to make ‘em look even faster.");
 
 	FACE(kurumi, dissatisfied);
-	MSG(kurumi, "Ugh! Maybe I’ve been reading too much manga that those tengu churn out.");
+	MSG(kurumi, "Oh my. Perhaps I have been reading too many of those tengu racing magazines.");
 
 	FACE(marisa, puzzled);
-	MSG(marisa, "The tengu write manga now?");
+	MSG(marisa, "The tengu write about bike races now?");
 	FACE(marisa, sweat_smile);
-	MSG(marisa, "Writin’ pure ficiton is more honest for them, I guess.");
+	MSG(marisa, "Well, at least they can’t fake the finish times. Probably.");
 
 	TITLE_KURUMI(kurumi);
 	FACE(kurumi, normal);
-	MSG(kurumi, "Yeah, duh?");
-	MSG(kurumi, "Of course, most of it is garbage that only weirdos like!");
+	MSG(kurumi, "Indeed they do.");
+	MSG(kurumi, "Pages and pages of riders panting up hills, and not a single teacup in sight!");
 	FACE(kurumi, dissatisfied);
-	MSG(kurumi, "And don’t EVEN get me started on certain character designs! So generic!");
+	MSG(kurumi, "And do not even get me started on those frames. Not one has a proper chain guard!");
 
 	FACE(marisa, normal);
-	MSG(marisa, "Maybe they oughta hire someone with some fashion sense.");
+	MSG(marisa, "Maybe they oughta hire someone with some class.");
 
 	FACE(kurumi, normal);
-	MSG(kurumi, "That’d be me, then!");
-	MSG(kurumi, "My ideas would surely make a splash, if they’d recognize my talent!");
+	MSG(kurumi, "That would be me, I suppose.");
+	MSG(kurumi, "A step-through frame, a wicker basket, a bell that rings like a spoon on porcelain…");
 
 	FACE(marisa, unamused);
-	MSG(marisa, "Eh? Maybe…");
+	MSG(marisa, "Eh? Sounds kinda slow…");
 
 	FACE(kurumi, dissatisfied);
-	MSG(kurumi, "Huh?!");
+	MSG(kurumi, "I beg your pardon?!");
 
 	FACE(marisa, smug);
-	MSG(marisa, "Your outfit’s missin’ somethin'…");
+	MSG(marisa, "Your ride’s missin’ somethin’… y’know, speed.");
 
 	FACE(kurumi, tsun_blush);
-	MSG(kurumi, "H-Hmph! I could say the same about you!");
+	MSG(kurumi, "H-Hmph! I could say the same about your broom!");
 	FACE(kurumi, normal);
-	MSG(kurumi, "Seriously, it’s just a plain generic witch outfit!");
+	MSG(kurumi, "Honestly, it is just a stick with bristles! No fenders, no lamp, not even a kickstand!");
 
 	FACE(marisa, unamused);
-	MSG(marisa, "That’s just because it’s summer!");
+	MSG(marisa, "Who needs fenders? It’s summer!");
 	FACE(marisa, happy);
-	MSG(marisa, "My winter petticoats are legendary. Girls across Gensōkyō talk about ‘em.");
+	MSG(marisa, "My broom’s legendary. Girls across Gensōkyō talk about it.");
 	FACE(marisa, normal);
-	MSG(marisa, "In fact, there’s a few of ‘em, uh, deeper inside this mansion.");
+	MSG(marisa, "In fact, there’s a few books on broom-ridin’, uh, deeper inside this mansion.");
 	FACE(marisa, happy);
 	MSG(marisa, "So I’ll be headin’ in, then.");
 
 	EVENT(music_changes);
 	FACE(kurumi, tsun);
-	MSG(kurumi, "Oh, I’m not letting you go without a fight!");
+	MSG(kurumi, "Oh, I shall not let you pass before teatime is over!");
 	FACE(kurumi, normal);
-	MSG(kurumi, "Let’s see who’s the most fashionable here, witch!");
+	MSG(kurumi, "Shall we take a leisurely little ride, witch? Do try to mind your manners.");
 
 	DIALOG_END();
 }
 
 DIALOG_TASK(marisa, Stage4PostBoss) {
+	// 자전거 테마: 클래식 대사
 	DIALOG_BEGIN(Stage4PostBoss);
 
 	ACTOR_LEFT(marisa);
@@ -327,36 +333,36 @@ DIALOG_TASK(marisa, Stage4PostBoss) {
 	FACE(kurumi, defeated);
 
 	FACE(marisa, smug);
-	MSG(marisa, "Whoever has the best petticoat wins. It’s a scientific fact.");
+	MSG(marisa, "Whoever gets there first gets the tea. It’s a scientific fact.");
 	FACE(marisa, sweat_smile);
 	MSG(marisa, "… but since when do I care about scientific facts?");
 
-	MSG(kurumi, "W-wait, what was I doing again?");
-	MSG(kurumi, "(Y-yeah, that’s it, play it off as amnesia…");
-	MSG(kurumi, "(But, hmm… haven’t I seen this nerdy-looking girl before…?)");
-	MSG(kurumi, "Uuu, I don’t remember anything at all!!");
+	MSG(kurumi, "Oh dear, where was I riding to again?");
+	MSG(kurumi, "(Yes, that’s it, play it off as a gentle afternoon daze…)");
+	MSG(kurumi, "(But… have I not seen this nerdy-looking girl somewhere before…?)");
+	MSG(kurumi, "Goodness, I do not remember a thing!");
 
 	FACE(marisa, normal);
-	MSG(marisa, "Ah, sorry, sorry. I think ya slipped ‘n hit your head.");
+	MSG(marisa, "Ah, sorry, sorry. I think ya hit a pothole ‘n bumped your head.");
 	FACE(marisa, sweat_smile);
-	MSG(marisa, "I’m Gensōkyō’s… petticoat inspector.");
+	MSG(marisa, "I’m Gensōkyō’s… bicycle inspector.");
 	FACE(marisa, smug);
-	MSG(marisa, "I’m here to inspect the petticoats in this here mansion.");
+	MSG(marisa, "I’m here to inspect the, uh, bike manuals in this here mansion.");
 	FACE(marisa, happy);
 	MSG(marisa, "Ya were just lettin’ me in, so I’ll be off, then.");
 
 	FACE(kurumi, normal);
-	MSG(kurumi, "Uhm, I kind of doubt that…");
+	MSG(kurumi, "Hmm, I rather doubt that…");
 	FACE(kurumi, defeated);
-	MSG(kurumi, "Not that I could stop you, anyways…");
+	MSG(kurumi, "Not that I could ever catch you at my pace…");
 	FACE(marisa, normal);
-	MSG(kurumi, "Ugh, I didn’t sign up to get beaten like this!");
+	MSG(kurumi, "Oh, I did not enter this ride to be overtaken like this!");
 
 	FACE(marisa, smug);
-	MSG(marisa, "‘Sign up’? I thought you didn’t remember anything.");
+	MSG(marisa, "‘Enter this ride’? I thought you didn’t remember anything.");
 
 	FACE(kurumi, tsun_blush);
-	MSG(kurumi, "N-Nevermind!");
+	MSG(kurumi, "N-Never mind that!");
 
 	DIALOG_END();
 }
@@ -366,6 +372,7 @@ DIALOG_TASK(marisa, Stage4PostBoss) {
  */
 
 DIALOG_TASK(marisa, Stage5PreBoss) {
+	// 자전거 테마: 에어로 대사
 	DIALOG_BEGIN(Stage5PreBoss);
 
 	ACTOR_LEFT(marisa);
@@ -377,9 +384,9 @@ DIALOG_TASK(marisa, Stage5PreBoss) {
 	MSG(marisa, "I gotta tell Nitori!");
 
 	EVENT(boss_appears);
-	MSG(iku, "I would not recommend getting too enamoured, young witch.");
+	MSG(iku, "Eyes forward, witch! Don’t stop in the middle of the lane!");
 	SHOW(iku);
-	MSG(iku, "I’m surprised to see you here. How have you been?");
+	MSG(iku, "Didn’t expect to see you this high up. Nice climb — for a broom.");
 
 	MSG(marisa, "What grimoire would this be in…?");
 	MSG(marisa, "Hmm… probably a major illusion of some kind…?");
@@ -387,12 +394,12 @@ DIALOG_TASK(marisa, Stage5PreBoss) {
 
 	TITLE_IKU(iku);
 	FACE(iku, smile);
-	MSG(iku, "… pardon me, are you conversing with yourself?");
+	MSG(iku, "… hey. Are you talking to yourself?");
 
 	FACE(marisa, normal);
 	MSG(marisa, "Huh? No, I was askin’ ya a question.");
 
-	MSG(iku, "An interesting theory, I suppose.");
+	MSG(iku, "Interesting theory. Wrong, but interesting.");
 
 	MSG(marisa, "It’d make sense though, right?");
 	FACE(marisa, inquisitive);
@@ -400,10 +407,10 @@ DIALOG_TASK(marisa, Stage5PreBoss) {
 	MSG(marisa, "And it’d take so much power, too.");
 	MSG(marisa, "Definitely an illusion, then.");
 
-	MSG(iku, "The premise of your theory is flawed, unfortunately.");
+	MSG(iku, "Your theory’s got more drag than a flapping raincoat.");
 	FACE(iku, eyes_closed);
 	FACE(marisa, normal);
-	MSG(iku, "The technology on display here is beyond our current comprehension.");
+	MSG(iku, "Whatever built this tower is way past anything we understand. Feel the wind? Perfectly smooth.");
 
 	FACE(marisa, surprised);
 	MSG(marisa, "Technology? Whoa, so yer sayin’ this is REAL brick?!");
@@ -417,15 +424,15 @@ DIALOG_TASK(marisa, Stage5PreBoss) {
 	MSG(marisa, "What grimoires does she got to pull somethin’ like this off?!");
 
 	FACE(iku, smile);
-	MSG(iku, "I-I would imagine she does not use grimoires, or magic.");
+	MSG(iku, "I-I doubt she uses grimoires. Or magic, for that matter.");
 	FACE(iku, serious);
-	MSG(iku, "This is highly complex machinery, likely relying on advanced computational—");
+	MSG(iku, "This is serious engineering. Smooth airflow, precise geometry, advanced computational—");
 
 	MSG(marisa, "But then, what’s the power source?");
 	MSG(marisa, "Not even nuclear fusion could sustain somethin’ like this!");
 
 	FACE(iku, smile);
-	MSG(iku, "I-I am not sure of its exact mechanics—");
+	MSG(iku, "I-I haven’t worked out every detail yet—");
 
 	FACE(marisa, happy);
 	MSG(marisa, "Where’d y’say she was?");
@@ -437,12 +444,12 @@ DIALOG_TASK(marisa, Stage5PreBoss) {
 	MSG(marisa, "The owner, o’ course! Upstairs, right?");
 
 	FACE(iku, serious);
-	MSG(iku, "Perhaps the thin atmosphere at this elevation has gotten to you. I will not divulge any further information, for your own protection.");
+	MSG(iku, "The thin air up here must be getting to you. I’m not telling you anything else, for your own good.");
 
 	FACE(marisa, happy);
 	MSG(marisa, "What’s her name?");
 
-	MSG(iku, "Why are you not listening to me…?");
+	MSG(iku, "Why won’t you listen to me…?");
 
 	FACE(marisa, inquisitive);
 	MSG(marisa, "Do ya got any tips on talkin’ to her, maybe make her loosen up a bit?");
@@ -450,8 +457,8 @@ DIALOG_TASK(marisa, Stage5PreBoss) {
 	MSG(marisa, "I don’t wanna blow my chance.");
 
 	FACE(iku, smile);
-	MSG(iku, "I am trying to spare you further peril, yet all you can do is talk over me. Be more considerate.");
-	MSG(iku, "I had expectations that you would be able to approach this with a clear head and resolve this incident, but it seems—");
+	MSG(iku, "I’m trying to keep you out of a crash, and you just keep talking over me. Give me some room!");
+	MSG(iku, "I figured you’d hold a clean line and sprint this incident to the finish, but it looks like—");
 
 	FACE(marisa, normal);
 	MSG(marisa, "Ah, I see, I see. I’ll have to turn on the ol’ Kirisame charm.");
@@ -463,9 +470,9 @@ DIALOG_TASK(marisa, Stage5PreBoss) {
 	EVENT(music_changes);
 
 	MSG(iku, "Enough!");
-	MSG(iku, "It is said that specifically applied electro-stimulation can ease the mind.");
+	MSG(iku, "They say a good, strong headwind clears the mind.");
 	FACE(iku, eyes_closed);
-	MSG(iku, "Allow me to put that into practice for you!");
+	MSG(iku, "Point that broom forward — I’ll give you one you won’t forget!");
 
 	DIALOG_END();
 }
@@ -483,6 +490,7 @@ DIALOG_TASK(marisa, Stage5PostMidBoss) {
 }
 
 DIALOG_TASK(marisa, Stage5PostBoss) {
+	// 자전거 테마: 에어로 대사
 	DIALOG_BEGIN(Stage5PostBoss);
 
 	ACTOR_LEFT(marisa);
@@ -491,13 +499,13 @@ DIALOG_TASK(marisa, Stage5PostBoss) {
 	FACE(iku, defeated);
 
 	FACE(marisa, unamused);
-	MSG(marisa, "Oof, I hope that didn’t make my hair too frizzy.");
+	MSG(marisa, "Oof, that headwind made my hair a total mess.");
 	FACE(marisa, happy);
 	MSG(marisa, "Y’know, for my big first impression ‘n all.");
 
 	FACE(iku, eyes_closed);
-	MSG(iku, "F-For the last time, she’ll have nothing to teach you…");
-	MSG(iku, "Her powers rely on technology and the scientific method. Of that much, I am sure.");
+	MSG(iku, "L-listen. She doesn’t do spells. She won’t teach you any…");
+	MSG(iku, "Her tower runs on technology and the scientific method. I’d bet my best wheels on it.");
 
 	FACE(marisa, unamused);
 	MSG(marisa, "The one time Sanae’s not around to geek out about all the sciencey stuff, eh?");
@@ -514,9 +522,9 @@ DIALOG_TASK(marisa, Stage5PostBoss) {
 	MSG(marisa, "Probably just those weird madness rays tryin’ to get me.");
 
 	FACE(iku, eyes_closed);
-	MSG(iku, "Ugh, you fool.");
+	MSG(iku, "Ugh. Hopeless.");
 	FACE(iku, normal);
-	MSG(iku, "But perhaps you are thinking just well enough to resolve this incident after all…");
+	MSG(iku, "But maybe you’re riding just straight enough to finish this incident after all…");
 
 	FACE(marisa, surprised);
 	MSG(marisa, "Ah! There’s that voice again!");
