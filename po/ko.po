@@ -1,0 +1,6605 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Taisei\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/boss.c:416
+msgid "~ Spell Card Attack! ~"
+msgstr "~ 스펠 카드 공격! ~"
+
+#: src/boss.c:972
+msgid "Spell Card failed…"
+msgstr "스펠 카드 실패…"
+
+#: src/boss.c:972
+msgid "Spell Card captured!"
+msgstr "스펠 카드 획득!"
+
+#: src/boss.c:982
+msgid "Clear bonus"
+msgstr "클리어 보너스"
+
+#: src/boss.c:983
+msgid "Time bonus"
+msgstr "시간 보너스"
+
+#: src/boss.c:984
+msgid "Survival bonus"
+msgstr "생존 보너스"
+
+#: src/boss.c:985
+msgid "Endurance bonus"
+msgstr "인내 보너스"
+
+#: src/boss.c:987
+msgid "Diff. multiplier"
+msgstr "난이도 배수"
+
+#: src/boss.c:988 src/stagedraw.c:1959
+msgid "Total"
+msgstr "합계"
+
+#: src/boss.c:1000 src/difficulty.c:21
+msgid "Normal"
+msgstr "노멀"
+
+#: src/boss.c:1001
+msgid "Survival"
+msgstr "생존"
+
+#: src/boss.c:1002
+msgid "Extra"
+msgstr "엑스트라"
+
+#: src/boss.c:1003
+msgid "Move"
+msgstr "이동"
+
+#: src/boss.c:1004 src/difficulty.c:41 src/gamepad.c:973 src/gamepad.c:984
+#: src/menu/options.c:1420
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: src/camcontrol.c:211
+msgid "Mouse input disabled "
+msgstr "마우스 입력 해제됨 "
+
+#: src/credits.c:73
+msgid ""
+"Taisei Project\n"
+"brought to you by…"
+msgstr ""
+"Taisei Project\n"
+"만든 사람들…"
+
+#: src/credits.c:163
+msgid "Special Thanks"
+msgstr "도와주신 분들"
+
+#: src/credits.c:210
+#, c-format
+msgid ""
+"Visit Us\n"
+"%s\n"
+"\n"
+"And join our Discord server\n"
+"%s"
+msgstr ""
+"방문해 주세요\n"
+"%s\n"
+"\n"
+"디스코드 서버에도 참여하세요\n"
+"%s"
+
+#: src/credits.c:222
+msgid ""
+"*\n"
+"And don't forget to take it easy!"
+msgstr ""
+"*\n"
+"그리고 느긋하게 즐기는 것도 잊지 마세요!"
+
+#: src/cutscenes/cutscene.c:375
+#, c-format
+msgid "“%s”"
+msgstr "“%s”"
+
+#: src/cutscenes/intro.inc.h:2
+msgid "Introduction"
+msgstr "프롤로그"
+
+#: src/cutscenes/intro.inc.h:7 src/cutscenes/reimu_bad_end.inc.h:7
+msgid "— The Hakurei Shrine\n"
+msgstr "— 하쿠레이 신사\n"
+
+#: src/cutscenes/intro.inc.h:8 src/cutscenes/reimu_bad_end.inc.h:8
+msgid "The shrine at the border of fantasy and reality.\n"
+msgstr "환상과 현실의 경계에 선 신사.\n"
+
+#: src/cutscenes/intro.inc.h:9
+msgid ""
+"Three heroines of Gensōkyō sat drinking tea on a calm day at the end of "
+"summer.\n"
+msgstr "여름이 끝나가는 어느 고요한 날, 환상향의 세 여걸이 모여 차를 마시고 있었다.\n"
+
+#: src/cutscenes/intro.inc.h:10
+msgid "There was something unsettling in the air—"
+msgstr "공기 속에는 어딘가 꺼림칙한 기운이 감돌고 있었다—"
+
+#: src/cutscenes/intro.inc.h:14
+msgid "What’s got ya both so down? Did I mess up the tea?"
+msgstr "둘 다 왜 그렇게 풀이 죽었어? 내가 차를 잘못 탄 거냐?"
+
+#: src/cutscenes/intro.inc.h:15
+msgid ""
+"\n"
+"Reimu and Yōmu shared a knowing glance.\n"
+msgstr ""
+"\n"
+"레이무와 요우무는 알겠다는 듯 의미심장한 눈빛을 주고받았다.\n"
+
+#: src/cutscenes/intro.inc.h:16
+msgid "The tea’s fine. I just feel weird. I can’t put my finger on it."
+msgstr "차는 괜찮아. 그냥 기분이 이상해서 그래. 딱 꼬집어 말하진 못하겠지만."
+
+#: src/cutscenes/intro.inc.h:17
+msgid "I’m feeling something similar, I’m afraid."
+msgstr "저도 비슷한 느낌이 들어요."
+
+#: src/cutscenes/intro.inc.h:21
+msgid "The bells of the shrine tolled outside. Someone had made a donation.\n"
+msgstr "밖에서 신사의 종이 울렸다. 누군가 새전을 넣은 것이다.\n"
+
+#: src/cutscenes/intro.inc.h:22
+msgid "A minute later, there was another.\n"
+msgstr "잠시 뒤, 또 한 번 울렸다.\n"
+
+#: src/cutscenes/intro.inc.h:23
+msgid "And another."
+msgstr "그리고 또 한 번."
+
+#: src/cutscenes/intro.inc.h:27
+msgid "Something’s definitely not right…"
+msgstr "역시 뭔가 이상해…"
+
+#: src/cutscenes/intro.inc.h:28
+msgid "Isn’t it normally comforting for the shrine to receive donations?"
+msgstr "신사에 새전이 들어오는 건 원래 반가운 일 아닌가요?"
+
+#: src/cutscenes/intro.inc.h:29
+msgid "Normally it *would* be comforting, but…"
+msgstr "원래라면 *반가운* 일이지, 하지만…"
+
+#: src/cutscenes/intro.inc.h:33
+msgid ""
+"Outside the shrine, nearly every resident of Yōkai Mountain was lined up one"
+" after another.\n"
+msgstr "신사 밖에는 요괴의 산 주민 거의 전부가 줄줄이 늘어서 있었다.\n"
+
+#: src/cutscenes/intro.inc.h:34
+msgid "Everyone seemed vaguely fearful."
+msgstr "다들 어딘가 겁먹은 기색이었다."
+
+#: src/cutscenes/intro.inc.h:38
+msgid "Eh? What’s all this, then?"
+msgstr "응? 다들 무슨 일이야?"
+
+#: src/cutscenes/intro.inc.h:39
+msgid "We’ve come to ask a favour."
+msgstr "부탁할 게 있어서 찾아왔다."
+
+#: src/cutscenes/intro.inc.h:40
+msgid "What kinda favour?"
+msgstr "무슨 부탁인데?"
+
+#: src/cutscenes/intro.inc.h:44
+msgid ""
+"A mysterious force was slowly causing yōkai and humans alike to succumb to "
+"an intense feeling of “knowing everything.”\n"
+msgstr "정체 모를 힘이 요괴와 인간을 가리지 않고 서서히 “모든 것을 안다”는 강렬한 감각에 빠뜨리고 있었다.\n"
+
+#: src/cutscenes/intro.inc.h:45
+msgid ""
+"It would start with figuring out trivial problems that they’d been "
+"struggling with - a technical issue with a machine, or coming up with the "
+"perfect newspaper headline.\n"
+msgstr "처음에는 오랫동안 씨름하던 사소한 문제가 풀린다. 기계의 기술적인 결함이라든가, 신문 기사에 딱 맞는 헤드라인이라든가.\n"
+
+#: src/cutscenes/intro.inc.h:46
+msgid ""
+"But as it progressed, they’d become completely enthralled by it, unable to "
+"act rationally.\n"
+msgstr "그러나 증세가 깊어지면 그 힘에 완전히 사로잡혀 이성적으로 행동할 수 없게 되었다.\n"
+
+#: src/cutscenes/intro.inc.h:47
+msgid ""
+"Yōkai Mountain was usually protected by the Moriya shrine maiden, but even "
+"she had been carried away into madness."
+msgstr "요괴의 산은 평소 모리야의 무녀가 지켜 왔지만, 그녀마저 광기에 휩쓸리고 말았다."
+
+#: src/cutscenes/intro.inc.h:51
+msgid "Sanae just keeps talking about ‘video game consoles.’"
+msgstr "사나에가 ‘비디오 게임기’ 얘기만 계속해."
+
+#: src/cutscenes/intro.inc.h:52
+msgid "Eh? Like those toys you hook up to TVs, the kind you find at Kōrindō?"
+msgstr "엥? 향림당에 있는, TV에 연결해서 노는 그 장난감 같은 거 말이야?"
+
+#: src/cutscenes/intro.inc.h:53
+msgid ""
+"Right, but she just won’t stop. I’ve seen her excited, but not like this."
+msgstr "그래, 그런데 도무지 멈추질 않는구나. 들뜬 모습이야 자주 봤다만, 이 정도는 처음이다."
+
+#: src/cutscenes/intro.inc.h:57
+msgid "Hmm. Quite fascinating."
+msgstr "흐음. 꽤 흥미롭네요."
+
+#: src/cutscenes/intro.inc.h:58
+msgid "Where the heck did *you* come from?!"
+msgstr "*넌* 대체 어디서 튀어나온 거야?!"
+
+#: src/cutscenes/intro.inc.h:59
+msgid ""
+"I couldn’t help overhearing your conversation. Based on my gut feeling, and "
+"what you’ve described, the answer is obvious."
+msgstr "대화가 귀에 들어와 버렸어요. 제 직감과 여러분이 설명해 주신 내용을 종합하면, 답은 뻔해요."
+
+#: src/cutscenes/intro.inc.h:60
+msgid "Is that so? Care to share it with us?"
+msgstr "그런가요? 저희에게도 알려 주시겠어요?"
+
+#: src/cutscenes/intro.inc.h:64
+msgid ""
+"Some entity on Yōkai Mountain is emitting a powerful eldritch lunacy, likely"
+" in all directions from a singular point, given how indiscriminate it is."
+msgstr ""
+"요괴의 산에 있는 어떤 존재가 강력한 기괴한 광기를 내뿜고 있어요. 영향이 무차별한 걸 보면, 아마 한 점에서 사방으로 퍼지고 있을 "
+"거예요."
+
+#: src/cutscenes/intro.inc.h:65
+msgid ""
+"Too much knowledge all at once… mm, mm, it can potentially be fatal, at "
+"least for those with weaker minds."
+msgstr "한꺼번에 너무 많은 지식이… 음, 음, 잘못하면 치명적일 수도 있어요. 적어도 정신이 약한 사람에게는요."
+
+#: src/cutscenes/intro.inc.h:66
+msgid "Heh, wanna handle it then, Sumi?"
+msgstr "헤헤, 그럼 네가 해결해 볼래, 스미?"
+
+#: src/cutscenes/intro.inc.h:67
+msgid ""
+"A-ah, n-no, you all know the lay of the land better, a-after all, and with "
+"it being such a dire situation—"
+msgstr "아, 아뇨, 그, 그게, 이곳 사정은 여러분이 더 잘 아시고, 게, 게다가 이렇게 심각한 상황이라—"
+
+#: src/cutscenes/intro.inc.h:71
+msgid ""
+"Yōmu became distracted at the sight of Lady Yuyuko peeking out from behind "
+"the Moriya Gods.\n"
+msgstr "요우무는 모리야의 신들 뒤에서 얼굴을 내민 유유코 님을 보고 정신이 팔렸다.\n"
+
+#: src/cutscenes/intro.inc.h:72
+msgid "Lady Yuyuko, why are you—?"
+msgstr "유유코 님, 어째서—?"
+
+#: src/cutscenes/intro.inc.h:73
+msgid ""
+"The spirits seem drawn to Yōkai Mountain as well, as if they long for "
+"something. It’s growing difficult to placate them all…"
+msgstr "영혼들도 무언가를 그리워하듯 요괴의 산에 이끌리는 모양이란다. 다들 달래기가 점점 어려워지고 있어…"
+
+#: src/cutscenes/intro.inc.h:74
+msgid "I see. Shall I investigate as well?"
+msgstr "그렇군요. 저도 조사해 볼까요?"
+
+#: src/cutscenes/intro.inc.h:75
+msgid "Please do."
+msgstr "그래 주렴."
+
+#: src/cutscenes/intro.inc.h:79
+msgid ""
+"Elsewhere at the shrine, the kappa were all huddled into a group, talking "
+"intensely in hushed tones…\n"
+msgstr "신사 한쪽에서는 캇파들이 한데 모여 소곤소곤 열띤 이야기를 나누고 있었다…\n"
+
+#: src/cutscenes/intro.inc.h:80
+msgid ""
+"And the tengu were furiously scribbling on their notepads, as if they’d just"
+" gotten the scoop of their careers.\n"
+msgstr "텐구들은 평생 최고의 특종이라도 잡은 듯 수첩에 정신없이 뭔가를 휘갈기고 있었다.\n"
+
+#: src/cutscenes/intro.inc.h:81
+msgid ""
+"Even here, away from Yōkai Mountain, the effects of the so-called ‘eldritch "
+"lunacy’ seemed to be reaching everyone…"
+msgstr "요괴의 산에서 떨어진 이곳에서도, 이른바 ‘기괴한 광기’의 영향은 모두에게 퍼지고 있는 듯했다…"
+
+#: src/cutscenes/marisa_bad_end.inc.h:2
+msgid "Marisa (Bad Ending)"
+msgstr "마리사 (배드 엔딩)"
+
+#: src/cutscenes/marisa_bad_end.inc.h:7
+#: src/cutscenes/marisa_extra_intro.inc.h:7
+msgid "— The Scarlet Devil Mansion\n"
+msgstr "— 홍마관\n"
+
+#: src/cutscenes/marisa_bad_end.inc.h:8
+msgid "A peculiar western mansion in an eastern wonderland.\n"
+msgstr "동쪽 이상향에 자리한 기묘한 서양식 저택.\n"
+
+#: src/cutscenes/marisa_bad_end.inc.h:12
+msgid ""
+"A nervous witch sat flipping through endless stacks of books, drinking tea "
+"instead of her usual sake…\n"
+msgstr "초조한 마녀가 늘 마시던 술 대신 차를 홀짝이며 끝없이 쌓인 책을 넘기고 있었다…\n"
+
+#: src/cutscenes/marisa_bad_end.inc.h:13
+msgid "Hey Patchy, do ya got any more books on Magitech?"
+msgstr "어이, 파치, 마법공학 책 더 없어?"
+
+#: src/cutscenes/marisa_bad_end.inc.h:14
+msgid ""
+"Yes, but I doubt they’ll be of much use. That machine is beyond that subject"
+" entirely."
+msgstr "있긴 한데, 별 도움은 안 될 거야. 그 기계는 그런 분야를 완전히 벗어나 있으니까."
+
+#: src/cutscenes/marisa_bad_end.inc.h:15
+msgid "Ugh, yer probably right, as usual."
+msgstr "으으, 네 말이 맞겠지. 언제나 그랬듯이."
+
+#: src/cutscenes/marisa_bad_end.inc.h:19
+msgid "Marisa closed the book and let it slam onto the floor."
+msgstr "마리사는 책을 덮더니 바닥에 내팽개쳤다."
+
+#: src/cutscenes/marisa_bad_end.inc.h:20
+msgid "Mind your manners! That’s a very old tome!"
+msgstr "예의 좀 지켜! 아주 오래된 고서란 말이야!"
+
+#: src/cutscenes/marisa_bad_end.inc.h:21
+msgid ""
+"It’s so irritatin’! I thought I solved everything but now that Tower’s just "
+"sittin’ there, ‘n the whole Mountain’s been quarantined…!"
+msgstr "짜증 나서 못 참겠다구! 다 해결한 줄 알았더니 탑은 저렇게 우뚝 서 있고, 산은 통째로 격리됐잖아…!"
+
+#: src/cutscenes/marisa_bad_end.inc.h:22
+msgid "It just ain’t satisfyin’, y’know?"
+msgstr "영 개운하지가 않다니까, 알겠어?"
+
+#: src/cutscenes/marisa_bad_end.inc.h:26
+msgid "I could destroy it! Make it go BOOM!"
+msgstr "내가 부숴 줄게! 쾅! 하고 터뜨리는 거야!"
+
+#: src/cutscenes/marisa_bad_end.inc.h:27
+msgid "Gah! … now what did I say about sneakin’ up on people, Flan?"
+msgstr "으악! … 플랑, 뒤에서 살금살금 다가오지 말라고 몇 번을 말했어?"
+
+#: src/cutscenes/marisa_bad_end.inc.h:28
+msgid "Sorry!"
+msgstr "미안!"
+
+#: src/cutscenes/marisa_bad_end.inc.h:29
+msgid "Thank you for the offer, Flandre, but no."
+msgstr "제안은 고맙지만 사양할게, 플랑드르."
+
+#: src/cutscenes/marisa_bad_end.inc.h:30
+msgid "Awww… how boring…"
+msgstr "에이~ 시시해…"
+
+#: src/cutscenes/marisa_bad_end.inc.h:34
+msgid ""
+"After having tea with the pair of them, Marisa wandered the stacks, looking "
+"for inspiration.\n"
+msgstr "둘과 차를 마신 뒤, 마리사는 영감을 찾아 서가 사이를 거닐었다.\n"
+
+#: src/cutscenes/marisa_bad_end.inc.h:35
+msgid ""
+"Suddenly, she felt as if she'd stepped into a pothole, tripping and falling "
+"flat on her face.\n"
+msgstr "그러다 갑자기 구덩이에 발이 빠진 듯한 느낌과 함께 앞으로 고꾸라져 얼굴부터 바닥에 처박혔다.\n"
+
+#: src/cutscenes/marisa_bad_end.inc.h:36
+msgid ""
+"When she looked back at the floor, she didn’t see anything except the "
+"expertly-organized rows of immaculate bookshelves.\n"
+msgstr "바닥을 다시 둘러보았지만, 눈에 들어오는 건 빈틈없이 정돈된 티끌 하나 없는 책장 행렬뿐이었다.\n"
+
+#: src/cutscenes/marisa_bad_end.inc.h:37
+msgid "Then, she noticed something cold and thin underneath her hand."
+msgstr "그때, 손 밑에 차갑고 얇은 무언가가 닿았다."
+
+#: src/cutscenes/marisa_bad_end.inc.h:41
+msgid ""
+"After some time, she realized it was a ‘Smart Device’ of some kind, like a "
+"handheld computer.\n"
+msgstr "한참 지나서야 그것이 손에 들고 다니는 컴퓨터 같은 일종의 ‘스마트 기기’라는 걸 알았다.\n"
+
+#: src/cutscenes/marisa_bad_end.inc.h:42
+msgid ""
+"This one was far more advanced than any she'd seen from the Outside World, "
+"including that young occultist’s phone.\n"
+msgstr "바깥 세계에서 본 어떤 물건보다, 그 어린 오컬트 소녀의 폰까지 포함해도, 훨씬 진보한 물건이었다.\n"
+
+#: src/cutscenes/marisa_bad_end.inc.h:43
+msgid ""
+"It behaved both as a solid and a liquid, able to rapidly change shapes by "
+"applying pressure to certain sides, into different form factors: a phone, a "
+"book, a digital typewriter with a keyboard…\n"
+msgstr ""
+"고체이면서 액체처럼 움직이는 그것은 특정 부분을 눌러 순식간에 모양을 바꿔 전화기, 책, 키보드 달린 디지털 타자기 등 여러 형태로 "
+"변했다…\n"
+
+#: src/cutscenes/marisa_bad_end.inc.h:44
+msgid ""
+"Once Marisa worked out how to make it display something, the title of a book"
+" appeared on its dim screen…"
+msgstr "마리사가 화면을 띄우는 법을 알아내자, 희미한 화면에 어떤 책의 제목이 떠올랐다…"
+
+#: src/cutscenes/marisa_bad_end.inc.h:48
+msgid ""
+"Practical & Advanced Computational Applications of the Grand Unified Theory\n"
+"\n"
+msgstr ""
+"대통일 이론의 실용적·고급 계산 응용\n"
+"\n"
+
+#: src/cutscenes/marisa_bad_end.inc.h:49
+msgid "— by Usami Renko"
+msgstr "— 우사미 렌코 저"
+
+#: src/cutscenes/marisa_bad_end.inc.h:53 src/cutscenes/reimu_bad_end.inc.h:58
+#: src/cutscenes/youmu_bad_end.inc.h:52
+msgid "— Bad End —"
+msgstr "— 배드 엔딩 —"
+
+#: src/cutscenes/marisa_bad_end.inc.h:53 src/cutscenes/reimu_bad_end.inc.h:58
+#: src/cutscenes/youmu_bad_end.inc.h:52
+msgid "Try to reach the end without using a Continue!"
+msgstr "컨티뉴 없이 엔딩까지 도달해 보세요!"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:2
+msgid "Marisa (Extra Stage Intro)"
+msgstr "마리사 (엑스트라 스테이지 도입부)"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:8
+msgid "A haunted western mansion in an eastern wonderland."
+msgstr "동쪽 이상향에 자리한 귀신 들린 서양식 저택."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:12
+msgid "I get such a nervous feeling around the newcomers…"
+msgstr "신참들 곁에 있으면 이상하게 불안해…"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:13
+msgid "They're fine, they're fine! Look at ‘er, isn’t she kinda cute?"
+msgstr "괜찮아, 괜찮다니까! 쟤 좀 봐, 꽤 귀엽지 않아?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:14
+msgid "Sure, but… you said you knew them, from another world?"
+msgstr "그렇긴 한데… 다른 세계에서 알던 사이라고 했잖아?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:15
+msgid "Well, another me knew another them in another world."
+msgstr "뭐, 다른 세계의 다른 내가 다른 쟤네를 알았던 거지."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:19
+msgid ""
+"Actually, I kinda saw every possible iteration of myself, spannin’ out over "
+"infinity, folding onto ourselves, kinda like a really incredible katana "
+"gettin’ forged. It was intense!"
+msgstr ""
+"사실 말이야, 무한히 뻗어 나가는 나 자신의 온갖 모습을 다 봤다구. 그것들이 서로 접히고 겹치는 게, 엄청난 명도를 벼릴 때 같더라고."
+" 굉장했어!"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:20
+msgid "It’s just like you to accidentally see the Time Knife…"
+msgstr "‘시간의 칼날’을 우연히 보다니, 정말 너답네…"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:21
+msgid "The what-now?"
+msgstr "그게 뭔데?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:25
+msgid ""
+"Marisa had just finished accompanying Kurumi to do some ‘service’ on the "
+"Tower of Babel.\n"
+msgstr "마리사는 쿠루미와 함께 바벨탑의 ‘정비’를 막 마치고 온 참이었다.\n"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:26
+msgid ""
+"Kurumi and Remilia, the mistress of the mansion, were loudly gossiping "
+"amongst themselves off to the side of the library, laughing cheerfully over…"
+" tea?\n"
+msgstr "쿠루미와 저택의 주인 레밀리아는 도서관 한쪽에서 시끌벅적 수다를 떨며 즐겁게 웃고 있었다… 차를 마시면서?\n"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:27
+msgid "Marisa hoped it was tea, at least."
+msgstr "마리사는 적어도 차이기를 바랐다."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:31
+msgid "Ah, it’s so nice to have a fresh face around here!"
+msgstr "아, 새 얼굴이 있으니 얼마나 좋은지!"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:32
+msgid ""
+"Yeah! It was so boring being around that egghead pseudo-gami all the time."
+msgstr "맞아! 그 잘난 척하는 가짜 신이랑만 맨날 붙어 있어서 너무 지루했거든."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:33
+msgid ""
+"And my younger sister is a tad too reclusive to spend much time with me, "
+"these days…"
+msgstr "게다가 내 동생은 요즘 너무 틀어박혀 있어서, 나랑 오래 어울려 주질 않지…"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:34
+msgid "Perhaps we could go out on the town sometime soon?"
+msgstr "조만간 같이 시내에 나가 보는 건 어떠니?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:38
+msgid "Sure! Know any good spots? For, you know…"
+msgstr "좋아! 괜찮은 데 알아? 그러니까, 그, 있잖아…"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:39
+msgid "Oh yes, a few, but you must keep it down for now…"
+msgstr "그럼, 몇 군데 알지. 하지만 지금은 목소리를 낮추렴…"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:40
+msgid "Oi, I’m right here! No conspiring to eat humans, got it?!"
+msgstr "어이, 나 여기 있거든! 인간 잡아먹을 모의 같은 건 안 돼, 알았어?!"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:41
+msgid "It’s perfectly consensual, dear Ms. Kirisame, I assure you."
+msgstr "서로 합의한 일이란다, 키리사메 양. 내가 장담하지."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:45
+msgid "Forgive the young witch, she’s such a spoil-sport at times."
+msgstr "젊은 마녀를 용서해 주렴. 가끔 이렇게 흥을 깨는구나."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:46
+msgid "Mm, indeed~."
+msgstr "응, 정말~."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:47
+msgid "Ugh, and after I said y’all were cool…"
+msgstr "으으, 너희 괜찮은 애들이라고 말해 줬더니만…"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:51
+msgid ""
+"It was then that a low rumble echoed through the chambers of the mansion. "
+"Slowly at first, but then gaining in intensity."
+msgstr "그때 저택의 방들 사이로 낮은 울림이 메아리쳤다. 처음에는 희미했지만 점점 거세졌다."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:55
+msgid "Huh? What’s that?"
+msgstr "응? 이게 뭐지?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:56
+msgid "Perhaps the fairy maids are remodeling upstairs?"
+msgstr "요정 메이드들이 위층을 개조하는 걸지도?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:57
+msgid ""
+"\n"
+"The mansion began to shake intense, as if down to its very foundation, before ceasing entirely, as quickly as it started.\n"
+msgstr ""
+"\n"
+"저택이 밑바닥부터 흔들릴 듯 격렬하게 진동하다가, 시작될 때만큼이나 순식간에 완전히 멎었다.\n"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:58
+msgid ""
+"Before the dust had a chance to settle, an eerie, long siren began blaring "
+"in the distance outside the mansion."
+msgstr "먼지가 가라앉기도 전에, 저택 밖 먼 곳에서 으스스하고 긴 사이렌 소리가 울려 퍼지기 시작했다."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:62
+msgid "Huh?! That’s one of the sirens I had the kappa set up!"
+msgstr "엥?! 저건 내가 캇파들한테 설치하라고 한 사이렌이잖아!"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:63
+msgid "Sirens?"
+msgstr "사이렌?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:64
+msgid "Yeah, to monitor the Tower of Babel in case anything changed."
+msgstr "그래, 바벨탑에 무슨 변화가 생기면 알아채려고 말이야."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:65
+msgid "Ah heck, and I guess that means…"
+msgstr "아이고, 이거 설마…"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:69
+msgid "Y-you saw me back there, right?! You were there! I didn’t do anything!"
+msgstr "저, 저기, 아까 봤지?! 너도 거기 있었잖아! 나는 아무것도 안 했어!"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:70
+msgid ""
+"Hey, nobody's accusin’ ya of anythin’. All ya did was shut a door, right? To"
+" keep the fairies out?"
+msgstr "어이, 아무도 널 탓하는 거 아니야. 넌 문 하나 닫았을 뿐이잖아? 요정들 못 들어오게."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:71
+msgid ""
+"Y-yeah! But… but maybe it’s like that phrase? ‘One door closes, another "
+"opens'?"
+msgstr "으, 응! 그치만… 그치만 이런 말 있잖아? ‘한쪽 문이 닫히면, 다른 쪽 문이 열린다’라고?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:72
+msgid "What do ya mean?"
+msgstr "무슨 소리야?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:76
+msgid "Kurumi got rather pale, even for a vampire."
+msgstr "쿠루미는 흡혈귀치고도 꽤 창백해졌다."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:80
+msgid "Oh no…"
+msgstr "큰일이야…"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:81
+msgid ""
+"Well c’mon, spit it out. ‘s not like we’ll hold it against ya if ya messed "
+"up. We’ll just go back, get the kappa, and—"
+msgstr "자, 어서 털어놔. 네가 실수했다고 해서 탓하진 않을 테니까. 그냥 돌아가서 캇파들을 데려다가—"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:82
+msgid "Hey, um, uh, maybe you should check it out?"
+msgstr "저, 저기, 음, 그게, 네가 직접 가서 확인해 보는 게 좋을 것 같아?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:83
+msgid "Like, alone? Because I'd just get in your way?"
+msgstr "그, 그러니까 혼자서? 내가 따라가 봤자 방해만 될 테니까?"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:87
+msgid ""
+"But, uh, you know, there might be a really powerful enemy there now? So "
+"please be careful???"
+msgstr "근데, 음, 있잖아, 지금 거기 엄청 강한 적이 있을지도 몰라? 그러니까 조심해줘???"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:88
+msgid "Aw, are ya worried about me? That’s cute."
+msgstr "오, 날 걱정해 주는 거냐? 귀여운걸."
+
+#: src/cutscenes/marisa_extra_intro.inc.h:92
+msgid ""
+"Marisa grinned and magically summoned her broom, mounting it deftly, and "
+"shooting right out of an open window in a flash.\n"
+msgstr "마리사는 씩 웃으며 마법으로 빗자루를 불러내 능숙하게 올라타더니, 열린 창문으로 순식간에 날아갔다.\n"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:93
+msgid ""
+"Her sights were set on the Tower that loomed and rumbled on the top of Yōkai"
+" Mountain…"
+msgstr "그녀가 노리는 곳은 요괴의 산 정상에 우뚝 솟아 우르릉거리는 탑이었다…"
+
+#: src/cutscenes/marisa_good_end.inc.h:2
+msgid "Marisa (Good Ending)"
+msgstr "마리사 (굿 엔딩)"
+
+#: src/cutscenes/marisa_good_end.inc.h:7
+msgid "— The Moriya Shrine\n"
+msgstr "— 모리야 신사\n"
+
+#: src/cutscenes/marisa_good_end.inc.h:8
+#: src/cutscenes/reimu_extra_intro.inc.h:8
+msgid "A workaholic shrine at the top of Yōkai Mountain."
+msgstr "요괴의 산 정상에 있는 일 중독 신사."
+
+#: src/cutscenes/marisa_good_end.inc.h:12
+msgid ""
+"Once defeated, the newcomers agreed to turn off their ‘Tower of Babel’.\n"
+msgstr "패배한 신참들은 ‘바벨탑’을 끄기로 동의했다.\n"
+
+#: src/cutscenes/marisa_good_end.inc.h:13
+msgid "Elly and Kurumi were made to scrub the floors of the Moriya Shrine…\n"
+msgstr "엘리와 쿠루미는 모리야 신사의 바닥을 닦게 되었다…\n"
+
+#: src/cutscenes/marisa_good_end.inc.h:14
+msgid ""
+"… which had become filthy from the local fairies partying non-stop, and some"
+" ‘political demonstrations’ by the newly-formed ‘Insect Party’."
+msgstr "… 이 근방 요정들이 쉬지 않고 벌인 파티와, 새로 결성된 ‘곤충당’의 ‘정치 시위’ 탓에 바닥이 엉망이 되었기 때문이다."
+
+#: src/cutscenes/marisa_good_end.inc.h:18
+msgid ""
+"—which had a brand new math co-processor, allowing it to have advanced "
+"vector processing capabilities. Combined with other improvements, such as "
+"its DVD drive—"
+msgstr ""
+"—새로운 수학 보조 프로세서가 달려서 고급 벡터 처리 기능이 가능해졌어요. 게다가 DVD 드라이브 같은 다른 개선점까지 더해져서—"
+
+#: src/cutscenes/marisa_good_end.inc.h:19
+msgid "Ah, I see. Fascinating. Wow. Incredible."
+msgstr "아, 그렇군요. 흥미롭네요. 와. 대단해요."
+
+#: src/cutscenes/marisa_good_end.inc.h:20
+msgid "You two having fun?"
+msgstr "둘 다 즐거운가?"
+
+#: src/cutscenes/marisa_good_end.inc.h:21
+msgid "… y-yes, ma’am."
+msgstr "… 네, 네, 물론이죠."
+
+#: src/cutscenes/marisa_good_end.inc.h:25
+msgid ""
+"Seems like it’s taking a bit more time for the madness to wear off for her. "
+"How’s all that ‘knowledge’ working out for you, newcomer?"
+msgstr "저 아이는 광기가 가시는 데 시간이 좀 더 걸리는 모양이구나. 그 ‘지식’이란 건 어디 쓸 만하더냐, 신참?"
+
+#: src/cutscenes/marisa_good_end.inc.h:26
+msgid ""
+"I remembered way more about retro video game consoles than I wanted to! And "
+"now *you’ve* gotta deal with it!"
+msgstr "레트로 비디오 게임기에 대해 원치도 않게 엄청 많이 기억해 버렸어요! 이제 *당신이* 그걸 감당하셔야 해요!"
+
+#: src/cutscenes/marisa_good_end.inc.h:27
+msgid ""
+"\n"
+"Elly nodded and smiled politely, trying to hold back tears of boredom."
+msgstr ""
+"\n"
+"엘리는 고개를 끄덕이며 공손하게 미소 지었고, 지루함에 눈물이 날 것 같은 걸 간신히 참았다."
+
+#: src/cutscenes/marisa_good_end.inc.h:31
+msgid ""
+"In the end, the newcomers seemed to calm down once the effects of the Tower "
+"had worn off, just like everyone else in Gensōkyō.\n"
+msgstr "결국 신참들은 탑의 영향이 걷히자 환상향의 다른 모두와 마찬가지로 차분해진 듯했다.\n"
+
+#: src/cutscenes/marisa_good_end.inc.h:32
+msgid ""
+"During an early afternoon, Marisa arrived with a picnic basket and a grin on"
+" her face."
+msgstr "어느 이른 오후, 마리사가 피크닉 바구니를 들고 씩 웃으며 나타났다."
+
+#: src/cutscenes/marisa_good_end.inc.h:36
+msgid "Ah, Ms. Kirisame. Hello again."
+msgstr "아, 키리사메 씨. 또 뵙는군요."
+
+#: src/cutscenes/marisa_good_end.inc.h:37
+msgid "Yo, Elly!"
+msgstr "여어, 엘리!"
+
+#: src/cutscenes/marisa_good_end.inc.h:38
+msgid "Do you… need something from me?"
+msgstr "혹시… 제게 볼일이 있으신가요?"
+
+#: src/cutscenes/marisa_good_end.inc.h:39
+msgid "Heck yeah I do! A drinkin’ partner!"
+msgstr "당연하지! 술친구가 필요하다구!"
+
+#: src/cutscenes/marisa_good_end.inc.h:43
+msgid "Isn’t it a little early for that?"
+msgstr "그러기엔 좀 이른 시간 아닌가요?"
+
+#: src/cutscenes/marisa_good_end.inc.h:44
+msgid "Oh c’mon, it’s noon somewhere in the infinite multiverse, ain’t it?"
+msgstr "에이, 무한한 다중 우주 어딘가는 정오잖아, 안 그래?"
+
+#: src/cutscenes/marisa_good_end.inc.h:45
+msgid ""
+"\n"
+"Elly laughed. She wanted an excuse for a break anyways.\n"
+msgstr ""
+"\n"
+"엘리는 웃었다. 마침 쉴 핑계가 필요했던 참이었다.\n"
+
+#: src/cutscenes/marisa_good_end.inc.h:46
+msgid ""
+"And so, they drank, and caught up on alternate worlds, uncanny timelines, "
+"and the strangeness of their circumstances.\n"
+msgstr "그렇게 둘은 술잔을 기울이며 다른 세계와 기묘한 시간선, 그리고 자신들이 처한 낯선 처지에 대한 이야기를 나누었다.\n"
+
+#: src/cutscenes/marisa_good_end.inc.h:50
+msgid ""
+"I mean, ‘course ya lost. Mathematics has always had a soft spot for magic. "
+"Don’t ya know about Isaac Newton?"
+msgstr "뭐, 네가 진 건 당연하지. 수학은 예로부터 마법을 은근히 좋아했거든. 아이작 뉴턴 몰라?"
+
+#: src/cutscenes/marisa_good_end.inc.h:51
+msgid ""
+"The famous European mathematician? I studied his works, yes. But what about "
+"him?"
+msgstr "유럽의 유명한 수학자 말씀이죠? 그분의 저작을 공부했어요. 그분이 왜요?"
+
+#: src/cutscenes/marisa_good_end.inc.h:52
+msgid "He was an Alchemist!"
+msgstr "연금술사였다구!"
+
+#: src/cutscenes/marisa_good_end.inc.h:53
+msgid "He was a… what?!"
+msgstr "그분이… 뭐라고요?!"
+
+#: src/cutscenes/marisa_good_end.inc.h:57
+msgid ""
+"Yup. There’s even a copy of his occult book down at the library I frequent."
+msgstr "그렇다니까. 내가 자주 가는 도서관에는 그 사람이 쓴 오컬트 책도 있어."
+
+#: src/cutscenes/marisa_good_end.inc.h:58
+msgid "He was into a lotta wild stuff."
+msgstr "별의별 위험한 것에 푹 빠져 있었거든."
+
+#: src/cutscenes/marisa_good_end.inc.h:59
+msgid "Kinda funny ya hadn’t heard of that, actually."
+msgstr "그걸 몰랐다니 좀 웃긴걸."
+
+#: src/cutscenes/marisa_good_end.inc.h:60
+msgid ""
+"Hah. That… *is* kind of funny, actually. I never ran across any of *those* "
+"books of his…"
+msgstr "하하. 그건… 좀 *정말* 웃기네요. 그분의 *그런* 책은 한 번도 접해 본 적이 없어서…"
+
+#: src/cutscenes/marisa_good_end.inc.h:64
+msgid ""
+"Oh, cheer up, will ya? Y’all’ll get to chill out here for a long as ya like."
+msgstr "에이, 기운 내라니까? 너희 원하는 만큼 여기서 푹 쉬면 되잖아."
+
+#: src/cutscenes/marisa_good_end.inc.h:65
+msgid "But what if this Gensōkyō collapses, too…?"
+msgstr "하지만 이 환상향도 무너지면 어쩌죠…?"
+
+#: src/cutscenes/marisa_good_end.inc.h:66
+msgid ""
+"It could! The Hakurei Barrier could fall tomorrow! But what’s the point in "
+"worryin’ about all that?"
+msgstr "그럴 수도 있지! 하쿠레이 대결계가 내일 무너질지도 몰라! 근데 그런 걱정 해서 뭐 하겠어?"
+
+#: src/cutscenes/marisa_good_end.inc.h:67
+msgid "Right now, I say we enjoy what we got!"
+msgstr "난 지금 가진 걸 즐기자고 말하고 싶어!"
+
+#: src/cutscenes/marisa_good_end.inc.h:71
+msgid "I suppose you’re right."
+msgstr "당신 말이 맞는 것 같네요."
+
+#: src/cutscenes/marisa_good_end.inc.h:72
+msgid "Although, I have to ask… how did you remember me?"
+msgstr "그런데 하나 물어봐야겠어요… 어떻게 저를 기억하셨죠?"
+
+#: src/cutscenes/marisa_good_end.inc.h:73
+msgid "Oh, that’s easy. Mushrooms!"
+msgstr "아, 간단해. 버섯이야!"
+
+#: src/cutscenes/marisa_good_end.inc.h:74
+msgid "Mush… rooms? As in, mycelium?"
+msgstr "버, 버섯이요? 균사체 말씀인가요?"
+
+#: src/cutscenes/marisa_good_end.inc.h:78
+msgid ""
+"Yeah! A while ago, I was cookin’ up some especially powerful ones I found in"
+" a cave near the one-armed hermit’s house…"
+msgstr "그래! 얼마 전에, 외팔이 선인네 집 근처 동굴에서 유난히 강력한 놈들을 발견해서 끓이고 있었는데…"
+
+#: src/cutscenes/marisa_good_end.inc.h:79
+msgid "And then, BOOM, there was a small explosion!"
+msgstr "그러다가 쾅, 작은 폭발이 났지!"
+
+#: src/cutscenes/marisa_good_end.inc.h:80
+msgid ""
+"Before I knew it was seein’ all sorts’a ‘versions’ of myself out there. My "
+"lives were flashin’ before my eyes!"
+msgstr "정신 차려 보니 온갖 ‘다른 나’들이 눈앞에 보이는 거야. 내 인생이 주마등처럼 스쳐 갔다구!"
+
+#: src/cutscenes/marisa_good_end.inc.h:81
+msgid ""
+"Anyway, took me a bit, but I kinda remembered that vampire girl Kurumi, and "
+"when I saw ya, and I was like, ‘Whoa, really?! For real?!’"
+msgstr "어쨌든 좀 걸렸지만, 그 흡혈귀 꼬마 쿠루미가 기억나더라고. 그리고 널 봤을 때 이랬지, ‘우와, 진짜?! 정말로?!’"
+
+#: src/cutscenes/marisa_good_end.inc.h:85
+msgid "That’s ridiculous. You’re ridiculous."
+msgstr "말도 안 돼요. 당신도 말도 안 되는 사람이고요."
+
+#: src/cutscenes/marisa_good_end.inc.h:86
+msgid "But I suppose in a place like Gensōkyō, that’s not even that strange…"
+msgstr "하지만 환상향 같은 곳에서는 그런 것도 별로 이상하지 않겠죠…"
+
+#: src/cutscenes/marisa_good_end.inc.h:87
+msgid ""
+"… and you were such a child when I met you. It’s odd to see you all grown "
+"up, even if it’s another you entirely."
+msgstr "… 그리고 제가 만났을 땐 당신이 정말 어린애였는데. 완전히 다른 당신이라 해도, 이렇게 다 자란 모습을 보니 신기하네요."
+
+#: src/cutscenes/marisa_good_end.inc.h:88
+msgid "I’ll have you know that I’m not a day wiser! Gahaha!"
+msgstr "말해 두는데, 난 하루도 더 현명해지지 않았다구! 가하하!"
+
+#: src/cutscenes/marisa_good_end.inc.h:92
+msgid ""
+"Many residents of Gensōkyō wondered if the Tower would be a blight on the "
+"skyline for all eternity.\n"
+msgstr "환상향의 많은 주민들은 탑이 영원토록 하늘의 흉물로 남지 않을까 궁금해했다.\n"
+
+#: src/cutscenes/marisa_good_end.inc.h:93
+msgid ""
+"Others questioned if its power could be harnessed to serve the greater "
+"good.\n"
+msgstr "또 어떤 이들은 그 힘을 더 큰 선을 위해 쓸 수 있지 않을까 의문을 품었다.\n"
+
+#: src/cutscenes/marisa_good_end.inc.h:94
+msgid ""
+"But for the guardians of Gensōkyō, they would need to be vigilant, lest it "
+"suddenly spring to life again…"
+msgstr "하지만 환상향의 수호자들은 탑이 갑자기 다시 깨어나지 않도록 경계를 늦추지 말아야 했다…"
+
+#: src/cutscenes/marisa_good_end.inc.h:98
+#: src/cutscenes/reimu_good_end.inc.h:71 src/cutscenes/youmu_good_end.inc.h:68
+msgid "— Good End —"
+msgstr "— 굿 엔딩 —"
+
+#: src/cutscenes/marisa_good_end.inc.h:98
+#: src/cutscenes/reimu_good_end.inc.h:71 src/cutscenes/youmu_good_end.inc.h:68
+msgid "The Extra Stage is not ready yet, sorry! ^_^'"
+msgstr "엑스트라 스테이지는 아직 준비가 안 됐어요, 죄송해요! ^_^'"
+
+#: src/cutscenes/reimu_bad_end.inc.h:2
+msgid "Reimu (Bad Ending)"
+msgstr "레이무 (배드 엔딩)"
+
+#: src/cutscenes/reimu_bad_end.inc.h:9
+msgid ""
+"The Tower had powered down, yet the instigators were nowhere to be found.\n"
+msgstr "바벨탑은 작동을 멈췄지만, 이변의 장본인들은 어디에도 보이지 않았다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:10
+msgid "Reimu returned to her shrine, unsure if she had done anything at all.\n"
+msgstr "레이무는 자신이 과연 뭐라도 한 건지조차 확신하지 못한 채 신사로 돌아왔다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:11
+msgid ""
+"The Gods and yōkai of the Mountain shuffled about the shrine quietly, with "
+"bated breath.\n"
+msgstr "산의 신들과 요괴들은 숨을 죽이고 신사 안을 조용히 서성거렸다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:15
+msgid "Reimu sighed, and made her announcement.\n"
+msgstr "레이무는 한숨을 쉬고 공표를 시작했다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:16
+msgid ""
+"Listen up! I stopped the spread of madness, but until further notice, Yōkai "
+"Mountain is off limits!"
+msgstr "다들 잘 들어! 광기가 퍼지는 건 막았지만, 따로 말이 있을 때까지 요괴의 산은 출입 금지야!"
+
+#: src/cutscenes/reimu_bad_end.inc.h:20
+msgid "Nobody was pleased with that.\n"
+msgstr "아무도 그 말을 반기지 않았다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:21
+msgid "The Moriya Gods were visibly shocked.\n"
+msgstr "모리야의 신들은 눈에 띄게 충격을 받았다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:22
+msgid ""
+"The kappa demanded that they be able to fetch their equipment, and tend to "
+"their hydroponic cucumber farms.\n"
+msgstr "캇파들은 장비를 가지러 가게 해 달라고, 수경 재배 오이 농장도 돌봐야 한다고 따졌다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:23
+msgid ""
+"The tengu furiously scribbled down notes, once again as if they’d had the "
+"scoop of the century, before also beginning to make their own demands.\n"
+msgstr "텐구들은 이번에도 세기의 특종이라도 잡은 양 미친 듯이 수첩에 받아 적더니, 자기들도 요구를 내놓기 시작했다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:27
+msgid ""
+"Once Reimu had managed to placate the crowd, she sat in the back of the "
+"Hakurei Shrine, bottle of sake in hand.\n"
+msgstr "레이무는 겨우 군중을 달랜 뒤, 술병을 손에 든 채 하쿠레이 신사 안쪽에 앉았다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:28
+msgid ""
+"She didn’t feel like drinking, however. She cradled it without even "
+"uncorking it, sighing to herself."
+msgstr "하지만 마실 기분이 아니었다. 마개도 따지 않은 채 병을 품에 안고 혼자 한숨만 쉬었다."
+
+#: src/cutscenes/reimu_bad_end.inc.h:32
+msgid "Oh my, a little dissatisfied, aren’t we?"
+msgstr "어머나, 조금 불만스러운 얼굴이구나?"
+
+#: src/cutscenes/reimu_bad_end.inc.h:33
+msgid ""
+"\n"
+"Reimu was never surprised by Yukari’s sudden appearances anymore, of course.\n"
+msgstr ""
+"\n"
+"레이무는 이제 유카리가 불쑥 나타나도 놀라는 법이 없었다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:34
+msgid "It’s unlike you to stop until everything is business as usual, Reimu."
+msgstr "평소대로 돌아오기 전에 손을 놓다니, 너답지 않구나, 레이무."
+
+#: src/cutscenes/reimu_bad_end.inc.h:35
+msgid "Depressed?"
+msgstr "우울한 거니?"
+
+#: src/cutscenes/reimu_bad_end.inc.h:39
+msgid "Yeah. That place sucked."
+msgstr "응. 그곳, 최악이었어."
+
+#: src/cutscenes/reimu_bad_end.inc.h:40
+msgid "Perhaps I should’ve gone with you, hmm?"
+msgstr "내가 같이 갔어야 했으려나?"
+
+#: src/cutscenes/reimu_bad_end.inc.h:41
+msgid "Huh? Why? Do you wanna gap the whole thing out of Gensōkyō?"
+msgstr "엥? 왜? 저 탑을 통째로 틈새에 넣어서 환상향 밖으로 치워 버리게?"
+
+#: src/cutscenes/reimu_bad_end.inc.h:42
+msgid "That might be a bit much, even for me, dear."
+msgstr "그건 나로서도 좀 과하단다, 얘야."
+
+#: src/cutscenes/reimu_bad_end.inc.h:46
+msgid ""
+"Whatever that ‘madness’ thing was, it was getting to me, too. It made me "
+"feel frustrated and… lonely?"
+msgstr "그 ‘광기’인지 뭔지, 나한테도 영향을 줬어. 짜증이 나고… 외로운 것 같기도 했고?"
+
+#: src/cutscenes/reimu_bad_end.inc.h:47
+msgid "But why would I feel lonely? It doesn’t make any sense."
+msgstr "근데 내가 왜 외롭겠어? 말이 안 되잖아."
+
+#: src/cutscenes/reimu_bad_end.inc.h:51
+msgid "So, what will you do?"
+msgstr "그래서, 어떻게 할 거니?"
+
+#: src/cutscenes/reimu_bad_end.inc.h:52
+msgid ""
+"Find a way to get rid of it, eventually. I’m sure there’s an answer "
+"somewhere out there…"
+msgstr "언젠가는 없앨 방법을 찾아야지. 어딘가에 분명 답이 있을 거야…"
+
+#: src/cutscenes/reimu_bad_end.inc.h:53
+msgid ""
+"\n"
+"Yukari smiled.\n"
+msgstr ""
+"\n"
+"유카리는 미소 지었다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:54
+msgid "Glad to hear it. It’s your duty, after all."
+msgstr "좋은 대답이구나. 그게 네 임무이기도 하니까."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:2
+msgid "Reimu (Extra Stage Intro)"
+msgstr "레이무 (엑스트라 스테이지 도입부)"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:7
+#: src/cutscenes/reimu_good_end.inc.h:7 src/cutscenes/youmu_good_end.inc.h:7
+msgid "— The Moriya Shrine"
+msgstr "— 모리야 신사"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:12
+msgid ""
+"Reimu was reading a book she'd borrowed from the Human Village’s book rental"
+" store, Suzunaan."
+msgstr "레이무는 인간 마을의 대본점 스즈나안에서 빌린 책을 읽고 있었다."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:13
+msgid ""
+"It was her first ‘science fiction’ series, apparently about a flat, circular"
+" world that floated through space on the backs of four turtles…"
+msgstr ""
+"처음 접하는 ‘과학 소설’ 시리즈로, 우주를 떠다니는 납작하고 둥근 세계가 거북이 네 마리의 등 위에 얹혀 있다는 이야기인 모양이었다…"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:17
+msgid "Suddenly, Yukari slid in through one of her gaps."
+msgstr "불쑥 유카리가 틈새를 열고 미끄러져 들어왔다."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:18
+msgid "As usual, Reimu could feel her presence right away.\n"
+msgstr "평소처럼 레이무는 단번에 기척을 알아챘다.\n"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:19
+msgid ""
+"Unexpectedly, Ran and Chen were also in tow, taking positions behind her "
+"with solemn, silent expressions."
+msgstr "뜻밖에도 란과 첸까지 뒤를 따라와, 엄숙하고 말없는 표정으로 유카리 뒤에 자리를 잡았다."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:23
+msgid "My oh my, passing the time at rival shrines, are we?"
+msgstr "어머나, 라이벌 신사에서 시간을 보내고 있는 거니?"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:24
+msgid "Guard duty."
+msgstr "경비 중이야."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:25
+msgid "Hm? Not trusting enough of Ms. Kochiya to—"
+msgstr "응? 코치야 씨를 못 믿어서—"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:26
+msgid "No."
+msgstr "아니."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:30
+msgid "*giggle* I see."
+msgstr "*후후* 그렇구나."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:31
+msgid ""
+"\n"
+"As if on cue, Elly came running up the steps of the Moriya Shrine, breathlessly, clad in a Moriya shrine maiden uniform.\n"
+msgstr ""
+"\n"
+"마치 신호라도 받은 듯, 엘리가 모리야 신사의 계단을 숨차게 뛰어올라 왔다. 모리야 무녀복 차림이었다.\n"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:35
+msgid ""
+"Ms. Hakurei! There’s been- Oh, my apologies, we have a guest. How nice to "
+"meet—"
+msgstr "하쿠레이 씨! 큰일이 났—아, 실례했습니다, 손님이 계셨군요. 만나서 반갑—"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:36
+msgid "Wait, no, there’s no time for that!"
+msgstr "아니, 아니, 그럴 때가 아니에요!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:37
+msgid "Slow down. What’s wrong?"
+msgstr "진정해. 무슨 일이야?"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:41
+msgid ""
+"Elly brought out some kind of small communicator device. It projected an "
+"image into the air, like an illusion.\n"
+msgstr "엘리는 작은 통신 장치 같은 것을 꺼냈다. 장치는 환영처럼 허공에 영상을 비췄다.\n"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:42
+msgid "It’s the Tower! It’s spinning back up!"
+msgstr "탑이에요! 탑이 다시 돌아가기 시작했어요!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:43
+msgid "Spinning? It looks completely stationary from here."
+msgstr "돌아간다고? 여기서 보기엔 가만히 서 있는데."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:44
+msgid ""
+"No! I mean it’s powering up, charging up! Whatever! It’s turning back on!!"
+msgstr "아뇨! 가동되고 있다는 뜻이에요, 충전 중이라고요! 뭐든 간에! 다시 켜지고 있어요!!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:48
+msgid "Huh? It thought you were in control of it."
+msgstr "응? 네가 제어하는 줄 알았는데."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:49
+msgid ""
+"I am! I was! I should be…! But this device isn’t letting me do anything!"
+msgstr "맞아요! 그랬죠! 그래야 하는데…! 이 장치가 아무것도 못 하게 해요!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:50
+msgid ""
+"And I thought about going back to the Tower to turn it off again, but I-… "
+"no, i-it’s not safe to."
+msgstr "탑으로 돌아가서 또 꺼 볼까도 생각했지만, 그, 그건… 아뇨, 위, 위험해서 안 돼요."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:51
+msgid "Eh? Why not?"
+msgstr "엥? 왜 안 돼?"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:55
+msgid "Hm? What’s all this, then?"
+msgstr "응? 다들 뭐 하는 거야?"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:56
+msgid "Kurumi, the Tower's turning back on!"
+msgstr "쿠루미, 탑이 다시 켜지고 있어요!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:57
+msgid ""
+"Huh?! But all I did was seal off the mansion's main doors, so the fairies "
+"would leave it alone, just like you asked!"
+msgstr "엥?! 난 요정들이 저택을 건드리지 못하게 정문만 막았을 뿐이야! 엘리가 부탁한 대로!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:58
+msgid "I… what?!"
+msgstr "저, 저는… 네?!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:62
+msgid ""
+"Y-you left me a note that said, ‘Kurumi, go close off the mansion module so "
+"the fairies stop playing inside of it'!"
+msgstr "그, 그치만 엘리가 쪽지를 남겼잖아! ‘쿠루미, 요정들이 안에서 못 놀게 저택 모듈을 폐쇄해 줘’라고!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:63
+msgid "So I did!!"
+msgstr "그래서 그렇게 했다고!!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:64
+msgid ""
+"I didn’t leave you any such note! This isn’t even my handwriting! You *know*"
+" I have a hard time with stroke order—"
+msgstr "저는 그런 쪽지를 남긴 적 없어요! 이건 제 글씨도 아니에요! 제가 획순에 약한 거 *알잖아요*—"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:65
+msgid "Okay, excuse me, but what does this have to do with anything?"
+msgstr "저기, 미안한데, 이게 지금 상황이랑 무슨 상관이야?"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:69
+msgid "I… I may have stolen it from someone."
+msgstr "저, 저기… 그걸 누군가에게서 훔쳤을지도 몰라요."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:70
+msgid "That doesn't answer my question."
+msgstr "내 질문에 대한 대답이 아니잖아."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:71
+msgid "She’s… still trapped in there. I thought I'd sealed her away, though!"
+msgstr "그 사람은… 아직 그 안에 갇혀 있어요. 분명 봉인했다고 생각했는데!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:72
+msgid "There’s no way she should've been able to escape that!"
+msgstr "거기서 빠져나올 수 있을 리가 없는데!"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:76
+msgid ""
+"Elly and Kurumi got chilled expressions on their faces, falling completely "
+"silent.\n"
+msgstr "엘리와 쿠루미의 얼굴이 싸늘하게 굳더니, 둘 다 입을 다물었다.\n"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:77
+msgid "Reimu closed her book and sighed."
+msgstr "레이무는 책을 덮고 한숨을 쉬었다."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:81
+msgid ""
+"Alright, okay, she’s a big scary monster. I had a feeling something like "
+"this might happen…"
+msgstr "좋아, 알겠어. 엄청 무서운 괴물이라 이거지. 이럴 줄 알았다니까…"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:82
+msgid "Before you go, Reimu…"
+msgstr "가기 전에, 레이무…"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:83
+msgid "Huh? What now? Want to come with?"
+msgstr "응? 또 뭐? 같이 가고 싶어?"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:87
+msgid ""
+"You do care very deeply about Gensōkyō, and everyone within it, don’t you?"
+msgstr "너는 환상향과 그 안의 모두를 아주 깊이 아끼고 있구나, 그렇지?"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:88
+msgid ""
+"Even those who fundamenally threaten us. You even give the nastiest yōkai a "
+"chance at redemption."
+msgstr "근본적으로 우리를 위협하는 이들까지도 말이야. 가장 못된 요괴에게도 갱생의 기회를 주니까."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:89
+msgid "I admire that in you."
+msgstr "그런 점을 존경한단다."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:93
+msgid "Ehhhh? Why are you being so sincere? It’s freaking me out."
+msgstr "에에에? 갑자기 왜 이렇게 진지해? 소름 돋잖아."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:94
+msgid "Even you think I’m a huge softie, huh? How disappointing…"
+msgstr "너까지 나를 엄청 무른 사람이라고 생각하는 거야? 실망인걸…"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:95
+msgid ""
+"\n"
+"Yukari remained silent, responding only with a gentle smile."
+msgstr ""
+"\n"
+"유카리는 아무 말 없이 온화한 미소로만 답했다."
+
+#: src/cutscenes/reimu_extra_intro.inc.h:99
+msgid ""
+"In the distance, the Tower of Babel began to emit a low, eerie rumble, as "
+"Reimu flew off to meet her next challenge…"
+msgstr "멀리서 바벨탑이 낮고 으스스한 울림을 내기 시작했고, 레이무는 다음 도전을 맞으러 날아갔다…"
+
+#: src/cutscenes/reimu_good_end.inc.h:2
+msgid "Reimu (Good Ending)"
+msgstr "레이무 (굿 엔딩)"
+
+#: src/cutscenes/reimu_good_end.inc.h:8
+msgid "A rival shrine at the top of Yōkai Mountain."
+msgstr "요괴의 산 정상에 있는 라이벌 신사."
+
+#: src/cutscenes/reimu_good_end.inc.h:12
+msgid ""
+"Listen, Sanae, I don’t know what a ‘speedrun’ is, and I really don’t care!"
+msgstr "있잖아, 사나에, 난 ‘스피드런’이 뭔지 모르겠고 알고 싶지도 않거든!"
+
+#: src/cutscenes/reimu_good_end.inc.h:13
+msgid ""
+"You’re such a stick in the mud, Reimu! Listen, you like resolving incidents "
+"as quickly as possible, right?"
+msgstr "레이무는 정말 융통성이 없다니까요! 이것 봐요, 이변을 최대한 빨리 해결하는 거 좋아하잖아요?"
+
+#: src/cutscenes/reimu_good_end.inc.h:14
+msgid "It’s like that, except with video games!"
+msgstr "그거랑 똑같은 건데, 비디오 게임에서 한다는 점만 달라요!"
+
+#: src/cutscenes/reimu_good_end.inc.h:15
+msgid "I don’t know anything about ‘video games’, either!"
+msgstr "나는 ‘비디오 게임’도 전혀 모른다고!"
+
+#: src/cutscenes/reimu_good_end.inc.h:19
+msgid ""
+"The Tower had been shut down, ending the crisis of madness sweeping the "
+"land.\n"
+msgstr "탑은 가동을 멈췄고, 땅을 휩쓸던 광기의 위기도 끝이 났다.\n"
+
+#: src/cutscenes/reimu_good_end.inc.h:20
+msgid ""
+"Nearly everyone had returned to normal, although a few odd souls lamented "
+"their loss of ‘knowledge’.\n"
+msgstr "거의 모든 이들이 평소로 돌아왔지만, 몇몇 별난 이들은 잃어버린 ‘지식’을 아쉬워했다.\n"
+
+#: src/cutscenes/reimu_good_end.inc.h:21
+msgid ""
+"Kurumi and Elly had been conscripted into sweeping the paths of the Moriya "
+"Shrine as penance for their actions.\n"
+msgstr "쿠루미와 엘리는 속죄로 모리야 신사의 참배길을 청소하게 되었다.\n"
+
+#: src/cutscenes/reimu_good_end.inc.h:22
+msgid ""
+"With the occasional odd request from the Moriya Shrine Gods, of course…"
+msgstr "물론, 모리야 신사 신들의 이상한 부탁이 이따금 곁들여지는 것은 덤이었다…"
+
+#: src/cutscenes/reimu_good_end.inc.h:26
+msgid "I can’t believe it! Is nuclear fusion really that simple?!"
+msgstr "믿을 수 없군! 핵융합이 정말 이렇게 간단하단 말이냐?!"
+
+#: src/cutscenes/reimu_good_end.inc.h:27
+msgid ""
+"Y-Yes, it’s just a matter of changing that coefficient there, and shaping "
+"the magnetic containment field using—"
+msgstr "네, 네. 저 계수를 바꾸고, 자기장 가둠 영역을 이렇게 만들어 주시면—"
+
+#: src/cutscenes/reimu_good_end.inc.h:28
+msgid ""
+"Of course! I was such a fool! I can’t believe I ever bothered attempting to "
+"harness the Yatagarasu!"
+msgstr "그렇구나! 내가 어리석었다! 야타가라스를 다루겠다고 애쓴 내가 한심하구나!"
+
+#: src/cutscenes/reimu_good_end.inc.h:29
+msgid ""
+"At last, I have the final key to modernizing Gensōkyō, and preventing the "
+"energy crisis from reaching us! Fusion power is now attainable!"
+msgstr "드디어 환상향을 근대화하고 에너지 위기가 닥치는 것을 막을 마지막 열쇠를 얻었다! 이제 핵융합 발전이 손에 닿는다!"
+
+#: src/cutscenes/reimu_good_end.inc.h:33
+msgid "O-oh dear… are you sure you’re well, ma’am?"
+msgstr "어, 어머나… 정말 괜찮으신 거예요?"
+
+#: src/cutscenes/reimu_good_end.inc.h:34
+msgid "Heh heh, don’t worry, this is as normal as it gets for Kanako."
+msgstr "헤헷, 걱정 마. 카나코한테는 이게 평소 모습이니까."
+
+#: src/cutscenes/reimu_good_end.inc.h:35
+msgid "‘Normal’? Really?"
+msgstr "‘평소’라고요? 정말로요?"
+
+#: src/cutscenes/reimu_good_end.inc.h:36
+msgid ""
+"Kanako is a green energy fanatic. Don’t you think she’s cute when she’s like"
+" this?"
+msgstr "카나코는 친환경 에너지 광신자거든. 이럴 때 귀엽지 않아?"
+
+#: src/cutscenes/reimu_good_end.inc.h:40
+msgid ""
+"In the midst of all this, Reimu was spending more time on Yōkai Mountain, "
+"claiming she was ‘keeping watch’."
+msgstr "그런 와중에 레이무는 ‘감시 중’이라는 핑계로 요괴의 산에서 보내는 시간이 늘었다."
+
+#: src/cutscenes/reimu_good_end.inc.h:44
+msgid "Hey, Elly."
+msgstr "저기, 엘리."
+
+#: src/cutscenes/reimu_good_end.inc.h:45
+msgid "Ah, yes? Do you need something from me?"
+msgstr "아, 네? 제게 필요한 게 있으신가요?"
+
+#: src/cutscenes/reimu_good_end.inc.h:46
+msgid ""
+"I’m surprised you’re not still pissed off at everyone. Not even a little "
+"bit."
+msgstr "의외네, 아직도 다들 한테 열 받아 있지 않다니. 조금도 말이야."
+
+#: src/cutscenes/reimu_good_end.inc.h:47
+msgid "You were shouting like a dictator up there."
+msgstr "저 위에서는 독재자처럼 소리치고 있었잖아."
+
+#: src/cutscenes/reimu_good_end.inc.h:51
+msgid ""
+"It seems that the Tower's influence got to me, in the end. I thought I was "
+"stronger than that, but…"
+msgstr "결국 탑의 영향이 저에게도 미쳤던 것 같아요. 제가 그보다는 강하다고 생각했는데…"
+
+#: src/cutscenes/reimu_good_end.inc.h:52
+msgid "Of course, I’m still sad about my own Gensōkyō, but to go that far…"
+msgstr "물론 저 자신의 환상향이 그리워 슬픈 건 지금도 마찬가지지만, 그렇게까지 하다니…"
+
+#: src/cutscenes/reimu_good_end.inc.h:57
+msgid "What a weird machine. I wonder what the kappa think about it."
+msgstr "참 이상한 기계네. 캇파들은 어떻게 생각하려나."
+
+#: src/cutscenes/reimu_good_end.inc.h:58
+msgid ""
+"The kappa won’t touch the thing, and even Kanako has talked herself out of "
+"it."
+msgstr "캇파들은 손도 안 대려고 해. 카나코도 결국 단념했고."
+
+#: src/cutscenes/reimu_good_end.inc.h:59
+msgid ""
+"Still, it’s odd how there were forgotten yōkai from another Gensōkyō, "
+"though…"
+msgstr "그래도 다른 환상향에서 온 잊힌 요괴들이 있었다는 게 이상하긴 해…"
+
+#: src/cutscenes/reimu_good_end.inc.h:60
+msgid "Ah, whatever. As long as it stays quiet."
+msgstr "아, 몰라. 조용하기만 하면 됐지."
+
+#: src/cutscenes/reimu_good_end.inc.h:64
+msgid ""
+"With the maddening feelings gone, everyone seemed to relax more than usual, "
+"like a burden had been lifted off of them.\n"
+msgstr "광기 어린 감정이 사라지자 다들 짐을 내려놓은 듯 평소보다 느긋해 보였다.\n"
+
+#: src/cutscenes/reimu_good_end.inc.h:65
+msgid ""
+"But for some reason, Reimu in particular seemed to have a difficult time "
+"settling down.\n"
+msgstr "그런데 어쩐 일인지 레이무만은 유독 마음을 가라앉히지 못하는 듯했다.\n"
+
+#: src/cutscenes/reimu_good_end.inc.h:66
+msgid ""
+"And even as some grew to accept the Tower of Babel looming in the skyline, "
+"there were frequent mutterings over potentially getting rid of it "
+"entirely.\n"
+msgstr "지평선에 우뚝 선 바벨탑을 받아들이는 이들이 늘어나는 한편, 아예 치워 버리자는 중얼거림도 자주 들렸다.\n"
+
+#: src/cutscenes/reimu_good_end.inc.h:67
+msgid ""
+"Although, nobody had any clue how, except, perhaps, a certain ‘gap yōkai’…"
+msgstr "하지만 방법을 아는 이는 아무도 없었다. 어쩌면 어느 ‘틈새 요괴’만은 알지도 모르지만…"
+
+#: src/cutscenes/scene_impl.h:60
+msgid "Reimu"
+msgstr "레이무"
+
+#: src/cutscenes/scene_impl.h:61
+msgid "Marisa"
+msgstr "마리사"
+
+#: src/cutscenes/scene_impl.h:62
+msgid "Yōmu"
+msgstr "요우무"
+
+#: src/cutscenes/scene_impl.h:63
+msgid "Yukari"
+msgstr "유카리"
+
+#: src/cutscenes/scene_impl.h:64
+msgid "Kanako"
+msgstr "카나코"
+
+#: src/cutscenes/scene_impl.h:65
+msgid "Suwako"
+msgstr "스와코"
+
+#: src/cutscenes/scene_impl.h:66
+msgid "Sanae"
+msgstr "사나에"
+
+#: src/cutscenes/scene_impl.h:67
+msgid "Sumireko"
+msgstr "스미레코"
+
+#: src/cutscenes/scene_impl.h:68
+msgid "Yuyuko"
+msgstr "유유코"
+
+#: src/cutscenes/scene_impl.h:69 src/dialog/dialog_macros.h:76
+#: src/menu/charprofile.c:159 src/stages/stage6/elly.c:29
+msgid "Elly"
+msgstr "엘리"
+
+#: src/cutscenes/scene_impl.h:70 src/dialog/dialog_macros.h:74
+#: src/menu/charprofile.c:137 src/stages/stage4/kurumi.c:57
+msgid "Kurumi"
+msgstr "쿠루미"
+
+#: src/cutscenes/scene_impl.h:71
+msgid "Remilia"
+msgstr "레밀리아"
+
+#: src/cutscenes/scene_impl.h:72
+msgid "Flandre"
+msgstr "플랑드르"
+
+#: src/cutscenes/scene_impl.h:73
+msgid "Patchouli"
+msgstr "파츄리"
+
+#: src/cutscenes/youmu_bad_end.inc.h:2
+msgid "Yōmu (Bad Ending)"
+msgstr "요우무 (배드 엔딩)"
+
+#: src/cutscenes/youmu_bad_end.inc.h:7
+msgid "— The Tower of Babel"
+msgstr "— 바벨탑"
+
+#: src/cutscenes/youmu_bad_end.inc.h:8
+msgid "The infernal machine from another world."
+msgstr "다른 세계에서 온 지옥의 기계."
+
+#: src/cutscenes/youmu_bad_end.inc.h:12
+msgid ""
+"At the foot of the Tower that now imposed itself on Gensōkyō’s skyline…"
+msgstr "이제 환상향의 지평선을 짓누르듯 서 있는 탑 아래에서…"
+
+#: src/cutscenes/youmu_bad_end.inc.h:13
+msgid ""
+"…the greatest swordswoman of Gensōkyō and the Netherworld, Konpaku Yōmu, "
+"stood over a makeshift grave, praying.\n"
+msgstr "…환상향과 명계 제일의 검객, 콘파쿠 요우무가 임시로 만든 무덤 앞에 서서 기도하고 있었다.\n"
+
+#: src/cutscenes/youmu_bad_end.inc.h:14
+msgid ""
+"No, she hadn’t murdered her opponent. It was, perhaps, a little more "
+"troubling than that…"
+msgstr "아니, 상대를 죽인 것은 아니었다. 어쩌면 그보다 더 마음 쓰이는 일이었다…"
+
+#: src/cutscenes/youmu_bad_end.inc.h:18
+msgid "Tell me again… she simply vanished? In mid-air?"
+msgstr "다시 말해 주렴… 그냥 사라져 버렸다고? 공중에서?"
+
+#: src/cutscenes/youmu_bad_end.inc.h:19
+msgid "Yes. One moment she was there, and the next, she was not."
+msgstr "네. 방금 전까지 거기 있었는데, 다음 순간 없었습니다."
+
+#: src/cutscenes/youmu_bad_end.inc.h:20
+msgid ""
+"The vampire girl from before also disappeared, in addition to all of the "
+"loitering fairies."
+msgstr "아까 그 흡혈귀 소녀도, 어슬렁대던 요정들도 모두 사라졌습니다."
+
+#: src/cutscenes/youmu_bad_end.inc.h:21
+msgid ""
+"It was as if everything within it ceased to exist entirely, except myself."
+msgstr "그 안에 있던 모든 것이, 저만 빼고 완전히 존재하지 않게 된 듯했습니다."
+
+#: src/cutscenes/youmu_bad_end.inc.h:25
+msgid ""
+"Thus, I must assumed I have caused their demise in some way, despite my best"
+" intentions."
+msgstr "그러니 선의였다 해도, 제가 어떤 식으로든 그들의 소멸을 초래했다고 여길 수밖에 없습니다."
+
+#: src/cutscenes/youmu_bad_end.inc.h:26
+msgid ""
+"That woman, Elly… we knew each other for such a short time, yet her passion "
+"and fury affected me so deeply."
+msgstr "그 사람, 엘리… 알고 지낸 시간은 아주 짧았는데, 그 열정과 분노가 제 마음 깊이 와닿았습니다."
+
+#: src/cutscenes/youmu_bad_end.inc.h:27
+msgid ""
+"Hmm… I don’t sense any lost souls here, and nobody liked that passed through"
+" the Netherworld."
+msgstr "흐음… 여기엔 길 잃은 영혼도 느껴지지 않는구나. 명계를 지나간 이도 없었단다."
+
+#: src/cutscenes/youmu_bad_end.inc.h:28
+msgid ""
+"I doubt she has truly died, then… ah, but all this ‘parallel universes’ "
+"stuff is beyond me, hehehe."
+msgstr "그렇다면 정말 죽은 건 아닐 것 같은데… 아, 하지만 ‘평행 우주’니 뭐니 하는 건 나한텐 너무 어렵구나, 호호호."
+
+#: src/cutscenes/youmu_bad_end.inc.h:32
+msgid ""
+"The Tower had ceased functioning, returning the land and yōkai around it to "
+"some semblance of status quo.\n"
+msgstr "탑은 기능을 멈췄고, 그 주변의 땅과 요괴들은 어느 정도 예전의 모습을 되찾았다.\n"
+
+#: src/cutscenes/youmu_bad_end.inc.h:33
+msgid ""
+"But the instigators were nowhere to be found. It was as if they had never "
+"existed.\n"
+msgstr "하지만 이변의 장본인들은 어디에도 보이지 않았다. 마치 처음부터 존재하지 않았던 것처럼.\n"
+
+#: src/cutscenes/youmu_bad_end.inc.h:34
+msgid ""
+"Yōmu's newfound fearlessness had been tempered as well, replaced with a "
+"sense of loss."
+msgstr "요우무가 새로 얻은 두려움 없는 기개도 한풀 꺾여, 상실감이 그 자리를 채웠다."
+
+#: src/cutscenes/youmu_bad_end.inc.h:38
+msgid ""
+"Thank you for humouring your humble servant’s odd request, Lady Yuyuko."
+msgstr "미흡한 종자의 별난 부탁을 들어 주셔서 감사합니다, 유유코 님."
+
+#: src/cutscenes/youmu_bad_end.inc.h:39
+msgid "Oh my, think nothing of it! You did great!"
+msgstr "어머, 별말씀을! 아주 잘했단다!"
+
+#: src/cutscenes/youmu_bad_end.inc.h:40
+msgid ""
+"But since we’re in the neighbourhood… do you think the kappa are running one"
+" of their famous festival grill stands?"
+msgstr "그런데 이왕 이 근처에 왔으니… 캇파들이 그 유명한 축제 포장마차라도 열고 있지 않을까?"
+
+#: src/cutscenes/youmu_bad_end.inc.h:41
+msgid "As a celebration for the incident being resolved, perhaps…?"
+msgstr "사건 해결 기념으로 말이야…?"
+
+#: src/cutscenes/youmu_bad_end.inc.h:42
+msgid "We could go on a fun date! And I’m feeling a bit peckish…"
+msgstr "즐거운 데이트도 하고! 슬슬 출출하기도 하구나…"
+
+#: src/cutscenes/youmu_bad_end.inc.h:46
+msgid ""
+"The kappa of Yōkai Mountain were throwing a ‘Gaze Upon The Incredible Tower "
+"(From A Safe Distance)’ festival, to encourage human and yōkai tourism after"
+" everyone had been scared off by the Tower.\n"
+msgstr ""
+"요괴의 산의 캇파들은 탑에 겁을 먹고 떠난 인간과 요괴의 발길을 다시 끌어들이려고 ‘대단한 탑을 구경하자 (안전한 거리에서)’ 축제를 "
+"열고 있었다.\n"
+
+#: src/cutscenes/youmu_bad_end.inc.h:47
+msgid "Although, Yōmu found it difficult to enjoy herself, of course.\n"
+msgstr "물론, 요우무는 마음 편히 즐기기 어려웠지만.\n"
+
+#: src/cutscenes/youmu_bad_end.inc.h:48
+msgid ""
+"Somewhere, somehow, she hoped the furiously righteous scythe-bearer was "
+"still out there, waiting for their rematch…"
+msgstr "어딘가에서, 어떻게든, 맹렬히 올곧던 그 낫의 주인이 아직 재대결을 기다리고 있기를 그녀는 바랐다…"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:2
+msgid "Yōmu (Extra Stage Intro)"
+msgstr "요우무 (엑스트라 스테이지 도입부)"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:7
+msgid "— The Netherworld"
+msgstr "— 명계"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:8
+msgid "The nexus between life and death."
+msgstr "삶과 죽음의 접점."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:12
+msgid ""
+"The blademasters, Konpaku Yōmu and Elly, were enjoying a twilight duel "
+"between the sakura trees of the ethereal realm.\n"
+msgstr "검객 콘파쿠 요우무와 엘리는 이 세상 같지 않은 세계의 벚나무 사이에서 황혼의 결투를 즐기고 있었다.\n"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:13
+msgid ""
+"The swordswoman was showing the scythe-bearer one of her favourite past-"
+"times: the mid-air bisecting sakura petals.\n"
+msgstr "검객은 낫의 주인에게 자신이 좋아하는 취미를 보여 주고 있었다. 공중에서 벚꽃잎을 반으로 가르는 것이다.\n"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:14
+msgid "Yōmu was quite proud of herself, and Elly equally as impressed."
+msgstr "요우무는 꽤나 뿌듯해했고, 엘리도 그만큼 감탄했다."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:18
+msgid ""
+"During their merriment, there was an interruption, as Elly fished some small"
+" device out of her dress pocket.\n"
+msgstr "한창 즐거운 때에 방해가 끼어들었다. 엘리가 드레스 주머니에서 작은 장치를 꺼냈던 것이다.\n"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:19
+msgid ""
+"It was a communication device of some sort that seemed to be vibrating "
+"vigorously, projecting an illusion into the air…\n"
+msgstr "일종의 통신 장치인 듯했고, 세차게 진동하며 허공에 환영을 비추고 있었다…\n"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:20
+msgid "Elly's expression suddenly ran cold."
+msgstr "엘리의 표정이 갑자기 싸늘하게 식었다."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:24
+msgid "Hm? Is something the matter, my dear?"
+msgstr "음? 무슨 일 있나요, 엘리?"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:25
+msgid "The Tower…! No, it can’t be! But I…!"
+msgstr "탑이…! 아니, 그럴 리 없어요! 하지만 저는…!"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:26
+msgid "Has something changed?"
+msgstr "뭔가 달라졌습니까?"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:27
+msgid "It’s turning back on! In fact, at its current rate of power, it could—"
+msgstr "다시 켜지고 있어요! 게다가 이 출력 속도라면, 곧—"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:31
+msgid "… there’s no other explanation for this."
+msgstr "… 달리 설명할 길이 없어요."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:32
+msgid "It’s her… the one I told you about."
+msgstr "그녀예요… 제가 말씀드렸던 그 사람."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:33
+msgid ""
+"The one who rescued me, but also manipulated me. The one I… ‘liberated’ the "
+"Tower from."
+msgstr "저를 구해 주었지만 한편으로는 저를 조종했던 사람. 제가 탑을 ‘해방’시킨 상대이기도 하고요."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:37
+msgid "Yōmu took a deep breath, sheathed her swords, and sighed.\n"
+msgstr "요우무는 심호흡을 하고 검을 칼집에 넣으며 한숨을 쉬었다.\n"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:38
+msgid "I see. So, she’s arrived on her own after all."
+msgstr "그렇군요. 결국 스스로 찾아온 것이군요."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:39
+msgid ""
+"I-I thought she would be imprisoned forever, until we were ready! But "
+"somehow, somehow she’s—"
+msgstr "저, 저는 우리 준비가 될 때까지 영원히 갇혀 있을 줄 알았어요! 그런데 어떻게, 어떻게 그녀가—"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:40
+msgid ""
+"… she’s freed herself from her prison, and she no doubt intends to finish "
+"what she started."
+msgstr "… 감옥에서 스스로 풀려났군요. 분명 시작한 일을 끝내려 할 겁니다."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:41
+msgid "I see. Then it appears we no longer possess the luxury of time."
+msgstr "그렇군요. 그렇다면 이제 시간적 여유는 없는 것 같습니다."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:45
+msgid "Yōmu took Elly's hands between her own, grinning confidently.\n"
+msgstr "요우무는 엘리의 두 손을 자기 손으로 감싸 쥐고 자신 있게 웃었다.\n"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:46
+msgid "Elly! Let’s face her now, together!"
+msgstr "엘리! 지금 함께 그녀와 맞서요!"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:47
+msgid "I-I… I thought we'd have more time! It’s too soon!"
+msgstr "저, 저는… 시간이 더 있을 줄 알았어요! 너무 일러요!"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:48
+msgid ""
+"I’m worried the machine will influence me again! I can’t put you at risk "
+"again, and I can’t go with you!"
+msgstr "기계가 또 저에게 영향을 줄까 봐 겁나요! 당신을 다시 위험에 빠뜨릴 수 없어요, 같이 갈 수 없어요!"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:49
+msgid "Please forgive me, Yōmu!"
+msgstr "용서해 주세요, 요우무!"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:53
+msgid "I completely understand."
+msgstr "충분히 이해합니다."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:54
+msgid "You… do?"
+msgstr "…그래요?"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:55
+msgid ""
+"Yes, of course. There’s a time and place to face one’s fears. This is not "
+"your time or place, even somewhat literally."
+msgstr ""
+"네, 물론입니다. 두려움과 맞서는 데에는 때와 장소가 있지요. 지금 이곳은 엘리의 때도 장소도 아닙니다, 어느 정도는 말 그대로요."
+
+#: src/cutscenes/youmu_extra_intro.inc.h:56
+msgid ""
+"However, don’t think you've gotten off so easily. When I return, it shall be"
+" your turn to pay for dinner. Understand?"
+msgstr "다만 이렇게 쉽게 넘어갔다고 생각하진 마세요. 제가 돌아오면 이번엔 엘리가 저녁을 사는 겁니다. 아시겠죠?"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:60
+msgid "Elly couldn’t help but laugh, despite her fears.\n"
+msgstr "엘리는 두려움 속에서도 웃음을 참을 수 없었다.\n"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:61
+msgid ""
+"After bidding Elly and Lady Yuyuko farewell, Yōmu returned to Gensōkyō, and "
+"headed towards the infernal Tower, as it began to shake and groan with "
+"impending doom…"
+msgstr ""
+"엘리와 유유코 님에게 작별을 고한 요우무는 환상향으로 돌아가, 곧 닥칠 파멸에 흔들리고 신음하기 시작한 지옥의 탑으로 향했다…"
+
+#: src/cutscenes/youmu_good_end.inc.h:2
+msgid "Yōmu (Good Ending)"
+msgstr "요우무 (굿 엔딩)"
+
+#: src/cutscenes/youmu_good_end.inc.h:8
+msgid "A dignified shrine at the top of Yōkai Mountain."
+msgstr "요괴의 산 정상에 있는 품위 있는 신사."
+
+#: src/cutscenes/youmu_good_end.inc.h:12
+msgid ""
+"Atop the Mountain, the Tower of Babel stood silently, as if a sleeping "
+"giant."
+msgstr "산 위에서 바벨탑은 잠든 거인처럼 말없이 서 있었다."
+
+#: src/cutscenes/youmu_good_end.inc.h:13
+msgid ""
+"Below, at the not-so-humble Moriya Shrine, two blademasters were exchanging "
+"the techniques of their craft…"
+msgstr "아래 소박하지 않은 모리야 신사에서는 두 검객이 서로의 기술을 나누고 있었다…"
+
+#: src/cutscenes/youmu_good_end.inc.h:17
+msgid ""
+"I’m sure you’re aware that the classic scythe was used by farmers, and was "
+"sometimes repurposed as a makeshift weapon—"
+msgstr "낫이 원래 농민이 쓰던 도구인데, 때때로 임시 무기로 전용되었다는 건 아실 거예요—"
+
+#: src/cutscenes/youmu_good_end.inc.h:18
+msgid ""
+"Yes, of course. Some of the finest martial arts evolved from the practices "
+"of common folk—"
+msgstr "네, 물론입니다. 가장 훌륭한 무술 중에는 평범한 백성의 생활에서 발전한 것도 많지요—"
+
+#: src/cutscenes/youmu_good_end.inc.h:22
+msgid ""
+"After the incident, Elly and Kurumi agreed to surrender, and disabled the "
+"Tower's ability to ‘enlighten’.\n"
+msgstr "이변 이후 엘리와 쿠루미는 항복에 동의하고 탑의 ‘계몽’ 능력을 정지시켰다.\n"
+
+#: src/cutscenes/youmu_good_end.inc.h:23
+msgid ""
+"Their dispositions softened considerably, and they apologized profusely for "
+"what they had tried to do.\n"
+msgstr "둘 다 태도가 크게 누그러졌고, 하려던 일을 두고 거듭 사죄했다.\n"
+
+#: src/cutscenes/youmu_good_end.inc.h:24
+msgid ""
+"But even as everyone else returned to their usual selves, it seemed that "
+"Konpaku Yōmu had retained nearly all of the newfound confidence…"
+msgstr "그러나 다른 모두가 평소로 돌아온 뒤에도, 콘파쿠 요우무만은 새로 얻은 자신감을 거의 그대로 간직하고 있는 듯했다…"
+
+#: src/cutscenes/youmu_good_end.inc.h:28
+msgid "This Gensōkyō is so different compared to the one I was used to."
+msgstr "이 환상향은 제가 알던 곳과 정말 달라요."
+
+#: src/cutscenes/youmu_good_end.inc.h:29
+msgid "What was your Gensōkyō like, if I may ask?"
+msgstr "당신의 환상향은 어땠는지 여쭤 봐도 될까요?"
+
+#: src/cutscenes/youmu_good_end.inc.h:30
+msgid ""
+"Mostly, a lot smaller. Practically barren compared to this one. It felt more"
+" like a road-side food stand."
+msgstr "대체로 훨씬 작았어요. 여기에 비하면 거의 불모지였죠. 길가 포장마차 같은 느낌이었어요."
+
+#: src/cutscenes/youmu_good_end.inc.h:31
+msgid "Hmm, fascinating…"
+msgstr "흠, 흥미롭군요…"
+
+#: src/cutscenes/youmu_good_end.inc.h:35
+msgid ""
+"I know I said this before, but I still feel like a fool after everything."
+msgstr "전에도 말했지만, 돌이켜 보면 여전히 제가 바보 같아요."
+
+#: src/cutscenes/youmu_good_end.inc.h:36
+msgid "I was miserable about my home, but to go that far…"
+msgstr "고향이 비참해서 그랬다지만, 그렇게까지 하다니…"
+
+#: src/cutscenes/youmu_good_end.inc.h:37
+msgid "It seems like the one most overcome by madness was myself."
+msgstr "광기에 가장 휘둘린 건 저 자신이었던 것 같아요."
+
+#: src/cutscenes/youmu_good_end.inc.h:38
+msgid ""
+"I know everyone here accepted my apology, but I’m still truly sorry for what"
+" I did."
+msgstr "여기 모두가 제 사과를 받아 주었지만, 제가 한 일은 지금도 진심으로 죄송해요."
+
+#: src/cutscenes/youmu_good_end.inc.h:42
+msgid "Your pain was legitimate, even if your expression of it was not."
+msgstr "당신의 아픔은 정당했습니다. 그 표현 방식이 옳지 않았을 뿐이지요."
+
+#: src/cutscenes/youmu_good_end.inc.h:43
+msgid ""
+"Now that you've recognized that, you are welcome here, like anyone else."
+msgstr "이제 그것을 인정했으니, 이곳은 누구에게나 그렇듯 당신도 환영합니다."
+
+#: src/cutscenes/youmu_good_end.inc.h:44
+msgid ""
+"Tomorrow, provided Lady Yuyuko has no business for me, I would like to show "
+"you what the Netherworld and Gensōkyō have to offer!"
+msgstr "내일 유유코 님이 제게 맡기실 일이 없다면, 명계와 환상향의 볼거리를 보여 드리고 싶습니다!"
+
+#: src/cutscenes/youmu_good_end.inc.h:45
+msgid ""
+"Perhaps we could even visit a popular ramen shop nearby. I’m feeling "
+"generous, so it shall be my treat!"
+msgstr "근처의 인기 라멘집에도 가 볼까요. 기분이 좋으니 제가 사겠습니다!"
+
+#: src/cutscenes/youmu_good_end.inc.h:49
+msgid "O-oh! S-sure, that would be wonderful!"
+msgstr "아, 아! 그, 그럼요, 정말 좋죠!"
+
+#: src/cutscenes/youmu_good_end.inc.h:50
+msgid "W-Well, I ought to return to my duties at the shrine."
+msgstr "그, 그럼 이만 신사 일을 하러 돌아가 봐야겠어요."
+
+#: src/cutscenes/youmu_good_end.inc.h:51
+msgid ""
+"I hope the green-haired shrine maiden doesn’t talk my ear off about obsolete"
+" entertainment technology again…"
+msgstr "초록 머리 무녀가 또 낡은 오락 기술 얘기로 귀에 못이 박히게 하지 않으면 좋겠는데…"
+
+#: src/cutscenes/youmu_good_end.inc.h:52
+msgid ""
+"I commend you for complying with your penance, despite its… cruel hardships."
+msgstr "그 가혹한… 고행을 이행하다니, 대단합니다."
+
+#: src/cutscenes/youmu_good_end.inc.h:53
+msgid ""
+"\n"
+"The pair of them laughed.\n"
+msgstr ""
+"\n"
+"두 사람은 함께 웃었다.\n"
+
+#: src/cutscenes/youmu_good_end.inc.h:57
+msgid ""
+"The two blademasters had become practically inseparable in an incredibly "
+"short time.\n"
+msgstr "두 검객은 아주 짧은 시간에 거의 떼려야 뗄 수 없는 사이가 되었다.\n"
+
+#: src/cutscenes/youmu_good_end.inc.h:58
+msgid ""
+"As they spent many evenings dueling, practicing, and drinking merrily, many "
+"folks commented on how they had never seen Yōmu so thrilled."
+msgstr ""
+"많은 저녁을 결투와 수련과 즐거운 술자리로 보내는 두 사람을 보며, 요우무가 그렇게 들떠 있는 모습은 처음 본다고 입을 모으는 이가 "
+"많았다."
+
+#: src/cutscenes/youmu_good_end.inc.h:62
+msgid ""
+"Despite the incident being resolved, nobody had figured out how to remove "
+"the Tower, and most were too anxious to even think about it.\n"
+msgstr "이변은 해결되었지만 탑을 치울 방법은 아무도 찾지 못했고, 대부분은 생각만 해도 불안해했다.\n"
+
+#: src/cutscenes/youmu_good_end.inc.h:63
+msgid ""
+"And with its lingering, menacing visage blighting the skyline, many wondered"
+" if the Tower was truly inert and harmless.\n"
+msgstr "지평선을 뒤덮은 위압적인 모습이 가시지 않자, 탑이 정말 잠잠하고 무해한지 의문을 품는 이도 많았다.\n"
+
+#: src/cutscenes/youmu_good_end.inc.h:64
+msgid ""
+"Meanwhile, in the Netherworld, a certain gap yōkai and her ghostly companion"
+" discussed details of an ancient future’s past…"
+msgstr "한편 명계에서는 어느 틈새 요괴와 유령 친구가 아득한 미래의 과거에 관한 이야기를 나누고 있었다…"
+
+#: src/dialog/dialog_macros.h:71 src/menu/charprofile.c:93
+#: src/stages/stage1/cirno.c:27
+msgid "Cirno"
+msgstr "치르노"
+
+#: src/dialog/dialog_macros.h:71 src/menu/charprofile.c:94
+msgid "Thermodynamic Ice Fairy"
+msgstr "열역학 얼음 요정"
+
+#: src/dialog/dialog_macros.h:72 src/menu/charprofile.c:104
+#: src/stages/stage2/hina.c:41
+msgid "Kagiyama Hina"
+msgstr "카기야마 히나"
+
+#: src/dialog/dialog_macros.h:72 src/menu/charprofile.c:105
+msgid "Gyroscopic Pestilence God"
+msgstr "자이로스코프 액신"
+
+#: src/dialog/dialog_macros.h:73 src/menu/charprofile.c:126
+msgid "Wriggle Nightbug"
+msgstr "리글 나이트버그"
+
+#: src/dialog/dialog_macros.h:73 src/menu/charprofile.c:127
+msgid "Insect Rights Activist"
+msgstr "곤충 권리 운동가"
+
+#: src/dialog/dialog_macros.h:74 src/menu/charprofile.c:138
+msgid "High-Society Phlebotomist"
+msgstr "상류층 채혈사"
+
+#: src/dialog/dialog_macros.h:75 src/menu/charprofile.c:148
+#: src/stages/stage5/iku.c:110
+msgid "Nagae Iku"
+msgstr "나가에 이쿠"
+
+#: src/dialog/dialog_macros.h:75 src/menu/charprofile.c:149
+msgid "Fulminologist of the Heavens"
+msgstr "하늘의 번개 연구가"
+
+#: src/dialog/dialog_macros.h:76 src/menu/charprofile.c:160
+msgid "The Theoretical Reaper"
+msgstr "이론 사신"
+
+#: src/dialog/marisa.c:23
+msgid "Snow again? But I just put away my winter coat."
+msgstr "또 눈이야? 겨우 겨울 코트 집어넣었는데."
+
+#: src/dialog/marisa.c:25
+msgid "…even though it’s half-way through summer already."
+msgstr "…벌써 한여름도 반이나 지났다구."
+
+#: src/dialog/marisa.c:28
+msgid "Don’t you like the cold weather???"
+msgstr "추운 날씨 싫어해???"
+
+#: src/dialog/marisa.c:32
+msgid "It should be winter all the time!"
+msgstr "일 년 내내 겨울이면 좋잖아!"
+
+#: src/dialog/marisa.c:35
+msgid "Mind paying to get my coat cleaned, then?"
+msgstr "그럼 내 코트 세탁비라도 내줄래?"
+
+#: src/dialog/marisa.c:37
+msgid "I was gonna get it done in the fall, but now…"
+msgstr "가을에 맡길 생각이었는데, 이젠…"
+
+#: src/dialog/marisa.c:40
+msgid "Why would I do that?! You’re never going to pay me back!"
+msgstr "내가 왜 그래야 하는데?! 어차피 갚지도 않을 거면서!"
+
+#: src/dialog/marisa.c:43
+msgid "I’m gonna turn you into an ice cube!"
+msgstr "얼음덩어리로 만들어 줄 거야!"
+
+#: src/dialog/marisa.c:46
+msgid "Really? I prefer shaved ice, myself."
+msgstr "진짜? 난 빙수 쪽이 더 좋은데 말이야."
+
+#: src/dialog/marisa.c:60
+msgid "Why don’t you go play with your new friend, the one from Hell?"
+msgstr "새로 사귄 친구, 지옥에서 온 걔랑 놀러 가는 게 어때?"
+
+#: src/dialog/marisa.c:61
+msgid "Maybe then it’d be more of a fair fight."
+msgstr "그래야 좀 대등한 싸움이 될 것 같은걸."
+
+#: src/dialog/marisa.c:63
+msgid "Ouch…"
+msgstr "으윽…"
+
+#: src/dialog/marisa.c:64
+msgid "I-I mean, last time she lost! And next time, you will too!"
+msgstr "그, 그러니까! 지난번엔 걔가 졌잖아! 다음엔 너도 질 거라고!"
+
+#: src/dialog/marisa.c:66
+msgid "Sure, sure."
+msgstr "그래그래."
+
+#: src/dialog/marisa.c:82
+msgid "Geez, this place is kinda sad now."
+msgstr "참 나, 이 근처도 왠지 쓸쓸해졌는걸."
+
+#: src/dialog/marisa.c:83
+msgid "What would be causin’ the yōkai to get all weird, anyways?"
+msgstr "요괴들이 이렇게 이상해진 이유가 뭘까나?"
+
+#: src/dialog/marisa.c:86
+msgid "Why hello, Ms. Kirisame."
+msgstr "어머, 키리사메 양 아니세요."
+
+#: src/dialog/marisa.c:89
+msgid "You seem to be as reckless as always. I recommend turning back."
+msgstr "여전히 무모하시네요. 돌아가시기를 권해 드려요."
+
+#: src/dialog/marisa.c:92
+msgid "Thanks for the advice! I’ll be ignoring it, though."
+msgstr "충고 고맙다구! 근데 무시할 거야."
+
+#: src/dialog/marisa.c:93
+msgid "See ya."
+msgstr "그럼 이만!"
+
+#: src/dialog/marisa.c:97
+msgid "Oh my… you’re quite the rebellious one, aren’t you?"
+msgstr "어머나… 꽤나 반항적인 아이로군요?"
+
+#: src/dialog/marisa.c:98
+msgid "Such confidence, ignoring my warning like that."
+msgstr "제 경고를 그렇게 무시하다니, 대단한 자신감이네요."
+
+#: src/dialog/marisa.c:101
+msgid "I’ll take that as a compliment."
+msgstr "칭찬으로 받아들일게."
+
+#: src/dialog/marisa.c:104
+msgid ""
+"And do you know what happens to naughty girls who don’t listen to their "
+"elders?"
+msgstr "어른 말을 안 듣는 못된 아이는 어떻게 되는지 아시나요?"
+
+#: src/dialog/marisa.c:105
+msgid "They get showered in misfortune for years!"
+msgstr "몇 년 동안 불운을 흠뻑 뒤집어쓰게 된답니다!"
+
+#: src/dialog/marisa.c:118
+msgid "You’re way more snippy than usual today."
+msgstr "오늘따라 되게 까칠하네."
+
+#: src/dialog/marisa.c:119
+msgid "It’s kinda annoyin’, honestly."
+msgstr "솔직히 좀 짜증 난다구."
+
+#: src/dialog/marisa.c:121
+msgid "H-how mean…"
+msgstr "너, 너무해…"
+
+#: src/dialog/marisa.c:122
+msgid "Don’t you see I was just trying to keep you safe…?"
+msgstr "나는 그저 네 안전을 위해서였는데…?"
+
+#: src/dialog/marisa.c:124
+msgid "Don’t get all motherly on me now."
+msgstr "이제 와서 엄마처럼 굴지 말라구."
+
+#: src/dialog/marisa.c:126
+msgid "I’ve had enough of that for a lifetime."
+msgstr "그런 건 평생 먹을 만큼 먹었다고."
+
+#: src/dialog/marisa.c:142
+msgid ""
+"Geez, everyone’s getting even more reckless the further up I go. What gives?"
+msgstr "참 나, 위로 올라갈수록 다들 점점 더 무모해지잖아. 대체 뭐야?"
+
+#: src/dialog/marisa.c:145
+msgid "Wait ‘til you meet their leader!"
+msgstr "그 두목을 만나면 더 놀랄걸!"
+
+#: src/dialog/marisa.c:148
+msgid "Yeah, I’m gonna have to ask their leader a bunch‘a questions for sure."
+msgstr "그래, 그 두목한테는 물어볼 게 산더미라구."
+
+#: src/dialog/marisa.c:151
+msgid "Feel free to go ahead. I’m listening."
+msgstr "얼마든지 물어봐. 듣고 있으니까."
+
+#: src/dialog/marisa.c:153
+msgid "Oh, you’re the messenger?"
+msgstr "오, 네가 전령이야?"
+
+#: src/dialog/marisa.c:155
+msgid "Mind passin’ a message along?"
+msgstr "말 좀 전해 줄래?"
+
+#: src/dialog/marisa.c:159
+msgid "Um, OBVIOUSLY I’m not the messenger!"
+msgstr "으, 으응?! 당연히 난 전령이 아니거든!"
+
+#: src/dialog/marisa.c:161
+msgid "Yeah, I’m the great leader of Insectkind!"
+msgstr "그래, 난 곤충족의 위대한 지도자라고!"
+
+#: src/dialog/marisa.c:164
+msgid "Great leader? What, did the insects unionize or somethin’?"
+msgstr "위대한 지도자? 뭐야, 벌레들이 노조라도 만들었어?"
+
+#: src/dialog/marisa.c:167
+msgid "No! I told you, I’m the leader! The mastermind!"
+msgstr "아니거든! 내가 두목이라니까! 흑막이라고!"
+
+#: src/dialog/marisa.c:169
+msgid "So, what’s your question?"
+msgstr "그래서, 묻고 싶은 게 뭔데?"
+
+#: src/dialog/marisa.c:172
+msgid "Hmm, guess I forgot."
+msgstr "음, 까먹은 것 같은걸."
+
+#: src/dialog/marisa.c:173
+msgid "What’s yer deal, anyways?"
+msgstr "그나저나 뭐가 불만인데?"
+
+#: src/dialog/marisa.c:176
+msgid "We insects have three demands:"
+msgstr "우리 곤충들의 요구는 세 가지야!"
+
+#: src/dialog/marisa.c:177
+msgid "First: say nay to insect spray!"
+msgstr "첫째, 살충제는 사절!"
+
+#: src/dialog/marisa.c:178
+msgid "Second: swat the swatters!"
+msgstr "둘째, 파리채에는 응징을!"
+
+#: src/dialog/marisa.c:180
+msgid "Third: the right to bite!"
+msgstr "셋째, 물 권리를 보장하라!"
+
+#: src/dialog/marisa.c:181
+msgid "Fourth—!"
+msgstr "넷째—!"
+
+#: src/dialog/marisa.c:184
+msgid ""
+"Okay okay, this is great ‘n all, but I’ve honestly got more important stuff "
+"to do."
+msgstr "알았어, 알았어. 다 좋은데, 솔직히 나 지금 더 중요한 일이 있다구."
+
+#: src/dialog/marisa.c:185
+msgid "… and ya don’t got a clue about what’s goin’ on, do ya?"
+msgstr "…그리고 너, 무슨 일이 벌어지는지 하나도 모르지?"
+
+#: src/dialog/marisa.c:189
+msgid "Maybe I know more than you think."
+msgstr "내가 아는 게 네 생각보다 많을지도 모르지."
+
+#: src/dialog/marisa.c:191
+msgid "But it’s NOTHING I’d tell an usurper of Insectkind’s glory!"
+msgstr "하지만 곤충족의 영광을 가로챈 찬탈자한테는 절대로 안 알려 줘!"
+
+#: src/dialog/marisa.c:205
+msgid "Tougher than usual, but not tough enough."
+msgstr "평소보다 세긴 했는데, 이기기엔 모자라다구."
+
+#: src/dialog/marisa.c:206
+msgid "Where’d ya pick up those new moves, anyway?"
+msgstr "그 새 기술은 어디서 배운 거야?"
+
+#: src/dialog/marisa.c:208
+msgid "Aw! It was, um… the great vision of our glorious Insect past!"
+msgstr "아, 그건! 그, 그러니까… 영광스러운 곤충의 과거를 본 위대한 환상이었어!"
+
+#: src/dialog/marisa.c:209
+msgid "It was in the age of Car—… Carb—… the age of Carbs!"
+msgstr "카, 카—… 카르—… 탄수화물의 시대였어!"
+
+#: src/dialog/marisa.c:212
+msgid "‘Glorious insect past’? ‘Carbs’?"
+msgstr "‘영광스러운 곤충의 과거’? ‘탄수화물’?"
+
+#: src/dialog/marisa.c:214
+msgid ""
+"Oh, ya must mean the Carboniferous Period. With the giant bug- err, insects,"
+" ‘n all that."
+msgstr "아, 석탄기를 말하는 거구나. 거대한 벌… 아니, 곤충들이 살던 그 시대 말이야."
+
+#: src/dialog/marisa.c:215
+msgid "I remember that doctor at Eientei goin’ off about it once."
+msgstr "영원정의 그 의사가 한번 열변을 토한 적이 있었지."
+
+#: src/dialog/marisa.c:217
+msgid "Only time I’d seen her so excited…"
+msgstr "그렇게 신나 보인 건 그때가 처음이었는걸…"
+
+#: src/dialog/marisa.c:219
+msgid "Yeah, that!"
+msgstr "맞아, 그거!"
+
+#: src/dialog/marisa.c:221
+msgid "Do you want to be an ally in our glorious conquest…?"
+msgstr "우리의 영광스러운 정복에 동료가 되지 않을래…?"
+
+#: src/dialog/marisa.c:224
+msgid "Maybe later."
+msgstr "나중에 생각해 볼게."
+
+#: src/dialog/marisa.c:226
+msgid "Probably never."
+msgstr "아마 영영 안 하겠지만."
+
+#: src/dialog/marisa.c:243
+msgid "Oh wow, a mysterious, magical mansion!"
+msgstr "오, 신비롭고 마법적인 저택이잖아!"
+
+#: src/dialog/marisa.c:245
+msgid "… how generic can you get?"
+msgstr "…너무 뻔한 거 아니냐?"
+
+#: src/dialog/marisa.c:248
+msgid "And to top it off, a western witch!"
+msgstr "게다가 서양 마녀까지 나오다니!"
+
+#: src/dialog/marisa.c:250
+msgid "Seen it a thousand times already. It’s such a boring motif."
+msgstr "벌써 천 번은 봤다고. 너무 진부한 소재야."
+
+#: src/dialog/marisa.c:253
+msgid "Right? But I make up for it with my devilish charm."
+msgstr "그치? 그래도 나는 악마 같은 매력으로 만회한다구."
+
+#: src/dialog/marisa.c:256
+msgid "But that theme is so overdone…"
+msgstr "하지만 그런 설정은 너무 우려먹었잖아…"
+
+#: src/dialog/marisa.c:258
+msgid "What’s next? A maid?"
+msgstr "다음은 뭐야? 메이드?"
+
+#: src/dialog/marisa.c:260
+msgid ""
+"A little girl with almost no dialogue who becomes a fan-favourite anyways?"
+msgstr "대사는 거의 없는데 어쩌다 팬들한테 인기 폭발하는 어린 여자애?"
+
+#: src/dialog/marisa.c:261
+msgid "One that’ll have her personality massacred by the fans?"
+msgstr "그리고 팬들한테 성격이 멋대로 난도질당하는 애?"
+
+#: src/dialog/marisa.c:264
+msgid ""
+"Maybe they’ll even make her something edgy like a vampire to drive up sales."
+msgstr "매출 올리려고 흡혈귀 같은 자극적인 설정까지 붙일지도 모르지."
+
+#: src/dialog/marisa.c:267
+msgid ""
+"Ugh! Maybe I’ve been reading too much manga that those tengu churn out."
+msgstr "으, 텐구들이 찍어내는 만화를 너무 많이 읽었나 봐."
+
+#: src/dialog/marisa.c:270
+msgid "The tengu write manga now?"
+msgstr "텐구가 만화도 그려?"
+
+#: src/dialog/marisa.c:272
+msgid "Writin’ pure ficiton is more honest for them, I guess."
+msgstr "순수한 창작이 걔네한텐 더 정직한 일이겠지, 뭐."
+
+#: src/dialog/marisa.c:276
+msgid "Yeah, duh?"
+msgstr "응, 그렇다니까?"
+
+#: src/dialog/marisa.c:277
+msgid "Of course, most of it is garbage that only weirdos like!"
+msgstr "물론 대부분은 이상한 사람들만 좋아하는 쓰레기지만!"
+
+#: src/dialog/marisa.c:279
+msgid ""
+"And don’t EVEN get me started on certain character designs! So generic!"
+msgstr "그리고 어떤 캐릭터 디자인은 말도 꺼내지 마! 너무 뻔해!"
+
+#: src/dialog/marisa.c:282
+msgid "Maybe they oughta hire someone with some fashion sense."
+msgstr "패션 감각 있는 사람이라도 고용하는 게 좋겠는걸."
+
+#: src/dialog/marisa.c:285
+msgid "That’d be me, then!"
+msgstr "그럼 내가 딱이잖아!"
+
+#: src/dialog/marisa.c:286
+msgid "My ideas would surely make a splash, if they’d recognize my talent!"
+msgstr "내 재능만 알아봐 주면 내 아이디어가 틀림없이 대박 칠 텐데!"
+
+#: src/dialog/marisa.c:289
+msgid "Eh? Maybe…"
+msgstr "응? 그럴지도…"
+
+#: src/dialog/marisa.c:292
+msgid "Huh?!"
+msgstr "어?!"
+
+#: src/dialog/marisa.c:295
+msgid "Your outfit’s missin’ somethin'…"
+msgstr "네 복장은 뭔가 빠진 것 같은데…"
+
+#: src/dialog/marisa.c:298
+msgid "H-Hmph! I could say the same about you!"
+msgstr "흐, 흥! 그건 너도 마찬가지거든!"
+
+#: src/dialog/marisa.c:300
+msgid "Seriously, it’s just a plain generic witch outfit!"
+msgstr "진짜, 그냥 흔해 빠진 마녀 옷일 뿐이잖아!"
+
+#: src/dialog/marisa.c:303
+msgid "That’s just because it’s summer!"
+msgstr "그건 여름이라 그런 거라구!"
+
+#: src/dialog/marisa.c:305
+msgid ""
+"My winter petticoats are legendary. Girls across Gensōkyō talk about ‘em."
+msgstr "내 겨울용 페티코트는 전설이라고. 환상향의 여자애들이 다 이야기한다구."
+
+#: src/dialog/marisa.c:307
+msgid "In fact, there’s a few of ‘em, uh, deeper inside this mansion."
+msgstr "사실 이 저택 더 안쪽에도 몇 벌 있을 거야."
+
+#: src/dialog/marisa.c:309
+msgid "So I’ll be headin’ in, then."
+msgstr "그러니 들어가 볼게."
+
+#: src/dialog/marisa.c:313
+msgid "Oh, I’m not letting you go without a fight!"
+msgstr "어머, 싸우지 않고는 못 보내 줘!"
+
+#: src/dialog/marisa.c:315
+msgid "Let’s see who’s the most fashionable here, witch!"
+msgstr "누가 제일 패셔너블한지 가려 보자, 마녀야!"
+
+#: src/dialog/marisa.c:329
+msgid "Whoever has the best petticoat wins. It’s a scientific fact."
+msgstr "제일 좋은 페티코트를 가진 쪽이 이기는 거야. 과학적 사실이라구."
+
+#: src/dialog/marisa.c:331
+msgid "… but since when do I care about scientific facts?"
+msgstr "…근데 내가 언제부터 과학적 사실 따위를 신경 썼더라?"
+
+#: src/dialog/marisa.c:333
+msgid "W-wait, what was I doing again?"
+msgstr "자, 잠깐, 내가 뭘 하고 있었더라?"
+
+#: src/dialog/marisa.c:334
+msgid "(Y-yeah, that’s it, play it off as amnesia…"
+msgstr "(그, 그래, 기억상실인 척하고 넘어가는 거야…"
+
+#: src/dialog/marisa.c:335
+msgid "(But, hmm… haven’t I seen this nerdy-looking girl before…?)"
+msgstr "(근데 어라… 이 공부 잘하게 생긴 애, 어디서 본 것 같은데…?)"
+
+#: src/dialog/marisa.c:336
+msgid "Uuu, I don’t remember anything at all!!"
+msgstr "우우, 아무것도 기억이 안 나!!"
+
+#: src/dialog/marisa.c:339
+msgid "Ah, sorry, sorry. I think ya slipped ‘n hit your head."
+msgstr "아, 미안 미안. 미끄러져서 머리를 부딪친 모양이네."
+
+#: src/dialog/marisa.c:341
+msgid "I’m Gensōkyō’s… petticoat inspector."
+msgstr "난 환상향의… 페티코트 검사관이야."
+
+#: src/dialog/marisa.c:343
+msgid "I’m here to inspect the petticoats in this here mansion."
+msgstr "이 저택의 페티코트를 검사하러 왔다구."
+
+#: src/dialog/marisa.c:345
+msgid "Ya were just lettin’ me in, so I’ll be off, then."
+msgstr "네가 들여보내 준 거니까, 난 이만 가 볼게."
+
+#: src/dialog/marisa.c:348
+msgid "Uhm, I kind of doubt that…"
+msgstr "으음, 그건 좀 아닌 것 같은데…"
+
+#: src/dialog/marisa.c:350
+msgid "Not that I could stop you, anyways…"
+msgstr "뭐, 막을 수도 없겠지만…"
+
+#: src/dialog/marisa.c:352
+msgid "Ugh, I didn’t sign up to get beaten like this!"
+msgstr "으으, 이렇게 얻어맞으려고 나온 게 아니란 말이야!"
+
+#: src/dialog/marisa.c:355
+msgid "‘Sign up’? I thought you didn’t remember anything."
+msgstr "‘나온 게’? 아무것도 기억 안 난다며."
+
+#: src/dialog/marisa.c:358
+msgid "N-Nevermind!"
+msgstr "아, 아무것도 아니야!"
+
+#: src/dialog/marisa.c:375
+msgid "This place is fascinatin’!"
+msgstr "여긴 정말 흥미로운걸!"
+
+#: src/dialog/marisa.c:376
+msgid "I gotta tell Nitori!"
+msgstr "니토리한테 알려 줘야겠어!"
+
+#: src/dialog/marisa.c:379
+msgid "I would not recommend getting too enamoured, young witch."
+msgstr "너무 넋을 잃지 않는 편이 좋을 겁니다, 어린 마녀여."
+
+#: src/dialog/marisa.c:381
+msgid "I’m surprised to see you here. How have you been?"
+msgstr "이런 곳에서 만나다니 놀랍군요. 잘 지내셨습니까?"
+
+#: src/dialog/marisa.c:383
+msgid "What grimoire would this be in…?"
+msgstr "이건 어떤 마도서에 나와 있을까…?"
+
+#: src/dialog/marisa.c:384
+msgid "Hmm… probably a major illusion of some kind…?"
+msgstr "음… 아마 대규모 환영 같은 거겠지…?"
+
+#: src/dialog/marisa.c:385
+msgid ""
+"That’d be easier than making the bricks weightless, ‘n it’s a good disguise…"
+msgstr "벽돌을 무중력으로 만드는 것보다는 쉬울 테고, 위장으로도 좋으니까…"
+
+#: src/dialog/marisa.c:389
+msgid "… pardon me, are you conversing with yourself?"
+msgstr "…실례지만, 혼잣말을 하고 계신 겁니까?"
+
+#: src/dialog/marisa.c:392
+msgid "Huh? No, I was askin’ ya a question."
+msgstr "응? 아냐, 너한테 물어본 건데."
+
+#: src/dialog/marisa.c:394
+msgid "An interesting theory, I suppose."
+msgstr "흥미로운 가설이군요."
+
+#: src/dialog/marisa.c:396
+msgid "It’d make sense though, right?"
+msgstr "그럴듯하지 않아?"
+
+#: src/dialog/marisa.c:398
+msgid ""
+"It appeared outta nowhere. If it were real brick, the air displacement alone"
+" woulda caused a huge noise…"
+msgstr "갑자기 튀어나왔다구. 진짜 벽돌이라면 공기가 밀려나는 것만으로도 엄청난 소리가 났을 텐데…"
+
+#: src/dialog/marisa.c:399
+msgid "And it’d take so much power, too."
+msgstr "게다가 힘도 엄청나게 필요하고 말이야."
+
+#: src/dialog/marisa.c:400
+msgid "Definitely an illusion, then."
+msgstr "그러니 환영이 틀림없어."
+
+#: src/dialog/marisa.c:402
+msgid "The premise of your theory is flawed, unfortunately."
+msgstr "안타깝게도 그 가설의 전제부터가 틀렸습니다."
+
+#: src/dialog/marisa.c:405
+msgid "The technology on display here is beyond our current comprehension."
+msgstr "여기에 쓰인 기술은 우리의 현재 이해를 뛰어넘는 것입니다."
+
+#: src/dialog/marisa.c:408
+msgid "Technology? Whoa, so yer sayin’ this is REAL brick?!"
+msgstr "기술? 잠깐, 그럼 이게 진짜 벽돌이란 말이야?!"
+
+#: src/dialog/marisa.c:410
+msgid "*tap tap*"
+msgstr "*톡톡*"
+
+#: src/dialog/marisa.c:412
+msgid ""
+"It’s so cold it’s almost creepy, like it was suckin’ magic right outta my "
+"fingers."
+msgstr "소름 끼칠 만큼 차가운걸. 손가락에서 마력이 쭉쭉 빨려 나가는 것 같아."
+
+#: src/dialog/marisa.c:414
+msgid "But that means the tower… has corporeal form?!"
+msgstr "그럼 이 탑이… 실체가 있다는 거잖아?!"
+
+#: src/dialog/marisa.c:415
+msgid "Dang! Now I GOTTA meet the owner!"
+msgstr "대박! 이제 주인을 꼭 만나야겠는걸!"
+
+#: src/dialog/marisa.c:416
+msgid "What grimoires does she got to pull somethin’ like this off?!"
+msgstr "이런 걸 해내려면 대체 무슨 마도서를 갖고 있는 거야?!"
+
+#: src/dialog/marisa.c:419
+msgid "I-I would imagine she does not use grimoires, or magic."
+msgstr "그, 그분은 마도서도, 마법도 쓰지 않을 거라고 생각합니다."
+
+#: src/dialog/marisa.c:421
+msgid ""
+"This is highly complex machinery, likely relying on advanced computational—"
+msgstr "이것은 고도로 복잡한 기계 장치로, 아마도 첨단 연산에 의존하는—"
+
+#: src/dialog/marisa.c:423
+msgid "But then, what’s the power source?"
+msgstr "근데 그럼 동력원은 뭔데?"
+
+#: src/dialog/marisa.c:424
+msgid "Not even nuclear fusion could sustain somethin’ like this!"
+msgstr "핵융합으로도 이런 걸 유지하긴 어려울 텐데!"
+
+#: src/dialog/marisa.c:427
+msgid "I-I am not sure of its exact mechanics—"
+msgstr "저, 저도 정확한 원리까지는 잘—"
+
+#: src/dialog/marisa.c:430
+msgid "Where’d y’say she was?"
+msgstr "그 사람이 어디 있다고 했지?"
+
+#: src/dialog/marisa.c:433
+msgid "You mean…?"
+msgstr "무슨 말씀이십니까…?"
+
+#: src/dialog/marisa.c:436
+msgid "The owner, o’ course! Upstairs, right?"
+msgstr "주인 말이야, 당연하지! 위층에 있는 거 맞지?"
+
+#: src/dialog/marisa.c:439
+msgid ""
+"Perhaps the thin atmosphere at this elevation has gotten to you. I will not "
+"divulge any further information, for your own protection."
+msgstr "이 고도의 희박한 공기에 정신이 어떻게 되신 모양이군요. 당신을 위해서라도 더는 정보를 알려 드리지 않겠습니다."
+
+#: src/dialog/marisa.c:442
+msgid "What’s her name?"
+msgstr "이름이 뭐야?"
+
+#: src/dialog/marisa.c:444
+msgid "Why are you not listening to me…?"
+msgstr "왜 제 말을 듣지 않으시는 겁니까…?"
+
+#: src/dialog/marisa.c:447
+msgid "Do ya got any tips on talkin’ to her, maybe make her loosen up a bit?"
+msgstr "그 사람이랑 얘기할 때 요령 같은 거 없어? 좀 마음을 풀게 하는 법이라든가."
+
+#: src/dialog/marisa.c:449
+msgid "I don’t wanna blow my chance."
+msgstr "기회를 날리고 싶진 않다구."
+
+#: src/dialog/marisa.c:452
+msgid ""
+"I am trying to spare you further peril, yet all you can do is talk over me. "
+"Be more considerate."
+msgstr "저는 당신을 더 큰 위험에서 지키려는 건데, 말을 끊기만 하시는군요. 좀 더 배려해 주십시오."
+
+#: src/dialog/marisa.c:453
+msgid ""
+"I had expectations that you would be able to approach this with a clear head"
+" and resolve this incident, but it seems—"
+msgstr "당신이 침착하게 이 사건을 해결할 수 있으리라 기대했습니다만, 아무래도—"
+
+#: src/dialog/marisa.c:456
+msgid "Ah, I see, I see. I’ll have to turn on the ol’ Kirisame charm."
+msgstr "아, 알았어 알았어. 이 키리사메 님의 매력을 발휘해야겠는걸."
+
+#: src/dialog/marisa.c:459
+msgid "I get it, I get it."
+msgstr "알았다니까, 알았어."
+
+#: src/dialog/marisa.c:460
+msgid "Haven’t done ‘femme fatale’ in a while, but…"
+msgstr "‘팜 파탈’은 오랜만이지만…"
+
+#: src/dialog/marisa.c:464
+msgid "Enough!"
+msgstr "그만하십시오!"
+
+#: src/dialog/marisa.c:465
+msgid ""
+"It is said that specifically applied electro-stimulation can ease the mind."
+msgstr "특정한 방식으로 가하는 전기 자극은 마음을 가라앉힌다고들 하지요."
+
+#: src/dialog/marisa.c:467
+msgid "Allow me to put that into practice for you!"
+msgstr "제가 직접 실천해 드리겠습니다!"
+
+#: src/dialog/marisa.c:479
+msgid "So this place runs on electricity, eh? Hmm…"
+msgstr "이곳은 전기로 돌아가는구나? 흠…"
+
+#: src/dialog/marisa.c:493
+msgid "Oof, I hope that didn’t make my hair too frizzy."
+msgstr "으윽, 머리가 너무 부스스해지진 않았겠지."
+
+#: src/dialog/marisa.c:495
+msgid "Y’know, for my big first impression ‘n all."
+msgstr "첫인상이 중요하니까 말이야."
+
+#: src/dialog/marisa.c:498
+msgid "F-For the last time, she’ll have nothing to teach you…"
+msgstr "저, 정말이지, 그분께는 배울 것이 아무것도 없습니다…"
+
+#: src/dialog/marisa.c:499
+msgid ""
+"Her powers rely on technology and the scientific method. Of that much, I am "
+"sure."
+msgstr "그분의 힘은 기술과 과학적 방법에 기반합니다. 그것만큼은 확신합니다."
+
+#: src/dialog/marisa.c:502
+msgid ""
+"The one time Sanae’s not around to geek out about all the sciencey stuff, "
+"eh?"
+msgstr "이럴 때 꼭 과학 얘기에 열 올리는 사나에가 없단 말이지?"
+
+#: src/dialog/marisa.c:505
+msgid ""
+"Ah well, I know how to operate one of those Intelligent Phones, and that’s "
+"plenty advanced, so I should be fine."
+msgstr "뭐 괜찮아. 나도 인텔리전트 폰 정도는 다룰 줄 알고, 그거면 꽤 앞서 있는 거니까 문제없을 거야."
+
+#: src/dialog/marisa.c:507
+msgid "By the way, have ya been hearing that strange voice?"
+msgstr "그나저나, 너도 그 이상한 목소리 들려?"
+
+#: src/dialog/marisa.c:509
+msgid "Strange voice?"
+msgstr "이상한 목소리라니요?"
+
+#: src/dialog/marisa.c:512
+msgid "Yeah, it keeps tellin’ me that I’m not thinkin’ straight or whatever."
+msgstr "응, 자꾸 나한테 정신 똑바로 차리라고 하는 거 있잖아."
+
+#: src/dialog/marisa.c:513
+msgid "Probably just those weird madness rays tryin’ to get me."
+msgstr "아마 그 이상한 광기의 광선이 나를 홀리려는 거겠지."
+
+#: src/dialog/marisa.c:516
+msgid "Ugh, you fool."
+msgstr "하아, 어리석군요."
+
+#: src/dialog/marisa.c:518
+msgid ""
+"But perhaps you are thinking just well enough to resolve this incident after"
+" all…"
+msgstr "하지만 어쩌면 이 사건을 해결하기엔 딱 알맞게 정신이 박혀 있는 건지도 모르겠습니다…"
+
+#: src/dialog/marisa.c:521
+msgid "Ah! There’s that voice again!"
+msgstr "앗! 또 그 목소리다!"
+
+#: src/dialog/marisa.c:523
+msgid "So strange…"
+msgstr "참 이상하네…"
+
+#: src/dialog/marisa.c:540
+msgid "I’ve been waiting for you to make your move."
+msgstr "당신이 움직이기를 기다리고 있었습니다."
+
+#: src/dialog/marisa.c:542
+msgid "Sneaking around as you are, and yet still so loud somehow."
+msgstr "몰래 숨어들었다지만, 어찌 된 일인지 꽤나 시끄럽더군요."
+
+#: src/dialog/marisa.c:545
+msgid "Hmm…"
+msgstr "흐음…"
+
+#: src/dialog/marisa.c:548
+msgid ""
+"Did you really think I wouldn’t notice all the commotion you caused inside "
+"the tower?"
+msgstr "탑 안에서 일으킨 소동을 제가 눈치채지 못할 거라 생각하셨습니까?"
+
+#: src/dialog/marisa.c:550
+msgid "Hmmmmmmm…"
+msgstr "흐으으으음…"
+
+#: src/dialog/marisa.c:553
+msgid "Stop being an insolent brat and speak up!"
+msgstr "무례하게 굴지 말고 대답을 하세요!"
+
+#: src/dialog/marisa.c:556
+msgid "… sigh."
+msgstr "…하아."
+
+#: src/dialog/marisa.c:559
+msgid "… w-what is it?"
+msgstr "…왜, 왜 그러십니까?"
+
+#: src/dialog/marisa.c:561
+msgid "Ya don’t look like a magician after all."
+msgstr "마법사처럼 안 생겼네, 의외로."
+
+#: src/dialog/marisa.c:562
+msgid "I’m pretty disappointed."
+msgstr "솔직히 실망이야."
+
+#: src/dialog/marisa.c:563
+msgid "Honestly, this might be the most disappointing incident yet."
+msgstr "이번 사건은 어쩌면 지금까지 중에서 제일 실망스러울지도 몰라."
+
+#: src/dialog/marisa.c:566
+msgid "You’re after… magic?"
+msgstr "당신, 마법을… 찾고 있습니까?"
+
+#: src/dialog/marisa.c:568
+msgid "Hah! You’ll regret wasting your time on such nonsense."
+msgstr "하! 그런 허튼 일에 시간을 낭비한 것을 후회하게 될 겁니다."
+
+#: src/dialog/marisa.c:569
+msgid "Soon, you’ll see the error of—"
+msgstr "곧 자신의 잘못을 깨닫게—"
+
+#: src/dialog/marisa.c:571
+msgid "Do ya know how boring it is to be a magician in Gensōkyō these days?"
+msgstr "요즘 환상향에서 마법사 노릇 하는 게 얼마나 지루한지 알아?"
+
+#: src/dialog/marisa.c:574
+msgid "I couldn’t possibly care about—"
+msgstr "저는 조금도 관심이—"
+
+#: src/dialog/marisa.c:576
+msgid "Seriously! Recently it’s just been ‘God this’ and ‘Otherworld that’."
+msgstr "진짜라니까! 요새는 ‘신이 어쩌고’, ‘이세계가 저쩌고’ 하는 것뿐이잖아."
+
+#: src/dialog/marisa.c:577
+msgid "Reimu’s been pickin’ up some sweet skills, but me? Nothin’!"
+msgstr "레이무는 근사한 기술을 익히고 있는데, 나는? 아무것도 없다구!"
+
+#: src/dialog/marisa.c:578
+msgid "Gods use magic too, but they’re like her! They don’t need books!"
+msgstr "신들도 마법을 쓰지만, 걔네는 레이무 같은 부류라서! 책이 필요 없다니까!"
+
+#: src/dialog/marisa.c:579
+msgid "But I do! And I end up empty handed every dang time!"
+msgstr "하지만 난 필요해! 그래서 매번 빈손으로 돌아온다구!"
+
+#: src/dialog/marisa.c:582
+msgid "I SAID I don’t CARE about your stupid little sorc—"
+msgstr "제가 당신의 시시한 마법 따위는 관심 없다고 했—"
+
+#: src/dialog/marisa.c:584
+msgid ""
+"I saw this place ‘n I was all, ‘Whoa! Is this all enchantments ‘n stuff?!’"
+msgstr "여기를 보고 ‘우와! 이거 전부 마법진에다 뭐 그런 거야?!’ 했거든."
+
+#: src/dialog/marisa.c:586
+msgid "I got really excited!"
+msgstr "엄청 신났다구!"
+
+#: src/dialog/marisa.c:587
+msgid "‘Maybe I could get a new trump-card outta this’ is what I thought."
+msgstr "‘이번엔 새 비장의 카드를 얻을 수 있을지도’ 하고 생각했는데 말이야."
+
+#: src/dialog/marisa.c:589
+msgid ""
+"But obviously yer a shinigami or somethin’. And I didn’t see a library…"
+msgstr "그런데 당신은 누가 봐도 사신 같은 거고. 도서관도 안 보이고…"
+
+#: src/dialog/marisa.c:590
+msgid "I guess that oarfish from before was right."
+msgstr "아까 그 산갈치 말이 맞았나 봐."
+
+#: src/dialog/marisa.c:591
+msgid "Master Spark’s good ‘n all, but it’ll only get me so far in life…"
+msgstr "마스터 스파크도 좋긴 한데, 그것만으로는 평생 한계가 있다구…"
+
+#: src/dialog/marisa.c:594 src/dialog/youmu.c:226 src/dialog/youmu.c:542
+msgid "…"
+msgstr "…"
+
+#: src/dialog/marisa.c:595
+msgid "*sigh*"
+msgstr "*휴우*"
+
+#: src/dialog/marisa.c:596
+msgid "Are you finally done?"
+msgstr "이제 다 끝났습니까?"
+
+#: src/dialog/marisa.c:598
+msgid "Is this some kind of joke?!"
+msgstr "지금 장난하는 겁니까?!"
+
+#: src/dialog/marisa.c:600
+msgid "How does every version of you just keep mocking me?!"
+msgstr "어째서 당신이란 존재는 하나같이 저를 조롱하는 겁니까?!"
+
+#: src/dialog/marisa.c:602
+msgid ""
+"What, you mean last time? At least then you were guardin’ some powerful "
+"thingy I coulda used."
+msgstr "뭐야, 지난번 얘기야? 그땐 그래도 내가 쓸 만한 대단한 물건을 지키고 있었잖아."
+
+#: src/dialog/marisa.c:603
+msgid "I’m tryin’ to remember, was that timeline a bust, too?"
+msgstr "기억을 더듬어 보는 중인데, 그 시간대도 허탕이었나?"
+
+#: src/dialog/marisa.c:605
+msgid ""
+"At least I met Yūka, right? Did ya know she ended up givin’ me my trademark "
+"spell?"
+msgstr "그래도 유카는 만났잖아, 맞지? 걔가 결국 내 간판 스펠을 줬다는 거 알아?"
+
+#: src/dialog/marisa.c:606
+msgid "Not right then, ‘n not voluntarily, but—"
+msgstr "그때 바로는 아니고 자진해서도 아니었지만—"
+
+#: src/dialog/marisa.c:609
+msgid "Y-you remember that?! But how—?!"
+msgstr "그, 그걸 기억한다고요?! 어떻게—?!"
+
+#: src/dialog/marisa.c:610
+msgid ""
+"… ugh, nevermind! It’s not as if you could possibly grasp the Tower’s true "
+"power."
+msgstr "…윽, 됐습니다! 당신 따위가 이 탑의 진정한 힘을 이해할 리 없으니까요."
+
+#: src/dialog/marisa.c:612
+msgid ""
+"After all, I can already sense your feeble mind succumbing to its might!"
+msgstr "어차피 당신의 나약한 정신이 그 위력 앞에 굴복하는 게 벌써 느껴지는군요!"
+
+#: src/dialog/marisa.c:615
+msgid "Eh? I’m not depressed or anythin’. I’m just disappointed."
+msgstr "응? 난 우울하지 않은데. 그냥 실망했을 뿐이야."
+
+#: src/dialog/marisa.c:618
+msgid ""
+"I-It’s not about being ‘depressed’! It’s about being overwhelmed with the "
+"vast knowledge of the universe!"
+msgstr "‘우울’해서가 아닙니다! 우주의 방대한 지식에 압도되는 것입니다!"
+
+#: src/dialog/marisa.c:619
+msgid ""
+"Once you realize the true potential of reality, you’ll go mad with "
+"knowledge!"
+msgstr "현실의 진정한 가능성을 깨닫는 순간, 당신은 지식으로 미쳐 버릴 겁니다!"
+
+#: src/dialog/marisa.c:620
+msgid "Don’t you see?! Nothing can stop us now! For we are—!"
+msgstr "아직도 모르겠습니까?! 이제 아무도 우리를 막을 수 없습니다! 우리는—!"
+
+#: src/dialog/marisa.c:623
+msgid ""
+"But I’m already mad with knowledge! Why do ya think I drink all the time?!"
+msgstr "난 벌써 지식에 미쳐 있다구! 내가 왜 맨날 술을 마신다고 생각해?!"
+
+#: src/dialog/marisa.c:624
+msgid "My mind’s always racin’ with this ‘n that…"
+msgstr "머릿속이 늘 이것저것으로 뱅글뱅글 돌아가는데…"
+
+#: src/dialog/marisa.c:625
+msgid ""
+"Ya think this is any different than how I usually live?! Get over y’erself!"
+msgstr "이게 내 평소 생활이랑 뭐가 다르다고 생각하는 거야?! 착각하지 말라구!"
+
+#: src/dialog/marisa.c:627
+msgid "Now, I gotta ask… ya really, seriously don’t got anything?"
+msgstr "그건 그렇고, 하나만 물을게… 진짜 정말 아무것도 없어?"
+
+#: src/dialog/marisa.c:628
+msgid "A single bookshelf?! A few loose scribbled notes?!"
+msgstr "책장 한 칸이라도?! 대충 갈겨쓴 메모 몇 장이라도?!"
+
+#: src/dialog/marisa.c:629
+msgid ""
+"Heck, I’ll even take one of those little glowy tablet thingies with all "
+"those ‘Pee Dee Effs’ on ‘em! They're so bright they hurt my eyes, but—"
+msgstr "아니, 그 ‘피디에프’인가 하는 게 잔뜩 든 작고 번쩍이는 판때기라도 괜찮아! 눈이 아플 정도로 밝지만—"
+
+#: src/dialog/marisa.c:632
+msgid ""
+"Since you’re OBVIOUSLY treating this as a joke, I REFUSE to speak with you "
+"any longer!"
+msgstr "당신이 이걸 장난으로 취급하는 게 뻔한 이상, 더는 말을 섞지 않겠습니다!"
+
+#: src/dialog/marisa.c:635
+msgid ""
+"Oh c’mon, turn the madness-whatever off ‘n we’ll go out for drinks! There’s "
+"this nice new bar in town with a cute—"
+msgstr "에이, 광기인지 뭔지 끄고 한잔하러 가자구! 마을에 새로 생긴 괜찮은 술집이 있는데, 거기 귀여운—"
+
+#: src/dialog/marisa.c:637
+msgid "There’s no force in this world that would make me turn back now!"
+msgstr "세상 어떤 힘으로도 저는 이제 물러서지 않습니다!"
+
+#: src/dialog/marisa.c:640
+msgid "Someone as ‘ordinary’ as you getting in our way may be impressive…"
+msgstr "당신 같은 ‘평범한’ 사람이 우리를 가로막다니, 대단하다면 대단하겠군요…"
+
+#: src/dialog/marisa.c:642
+msgid ""
+"But there’s no place for sorcery in our enlightened vision of Gensōkyō!"
+msgstr "하지만 우리가 그리는 계몽된 환상향에 마법 따위가 들어설 자리는 없습니다!"
+
+#: src/dialog/marisa.c:644
+msgid "Now, succumb to the madness!"
+msgstr "자, 광기에 굴복하십시오!"
+
+#: src/dialog/marisa.c:657
+msgid "Are ya sure ya don’t got a spellbook laying around?! Nothin’ at all?!"
+msgstr "정말로 마도서 하나 없는 거야?! 아무것도?!"
+
+#: src/dialog/marisa.c:659
+msgid "Are you still on about that?! Fine, see what good it does you!"
+msgstr "아직도 그 얘기입니까?! 좋습니다, 그게 무슨 소용이 있는지 직접 보십시오!"
+
+#: src/dialog/marisa.c:661
+msgid ""
+"Your pitiful magic amounts to nothing against the true nature of reality!"
+msgstr "당신의 보잘것없는 마법 따위, 현실의 진정한 본질 앞에서는 아무것도 아닙니다!"
+
+#: src/dialog/reimu.c:46
+msgid "Snow during summer? This is certainly familiar…"
+msgstr "여름에 눈이라니? 어디서 많이 본 광경인데…"
+
+#: src/dialog/reimu.c:52
+msgid "Nobody can stop me now!"
+msgstr "이제 아무도 날 못 막아!"
+
+#: src/dialog/reimu.c:56
+msgid "Mwahahaha!"
+msgstr "와하하하!"
+
+#: src/dialog/reimu.c:59
+msgid "What’s gotten into you all of a sudden?"
+msgstr "갑자기 왜 이래?"
+
+#: src/dialog/reimu.c:63
+msgid "Gah! Y-you again?! Are you here to get in the way of my plans?!"
+msgstr "으헉! 너, 너 또 왔어?! 내 계획을 방해하러 온 거야?!"
+
+#: src/dialog/reimu.c:65
+msgid "What ‘plans'? Freezing frogs?"
+msgstr "‘계획’이라니? 개구리 얼리는 거?"
+
+#: src/dialog/reimu.c:67
+msgid "Anyway, I don’t really care. So if you could just—"
+msgstr "어쨌든 난 별 관심 없어. 그러니까 좀 비켜—"
+
+#: src/dialog/reimu.c:71
+msgid "I’ll never tell you! Prepare to be chilled to the bone!"
+msgstr "절대 안 가르쳐 줄 거야! 뼛속까지 얼어붙을 각오나 해!"
+
+#: src/dialog/reimu.c:90
+msgid "Chill out! I didn’t mean it like that!"
+msgstr "열 좀 식혀! 그런 뜻으로 한 말이 아니었다고!"
+
+#: src/dialog/reimu.c:92
+msgid "You could have just let me through, you know."
+msgstr "그냥 지나가게 해 줬으면 됐잖아."
+
+#: src/dialog/reimu.c:93
+msgid "Not fair! You broke the rules! I wasn’t ready yet…"
+msgstr "치사해! 규칙 위반이야! 아직 준비도 안 됐었는데…"
+
+#: src/dialog/reimu.c:112
+msgid ""
+"With those loudmouthed kappa gone, the mountain feels practically deserted."
+msgstr "시끄럽던 캇파들이 없어지니까 산이 텅 빈 것 같네."
+
+#: src/dialog/reimu.c:114
+msgid "I almost miss them."
+msgstr "좀 그립기까지 하다니까."
+
+#: src/dialog/reimu.c:117
+msgid "Ah, it’s Ms. Hakurei."
+msgstr "어머, 하쿠레이 씨군요."
+
+#: src/dialog/reimu.c:121
+msgid "I thought you might come."
+msgstr "올 줄 알았어요."
+
+#: src/dialog/reimu.c:123
+msgid "But once again, you’re trying to go places you shouldn’t."
+msgstr "그런데 또 가면 안 되는 곳에 가려 하시네요."
+
+#: src/dialog/reimu.c:124
+msgid "What a troubled girl…"
+msgstr "곤란한 아이…"
+
+#: src/dialog/reimu.c:127
+msgid "So much for ‘deserted’…"
+msgstr "텅 비었다더니 무슨…"
+
+#: src/dialog/reimu.c:129
+msgid "Do you even know what you’re protecting me from this time?"
+msgstr "이번엔 날 뭐로부터 지켜 주려는 건지나 알고 이러는 거야?"
+
+#: src/dialog/reimu.c:134
+msgid ""
+"A bright girl like you should know that Yōkai Mountain is especially "
+"dangerous today."
+msgstr "똑똑한 아이라면 오늘 요괴의 산이 유난히 위험하다는 걸 알 텐데요."
+
+#: src/dialog/reimu.c:136
+msgid "You ought to turn back now, my dear."
+msgstr "지금이라도 돌아가세요, 아가씨."
+
+#: src/dialog/reimu.c:139
+msgid "(She… she completely ignored my question.)"
+msgstr "(내 질문은 완전히 무시했잖아…)"
+
+#: src/dialog/reimu.c:141
+msgid "Does it matter that the Gods asked me to come this time?"
+msgstr "이번엔 신들이 와 달라고 부탁했다는 건 상관없어?"
+
+#: src/dialog/reimu.c:145
+msgid "I know better than the mountain Gods this time."
+msgstr "이번엔 산의 신들보다 제가 더 잘 알아요."
+
+#: src/dialog/reimu.c:146
+msgid "If you do not turn back immediately, I’ll have to repel you by force."
+msgstr "당장 돌아가지 않으면 힘으로 물리칠 수밖에 없어요."
+
+#: src/dialog/reimu.c:149
+msgid "So annoying…"
+msgstr "짜증 나…"
+
+#: src/dialog/reimu.c:166
+msgid "So I lost… you can keep going then, I suppose."
+msgstr "제가 졌네요… 그럼 가셔도 좋아요."
+
+#: src/dialog/reimu.c:168
+msgid ""
+"You should know by now that I can handle it. Why are you being so "
+"overbearing?"
+msgstr "내가 알아서 한다는 거 이제 알 때도 됐잖아. 왜 그렇게 참견이야?"
+
+#: src/dialog/reimu.c:169
+msgid ""
+"Just don’t say I didn’t warn you, when you inevitably get mauled by "
+"whatever’s out there…"
+msgstr "나중에 저 바깥의 뭔가에게 보기 좋게 당해도, 경고 안 했다고는 하지 마세요…"
+
+#: src/dialog/reimu.c:172
+msgid "(Ignored again…)"
+msgstr "(또 무시당했네…)"
+
+#: src/dialog/reimu.c:188
+msgid ""
+"Aside from everyone being whipped up into a frenzy, I can’t see anything "
+"abnormal yet."
+msgstr "다들 흥분해서 난리인 것 말고는 아직 이상한 건 안 보이네."
+
+#: src/dialog/reimu.c:191
+msgid "Well, to your human eyes, insects may seem ‘normal’…"
+msgstr "하긴, 인간의 눈에는 곤충이 ‘정상’으로 보일지도 모르지…"
+
+#: src/dialog/reimu.c:195
+msgid "… but there was a time when we reigned supreme!"
+msgstr "…하지만 우리가 천하를 지배하던 시절도 있었다고!"
+
+#: src/dialog/reimu.c:198
+msgid "Eh? You? Aren’t you a bit far from home?"
+msgstr "어? 너? 집에서 꽤 멀리 나온 거 아냐?"
+
+#: src/dialog/reimu.c:199
+msgid ""
+"Besides, ‘reigned supreme’? I’ve never heard of insects ruling over "
+"Gensōkyō."
+msgstr "게다가 ‘천하를 지배’? 곤충이 환상향을 다스렸다는 얘긴 들어 본 적도 없는데."
+
+#: src/dialog/reimu.c:203
+msgid "'Far from home'? But you’ve intruded on my secret lair!"
+msgstr "‘집에서 멀다’고? 여긴 내 비밀 아지트라고!"
+
+#: src/dialog/reimu.c:205
+msgid "Haven’t you heard of the Car—…"
+msgstr "혹시 석—… 이란 말, 못 들어 봤어?"
+
+#: src/dialog/reimu.c:206
+msgid "Carb—…"
+msgstr "석탄—…"
+
+#: src/dialog/reimu.c:208
+msgid "That period of history?"
+msgstr "그 시대 말이야!"
+
+#: src/dialog/reimu.c:209
+msgid "It was the greatest time, everyone should’ve heard of it by now!"
+msgstr "최고의 시대였다고, 이쯤 되면 다들 들어 봤어야 한단 말이야!"
+
+#: src/dialog/reimu.c:211
+msgid ""
+"Seems pretty far-fetched to me, honestly. But you yōkai are always coming up"
+" with the craziest theories…"
+msgstr "솔직히 영 억지 같은데. 하긴 너희 요괴들은 늘 황당한 설만 늘어놓으니까…"
+
+#: src/dialog/reimu.c:214
+msgid "Don’t lump us great insects in with common yōkai!"
+msgstr "위대한 곤충을 흔해 빠진 요괴랑 묶지 마!"
+
+#: src/dialog/reimu.c:216
+msgid "I’m going to restore us to our rightful glory of old!"
+msgstr "나는 우리의 옛 영광을 되찾고 말 거야!"
+
+#: src/dialog/reimu.c:219
+msgid "Giant insects? But you’re tiny."
+msgstr "거대 곤충? 근데 넌 쪼끄맣잖아."
+
+#: src/dialog/reimu.c:221
+msgid "And I still don’t know what you mean by ‘glory of old.’"
+msgstr "‘옛 영광’이 뭔지도 아직 모르겠고."
+
+#: src/dialog/reimu.c:225
+msgid "You don’t seem very educated about our history."
+msgstr "너, 우리 역사를 별로 모르는 모양이구나."
+
+#: src/dialog/reimu.c:226
+msgid "Allow me to be your teacher!"
+msgstr "내가 가르쳐 주지!"
+
+#: src/dialog/reimu.c:240
+msgid "Giant insects roaming Gensōkyō, huh?"
+msgstr "환상향을 거대 곤충이 활보했다, 이거지?"
+
+#: src/dialog/reimu.c:241
+msgid "Sounds like one of Sanae’s ‘nuclear’ experiments."
+msgstr "사나에가 하는 ‘핵’ 실험 같은 소리네."
+
+#: src/dialog/reimu.c:243
+msgid "B-but I saw it clearly… the glorious past of insectkind…"
+msgstr "그, 그치만 분명히 봤다고… 곤충족의 영광스러운 과거를…"
+
+#: src/dialog/reimu.c:246
+msgid "Don’t you have a pretty sweet deal as it is, though?"
+msgstr "근데 지금도 꽤 괜찮은 처지 아니야?"
+
+#: src/dialog/reimu.c:247
+msgid "You practically own Gensōkyō’s forests."
+msgstr "환상향의 숲은 사실상 다 너희 차지잖아."
+
+#: src/dialog/reimu.c:249
+msgid "But can’t we ever hope for more…?"
+msgstr "그래도 더 바라면 안 되는 거야…?"
+
+#: src/dialog/reimu.c:267
+msgid "Huh? There’s a mansion jutting out of this tower?"
+msgstr "어? 탑에서 저택이 튀어나와 있잖아?"
+
+#: src/dialog/reimu.c:269
+msgid "This makes even less sense than usual."
+msgstr "평소보다도 더 말이 안 되네."
+
+#: src/dialog/reimu.c:275
+msgid "And who are you supposed to be?"
+msgstr "그런데 넌 누구야?"
+
+#: src/dialog/reimu.c:279
+msgid "Oi, that’s what I should be asking!"
+msgstr "야, 그건 내가 할 말이거든!"
+
+#: src/dialog/reimu.c:282 src/dialog/youmu.c:322
+msgid "…?"
+msgstr "…?"
+
+#: src/dialog/reimu.c:284
+msgid "And what are you doing, anyways?"
+msgstr "그리고 너 지금 뭐 하는 거야?"
+
+#: src/dialog/reimu.c:285
+msgid "Are you behind all these… strange thoughts everyone’s having?"
+msgstr "다들 이상한 생각을 하게 된 게 전부 네 짓이야?"
+
+#: src/dialog/reimu.c:289
+msgid ""
+"I have no idea what you mean by ‘strange thoughts’, but I’ll be honest with "
+"you…"
+msgstr "‘이상한 생각’이 뭔 소린진 모르겠지만, 솔직히 말해 줄게…"
+
+#: src/dialog/reimu.c:290
+msgid "Your clothing is giving me some strange thoughts!"
+msgstr "네 옷차림 때문에 내가 이상한 생각이 든다고!"
+
+#: src/dialog/reimu.c:291
+msgid "Where’d you even get that outfit?! Dumpster diving?! For real!"
+msgstr "그 옷 대체 어디서 구했어?! 쓰레기통 뒤졌어?! 진짜로!"
+
+#: src/dialog/reimu.c:294
+msgid "Ugh, another prissy mansion-dweller."
+msgstr "으, 또 도도한 저택 사람이네."
+
+#: src/dialog/reimu.c:296
+msgid "I thought I remembered you from somewhere, but no. Absolutely not."
+msgstr "어디서 본 것 같긴 했는데, 아니네. 절대 아냐."
+
+#: src/dialog/reimu.c:298
+msgid "Just… stop whatever it is you’re doing, right now."
+msgstr "그러니까… 뭘 하는 중이든 당장 그만둬."
+
+#: src/dialog/reimu.c:301
+msgid "Once you get some fashion sense, maybe I will!"
+msgstr "패션 감각 좀 기르면 그만둘지도!"
+
+#: src/dialog/reimu.c:304
+msgid "… so you *are* behind this, huh?"
+msgstr "…역시 네가 *주범*이구나?"
+
+#: src/dialog/reimu.c:306
+msgid "Besides, haven’t you ever seen a shrine maiden before?"
+msgstr "그리고 무녀 처음 봐?"
+
+#: src/dialog/reimu.c:309
+msgid "You’re a shrine maiden?"
+msgstr "네가 무녀라고?"
+
+#: src/dialog/reimu.c:311
+msgid "More like… BRINE maiden!"
+msgstr "무녀가 아니라… 무뇌녀겠지!"
+
+#: src/dialog/reimu.c:314
+msgid "T-this is what a shrine maiden wears. It’s a uniform."
+msgstr "이, 이게 무녀 복장이거든. 제복이라고."
+
+#: src/dialog/reimu.c:316
+msgid "Uniform? Are you kidding me?!"
+msgstr "제복? 장난해?!"
+
+#: src/dialog/reimu.c:317
+msgid ""
+"I’ve seen a real shrine maiden before, and she didn’t look anything like "
+"you!"
+msgstr "진짜 무녀를 본 적 있는데, 너랑은 전혀 달랐다고!"
+
+#: src/dialog/reimu.c:318
+msgid ""
+"What’s with those patterns, anyways? It’s completely unorthodox! It’s not "
+"even using the right type of fabric!"
+msgstr "그 무늬는 또 뭐야? 완전 정통이 아니잖아! 천 종류도 안 맞고!"
+
+#: src/dialog/reimu.c:320
+msgid "Get out of here, fake-maiden!"
+msgstr "꺼져, 가짜 무녀!"
+
+#: src/dialog/reimu.c:323
+msgid "… ARGH!"
+msgstr "…으아아!"
+
+#: src/dialog/reimu.c:325
+msgid "Listen!! It’s HARD to find clothes I can wear every day on the job!"
+msgstr "들어 봐!! 일할 때 매일 입을 옷 찾는 게 얼마나 어려운 줄 알아!"
+
+#: src/dialog/reimu.c:326
+msgid "It has to fit a certain style!"
+msgstr "정해진 스타일에 맞아야 한단 말이야!"
+
+#: src/dialog/reimu.c:327
+msgid "And only a few fabrics feel good to wear!"
+msgstr "입어서 편한 천도 몇 개 없고!"
+
+#: src/dialog/reimu.c:328
+msgid "I can’t stand scratchy wool or slippery silk!"
+msgstr "까슬한 모직도, 미끄러운 비단도 질색이야!"
+
+#: src/dialog/reimu.c:329
+msgid "Everything else feels terrible against my skin—"
+msgstr "나머지는 다 피부에 닿으면 끔찍하단 말이야—"
+
+#: src/dialog/reimu.c:332
+msgid "Whoa, hey, sorry, didn’t mean to make you all—"
+msgstr "으앗, 저기, 미안, 그렇게까지 만들 생각은—"
+
+#: src/dialog/reimu.c:336
+msgid "I *hate* prissy mansion dwellers!"
+msgstr "난 도도한 저택 사람들이 *제일* 싫어!"
+
+#: src/dialog/reimu.c:338
+msgid "Let’s just get this over with!"
+msgstr "그냥 빨리 끝내자!"
+
+#: src/dialog/reimu.c:352
+msgid "That’s what you get for insulting my outfit like that."
+msgstr "내 옷을 그렇게 모욕한 대가야."
+
+#: src/dialog/reimu.c:354
+msgid "Ouch ouch ouch…"
+msgstr "아야야야…"
+
+#: src/dialog/reimu.c:355
+msgid "W-wait, what happened?"
+msgstr "어, 어라, 무슨 일이야?"
+
+#: src/dialog/reimu.c:357
+msgid "What do you mean ‘what happened’?"
+msgstr "‘무슨 일이야’라니, 무슨 소리야?"
+
+#: src/dialog/reimu.c:359
+msgid "(M-maybe if I fake having amnesia… yeah, that’s it…!)"
+msgstr "(어, 어쩌면 기억상실인 척하면… 그래, 그거야…!)"
+
+#: src/dialog/reimu.c:361
+msgid "O-oof, my head! Ow! How did I even get here???"
+msgstr "으, 으윽, 머리가! 아야! 내가 어떻게 여기 있는 거지???"
+
+#: src/dialog/reimu.c:362
+msgid "W-wait! Aren’t you that girl from a long while back?"
+msgstr "어, 어라! 너, 아주 오래전에 만났던 그 애 아냐?"
+
+#: src/dialog/reimu.c:365
+msgid "I don’t remember you at all."
+msgstr "난 너 전혀 기억 안 나."
+
+#: src/dialog/reimu.c:367
+msgid "But somehow, so familiar…"
+msgstr "그런데 왠지, 낯이 익어…"
+
+#: src/dialog/reimu.c:369
+msgid ""
+"This feeling is annoying, whatever it is. Make it stop, or tell me how to "
+"make it stop."
+msgstr "이 느낌 짜증 나. 뭐가 됐든 멈추게 하든가, 멈추는 법을 알려 줘."
+
+#: src/dialog/reimu.c:372
+msgid "Huh? I-I don’t know! I barely remember anything!"
+msgstr "엥? 모, 몰라! 거의 아무것도 기억 안 난다고!"
+
+#: src/dialog/reimu.c:373
+msgid "(Ugh, her outfit really does suck though…)"
+msgstr "(으, 근데 저 옷은 진짜 별로야…)"
+
+#: src/dialog/reimu.c:375
+msgid "(Just another victim…?)"
+msgstr "(또 다른 피해자인가…?)"
+
+#: src/dialog/reimu.c:377
+msgid "I’ll deal with you after I figure out whatever's happening here."
+msgstr "여기서 무슨 일이 벌어지는지 알아낸 다음에 널 상대해 줄게."
+
+#: src/dialog/reimu.c:394
+msgid "I’ve got a bad feeling about this…"
+msgstr "왠지 느낌이 안 좋은데…"
+
+#: src/dialog/reimu.c:396
+msgid ""
+"Or maybe I’m just feeling nauseous with this tower’s constant spinning."
+msgstr "아니면 이 탑이 계속 빙글빙글 돌아서 속이 울렁거리는 건가."
+
+#: src/dialog/reimu.c:402
+msgid "Or perchance it a side effect of the tower’s mere presence?"
+msgstr "아니면 이 탑이 존재하는 것만으로 생기는 부작용일까요?"
+
+#: src/dialog/reimu.c:404
+msgid "Oh, it’s you. Why did you attack me earlier, anyway?"
+msgstr "아, 너구나. 아까는 왜 날 공격했어?"
+
+#: src/dialog/reimu.c:408
+msgid "Ah, apologies. It must have been friendly fire."
+msgstr "아, 죄송합니다. 아군의 오사였을 겁니다."
+
+#: src/dialog/reimu.c:410
+msgid "Things are quite hectic here. I beg your understanding."
+msgstr "이곳은 꽤 어수선해서요. 양해 부탁드립니다."
+
+#: src/dialog/reimu.c:411
+msgid "But it has been a while, has it not?"
+msgstr "그런데 오랜만이지요?"
+
+#: src/dialog/reimu.c:414
+msgid "Err, right, yes, it has been a while. Nice to see you again."
+msgstr "어, 그, 그래, 오랜만이네. 만나서 반가워."
+
+#: src/dialog/reimu.c:417
+msgid "This tower is unlike anything I have seen before."
+msgstr "이 탑은 지금까지 본 어떤 것과도 다릅니다."
+
+#: src/dialog/reimu.c:418
+msgid ""
+"Since word spread through the clouds, I’ve learned that the culprit is "
+"connected to ‘parallel universes.’"
+msgstr "구름 사이로 소문이 퍼졌는데, 범인은 ‘평행 우주’와 관련이 있다고 합니다."
+
+#: src/dialog/reimu.c:421
+msgid ""
+"You mean like Otherworlds? That’s not too out of the ordinary these days."
+msgstr "이세계 같은 거 말이야? 요즘은 그리 드문 일도 아니잖아."
+
+#: src/dialog/reimu.c:423
+msgid ""
+"This feels different though. It’s like the walls are sucking up faith into a"
+" void."
+msgstr "근데 이번엔 달라. 벽이 신앙을 허공으로 빨아들이는 것 같아."
+
+#: src/dialog/reimu.c:424
+msgid "I’m surprised the fairies are surviving at all…"
+msgstr "요정들이 버티고 있는 게 신기할 정도야…"
+
+#: src/dialog/reimu.c:426
+msgid "But what are you even doing here?"
+msgstr "그런데 넌 여기서 뭐 하는 거야?"
+
+#: src/dialog/reimu.c:429
+msgid "It is not just the Netherworld and Gensōkyō being affected."
+msgstr "명계와 환상향만 영향을 받는 것이 아닙니다."
+
+#: src/dialog/reimu.c:431
+msgid ""
+"In Bhava-agra, the Eldest Daughter’s personality has experienced some "
+"changes, too."
+msgstr "유정천에서도 장녀의 성격에 변화가 생겼습니다."
+
+#: src/dialog/reimu.c:434
+msgid "It’s spreading that fast?!"
+msgstr "벌써 그렇게까지 퍼졌다고?!"
+
+#: src/dialog/reimu.c:437
+msgid "Initially, I had no plans towards interfering."
+msgstr "처음에는 간섭할 생각이 없었습니다."
+
+#: src/dialog/reimu.c:440
+msgid ""
+"However, the tower’s psychological effects began to intensify, and I began "
+"to fear that nobody would take charge."
+msgstr "하지만 탑의 정신적 영향이 심해지면서, 아무도 나서지 않을까 걱정되기 시작했습니다."
+
+#: src/dialog/reimu.c:443
+msgid "(Do people have this little faith in me…?)"
+msgstr "(사람들이 날 이렇게까지 못 믿나…?)"
+
+#: src/dialog/reimu.c:446
+msgid "As more minds began to fall prey, I considered a theory…"
+msgstr "더 많은 이들이 영향을 받는 것을 보고, 한 가지 가설을 떠올렸습니다…"
+
+#: src/dialog/reimu.c:448
+msgid "Is this machine incompatible with the existence of fantasy?"
+msgstr "이 기계는 환상의 존재와 양립할 수 없는 것이 아닐까 하는."
+
+#: src/dialog/reimu.c:450
+msgid "That may be why you feel a sense of dread about the place."
+msgstr "그래서 이곳에서 불길한 기분이 드는 것일 수도 있습니다."
+
+#: src/dialog/reimu.c:453
+msgid "Well, that settles it. Where’s the owner, then?"
+msgstr "자, 정리됐네. 그럼 주인은 어디 있어?"
+
+#: src/dialog/reimu.c:456
+msgid "To be frank, I am not sure whether you are up to the task."
+msgstr "솔직히 말씀드리면, 당신이 해낼 수 있을지는 모르겠습니다."
+
+#: src/dialog/reimu.c:457
+msgid ""
+"You are still relatively composed, yes, but your mental state seems to be "
+"deteriorating."
+msgstr "아직은 비교적 침착하시지만, 정신 상태가 나빠지고 있는 듯 보입니다."
+
+#: src/dialog/reimu.c:460
+msgid "Deteriorating? But I just got here!"
+msgstr "나빠지고 있다고? 난 이제 막 왔는데!"
+
+#: src/dialog/reimu.c:463
+msgid ""
+"You are still so worrisome. You ought to go home before you lose yourself."
+msgstr "여전히 걱정스럽군요. 자신을 잃기 전에 돌아가시지요."
+
+#: src/dialog/reimu.c:466
+msgid "No!"
+msgstr "싫어!"
+
+#: src/dialog/reimu.c:469
+msgid "I beg your pardon?"
+msgstr "뭐라고 하셨습니까?"
+
+#: src/dialog/reimu.c:471
+msgid "Don’t keep telling me how little you think of me. I’m sick of it!"
+msgstr "날 얼마나 하찮게 보는지 자꾸 말하지 마. 지긋지긋해!"
+
+#: src/dialog/reimu.c:473
+msgid "I’m going to give everyone a reason to have faith in me!"
+msgstr "모두가 날 믿을 이유를 만들어 줄 거야!"
+
+#: src/dialog/reimu.c:475
+msgid "It seems your resolve is unwavering. Very well, then."
+msgstr "결의가 굳건하시군요. 좋습니다."
+
+#: src/dialog/reimu.c:476
+msgid "Allow me to test your resistance to their infuriating machine!"
+msgstr "그 짜증 나는 기계에 대한 당신의 저항력, 시험해 드리지요!"
+
+#: src/dialog/reimu.c:489
+msgid "Thunder clouds? Are we really that high up?"
+msgstr "뇌운? 우리가 그렇게 높이 올라온 거야?"
+
+#: src/dialog/reimu.c:502
+msgid "Ah…"
+msgstr "아…"
+
+#: src/dialog/reimu.c:503
+msgid "I was wrong for doubting you, I suppose…"
+msgstr "당신을 의심한 제가 틀렸던 것 같군요…"
+
+#: src/dialog/reimu.c:506
+msgid "Somehow I don’t feel too satisfied by that."
+msgstr "왠지 별로 만족스럽지가 않네."
+
+#: src/dialog/reimu.c:509
+msgid "To be honest with you, I’m glad you arrived after all."
+msgstr "솔직히 말하자면, 결국 당신이 와 주셔서 기쁩니다."
+
+#: src/dialog/reimu.c:510
+msgid "I know now that I would not have been able to defeat her."
+msgstr "이제 알겠습니다. 저는 그녀를 쓰러뜨리지 못했을 겁니다."
+
+#: src/dialog/reimu.c:512
+msgid ""
+"Since you’re still able to think clearly, perhaps Gensōkyō will be saved "
+"after all."
+msgstr "아직 맑게 생각할 수 있는 당신이라면, 환상향도 구원받을지 모르겠군요."
+
+#: src/dialog/reimu.c:515
+msgid "Finally."
+msgstr "이제야 알아주네."
+
+#: src/dialog/reimu.c:517
+msgid "But you’re right. This is bigger than Gensōkyō."
+msgstr "하지만 네 말이 맞아. 이건 환상향보다 더 큰 문제야."
+
+#: src/dialog/reimu.c:518
+msgid "I’ll need to take this seriously."
+msgstr "진지하게 임해야겠어."
+
+#: src/dialog/reimu.c:521
+msgid "Glad to hear it."
+msgstr "그 말을 들으니 기쁘군요."
+
+#: src/dialog/reimu.c:537
+msgid "Well, well, well. It seems a faithful rat trespassed on our domain."
+msgstr "이런, 이런, 이런. 신앙심 깊은 쥐 한 마리가 우리 영역에 숨어들었군요."
+
+#: src/dialog/reimu.c:541
+msgid "How strange. You should’ve lost your mind by now."
+msgstr "이상하군요. 벌써 정신이 나갔어야 하는데."
+
+#: src/dialog/reimu.c:544
+msgid "Just turn it off already."
+msgstr "그러니까 그거 좀 꺼."
+
+#: src/dialog/reimu.c:545
+msgid "I’m not in the mood to argue, so don’t push me!"
+msgstr "말다툼할 기분 아니니까 건드리지 마!"
+
+#: src/dialog/reimu.c:549
+msgid "Bold of you to barge into MY tower and give ME orders!"
+msgstr "감히 제 탑에 쳐들어와서 제게 명령을 하다니요!"
+
+#: src/dialog/reimu.c:550
+msgid "I still remember what you did to Lady Kazami and I back then!"
+msgstr "그때 당신이 카자미 님과 제게 한 짓을 저는 아직 기억하고 있습니다!"
+
+#: src/dialog/reimu.c:553
+msgid "And what was that, again?"
+msgstr "그게 뭔데, 대체?"
+
+#: src/dialog/reimu.c:554
+msgid "I’m getting a familiar feeling just looking at you, but…"
+msgstr "널 보고 있으면 낯익은 느낌이 들긴 하는데…"
+
+#: src/dialog/reimu.c:557
+msgid "Is this a joke?! Are you trying to mock me?!"
+msgstr "장난입니까?! 저를 놀리는 겁니까?!"
+
+#: src/dialog/reimu.c:560
+msgid ""
+"I think I would’ve remembered a giant tower that makes people go mad with "
+"power!"
+msgstr "사람을 힘에 미치게 만드는 거대한 탑이라면 기억했을 것 같은데!"
+
+#: src/dialog/reimu.c:561
+msgid ""
+"The least you can do when accusing someone is to tell them what they’ve "
+"supposedly done!"
+msgstr "남을 탓하려면 적어도 뭘 했다는 건지는 말해 줘야 하잖아!"
+
+#: src/dialog/reimu.c:564
+msgid "Ah. I see."
+msgstr "아. 알겠습니다."
+
+#: src/dialog/reimu.c:566
+msgid "Fine. I will."
+msgstr "좋습니다. 말씀드리지요."
+
+#: src/dialog/reimu.c:568
+msgid ""
+"This tower is a recent invention. Its mere existence is revolutionary in "
+"several scientific fields."
+msgstr "이 탑은 최근의 발명품입니다. 그 존재만으로도 여러 과학 분야에 혁명적이지요."
+
+#: src/dialog/reimu.c:569
+msgid ""
+"The denizens of this Gensōkyō ought to have been thankful for its vast "
+"scientific knowledge…"
+msgstr "이 환상향의 주민들은 그 방대한 과학 지식에 감사했어야 합니다…"
+
+#: src/dialog/reimu.c:570
+msgid "But alas, we have other plans."
+msgstr "그러나 안타깝게도, 우리에겐 다른 계획이 있습니다."
+
+#: src/dialog/reimu.c:573
+msgid "‘This’ Gensōkyō…?"
+msgstr "‘이’ 환상향…?"
+
+#: src/dialog/reimu.c:576
+msgid "Somehow, it feels like more of a punishment."
+msgstr "왠지 감사보다는 벌에 가까운 느낌인데."
+
+#: src/dialog/reimu.c:577
+msgid "Ever heard of ‘ignorance is bliss’?"
+msgstr "모르는 게 약이라는 말 못 들어 봤어?"
+
+#: src/dialog/reimu.c:578
+msgid ""
+"There won’t be anyone to rule over, or whatever, if you make them all lose "
+"it."
+msgstr "다들 정신 나가게 만들면 다스릴 사람도 없을 텐데."
+
+#: src/dialog/reimu.c:580
+msgid ""
+"The Tower of Babel is capable of ‘enlightening’ those fortunate to be around"
+" it."
+msgstr "바벨탑은 곁에 있는 행운아들을 ‘계몽’시킬 수 있습니다."
+
+#: src/dialog/reimu.c:582
+msgid "Anyone unable to comprehend its brilliance will be driven to madness."
+msgstr "그 눈부심을 이해하지 못하는 자는 광기에 빠지게 되지요."
+
+#: src/dialog/reimu.c:584
+msgid ""
+"But this is simply retribution for the crimes that have been committed "
+"against us!"
+msgstr "그러나 이는 우리에게 저질러진 죄에 대한 보복일 뿐입니다!"
+
+#: src/dialog/reimu.c:587
+msgid "‘Parallel universes’, is that it?"
+msgstr "‘평행 우주’라는 거야?"
+
+#: src/dialog/reimu.c:590
+msgid "Hmm? Is that what you think this Gensōkyō is?"
+msgstr "흠? 당신은 이 환상향이 그런 곳이라고 생각합니까?"
+
+#: src/dialog/reimu.c:593
+msgid "You tell me! You’re the megalomaniac!"
+msgstr "그건 네가 말해! 과대망상은 너잖아!"
+
+#: src/dialog/reimu.c:595
+msgid "Do you hate me because some other Reimu did something? Is that it?"
+msgstr "다른 레이무가 뭔가 저질러서 날 미워하는 거야? 그런 거야?"
+
+#: src/dialog/reimu.c:596
+msgid "But then what does that have to do with any of us?!"
+msgstr "그럼 그게 우리랑 무슨 상관인데?!"
+
+#: src/dialog/reimu.c:598
+msgid "For a ‘scientist’, you’re not making a whole lot of sense!"
+msgstr "‘과학자’ 치고는 말이 하나도 안 되잖아!"
+
+#: src/dialog/reimu.c:601
+msgid "Perhaps you’ve simply forgotten, like you have of the rest of us!"
+msgstr "어쩌면 당신이 우리 나머지를 잊은 것처럼, 그냥 잊어버린 것이겠지요!"
+
+#: src/dialog/reimu.c:603
+msgid ""
+"Only the privileged, such as Lady Kazami, made it out! The rest of us were "
+"lost!"
+msgstr "카자미 님 같은 특권층만 빠져나왔습니다! 나머지는 사라졌고요!"
+
+#: src/dialog/reimu.c:606
+msgid "You mean Kazami Yūka? And I suppose… Alice, too?"
+msgstr "카자미 유카 말이지? 그리고 아마… 앨리스도?"
+
+#: src/dialog/reimu.c:607
+msgid ""
+"I remember when I first met Alice, and she said some weird things too, just "
+"like you are now."
+msgstr "앨리스를 처음 만났을 때도 지금 너처럼 이상한 소리를 했었어."
+
+#: src/dialog/reimu.c:609
+msgid "But she didn’t go around threatening everyone!"
+msgstr "하지만 걔는 사방에 협박하고 다니진 않았다고!"
+
+#: src/dialog/reimu.c:612
+msgid ""
+"We weren’t as lucky! And as reparation, we will take control of this "
+"Gensōkyō!"
+msgstr "우린 그렇게 운이 좋지 못했습니다! 그러니 보상으로 이 환상향을 접수하겠습니다!"
+
+#: src/dialog/reimu.c:613
+msgid "We will make it so we will NEVER be forgotten!"
+msgstr "우리가 절대로 잊히지 않게 만들겠습니다!"
+
+#: src/dialog/reimu.c:616
+msgid "Even in Gensōkyō, you can be forgotten, huh?"
+msgstr "환상향에서도 잊힐 수 있구나?"
+
+#: src/dialog/reimu.c:617
+msgid ""
+"What a miserable thought. No wonder I felt terrible just seeing this place!"
+msgstr "비참한 얘기네. 이곳을 보기만 해도 기분이 나빴던 게 당연해!"
+
+#: src/dialog/reimu.c:619
+msgid "Turn it off, or being forgotten will be the least of your worries!"
+msgstr "그거 끄지 않으면, 잊히는 건 걱정거리 축에도 못 들 거야!"
+
+#: src/dialog/reimu.c:623
+msgid "It’s too late for that! Soon, all of Gensōkyō will become enlightened!"
+msgstr "이미 늦었습니다! 곧 환상향 전체가 계몽될 겁니다!"
+
+#: src/dialog/reimu.c:625
+msgid ""
+"Don’t you understand, pitiful shrine maiden? Science is an unfathomable "
+"power, surpassed by nothing!"
+msgstr "아직도 모르겠습니까, 가련한 무녀여? 과학은 헤아릴 수 없는 힘이며, 그 무엇도 이를 능가하지 못합니다!"
+
+#: src/dialog/reimu.c:626
+msgid "We won’t be forgotten again!"
+msgstr "우리는 다시는 잊히지 않을 겁니다!"
+
+#: src/dialog/reimu.c:639
+msgid "Is that it? Are you finally done?"
+msgstr "그게 다야? 이제 끝났어?"
+
+#: src/dialog/reimu.c:640
+msgid "Y-you think this is over?! The time of reckoning is upon you!"
+msgstr "이, 이게 끝이라고 생각합니까?! 심판의 때가 다가왔습니다!"
+
+#: src/dialog/reimu.c:641
+msgid "Gaze upon the ultimate truth of the universe, and tremble!"
+msgstr "우주의 궁극적 진리를 목도하고, 전율하십시오!"
+
+#: src/dialog/youmu.c:24
+msgid "I suppose falling snow can be just as pretty as cherry blossoms…"
+msgstr "떨어지는 눈도 벚꽃 못지않게 아름답군요…"
+
+#: src/dialog/youmu.c:27
+msgid "Hey!"
+msgstr "이봐!"
+
+#: src/dialog/youmu.c:30
+msgid "I’m cooler than you, so get off my lake!"
+msgstr "내가 너보다 쿨하니까, 내 호수에서 비켜!"
+
+#: src/dialog/youmu.c:32
+msgid "I can see you’re quite cold, yes."
+msgstr "정말 추워 보이시네요, 네."
+
+#: src/dialog/youmu.c:34
+msgid ""
+"I tend to dislike dueling those weaker than myself, so I’d appreciate it if "
+"you’d step aside."
+msgstr "저는 저보다 약한 상대와 결투하는 걸 좋아하지 않으니, 비켜 주시면 감사하겠어요."
+
+#: src/dialog/youmu.c:37
+msgid "Hah! Maybe YOU should step aside, then!"
+msgstr "하! 그럼 오히려 네가 비키는 게 어때!"
+
+#: src/dialog/youmu.c:40
+msgid ""
+"I suppose it’s as good a time as any to practice my Snowflake-Destruction "
+"Technique."
+msgstr "눈송이 파쇄술을 연습하기엔 지금이 딱 좋은 때 같네요."
+
+#: src/dialog/youmu.c:44
+msgid ""
+"But if I turn you into a snowflake, you’ll have to chop yourself in half!"
+msgstr "하지만 내가 널 눈송이로 만들면, 넌 네 몸을 직접 반으로 쪼개야 한다고!"
+
+#: src/dialog/youmu.c:58
+msgid "The cold is no good for such fine blades…"
+msgstr "추위는 이런 훌륭한 칼날에 좋지 않은데요…"
+
+#: src/dialog/youmu.c:60
+msgid "Y-you should be careful with t-those!"
+msgstr "그, 그런 건 조, 조심해서 다뤄야 한다고!"
+
+#: src/dialog/youmu.c:63
+msgid "Yes, that’s what I was just saying."
+msgstr "네, 제가 방금 하려던 말이 바로 그거예요."
+
+#: src/dialog/youmu.c:80
+msgid "So this is Yōkai Mountain…"
+msgstr "여기가 요괴의 산인가요…"
+
+#: src/dialog/youmu.c:81
+msgid "A shame, I’ve heard this is usually quite a lovely place."
+msgstr "아쉽네요, 평소엔 꽤 아름다운 곳이라고 들었는데."
+
+#: src/dialog/youmu.c:84
+msgid "Oh my, what’s this? A new face?"
+msgstr "어머나, 이게 누구람? 처음 보는 얼굴이네?"
+
+#: src/dialog/youmu.c:86
+msgid "And who might you be, dear?"
+msgstr "넌 누구니, 얘야?"
+
+#: src/dialog/youmu.c:88
+msgid "Konpaku Yōmu. I am on a mission from Lady Yuyuko to investigate—"
+msgstr "콘파쿠 요우무입니다. 저는 유유코 님의 명으로 조사를 하러—"
+
+#: src/dialog/youmu.c:91
+msgid ""
+"I’ve never heard of this ‘Lady Yuyuko’ you speak of, but I can’t let this "
+"slide."
+msgstr "네가 말하는 ‘유유코 님’이란 분은 들어 본 적도 없지만, 그냥 넘어갈 순 없겠구나."
+
+#: src/dialog/youmu.c:94
+msgid ""
+"Young girls such as yourself shouldn’t be sent to do such dangerous errands!"
+msgstr "너처럼 어린 아가씨가 이렇게 위험한 심부름을 하면 못 쓰지!"
+
+#: src/dialog/youmu.c:97
+msgid "‘Y-Young girl’?! I’ll have you know that I am an expert swordswoman—"
+msgstr "‘어, 어린 아가씨’라니요?! 저는 이래 봬도 검술의 달인이에요—"
+
+#: src/dialog/youmu.c:98
+msgid "—having mastered my technique over *decades*—"
+msgstr "—*수십 년*에 걸쳐 검술을 갈고닦았고—"
+
+#: src/dialog/youmu.c:99
+msgid "—dare I say even the best in Gensōkyō—"
+msgstr "—감히 말하자면 환상향에서 제일가는—"
+
+#: src/dialog/youmu.c:102
+msgid ""
+"Aww… but you’re so adorable! No way someone like you could be into that."
+msgstr "어머나… 그래도 너무 귀여운걸! 너 같은 애가 그런 데 빠졌을 리 없잖니."
+
+#: src/dialog/youmu.c:103
+msgid ""
+"Are you sure this ‘expert swordswoman’ thing isn’t just some sort of teenage"
+" phase?"
+msgstr "그 ‘검술의 달인’이란 거, 그냥 사춘기 때 한 번 앓는 병 같은 거 아니니?"
+
+#: src/dialog/youmu.c:106
+msgid "It’s not a PHASE, mo—"
+msgstr "한때 앓는 병이 아니에요, 엄—"
+
+#: src/dialog/youmu.c:108
+msgid "…!!"
+msgstr "…!!"
+
+#: src/dialog/youmu.c:123
+msgid "Did you just call me ‘mom’…?"
+msgstr "방금 나한테 ‘엄마’라고 부른 거니…?"
+
+#: src/dialog/youmu.c:126
+msgid "I did not."
+msgstr "아니요, 안 불렀어요."
+
+#: src/dialog/youmu.c:127
+msgid "It must be the madness overcoming you."
+msgstr "광기에 휩싸이신 게 틀림없군요."
+
+#: src/dialog/youmu.c:128
+msgid "Yes, indeed."
+msgstr "네, 분명 그래요."
+
+#: src/dialog/youmu.c:131
+msgid "My, my…~"
+msgstr "어머, 어머나…~"
+
+#: src/dialog/youmu.c:134
+msgid "Don’t you dare."
+msgstr "그러기만 해 보세요."
+
+#: src/dialog/youmu.c:150
+msgid "The further I go into this forest, the more restless I feel."
+msgstr "이 숲속으로 들어갈수록 점점 마음이 불안해지네요."
+
+#: src/dialog/youmu.c:152
+msgid "Something is definitely amiss."
+msgstr "뭔가 분명히 잘못되고 있어요."
+
+#: src/dialog/youmu.c:155
+msgid "Amiss?"
+msgstr "잘못됐다고?"
+
+#: src/dialog/youmu.c:157
+msgid "Perhaps you’re frightened by our growing, overwhelming influence?"
+msgstr "혹시 우리의 날로 커지는 압도적인 세력이 두려운 거 아냐?"
+
+#: src/dialog/youmu.c:160
+msgid "Bugs do not concern me at the moment."
+msgstr "지금은 벌레 따위에 관심 없습니다."
+
+#: src/dialog/youmu.c:163
+msgid "Oh, so all insects are ‘bugs’ now, hmm? I see how it is!"
+msgstr "오, 이제 곤충은 전부 ‘벌레’란 말이지, 응? 그렇게 나오시겠다!"
+
+#: src/dialog/youmu.c:165
+msgid "Ever heard of beetles? Flies? Show us some respect!"
+msgstr "장수풍뎅이는 들어 봤어? 파리는? 우리한테도 경의를 표하라고!"
+
+#: src/dialog/youmu.c:168
+msgid "Apologies, I meant no offense."
+msgstr "사과드립니다, 기분을 상하게 할 의도는 없었어요."
+
+#: src/dialog/youmu.c:170
+msgid ""
+"I am on a mission from Lady Yuyuko to end whatever is causing the "
+"disturbance—"
+msgstr "저는 유유코 님의 명으로 이 소란의 원인이 무엇이든 끝내러 왔어요—"
+
+#: src/dialog/youmu.c:173
+msgid "Oh, oh, I understand now."
+msgstr "아, 아, 이제 알겠어."
+
+#: src/dialog/youmu.c:175
+msgid ""
+"The power wielded by an army of giant insects would surely raise some "
+"concerns."
+msgstr "거대한 곤충 군단이 가진 힘이라면 분명 걱정이 될 만하지."
+
+#: src/dialog/youmu.c:177
+msgid "Simply put, we want to restore our rightful place in history!"
+msgstr "쉽게 말해, 우리는 역사 속의 마땅한 자리를 되찾고 싶은 거야!"
+
+#: src/dialog/youmu.c:178
+msgid ""
+"It’s only natural that the lower inhabitants of the mountain would get "
+"nervous in the face of our natural dominance."
+msgstr "산의 하급 주민들이 우리의 타고난 지배력 앞에서 불안해하는 건 당연한 일이지."
+
+#: src/dialog/youmu.c:180
+msgid "Your apology is accepted. You shall not fear our wrath—"
+msgstr "사과는 받아 주지. 우리의 분노를 두려워할 필요는 없다—"
+
+#: src/dialog/youmu.c:183
+msgid "… no, no, bugs alone wouldn’t cause this kind of disturbance…"
+msgstr "… 아니, 아니, 벌레만으로는 이런 소란이 일어날 리 없어요…"
+
+#: src/dialog/youmu.c:185
+msgid "All they’re capable of is ruining my carefully manicured garden."
+msgstr "벌레들이 할 줄 아는 건 제가 애써 가꾼 정원을 망치는 것뿐이니까요."
+
+#: src/dialog/youmu.c:187
+msgid "Did you just say you’re…"
+msgstr "방금 네가 …라고 한 거야?"
+
+#: src/dialog/youmu.c:189
+msgid "… a gardener?!"
+msgstr "… 정원사라고?!"
+
+#: src/dialog/youmu.c:194
+msgid "Your true face is finally revealed!"
+msgstr "드디어 정체를 드러냈구나!"
+
+#: src/dialog/youmu.c:195
+msgid ""
+"My light shines brighter than ever now! I shall teach this lowly usurper due"
+" respect!"
+msgstr "내 빛이 그 어느 때보다 환하게 빛나고 있어! 이 미천한 찬탈자에게 마땅한 경의를 가르쳐 주마!"
+
+#: src/dialog/youmu.c:196
+msgid "So that we may live above beyond your green thumb once and for all!"
+msgstr "그래야 우리가 영원히 네 녹색 손가락 위, 아니 그 너머에서 살 수 있으니까!"
+
+#: src/dialog/youmu.c:210
+msgid "Are you aware of the legend of the Tonbokiri?"
+msgstr "‘톤보키리’의 전설을 아십니까?"
+
+#: src/dialog/youmu.c:211
+msgid ""
+"It was said its blade could cut insects in half simply by them landing on "
+"it."
+msgstr "그 칼날에 곤충이 내려앉기만 해도 두 동강이 났다고 전해집니다."
+
+#: src/dialog/youmu.c:213
+msgid "Undoubtedly, that is what has transpired today."
+msgstr "오늘 벌어진 일이 틀림없이 그와 같겠지요."
+
+#: src/dialog/youmu.c:215
+msgid "That’s not the past I saw…"
+msgstr "내가 본 과거는 그게 아닌데…"
+
+#: src/dialog/youmu.c:217
+msgid "How unfortunate for you."
+msgstr "당신에겐 안된 일이군요."
+
+#: src/dialog/youmu.c:219
+msgid ""
+"Fear not. I will end your delusional madness and restore justice and order "
+"to the—"
+msgstr "걱정 마세요. 당신의 망상과 광기를 끝내고 정의와 질서를 되찾아—"
+
+#: src/dialog/youmu.c:221
+msgid "… ugh, that’s a little much, even for me, isn’t it?"
+msgstr "… 으으, 저로서도 좀 지나쳤네요, 그렇죠?"
+
+#: src/dialog/youmu.c:223
+msgid "Seems about right, honestly…"
+msgstr "솔직히 딱 맞는 것 같은데…"
+
+#: src/dialog/youmu.c:242
+msgid "A-ha, I must be close to the true entrance now."
+msgstr "아하, 진짜 입구가 가까워진 모양이군요."
+
+#: src/dialog/youmu.c:244
+msgid "This tower… I can already feel it…"
+msgstr "이 탑… 벌써 기운이 느껴져요…"
+
+#: src/dialog/youmu.c:246
+msgid "Could this be a challenge worthy of my skills…?!"
+msgstr "제 실력에 걸맞은 시련이 될 수 있을까요…?!"
+
+#: src/dialog/youmu.c:250
+msgid "Really? This mansion is actually pretty trashy, though."
+msgstr "진짜? 근데 이 저택, 사실 꽤 후졌거든?"
+
+#: src/dialog/youmu.c:252
+msgid "Who might you be?"
+msgstr "누구시죠?"
+
+#: src/dialog/youmu.c:256
+msgid "Hmph! I’m Kurumi, a lone black rose drowning in a sea of bad taste!"
+msgstr "흥! 난 쿠루미, 나쁜 취향의 바다에 빠져 허우적대는 외로운 검은 장미야!"
+
+#: src/dialog/youmu.c:257
+msgid "You better remember that!"
+msgstr "잘 기억해 두라고!"
+
+#: src/dialog/youmu.c:260
+msgid "Perhaps I will."
+msgstr "기억해 두도록 하죠."
+
+#: src/dialog/youmu.c:262
+msgid "Are you an associate of this… mansion-tower’s denizens, then?"
+msgstr "그럼 이… 저택 겸 탑의 주민들과 관계가 있는 분인가요?"
+
+#: src/dialog/youmu.c:265
+msgid "Of course not! Who do you take me for?!"
+msgstr "당연히 아니지! 날 뭘로 보는 거야?!"
+
+#: src/dialog/youmu.c:266
+msgid ""
+"No WAY I’d want to associate myself with the dweebs running this mansion!"
+msgstr "이 저택을 운영하는 찌질이들이랑 엮이고 싶을 리가 절대 없거든!"
+
+#: src/dialog/youmu.c:267
+msgid "They dress like they’ve fallen out of a bad 80s anime!"
+msgstr "걔네 옷차림은 무슨 구린 80년대 애니에서 튀어나온 것 같다니까!"
+
+#: src/dialog/youmu.c:270
+msgid "I see. I have no immediate reason to distrust you."
+msgstr "그렇군요. 지금 당장 당신을 의심할 이유는 없네요."
+
+#: src/dialog/youmu.c:272
+msgid "… what’s an ‘80s anime’, though, if I may ask?"
+msgstr "… 그런데 ‘80년대 애니’가 뭔가요, 여쭤봐도 된다면요?"
+
+#: src/dialog/youmu.c:275
+msgid "I don’t know, don’t ask me!"
+msgstr "몰라, 나한테 묻지 마!"
+
+#: src/dialog/youmu.c:276
+msgid ""
+"The lady in the tower talks about it a lot, so it must be something horrible"
+" for sure."
+msgstr "탑에 사는 여자가 맨날 그 얘길 하니까, 분명 엄청 끔찍한 걸 거야."
+
+#: src/dialog/youmu.c:279
+msgid "Didn’t you just say you weren’t associated with them?"
+msgstr "방금 그들과 관계없다고 하지 않았나요?"
+
+#: src/dialog/youmu.c:281
+msgid "Yeah, but I was lying to see how gullible you were."
+msgstr "응, 근데 네가 얼마나 잘 속는지 보려고 거짓말한 거야."
+
+#: src/dialog/youmu.c:284
+msgid "O-of course. I-I knew that."
+msgstr "무, 물론이죠. 저, 저도 알고 있었어요."
+
+#: src/dialog/youmu.c:286
+msgid "I wanted to see if you’d come clean."
+msgstr "당신이 솔직히 털어놓는지 보려던 것뿐이에요."
+
+#: src/dialog/youmu.c:288
+msgid "My true challenge lies beyond you. Step aside."
+msgstr "제 진짜 시련은 당신 너머에 있어요. 비켜 주세요."
+
+#: src/dialog/youmu.c:292
+msgid "Nope. You’ve got a dance with a gorgeous vampire scheduled first!"
+msgstr "싫은데. 넌 먼저 멋진 흡혈귀랑 춤추기로 예약돼 있거든!"
+
+#: src/dialog/youmu.c:293
+msgid "En garde, brooding swordsgirl!"
+msgstr "자, 덤벼, 음침한 칼잡이 소녀야!"
+
+#: src/dialog/youmu.c:307
+msgid "Despite your inferior technique, I must thank you."
+msgstr "당신의 기량은 부족했지만, 감사 인사는 해야겠군요."
+
+#: src/dialog/youmu.c:308
+msgid ""
+"‘Dancing’ with you has been a pleasant distraction on the path to completing"
+" my mission."
+msgstr "당신과의 ‘춤’은 임무를 완수하러 가는 길의 기분 좋은 기분 전환이었어요."
+
+#: src/dialog/youmu.c:310
+msgid "Tell your ‘leader’ that I am coming for them."
+msgstr "당신네 ‘우두머리’에게 전하세요, 제가 가겠다고."
+
+#: src/dialog/youmu.c:312
+msgid "(She earnestly talks like a manga anti-hero…)"
+msgstr "(진지하게 만화 속 안티히어로처럼 말하네…)"
+
+#: src/dialog/youmu.c:314
+msgid "O-Oh, okay then!"
+msgstr "아, 알겠어!"
+
+#: src/dialog/youmu.c:316
+msgid "I’m sick of guarding this creepy, spooky mansion anyways."
+msgstr "어차피 이 으스스하고 오싹한 저택을 지키는 것도 지겨웠거든."
+
+#: src/dialog/youmu.c:319
+msgid "S-… spooky?"
+msgstr "오-… 오싹하다고요?"
+
+#: src/dialog/youmu.c:324
+msgid ""
+"… yeah! I thought it was gonna be all ‘scientific’ or whatever, but then "
+"they made it haunted, with like, ghosts and stuff!"
+msgstr "… 응! 되게 ‘과학적’인 곳일 줄 알았는데, 어쩌다 유령의 집이 돼서 귀신이니 뭐니 나오는 거야!"
+
+#: src/dialog/youmu.c:327
+msgid "G-…"
+msgstr "귀-…"
+
+#: src/dialog/youmu.c:328
+msgid "GHOSTS?!"
+msgstr "귀신이라고요?!"
+
+#: src/dialog/youmu.c:330
+msgid "Scary vengeful ghosts! Trying to kill you, even!"
+msgstr "무섭고 원한 맺힌 귀신들! 심지어 널 죽이려 든다니까!"
+
+#: src/dialog/youmu.c:331
+msgid "But surely a strong swordsgirl like yourself could handle it."
+msgstr "하지만 너처럼 강한 칼잡이 소녀라면 분명 감당하겠지."
+
+#: src/dialog/youmu.c:334
+msgid "B-Bring it on! Nothing will stand in my way!"
+msgstr "어, 얼마든지 덤비세요! 저를 막을 건 아무것도 없습니다!"
+
+#: src/dialog/youmu.c:337
+msgid "(Teehee, so gullible.)"
+msgstr "(헤헤, 진짜 잘 속네.)"
+
+#: src/dialog/youmu.c:354
+msgid "Incredible. Truly astounding."
+msgstr "놀랍군요. 정말 놀라워요."
+
+#: src/dialog/youmu.c:356
+msgid "Yes, the final battle approaches. I can feel it."
+msgstr "그래요, 마지막 결전이 다가오고 있어요. 느껴져요."
+
+#: src/dialog/youmu.c:358
+msgid ""
+"Will it be a legendary duel? One to go down in the history of Gensōkyō?!"
+msgstr "전설적인 결투가 될까요? 환상향의 역사에 남을 만한?!"
+
+#: src/dialog/youmu.c:361
+msgid "Oh, the gardener from the Netherworld?"
+msgstr "어머, 명계의 정원사 아니신가요?"
+
+#: src/dialog/youmu.c:363
+msgid "It’s no surprise to see you here."
+msgstr "여기서 뵙는 것도 놀랍지 않군요."
+
+#: src/dialog/youmu.c:364
+msgid "Your mistress has been taken by the Tower’s presence, I assume?"
+msgstr "당신의 주인은 탑의 기운에 사로잡힌 것이겠지요?"
+
+#: src/dialog/youmu.c:367
+msgid "Lady Yuyuko is in a safe, undisclosed location."
+msgstr "유유코 님은 밝힐 수 없는 안전한 곳에 계십니다."
+
+#: src/dialog/youmu.c:369
+msgid "The Hakurei Shrine, I presume?"
+msgstr "하쿠레이 신사겠지요?"
+
+#: src/dialog/youmu.c:372
+msgid "Wh-who told you?! Are you in league with them too?!"
+msgstr "누, 누가 알려 줬죠?! 당신도 그들과 한패인가요?!"
+
+#: src/dialog/youmu.c:375
+msgid "Of course not, but where else would she be at a time like this?"
+msgstr "설마요. 하지만 이런 때에 그분이 달리 어디에 계시겠어요?"
+
+#: src/dialog/youmu.c:378
+msgid "Hmph. Perhaps we have become too predictable."
+msgstr "흥. 우리가 너무 뻔했나 보군요."
+
+#: src/dialog/youmu.c:379
+msgid "I am here to settle this matter. You need not concern yourself—"
+msgstr "저는 이 일을 매듭지으러 왔어요. 당신이 신경 쓰실 필요는—"
+
+#: src/dialog/youmu.c:382
+msgid "On the contrary, I would say."
+msgstr "오히려 그 반대라고 말씀드리고 싶네요."
+
+#: src/dialog/youmu.c:385
+msgid "I decided to do some research on my own."
+msgstr "저도 직접 조사를 좀 해 봤답니다."
+
+#: src/dialog/youmu.c:386
+msgid "This tower is controlled by a machine…"
+msgstr "이 탑은 기계가 제어하고 있어요…"
+
+#: src/dialog/youmu.c:388
+msgid ""
+"… and the machine’s effects seem to go well beyond Gensōkyō’s boundaries."
+msgstr "… 그리고 그 기계의 영향은 환상향의 경계를 훌쩍 넘어서는 것 같고요."
+
+#: src/dialog/youmu.c:391
+msgid "Including the heavens, I presume? I see."
+msgstr "하늘까지 포함해서겠죠? 알겠습니다."
+
+#: src/dialog/youmu.c:393
+msgid "Fear not. I will allow nothing to stand in my way."
+msgstr "걱정 마세요. 저를 막는 건 무엇도 용납하지 않겠습니다."
+
+#: src/dialog/youmu.c:395
+msgid ""
+"Konpaku Yōmu, the greatest swordswoman to live and die, will settle this "
+"incident once and—"
+msgstr "살아서도 죽어서도 으뜸가는 검사, 콘파쿠 요우무가 이 이변을 단번에—"
+
+#: src/dialog/youmu.c:398
+msgid ""
+"It seems that the machine has also overinflated your ego, Swordswoman of "
+"Hakugyokurō."
+msgstr "기계가 당신의 자존심까지 부풀려 놓은 모양이네요, 백옥루의 검사님."
+
+#: src/dialog/youmu.c:400
+msgid "Would caution not be prudent in this situation?"
+msgstr "이런 상황에선 신중해야 하지 않을까요?"
+
+#: src/dialog/youmu.c:403
+msgid "Overinflated ego? Nonsense."
+msgstr "자존심이 부풀었다고요? 말도 안 돼요."
+
+#: src/dialog/youmu.c:404
+msgid ""
+"During my recent battles, I have achieved a flow state most blademasters "
+"only dream of!"
+msgstr "최근의 전투에서 저는 대부분의 검객이 꿈에서나 그리는 몰입의 경지에 올랐어요!"
+
+#: src/dialog/youmu.c:406
+msgid ""
+"Through that, I have realized the true form of my previously-incomplete "
+"yōkai-vanquishing technique!"
+msgstr "그 덕에 미완성이던 제 요괴 퇴치 검술의 참모습을 깨달았고요!"
+
+#: src/dialog/youmu.c:409
+msgid "Is that so?"
+msgstr "그런가요?"
+
+#: src/dialog/youmu.c:412
+msgid "More doubt from ignorant skeptics, I see."
+msgstr "또 무지한 회의론자의 의심이군요."
+
+#: src/dialog/youmu.c:414
+msgid "Shall we duel so that I may demonstrate to your satisfaction?!"
+msgstr "납득하실 수 있도록 결투로 보여 드릴까요?!"
+
+#: src/dialog/youmu.c:417
+msgid "W-wait, that is not what I meant, I simply—"
+msgstr "자, 잠깐요, 그런 뜻이 아니라, 저는 그저—"
+
+#: src/dialog/youmu.c:419
+msgid "I can see it in your expression! The doubt! The fear!"
+msgstr "표정에 다 드러나 있어요! 의심! 두려움!"
+
+#: src/dialog/youmu.c:420
+msgid ""
+"But I have become one with my swords, achieving a perfection that no other "
+"before me has been able—"
+msgstr "하지만 저는 제 검과 하나가 되어, 저 이전의 누구도 이루지 못한 완벽함을—"
+
+#: src/dialog/youmu.c:424
+msgid "Ah, I haven’t the time for this nonsense!"
+msgstr "아, 이런 헛소리에 쓸 시간이 없어요!"
+
+#: src/dialog/youmu.c:425
+msgid "I will not allow you to march onwards to your demise!"
+msgstr "당신이 파멸을 향해 나아가도록 내버려 둘 수는 없어요!"
+
+#: src/dialog/youmu.c:427
+msgid "Finally! Then, witness the overwhelming strength of my Rōkanken!"
+msgstr "좋아요! 그럼 제 누관검의 압도적인 힘을 똑똑히 보세요!"
+
+#: src/dialog/youmu.c:439
+msgid "Lightning? Hmph. I can outrun it with ease."
+msgstr "번개? 흥. 가볍게 따돌릴 수 있죠."
+
+#: src/dialog/youmu.c:453
+msgid "All according to plan."
+msgstr "계획대로예요."
+
+#: src/dialog/youmu.c:455
+msgid "Your logic is so twisted…"
+msgstr "논리가 참 뒤틀려 있군요…"
+
+#: src/dialog/youmu.c:456
+msgid ""
+"Alas, it cannot be helped. You have likely been affected since before your "
+"arrival."
+msgstr "어쩔 수 없죠. 아마 이곳에 오시기 전부터 영향을 받으셨을 거예요."
+
+#: src/dialog/youmu.c:457
+msgid "I have no choice but to let you through, despite my reservations."
+msgstr "내키지는 않지만 보내 드릴 수밖에 없겠네요."
+
+#: src/dialog/youmu.c:458
+msgid "Perhaps pure intentions lurk behind that ego of yours."
+msgstr "당신의 그 자존심 뒤에는 순수한 의도가 숨어 있을지도 모르죠."
+
+#: src/dialog/youmu.c:460
+msgid "And perhaps I truly have gone mad. What of it?"
+msgstr "어쩌면 정말로 제가 미쳤는지도 모르죠. 그게 어때서요?"
+
+#: src/dialog/youmu.c:461
+msgid "My mission is crystal clear:"
+msgstr "제 임무는 분명해요."
+
+#: src/dialog/youmu.c:463
+msgid ""
+"… to carry out Lady Yuyuko’s mission, and to bring peace to Gensōkyō and all"
+" connected realms!"
+msgstr "… 유유코 님의 임무를 완수하고, 환상향과 이어진 모든 세계에 평화를 가져오는 것!"
+
+#: src/dialog/youmu.c:464
+msgid "I will not fail!"
+msgstr "저는 실패하지 않아요!"
+
+#: src/dialog/youmu.c:466
+msgid "I-I see."
+msgstr "아, 알겠어요."
+
+#: src/dialog/youmu.c:467
+msgid ""
+"Ascend the staircase. You will find the perpetrator waiting for you there."
+msgstr "계단을 올라가세요. 범인이 그곳에서 기다리고 있을 거예요."
+
+#: src/dialog/youmu.c:468
+msgid ""
+"Be prepared. The technology she possesses is from a so-called ‘parallel "
+"universe’."
+msgstr "각오하세요. 그녀가 가진 기술은 이른바 ‘평행 우주’의 것이에요."
+
+#: src/dialog/youmu.c:469
+msgid ""
+"It is unlike anything any of us have encountered before. Even I am not sure "
+"of its specifics."
+msgstr "우리 중 누구도 겪어 본 적 없는 것이죠. 저도 자세한 건 모르겠어요."
+
+#: src/dialog/youmu.c:472
+msgid ""
+"Fear not, I will slice her infernal machine in half like an invasive weed."
+msgstr "걱정 마세요, 그 악마 같은 기계를 침입종 잡초처럼 반으로 베어 버리겠습니다."
+
+#: src/dialog/youmu.c:489
+msgid "Ah."
+msgstr "아."
+
+#: src/dialog/youmu.c:491
+msgid "Ahaha."
+msgstr "아하하."
+
+#: src/dialog/youmu.c:493
+msgid "Ah-hahaha!"
+msgstr "아하하하!"
+
+#: src/dialog/youmu.c:494
+msgid "Yes. Yes! This is it!"
+msgstr "그래. 그래요! 바로 이거예요!"
+
+#: src/dialog/youmu.c:495
+msgid "What a magnificent arena for a heroic final battle!!"
+msgstr "영웅적인 최후의 결전에 어찌 이리 멋진 무대란 말입니까!!"
+
+#: src/dialog/youmu.c:498
+msgid "Nothing seems to slow you down, hmm?"
+msgstr "아무것도 당신을 늦추지 못하는 모양이군요?"
+
+#: src/dialog/youmu.c:501
+msgid ""
+"Such an annoyance. But that’s to be expected of the folk of this Gensōkyō."
+msgstr "참 성가시군요. 하지만 이 환상향 사람들에게는 당연한 일이겠죠."
+
+#: src/dialog/youmu.c:503
+msgid "And I see that you’re a master of the blade, a shinigami no less!"
+msgstr "게다가 보아하니 칼날의 달인이시군요, 그것도 사신이라니!"
+
+#: src/dialog/youmu.c:505
+msgid "Absolutely splendid!"
+msgstr "정말 훌륭해요!"
+
+#: src/dialog/youmu.c:508
+msgid "Ah, I’m no shinigami, especially not now."
+msgstr "아, 저는 사신이 아니에요, 특히 지금은요."
+
+#: src/dialog/youmu.c:511
+msgid ""
+"The scythe is a rather particular weapon, you must understand. Forgive me "
+"presumptiveness."
+msgstr "낫은 꽤 까다로운 무기죠, 이해하시겠지만요. 주제넘었다면 용서하세요."
+
+#: src/dialog/youmu.c:513
+msgid ""
+"I see. I used to rely on this scythe as a gatekeeper, in the real Gensōkyō."
+msgstr "그렇군요. 저는 진짜 환상향에서 문지기로서 이 낫에 의지하곤 했어요."
+
+#: src/dialog/youmu.c:515
+msgid "Now, it will be the sigil of a new era!"
+msgstr "이제는 새로운 시대의 상징이 될 거예요!"
+
+#: src/dialog/youmu.c:517
+msgid "One that we, the ‘forgotten’, will reign over!"
+msgstr "‘잊힌’ 우리가 군림할 시대의!"
+
+#: src/dialog/youmu.c:519
+msgid "Such an unwieldy weapon… for anyone to choose it willingly…"
+msgstr "그렇게 다루기 힘든 무기를… 누군가 스스로 고르다니…"
+
+#: src/dialog/youmu.c:520
+msgid "Either you’re incredibly skilled, or incredibly foolish."
+msgstr "엄청나게 실력이 좋거나, 엄청나게 어리석거나 둘 중 하나겠죠."
+
+#: src/dialog/youmu.c:522
+msgid "I wish to find that out!"
+msgstr "그걸 알아보고 싶군요!"
+
+#: src/dialog/youmu.c:523
+msgid "After our duel, let us meet and discuss our techniques!"
+msgstr "결투가 끝나면 만나서 서로의 기술을 이야기해 봐요!"
+
+#: src/dialog/youmu.c:526
+msgid "Techniques? Hah!"
+msgstr "기술이라고요? 하!"
+
+#: src/dialog/youmu.c:527
+msgid ""
+"I’m sure our existence means nothing to you! And the feeling is mutual!"
+msgstr "우리의 존재 따위 당신에겐 아무 의미도 없겠죠! 이쪽도 마찬가지예요!"
+
+#: src/dialog/youmu.c:530
+msgid "On the contrary, scythe-bearer!"
+msgstr "천만에요, 낫을 든 분이여!"
+
+#: src/dialog/youmu.c:531
+msgid "You’ve created an impeccable stage for our final confrontation."
+msgstr "우리의 마지막 대결에 흠잡을 데 없는 무대를 마련해 주셨어요."
+
+#: src/dialog/youmu.c:533
+msgid ""
+"But first, please, tell me: what is your mission? What is it you desire?"
+msgstr "하지만 먼저 말해 주세요. 당신의 임무는 무엇입니까? 무엇을 바라시죠?"
+
+#: src/dialog/youmu.c:535
+msgid ""
+"For us to share this… intimate moment, I desire to know everything about "
+"you."
+msgstr "이… 친밀한 순간을 우리가 함께하려면, 당신에 대한 모든 것을 알고 싶어요."
+
+#: src/dialog/youmu.c:538
+msgid "…!"
+msgstr "…!"
+
+#: src/dialog/youmu.c:539
+msgid "O-Our mission, is t-to—"
+msgstr "저, 저희의 임무는, 그, 그저—"
+
+#: src/dialog/youmu.c:544
+msgid "… is to avenge our forgotten f-friends!"
+msgstr "… 잊힌 친, 친구들의 복수를 하는 거예요!"
+
+#: src/dialog/youmu.c:545
+msgid ""
+"We will create a new era of Gensōkyō, where the truly forgotten can live "
+"another day!"
+msgstr "우리는 진정으로 잊힌 자들이 하루를 더 살 수 있는 새로운 환상향의 시대를 만들 거예요!"
+
+#: src/dialog/youmu.c:546
+msgid ""
+"Soon, the residents of this land will be driven mad beyond comprehension, "
+"and be ripe to conquer!"
+msgstr "곧 이 땅의 주민들은 상상도 못할 광기에 휩싸여, 정복하기 딱 좋게 무르익을 거예요!"
+
+#: src/dialog/youmu.c:548
+msgid "So you wish to avenge your fallen compatriots… how noble…"
+msgstr "쓰러진 동지들의 복수를 하겠다는 거군요… 참으로 고결하네요…"
+
+#: src/dialog/youmu.c:549
+msgid "I can feel it move me to tears…"
+msgstr "눈물이 날 것 같아요…"
+
+#: src/dialog/youmu.c:551
+msgid ""
+"Alas, my mission, given to me by Lady Yuyuko of the Netherworld, directly "
+"conflicts with yours!"
+msgstr "하지만 안타깝게도 명계의 유유코 님이 제게 내리신 임무는 당신들의 것과 정면으로 충돌해요!"
+
+#: src/dialog/youmu.c:552
+msgid ""
+"I cannot allow you to drive my compatriots mad, or to subjugate my home!"
+msgstr "제 동료들을 미치게 하는 것도, 제 고향을 지배하게 두는 것도 용납할 수 없어요!"
+
+#: src/dialog/youmu.c:554
+msgid "Perhaps, in another time and place, we could have been friends!"
+msgstr "다른 시간, 다른 장소였다면 우리는 친구가 될 수 있었을지도 몰라요!"
+
+#: src/dialog/youmu.c:557
+msgid ""
+"B-Being friends with you h-heartless folk would be a sin! I could never!"
+msgstr "무, 무정한 당신들과 치, 친구가 되는 건 죄악이에요! 절대 못 해요!"
+
+#: src/dialog/youmu.c:560
+msgid "What a tragedy!"
+msgstr "얼마나 비극적인가요!"
+
+#: src/dialog/youmu.c:563
+msgid "You’re aiming to be the big ‘hero’ of this Gensōkyō, aren’t you?!"
+msgstr "당신은 이 환상향의 대단한 ‘영웅’이 되려는 거죠?!"
+
+#: src/dialog/youmu.c:565
+msgid ""
+"Naturally! No different than how you wish to be the hero of ‘your’ Gensōkyō!"
+msgstr "물론이죠! 당신이 ‘당신들의’ 환상향의 영웅이 되고자 하는 것과 다를 바 없어요!"
+
+#: src/dialog/youmu.c:567
+msgid "We’re not so different, you and I."
+msgstr "우리는 그리 다르지 않아요, 당신과 저는."
+
+#: src/dialog/youmu.c:570
+msgid "Your courage is admirable, I’ll give you that."
+msgstr "당신의 용기는 훌륭하다고 인정해 드리죠."
+
+#: src/dialog/youmu.c:572
+msgid "But there’s an enormous difference between us, swordswoman."
+msgstr "하지만 우리 사이엔 엄청난 차이가 있어요, 검사님."
+
+#: src/dialog/youmu.c:578
+msgid "For I possess the knowledge of science and rationality!"
+msgstr "저에게는 과학과 이성의 지식이 있으니까요!"
+
+#: src/dialog/youmu.c:579
+msgid ""
+"In a magic-filled world like this, they cut through delusional opponents "
+"with unparalleled precision!"
+msgstr "이렇게 마법으로 가득한 세계에서는 그것들이 망상에 빠진 상대를 비할 데 없는 정밀함으로 가르죠!"
+
+#: src/dialog/youmu.c:580
+msgid ""
+"Let’s see what good your swords do you when you fall prey to true "
+"enlightenment!"
+msgstr "진정한 계몽의 먹잇감이 되었을 때 당신의 검이 무슨 소용인지 어디 보죠!"
+
+#: src/dialog/youmu.c:594
+msgid "Impressive! You’ve pushed me to 10% of my true power!"
+msgstr "인상적이군요! 제 진짜 힘의 10%까지 끌어내다니!"
+
+#: src/dialog/youmu.c:596
+msgid "Your despicable pride will be your downfall!"
+msgstr "당신의 한심한 자만이 파멸을 부를 거예요!"
+
+#: src/dialog/youmu.c:598
+msgid "Behold, your judgement before the true nature of reality!"
+msgstr "보세요, 현실의 진정한 본질 앞에서 내려지는 당신의 심판을!"
+
+#: src/difficulty.c:20
+msgid "Easy"
+msgstr "이지"
+
+#: src/difficulty.c:22
+msgid "Hard"
+msgstr "하드"
+
+#: src/difficulty.c:23
+msgid "Lunatic"
+msgstr "루나틱"
+
+#: src/gamepad.c:116
+msgid "Unknown device"
+msgstr "알 수 없는 장치"
+
+#: src/gamepad.c:905
+msgid "A"
+msgstr "A"
+
+#: src/gamepad.c:906
+msgid "B"
+msgstr "B"
+
+#: src/gamepad.c:907
+msgid "X"
+msgstr "X"
+
+#: src/gamepad.c:908
+msgid "Y"
+msgstr "Y"
+
+#: src/gamepad.c:909 src/menu/cutsceneview.c:54 src/menu/media.c:60
+#: src/menu/options.c:874 src/menu/options.c:938 src/menu/options.c:1082
+#: src/menu/options.c:1191 src/menu/options.c:1282 src/menu/replayview.c:488
+msgid "Back"
+msgstr "뒤로"
+
+#: src/gamepad.c:910
+msgid "Guide"
+msgstr "가이드"
+
+#: src/gamepad.c:911
+msgid "Start"
+msgstr "시작"
+
+#: src/gamepad.c:912
+msgid "Left Stick"
+msgstr "왼쪽 스틱"
+
+#: src/gamepad.c:913
+msgid "Right Stick"
+msgstr "오른쪽 스틱"
+
+#: src/gamepad.c:914
+msgid "Left Bumper"
+msgstr "왼쪽 범퍼"
+
+#: src/gamepad.c:915
+msgid "Right Bumper"
+msgstr "오른쪽 범퍼"
+
+#: src/gamepad.c:916
+msgid "Up"
+msgstr "위"
+
+#: src/gamepad.c:917
+msgid "Down"
+msgstr "아래"
+
+#: src/gamepad.c:918
+msgid "Left"
+msgstr "왼쪽"
+
+#: src/gamepad.c:919
+msgid "Right"
+msgstr "오른쪽"
+
+#: src/gamepad.c:920
+msgid "Misc"
+msgstr "기타"
+
+#: src/gamepad.c:921
+msgid "P1"
+msgstr "P1"
+
+#: src/gamepad.c:922
+msgid "P2"
+msgstr "P2"
+
+#: src/gamepad.c:923
+msgid "P3"
+msgstr "P3"
+
+#: src/gamepad.c:924
+msgid "P4"
+msgstr "P4"
+
+#: src/gamepad.c:925
+msgid "Touchpad"
+msgstr "터치패드"
+
+#: src/gamepad.c:926
+msgid "Misc 2"
+msgstr "기타 2"
+
+#: src/gamepad.c:927
+msgid "Misc 3"
+msgstr "기타 3"
+
+#: src/gamepad.c:928
+msgid "Misc 4"
+msgstr "기타 4"
+
+#: src/gamepad.c:929
+msgid "Misc 5"
+msgstr "기타 5"
+
+#: src/gamepad.c:930
+msgid "Misc 6"
+msgstr "기타 6"
+
+#: src/gamepad.c:936 src/gamepad.c:951
+msgid "Left Trigger"
+msgstr "왼쪽 트리거"
+
+#: src/gamepad.c:937 src/gamepad.c:952
+msgid "Right Trigger"
+msgstr "오른쪽 트리거"
+
+#: src/gamepad.c:938
+msgid "Stick Up"
+msgstr "스틱 위"
+
+#: src/gamepad.c:939
+msgid "Stick Down"
+msgstr "스틱 아래"
+
+#: src/gamepad.c:940
+msgid "Stick Left"
+msgstr "스틱 왼쪽"
+
+#: src/gamepad.c:941
+msgid "Stick Right"
+msgstr "스틱 오른쪽"
+
+#: src/gamepad.c:947
+msgid "Left X"
+msgstr "왼쪽 X"
+
+#: src/gamepad.c:948
+msgid "Left Y"
+msgstr "왼쪽 Y"
+
+#: src/gamepad.c:949
+msgid "Right X"
+msgstr "오른쪽 X"
+
+#: src/gamepad.c:950
+msgid "Right Y"
+msgstr "오른쪽 Y"
+
+#: src/i18n/i18n.c:192
+msgid "__NAME__"
+msgstr "한국어"
+
+#: src/menu/charprofile.c:63
+msgid "Hakurei Reimu"
+msgstr "하쿠레이 레이무"
+
+#: src/menu/charprofile.c:64
+msgid "Shrine Maiden of Fantasy"
+msgstr "환상의 무녀"
+
+#: src/menu/charprofile.c:65 src/menu/charprofile.c:75
+msgid "Human"
+msgstr "인간"
+
+#: src/menu/charprofile.c:66
+msgid "Literature (Fiction)"
+msgstr "문학(소설)"
+
+#: src/menu/charprofile.c:67
+msgid ""
+"The incredibly particular shrine maiden.\n"
+"\n"
+"She’s taking a break from her busy novel-reading schedule to take care of an incident.\n"
+"\n"
+"Mostly, she has a vague feeling of sentimentality for a bygone era.\n"
+"\n"
+"Regardless, when the residents of Yōkai Mountain show up sobbing at her door, she has no choice but to put her book down and spring into action."
+msgstr ""
+"지독히도 까다로운 무녀.\n"
+"\n"
+"바쁜 소설 독서 일정 사이에 잠시 짬을 내어 이변을 해결하러 나섰다.\n"
+"\n"
+"딱히 이유랄 것도 없이, 지나간 시절이 막연히 그리운 요즘이다.\n"
+"\n"
+"그래도 요괴의 산 주민들이 울면서 문 앞에 찾아오면, 책을 내려놓고 움직일 수밖에 없다."
+
+#: src/menu/charprofile.c:73
+msgid "Kirisame Marisa"
+msgstr "키리사메 마리사"
+
+#: src/menu/charprofile.c:74
+msgid "Unbelievably Ordinary Magician"
+msgstr "믿기 어려울 만큼 평범한 마법사"
+
+#: src/menu/charprofile.c:76
+msgid "Eclecticism"
+msgstr "잡학"
+
+#: src/menu/charprofile.c:77
+msgid ""
+"The confident, hyperactive witch.\n"
+"\n"
+"Curious as ever about the limits of magic and the nature of reality, and when she hears about “eldritch lunacy,” her curiosity gets the better of her.\n"
+"\n"
+"But maybe this “grimoire” is best left unread?\n"
+"\n"
+"Not that a warning like that would stop her anyways. So, off she goes."
+msgstr ""
+"자신만만하고 활력 넘치는 마녀.\n"
+"\n"
+"마법의 한계와 현실의 본질이 늘 궁금했던 터라, “기괴한 광기” 이야기를 듣자 호기심을 참지 못한다.\n"
+"\n"
+"하지만 이 “마도서”는 읽지 않는 편이 낫지 않을까?\n"
+"\n"
+"그런 경고에 멈출 그녀도 아니지만. 어쨌든, 출발이다."
+
+#: src/menu/charprofile.c:83
+msgid "Konpaku Yōmu"
+msgstr "콘파쿠 요우무"
+
+#: src/menu/charprofile.c:84
+msgid "Swordswoman Between Worlds"
+msgstr "두 세계 사이의 검사"
+
+#: src/menu/charprofile.c:85
+msgid "Half-Human, Half-Phantom"
+msgstr "반인반령"
+
+#: src/menu/charprofile.c:86
+msgid "Fencing"
+msgstr "검술"
+
+#: src/menu/charprofile.c:87
+msgid ""
+"The swordswoman of the somewhat-dead.\n"
+"\n"
+"“While you were playing games, I was studying the blade” … is probably what she’d say.\n"
+"\n"
+"Entirely too serious about everything, and utterly terrified of (half of) her own existence.\n"
+"\n"
+"Still, she’s been given an important mission by Lady Yuyuko. Hopefully she doesn’t let it get to her head."
+msgstr ""
+"반쯤 죽은 자들의 검사.\n"
+"\n"
+"“네가 게임이나 하는 동안, 나는 검을 갈았다” … 라고 말할 것 같다.\n"
+"\n"
+"무슨 일이든 지나치게 진지하고, 자기 존재의 (절반)을 몹시 두려워한다.\n"
+"\n"
+"그래도 유유코 님께 중요한 임무를 받았다. 우쭐해지지만 않으면 좋겠는데."
+
+#: src/menu/charprofile.c:95
+msgid "Fairy"
+msgstr "요정"
+
+#: src/menu/charprofile.c:96
+msgid "Thermodynamics"
+msgstr "열역학"
+
+#: src/menu/charprofile.c:97
+msgid ""
+"The lovably-foolish ice fairy.\n"
+"\n"
+"Perhaps she’s a bit dissatisfied after her recent duels with secret gods and hellish fairies?\n"
+"\n"
+"Consider going easy on her."
+msgstr ""
+"사랑스러울 만큼 어리석은 얼음 요정.\n"
+"\n"
+"얼마 전 비밀의 신과 지옥의 요정과 싸우고 나서 조금 분한 걸까?\n"
+"\n"
+"살살 해 주자."
+
+#: src/menu/charprofile.c:106
+msgid "Pestilence God"
+msgstr "액신"
+
+#: src/menu/charprofile.c:107
+msgid "Gyroscopic Stabilization"
+msgstr "자이로 안정화"
+
+#: src/menu/charprofile.c:108
+msgid ""
+"Guardian of Yōkai Mountain. Her angular momentum is out of this world!\n"
+"\n"
+"She seems awfully concerned with your health and safety, to the point of being quite overbearing.\n"
+"\n"
+"You’re old enough to decide your own path in life, though."
+msgstr ""
+"요괴의 산의 수호자. 각운동량이 차원이 다르다!\n"
+"\n"
+"당신의 건강과 안전을 무척 걱정하는데, 좀 지나치게 참견하는 수준이다.\n"
+"\n"
+"그래도 인생의 길은 스스로 정할 나이잖아."
+
+#: src/menu/charprofile.c:115 src/stages/stage3/scuttle.c:37
+msgid "Scuttle"
+msgstr "스커틀"
+
+#: src/menu/charprofile.c:116
+msgid "Agile Insect Engineer"
+msgstr "민첩한 곤충 엔지니어"
+
+#: src/menu/charprofile.c:117
+msgid "Bombardier Beetle"
+msgstr "폭탄먼지벌레"
+
+#: src/menu/charprofile.c:118
+msgid "Full Stack 'Web' Development"
+msgstr "풀스택 '웹' 개발"
+
+#: src/menu/charprofile.c:119
+msgid ""
+"Not all things are computable, and this bug seems to sneak in at a decisive fork in your commute to the true culprit.\n"
+"\n"
+"The majority of insects do not scheme grand revolutions, yet their presence alone is enough to upset the course of events."
+msgstr ""
+"세상 모든 것이 계산되는 것은 아니다. 이 버그는 진범에게 가는 길의 결정적인 갈림길에 슬그머니 끼어든 모양이다.\n"
+"\n"
+"대부분의 곤충은 거창한 혁명을 꾀하지 않지만, 존재만으로도 사건의 흐름을 뒤흔들기에 충분하다."
+
+#: src/menu/charprofile.c:128
+msgid "Insect"
+msgstr "곤충"
+
+#: src/menu/charprofile.c:129
+msgid "Evolutionary Socio-Entomology"
+msgstr "진화 사회곤충학"
+
+#: src/menu/charprofile.c:130
+msgid ""
+"A bright bug - or was it insect? - far from her usual stomping grounds.\n"
+"\n"
+"She feels that Insects have lost their “rightful place” in history, whatever that means.\n"
+"\n"
+"If she thinks she has a raw evolutionary deal, someone ought to tell her about the trilobites…"
+msgstr ""
+"평소 활동하던 곳에서 멀리 나온 활달한 벌레 - 아니, 곤충이던가?\n"
+"\n"
+"그녀는 곤충이 역사 속 “마땅한 자리”를 잃었다고 느끼는데, 그게 무슨 뜻인지는 모르겠다.\n"
+"\n"
+"진화에서 손해를 봤다고 생각한다면, 누가 삼엽충 이야기를 해 줘야 할 텐데…"
+
+#: src/menu/charprofile.c:139
+msgid "Vampire"
+msgstr "흡혈귀"
+
+#: src/menu/charprofile.c:140
+msgid "Hematology"
+msgstr "혈액학"
+
+#: src/menu/charprofile.c:141
+msgid ""
+"Vampiric blast from the past. Doesn’t she know Gensōkyō already has new bloodsuckers in town?\n"
+"\n"
+"Sucking blood is what she’s good at, but her current job is a gatekeeper, and her true passion is high fashion.\n"
+"\n"
+"Everyone’s got multiple side-hustles these days…"
+msgstr ""
+"과거에서 날아온 흡혈귀. 환상향에 벌써 새로운 흡혈귀들이 와 있다는 걸 모르는 걸까?\n"
+"\n"
+"피를 빠는 게 특기지만 지금 직업은 문지기이고, 진짜 열정은 하이 패션에 있다.\n"
+"\n"
+"요즘은 다들 부업이 여럿이다…"
+
+#: src/menu/charprofile.c:150
+msgid "Oarfish"
+msgstr "산갈치"
+
+#: src/menu/charprofile.c:151
+msgid "Meteorology (Fulminology)"
+msgstr "기상학(번개학)"
+
+#: src/menu/charprofile.c:152
+msgid ""
+"Messenger from the clouds, and an amateur meteorologist.\n"
+"\n"
+"Seems to have been reading a few too many outdated psychiatry textbooks in recent times.\n"
+"\n"
+"Despite being so formal and stuffy, she seems to be the only one who knows what’s going on."
+msgstr ""
+"구름의 사자이자 아마추어 기상학자.\n"
+"\n"
+"요즘 시대에 뒤떨어진 정신의학 교과서를 너무 많이 읽은 모양이다.\n"
+"\n"
+"그렇게 격식 차리고 고리타분해 보여도, 지금 무슨 일이 벌어지는지 아는 건 그녀뿐인 듯하다."
+
+#: src/menu/charprofile.c:161
+msgid "Shinigami(?)"
+msgstr "사신(?)"
+
+#: src/menu/charprofile.c:162
+msgid "Theoretical Physics / Forensic Pathology (dual-major)"
+msgstr "이론물리학 / 법의병리학 (복수 전공)"
+
+#: src/menu/charprofile.c:163
+msgid ""
+"Slightly upset over being forgotten.\n"
+"\n"
+"Has apparently gotten herself a tutor in the “dark art” of theoretical physics. Her side-hustle is megalomania.\n"
+"\n"
+"Literally on top of the world, without a care to spare for those beneath her. Try not to let too many stones crush the innocent yōkai below when her Tower of Babel starts to crumble."
+msgstr ""
+"잊힌 것에 조금 화가 나 있다.\n"
+"\n"
+"이론물리학이라는 “암흑 기술”을 가르쳐 줄 스승을 구한 모양이다. 부업은 과대망상.\n"
+"\n"
+"말 그대로 세상 꼭대기에 올라서서, 발밑의 존재들에게는 신경도 쓰지 않는다. 그녀의 바벨탑이 무너지기 시작할 때, 아래의 죄 없는 요괴들이 돌에 너무 많이 깔리지 않도록 조심하자."
+
+#: src/menu/charprofile.c:170
+msgid "Locked"
+msgstr "잠김"
+
+#: src/menu/charprofile.c:174
+msgid "You have not unlocked this character yet!"
+msgstr "이 캐릭터는 아직 해금되지 않았습니다!"
+
+#: src/menu/charprofile.c:194
+msgid "Species"
+msgstr "종족"
+
+#: src/menu/charprofile.c:195
+msgid "Area of Study"
+msgstr "연구 분야"
+
+#: src/menu/charprofile.c:226 src/menu/media.c:56
+msgid "Character Profiles"
+msgstr "캐릭터 프로필"
+
+#: src/menu/charprofile.c:272
+msgid "Press [Fire] for alternate expressions"
+msgstr "[Fire]를 누르면 다른 표정을 볼 수 있습니다"
+
+#: src/menu/charselect.c:170
+msgid "Intuition"
+msgstr "직관"
+
+#: src/menu/charselect.c:171
+msgid "Science"
+msgstr "과학"
+
+#: src/menu/charselect.c:178
+msgid "Select Character"
+msgstr "캐릭터 선택"
+
+#: src/menu/cutsceneview.c:23
+msgid "Cutscene Viewer"
+msgstr "컷신 뷰어"
+
+#: src/menu/cutsceneview.c:49
+msgid "(Locked)"
+msgstr "(잠김)"
+
+#: src/menu/difficultyselect.c:44
+msgid ""
+"For those just beginning\n"
+"their academic careers"
+msgstr ""
+"학자의 길을\n"
+"막 걷기 시작한 분께"
+
+#: src/menu/difficultyselect.c:46
+msgid ""
+"All those years of study\n"
+"have finally paid off"
+msgstr ""
+"오랜 세월의 공부가\n"
+"드디어 빛을 보았다"
+
+#: src/menu/difficultyselect.c:48
+msgid ""
+"You must really\n"
+"love books"
+msgstr ""
+"책을 정말\n"
+"좋아하시는군요"
+
+#: src/menu/difficultyselect.c:50
+msgid ""
+"You either die a student,\n"
+"or live long enough to\n"
+"become a professor"
+msgstr ""
+"학생으로 죽거나,\n"
+"교수가 될 때까지\n"
+"오래 살거나"
+
+#: src/menu/difficultyselect.c:75
+msgid "Select Difficulty"
+msgstr "난이도 선택"
+
+#: src/menu/gameovermenu.c:36
+msgid "Load Quicksave"
+msgstr "퀵세이브 불러오기"
+
+#: src/menu/gameovermenu.c:62
+msgid "Spell Failed"
+msgstr "스펠 실패"
+
+#: src/menu/gameovermenu.c:64
+msgid "Restart"
+msgstr "다시 시작"
+
+#: src/menu/gameovermenu.c:66 src/menu/gameovermenu.c:84
+msgid "Give up"
+msgstr "포기"
+
+#: src/menu/gameovermenu.c:69
+msgid "Game Over"
+msgstr "게임 오버"
+
+#: src/menu/gameovermenu.c:76
+#, c-format
+msgid "Continue (%i)"
+msgstr "컨티뉴 (%i)"
+
+#: src/menu/gameovermenu.c:78
+msgid "Continue"
+msgstr "컨티뉴"
+
+#: src/menu/gameovermenu.c:82 src/menu/ingamemenu.c:137
+msgid "Restart the Game"
+msgstr "게임 다시 시작"
+
+#: src/menu/gameovermenu.c:84
+msgid "Return to Title"
+msgstr "타이틀로 돌아가기"
+
+#: src/menu/ingamemenu.c:133
+msgid "Game Paused"
+msgstr "게임 일시정지"
+
+#: src/menu/ingamemenu.c:135 src/menu/ingamemenu.c:161 src/menu/mainmenu.c:130
+#: src/menu/options.c:1197
+msgid "Options"
+msgstr "옵션"
+
+#: src/menu/ingamemenu.c:136
+msgid "Return to Game"
+msgstr "게임으로 돌아가기"
+
+#: src/menu/ingamemenu.c:138
+msgid "Stop the Game"
+msgstr "게임 중단"
+
+#: src/menu/ingamemenu.c:159
+msgid "Replay Paused"
+msgstr "리플레이 일시정지"
+
+#: src/menu/ingamemenu.c:162
+msgid "Continue Watching"
+msgstr "계속 보기"
+
+#: src/menu/ingamemenu.c:163
+msgid "Restart the Stage"
+msgstr "스테이지 다시 시작"
+
+#: src/menu/ingamemenu.c:164
+msgid "Skip the Stage"
+msgstr "스테이지 건너뛰기"
+
+#: src/menu/ingamemenu.c:165
+msgid "Stop Watching"
+msgstr "보기 중단"
+
+#: src/menu/mainmenu.c:119
+msgid "Start Story"
+msgstr "스토리 시작"
+
+#: src/menu/mainmenu.c:120
+msgid "Start Extra"
+msgstr "엑스트라 시작"
+
+#: src/menu/mainmenu.c:121 src/menu/stagepractice.c:35
+msgid "Stage Practice"
+msgstr "스테이지 연습"
+
+#: src/menu/mainmenu.c:123 src/menu/spellpractice.c:219
+msgid "Spell Practice"
+msgstr "스펠 연습"
+
+#: src/menu/mainmenu.c:126
+msgid "Select Stage"
+msgstr "스테이지 선택"
+
+#: src/menu/mainmenu.c:128 src/menu/replayview.c:375
+msgid "Replays"
+msgstr "리플레이"
+
+#: src/menu/mainmenu.c:129 src/menu/media.c:34
+msgid "Media Room"
+msgstr "미디어 룸"
+
+#: src/menu/mainmenu.c:133
+msgid "Quit"
+msgstr "종료"
+
+#: src/menu/mainmenu.c:242
+msgid ""
+"Unofficial derivative Tōhō Project fangame\n"
+"Not affiliated with ZUN or Team Shanghai Alice"
+msgstr ""
+"비공식 동방 프로젝트 2차 창작 팬게임\n"
+"ZUN 및 Team Shanghai Alice와 무관합니다"
+
+#: src/menu/media.c:57 src/menu/musicroom.c:138
+msgid "Music Room"
+msgstr "음악실"
+
+#: src/menu/media.c:58
+msgid "Replay Cutscenes"
+msgstr "컷신 다시 보기"
+
+#: src/menu/musicroom.c:126
+msgid "Now playing"
+msgstr "재생 중"
+
+#: src/menu/musicroom.c:174
+msgid ""
+"\n"
+"You have not unlocked this track yet!\n"
+"\n"
+"If you wish to hear it anyway, please select it again to confirm."
+msgstr ""
+"\n"
+"아직 해금하지 못한 곡입니다!\n"
+"\n"
+"그래도 듣고 싶다면 한 번 더 선택해서 확인해 주세요."
+
+#: src/menu/musicroom.c:182
+msgid ""
+"\n"
+"No comment available"
+msgstr ""
+"\n"
+"해설이 없습니다"
+
+#: src/menu/musicroom.c:240
+msgid "Unknown track"
+msgstr "알 수 없는 곡"
+
+#: src/menu/options.c:538
+msgid "Reset all settings to defaults?"
+msgstr "모든 설정을 기본값으로 되돌리시겠습니까?"
+
+#: src/menu/options.c:544
+msgid "Reset all settings to the last saved values?"
+msgstr "모든 설정을 마지막으로 저장한 값으로 되돌리시겠습니까?"
+
+#: src/menu/options.c:621 src/menu/options.c:812
+msgid "on"
+msgstr "켬"
+
+#: src/menu/options.c:622 src/menu/options.c:813
+msgid "off"
+msgstr "끔"
+
+#: src/menu/options.c:748 src/menu/savereplay.c:140
+msgid "Yes"
+msgstr "예"
+
+#: src/menu/options.c:749 src/menu/savereplay.c:141
+msgid "No"
+msgstr "아니요"
+
+#: src/menu/options.c:777
+msgid "Video Options"
+msgstr "화면 옵션"
+
+#: src/menu/options.c:780
+msgid "Fullscreen"
+msgstr "전체 화면"
+
+#: src/menu/options.c:785
+msgid "Display"
+msgstr "디스플레이"
+
+#: src/menu/options.c:789
+msgid "Window size"
+msgstr "창 크기"
+
+#: src/menu/options.c:794
+msgid "Renderer resolution"
+msgstr "렌더러 해상도"
+
+#: src/menu/options.c:799
+msgid "Resizable window"
+msgstr "창 크기 조절 허용"
+
+#: src/menu/options.c:806
+msgid "Pause the game when not focused"
+msgstr "포커스를 잃으면 게임 일시정지"
+
+#: src/menu/options.c:810
+msgid "Vertical synchronization"
+msgstr "수직 동기화"
+
+#: src/menu/options.c:816
+msgid "adaptive"
+msgstr "적응형"
+
+#: src/menu/options.c:819
+msgid "Skip frames"
+msgstr "프레임 건너뛰기"
+
+#: src/menu/options.c:827
+msgid "Overall rendering quality"
+msgstr "전체 렌더링 품질"
+
+#: src/menu/options.c:831
+msgid "Draw background"
+msgstr "배경 그리기"
+
+#: src/menu/options.c:835
+msgid "Background rendering quality"
+msgstr "배경 렌더링 품질"
+
+#: src/menu/options.c:840
+msgid "Background brightness"
+msgstr "배경 밝기"
+
+#: src/menu/options.c:845
+msgid "Background contrast"
+msgstr "배경 대비"
+
+#: src/menu/options.c:850
+msgid "Background saturation"
+msgstr "배경 채도"
+
+#: src/menu/options.c:857
+msgid "Anti-aliasing"
+msgstr "안티앨리어싱"
+
+#: src/menu/options.c:859
+msgid "none"
+msgstr "없음"
+
+#: src/menu/options.c:860
+msgid "fxaa"
+msgstr "fxaa"
+
+#: src/menu/options.c:862
+msgid "Particle effects"
+msgstr "파티클 효과"
+
+#: src/menu/options.c:864 src/menu/options.c:869
+msgid "minimal"
+msgstr "최소"
+
+#: src/menu/options.c:865 src/menu/options.c:871
+msgid "full"
+msgstr "전체"
+
+#: src/menu/options.c:867
+msgid "Postprocessing effects"
+msgstr "후처리 효과"
+
+#: src/menu/options.c:870
+msgid "fast"
+msgstr "빠름"
+
+#: src/menu/options.c:895
+msgid "Gamepad Controls"
+msgstr "게임패드 조작"
+
+#: src/menu/options.c:897 src/menu/options.c:1090
+msgid "Move up"
+msgstr "위로 이동"
+
+#: src/menu/options.c:901 src/menu/options.c:1094
+msgid "Move down"
+msgstr "아래로 이동"
+
+#: src/menu/options.c:905 src/menu/options.c:1098
+msgid "Move left"
+msgstr "왼쪽으로 이동"
+
+#: src/menu/options.c:909 src/menu/options.c:1102
+msgid "Move right"
+msgstr "오른쪽으로 이동"
+
+#: src/menu/options.c:915 src/menu/options.c:1108
+msgid "Shoot"
+msgstr "공격"
+
+#: src/menu/options.c:919 src/menu/options.c:1112
+msgid "Focus"
+msgstr "저속 이동"
+
+#: src/menu/options.c:923 src/menu/options.c:1116
+msgid "Use Spell Card"
+msgstr "스펠 카드 사용"
+
+#: src/menu/options.c:927 src/menu/options.c:1120
+msgid "Power Surge / Discharge"
+msgstr "파워 서지 / 방전"
+
+#: src/menu/options.c:933 src/menu/options.c:1134
+msgid "Skip dialog"
+msgstr "대화 건너뛰기"
+
+#: src/menu/options.c:1011
+msgid "Press any button on your gamepad to exit joystick testing mode"
+msgstr "게임패드의 아무 버튼이나 누르면 조이스틱 테스트 모드를 종료합니다"
+
+#: src/menu/options.c:1014
+#, c-format
+msgid "Press %s on your gamepad to enter joystick testing mode"
+msgstr "게임패드에서 %s 입력 시 조이스틱 테스트 모드로 진입합니다"
+
+#: src/menu/options.c:1027
+msgid "Gamepad Options"
+msgstr "게임패드 옵션"
+
+#: src/menu/options.c:1038
+msgid "Enable Gamepad/Joystick support"
+msgstr "게임패드/조이스틱 지원 사용"
+
+#: src/menu/options.c:1042
+msgid "Device"
+msgstr "장치"
+
+#: src/menu/options.c:1048 src/menu/options.c:1270
+msgid "Customize controls…"
+msgstr "조작 설정…"
+
+#: src/menu/options.c:1052
+msgid "Remap square input into circular"
+msgstr "사각 입력을 원형으로 변환"
+
+#: src/menu/options.c:1058
+msgid "Direction snap factor"
+msgstr "방향 고정 계수"
+
+#: src/menu/options.c:1062
+msgid "Diagonal bias"
+msgstr "대각선 편향"
+
+#: src/menu/options.c:1069
+msgid "Dead zone"
+msgstr "데드 존"
+
+#: src/menu/options.c:1073
+msgid "Maximum zone"
+msgstr "최대 영역"
+
+#: src/menu/options.c:1077
+msgid "Sensitivity"
+msgstr "감도"
+
+#: src/menu/options.c:1088
+msgid "Controls"
+msgstr "조작"
+
+#: src/menu/options.c:1126
+msgid "Toggle fullscreen"
+msgstr "전체 화면 전환"
+
+#: src/menu/options.c:1130
+msgid "Take a screenshot"
+msgstr "스크린샷 촬영"
+
+#: src/menu/options.c:1140
+msgid "Toggle audio"
+msgstr "소리 켜기/끄기"
+
+#: src/menu/options.c:1146
+msgid "Stop the game immediately"
+msgstr "게임 즉시 중단"
+
+#: src/menu/options.c:1150
+msgid "Restart the game immediately"
+msgstr "게임 즉시 다시 시작"
+
+#: src/menu/options.c:1154
+msgid "Quick save"
+msgstr "퀵세이브"
+
+#: src/menu/options.c:1158
+msgid "Quick load"
+msgstr "퀵로드"
+
+#: src/menu/options.c:1165
+msgid "Toggle God mode"
+msgstr "무적 모드 전환"
+
+#: src/menu/options.c:1169
+msgid "Skip stage"
+msgstr "스테이지 건너뛰기"
+
+#: src/menu/options.c:1173
+msgid "Power up"
+msgstr "파워 증가"
+
+#: src/menu/options.c:1177
+msgid "Power down"
+msgstr "파워 감소"
+
+#: src/menu/options.c:1181
+msgid "Disable background rendering (HoM effect)"
+msgstr "배경 렌더링 끄기 (HoM 효과)"
+
+#: src/menu/options.c:1185
+msgid "Toggle collision areas overlay"
+msgstr "충돌 영역 표시 전환"
+
+#: src/menu/options.c:1201
+msgid "Player name"
+msgstr "플레이어 이름"
+
+#: src/menu/options.c:1210
+msgid "Language"
+msgstr "언어 (Language)"
+
+#: src/menu/options.c:1219
+msgid "Save replays"
+msgstr "리플레이 저장"
+
+#: src/menu/options.c:1221
+msgid "always"
+msgstr "항상"
+
+#: src/menu/options.c:1222
+msgid "never"
+msgstr "안 함"
+
+#: src/menu/options.c:1223
+msgid "ask"
+msgstr "묻기"
+
+#: src/menu/options.c:1225
+msgid "Auto-restart in Spell Practice"
+msgstr "스펠 연습 자동 재시작"
+
+#: src/menu/options.c:1229
+msgid "Power in Spell and Stage Practice"
+msgstr "스펠·스테이지 연습의 파워"
+
+#: src/menu/options.c:1237
+msgid "Shoot by default"
+msgstr "기본 공격 상태"
+
+#: src/menu/options.c:1241
+msgid "Automatic Power Surge activation"
+msgstr "파워 서지 자동 발동"
+
+#: src/menu/options.c:1245
+msgid "Boss healthbar style"
+msgstr "보스 체력바 스타일"
+
+#: src/menu/options.c:1247
+msgid "classic"
+msgstr "클래식"
+
+#: src/menu/options.c:1248
+msgid "modern"
+msgstr "모던"
+
+#: src/menu/options.c:1250
+msgid "Floating score text visibility"
+msgstr "떠오르는 점수 표시"
+
+#: src/menu/options.c:1256
+msgid "SFX Volume"
+msgstr "효과음 볼륨"
+
+#: src/menu/options.c:1260
+msgid "BGM Volume"
+msgstr "BGM 볼륨"
+
+#: src/menu/options.c:1264
+msgid "Mute audio"
+msgstr "음소거"
+
+#: src/menu/options.c:1269
+msgid "Video options…"
+msgstr "화면 옵션…"
+
+#: src/menu/options.c:1271
+msgid "Gamepad & Joystick options…"
+msgstr "게임패드·조이스틱 옵션…"
+
+#: src/menu/options.c:1275
+msgid "Reload from last saved"
+msgstr "마지막 저장값 불러오기"
+
+#: src/menu/options.c:1278
+msgid "Reset to defaults"
+msgstr "기본값으로 초기화"
+
+#: src/menu/options.c:1411
+msgid "Press a key to assign, ESC to cancel"
+msgstr "할당할 키를 누르세요. 취소는 ESC"
+
+#: src/menu/options.c:1451
+msgid "All devices"
+msgstr "모든 장치"
+
+#: src/menu/options.c:1457
+msgid "No devices available"
+msgstr "사용 가능한 장치 없음"
+
+#: src/menu/options.c:1499
+msgid "Move an axis to assign, Back to cancel"
+msgstr "할당할 축을 움직이세요. 취소하려면 뒤로 버튼"
+
+#: src/menu/options.c:1500
+msgid "Press a button to assign, Back to cancel"
+msgstr "할당할 버튼을 누르세요. 취소하려면 뒤로 버튼"
+
+#: src/menu/options.c:1516
+msgid "Unbound"
+msgstr "미설정"
+
+#: src/menu/replayview.c:87
+msgid "Failed to load replay events"
+msgstr "리플레이 이벤트를 불러오지 못했습니다"
+
+#: src/menu/replayview.c:96
+#, c-format
+msgid "Can't replay this stage: unknown stage ID %X"
+msgstr "이 스테이지를 재생할 수 없습니다: 알 수 없는 스테이지 ID %X"
+
+#: src/menu/replayview.c:103
+#, c-format
+msgid "Can't replay this stage: unknown player character/mode %X/%X"
+msgstr "이 스테이지를 재생할 수 없습니다: 알 수 없는 플레이어 캐릭터/모드 %X/%X"
+
+#: src/menu/replayview.c:142
+#, c-format
+msgid "Unknown stage %X"
+msgstr "알 수 없는 스테이지 %X"
+
+#: src/menu/replayview.c:483
+msgid "No replays available. Play the game and record some!"
+msgstr "리플레이가 없습니다. 게임을 플레이하고 기록해 보세요!"
+
+#: src/menu/replayview.c:485
+msgid "There was a problem getting the replay list :("
+msgstr "리플레이 목록을 가져오는 중 문제가 발생했습니다 :("
+
+#: src/menu/savereplay.c:73
+msgid "Save Replay?"
+msgstr "리플레이를 저장하시겠습니까?"
+
+#: src/menu/spellpractice.c:64
+#, c-format
+msgid "№ %d"
+msgstr "№ %d"
+
+#: src/menu/spellpractice.c:133
+msgid "Spell Information"
+msgstr "스펠 정보"
+
+#: src/menu/spellpractice.c:141
+msgid "Type"
+msgstr "종류"
+
+#: src/menu/spellpractice.c:142
+msgid "Health"
+msgstr "체력"
+
+#: src/menu/spellpractice.c:143
+msgid "Duration"
+msgstr "지속 시간"
+
+#: src/menu/spellpractice.c:144
+msgid "Bonus Rank"
+msgstr "보너스 등급"
+
+#: src/menu/spellpractice.c:153
+#, c-format
+msgid "%g s"
+msgstr "%g초"
+
+#: src/menu/spellpractice.c:181
+msgid "Clears/Attempts"
+msgstr "클리어/도전"
+
+#: src/menu/stagepractice.c:85
+msgid "??????"
+msgstr "??????"
+
+#: src/player.c:116
+msgid "Full Power!"
+msgstr "풀 파워!"
+
+#: src/player.c:734
+msgid "Power Surge!"
+msgstr "파워 서지!"
+
+#: src/player.c:1586
+msgid " PIV"
+msgstr " PIV"
+
+#: src/plrmodes/marisa_a.c:759
+msgid "Illusion Laser"
+msgstr "환상 레이저"
+
+#: src/plrmodes/marisa_a.c:760
+msgid ""
+"Magic missiles and lasers — simple and to the point. They’ve never let you "
+"down before, so why stop now?"
+msgstr "마법 미사일과 레이저 — 단순하고 직설적이다. 지금까지 한 번도 실망시킨 적 없는데, 이제 와서 바꿀 이유가 있을까?"
+
+#: src/plrmodes/marisa_a.c:761
+msgid "Pure Love “Galactic Spark”"
+msgstr "순애 “갤럭틱 스파크”"
+
+#: src/plrmodes/marisa_b.c:554
+msgid "Stellar Vortex"
+msgstr "별의 소용돌이"
+
+#: src/plrmodes/marisa_b.c:555
+msgid ""
+"As many bullets as there are stars in the sky. Some of them are bound to "
+"hit. That's called “homing”, right?"
+msgstr "하늘의 별만큼 많은 탄. 그중 몇 발은 맞기 마련이다. 그걸 “유도”라고 하는 거 아니겠는가?"
+
+#: src/plrmodes/marisa_b.c:556
+msgid "Magic Sign “Stellar Vortex”"
+msgstr "마부 “별의 소용돌이”"
+
+#: src/plrmodes/reimu_a.c:897
+msgid "Yōkai Buster"
+msgstr "요괴 버스터"
+
+#: src/plrmodes/reimu_a.c:898
+msgid ""
+"The tried-and-true: homing amulets and sharp needles. You don’t have the "
+"luxury of time to think about aiming."
+msgstr "검증된 정석 — 유도 부적과 날카로운 바늘. 조준을 고민할 여유는 없다."
+
+#: src/plrmodes/reimu_a.c:899
+msgid "Spirit Sign “Fantasy Seal —Burst—”"
+msgstr "영부 “환상 봉인 —버스트—”"
+
+#: src/plrmodes/reimu_b.c:713
+msgid "Dream Shaper"
+msgstr "꿈을 빚는 자"
+
+#: src/plrmodes/reimu_b.c:714
+msgid ""
+"Turn your understanding of reality upside-down, and tie the boundaries of "
+"spacetime into knots as easily as the ribbons in your hair."
+msgstr "현실에 대한 인식을 뒤집고, 머리 리본을 매듭짓듯 손쉽게 시공간의 경계를 묶어 버리자."
+
+#: src/plrmodes/reimu_b.c:715
+msgid "Dream Sign “Ethereal Boundary Rupture”"
+msgstr "몽부 “아득한 경계 파열”"
+
+#: src/plrmodes/youmu_a.c:708
+msgid "Soul Reflection"
+msgstr "영혼의 반영"
+
+#: src/plrmodes/youmu_a.c:709
+msgid ""
+"Human and phantom act together towards a singular purpose. Your inner "
+"duality shall lend you a hand… or a tail."
+msgstr "인간과 유령이 하나의 목적을 향해 함께 움직인다. 내면의 이중성이 손을… 아니, 꼬리를 빌려줄 것이다."
+
+#: src/plrmodes/youmu_a.c:710
+msgid "Soul Sign “Reality-Piercing Apparition”"
+msgstr "혼부 “현실을 꿰뚫는 환영”"
+
+#: src/plrmodes/youmu_b.c:624
+msgid "Haunting Revelation"
+msgstr "들려오는 계시"
+
+#: src/plrmodes/youmu_b.c:625
+msgid ""
+"Ghosts are real, but they’re nothing to be afraid of. Unless, of course, you"
+" happen to stand in the way of a determined sword-wielding lady…"
+msgstr "유령은 실재하지만 무서워할 존재가 아니다. 물론 결의에 찬 검 든 여인의 앞길을 막아선다면 이야기가 다르지만…"
+
+#: src/plrmodes/youmu_b.c:626
+msgid "Aegis Sword “Saigyō Omnidirectional Slash”"
+msgstr "신검 “사이교 전방위 베기”"
+
+#: src/renderer/common/backend.c:118
+msgid "Automatic"
+msgstr "자동"
+
+#: src/renderer/common/backend.c:143
+msgid "Cancel"
+msgstr "취소"
+
+#: src/renderer/common/backend.c:144
+msgid "Run"
+msgstr "실행"
+
+#: src/renderer/common/backend.c:147
+msgid ""
+"Select the rendering API.\n"
+"\n"
+"Change this if the game crashes or displays incorrectly.\n"
+msgstr ""
+"렌더링 API를 선택합니다.\n"
+"\n"
+"게임이 비정상 종료되거나 화면이 제대로 나오지 않으면 바꿔 보세요.\n"
+
+#: src/stage.c:622
+#, c-format
+msgid "BGM: %s"
+msgstr "BGM: %s"
+
+#: src/stagedraw.c:1328
+msgid "Hi-Score:"
+msgstr "하이 스코어:"
+
+#: src/stagedraw.c:1329
+msgid "Score:"
+msgstr "점수:"
+
+#: src/stagedraw.c:1330
+msgid "Lives:"
+msgstr "잔기:"
+
+#: src/stagedraw.c:1331
+msgid "Spell Cards:"
+msgstr "스펠 카드:"
+
+#: src/stagedraw.c:1338
+msgid "Power:"
+msgstr "파워:"
+
+#: src/stagedraw.c:1340
+msgid "Value:"
+msgstr "가치:"
+
+#: src/stagedraw.c:1342
+msgid "Volts:"
+msgstr "볼트:"
+
+#: src/stagedraw.c:1344
+msgid "Graze:"
+msgstr "그레이즈:"
+
+#: src/stagedraw.c:1357 src/stagedraw.c:1358
+msgid "N/A"
+msgstr "N/A"
+
+#: src/stagedraw.c:1370
+msgid "Next:"
+msgstr "다음:"
+
+#: src/stagedraw.c:1396
+msgid "Fragments:"
+msgstr "조각:"
+
+#: src/stagedraw.c:1509
+msgid "God Mode is enabled!"
+msgstr "무적 모드 활성화!"
+
+#: src/stagedraw.c:1858 src/stagedraw.c:1859 src/stagedraw.c:1861
+msgid ""
+"Voltage        \n"
+"    Overdrive!"
+msgstr ""
+"전압      \n"
+"    오버드라이브!"
+
+#: src/stagedraw.c:1923
+msgid "Demo"
+msgstr "데모"
+
+#: src/stagedraw.c:1937
+msgid "All Clear!"
+msgstr "올 클리어!"
+
+#: src/stagedraw.c:1937
+msgid "Stage Clear!"
+msgstr "스테이지 클리어!"
+
+#: src/stagedraw.c:1941
+msgid "Stage Clear bonus"
+msgstr "스테이지 클리어 보너스"
+
+#: src/stagedraw.c:1942
+msgid "Life bonus"
+msgstr "잔기 보너스"
+
+#: src/stagedraw.c:1943
+msgid "Voltage bonus"
+msgstr "전압 보너스"
+
+#: src/stagedraw.c:1944
+msgid "Graze bonus"
+msgstr "그레이즈 보너스"
+
+#: src/stagedraw.c:1948
+msgid "All Clear bonus"
+msgstr "올 클리어 보너스"
+
+#: src/stagedraw.c:1953
+#, c-format
+msgid "Difficulty bonus (+%i%%)"
+msgstr "난이도 보너스 (+%i%%)"
+
+#: src/stagedraw.c:1963
+msgid "Press Fire to continue"
+msgstr "공격 키를 눌러 계속"
+
+#: src/stageinfo.c:119
+msgid "Misty Lake Encounter"
+msgstr "안개의 호수에서의 조우"
+
+#: src/stageinfo.c:120
+msgid "Riverside Hina-Nagashi"
+msgstr "강가의 히나 나가시"
+
+#: src/stageinfo.c:121
+msgid "Crawly Mountain Ascent"
+msgstr "벌레 우글대는 산길 오르기"
+
+#: src/stageinfo.c:122
+msgid "Forgotten Mansion"
+msgstr "잊힌 저택"
+
+#: src/stageinfo.c:123
+msgid "Climbing the Tower of Babel"
+msgstr "바벨탑 오르기"
+
+#: src/stageinfo.c:124
+msgid "Roof of the World"
+msgstr "세계의 지붕"
+
+#: src/stageinfo.c:125
+msgid "Extra Stage"
+msgstr "엑스트라 스테이지"
+
+#: src/stageinfo.c:125
+msgid "Descent into Madness"
+msgstr "광기 속으로의 하강"
+
+#: src/stageinfo.c:248
+#, c-format
+msgid "Spell %d"
+msgstr "스펠 %d"
+
+#: src/stageinfo.c:251
+#, c-format
+msgid "Stage %d"
+msgstr "스테이지 %d"
+
+#: src/stages/stage1/spells/snow_halation.c:187
+msgid "What are you doing??"
+msgstr "뭐 하는 거야??"
+
+#: src/stages/stage1/spells/snow_halation.c:188
+msgid "Dodge it properly!"
+msgstr "제대로 피하라구!"
+
+#: src/stages/stage1/spells/snow_halation.c:189
+msgid "I bet you can’t do it! Idiot!"
+msgstr "너 못 하지! 바보!"
+
+#: src/stages/stage1/spells/snow_halation.c:190
+msgid "I spent so much time on this attack!"
+msgstr "이 공격 만드느라 얼마나 오래 걸렸는데!"
+
+#: src/stages/stage1/spells/snow_halation.c:191
+msgid "Maybe it is too smart for secondaries!"
+msgstr "이류한텐 너무 똑똑한 공격인가 봐!"
+
+#: src/stages/stage1/spells/snow_halation.c:192
+msgid "I think you don’t even understand the timer!"
+msgstr "너 타이머가 뭔지도 모르는 거 아니야!"
+
+#: src/stages/stage1/spells/snow_halation.c:193
+msgid "You- You Idiootttt!"
+msgstr "너, 너 바보오오옷!"
+
+#: src/stages/stage1/stage1.c:30
+msgid "Freeze Sign “Perfect Freeze”"
+msgstr "동부 “퍼펙트 프리즈”"
+
+#: src/stages/stage1/stage1.c:38
+msgid "Freeze Sign “Crystal Rain”"
+msgstr "동부 “크리스탈 레인”"
+
+#: src/stages/stage1/stage1.c:43
+msgid "Winter Sign “Snow Halation”"
+msgstr "겨울부 “스노 헤일레이션”"
+
+#: src/stages/stage1/stage1.c:48
+msgid "Doom Sign “Icicle Cascade”"
+msgstr "파멸부 “고드름 폭포”"
+
+#: src/stages/stage1/stage1.c:55
+msgid "Frost Sign “Crystal Blizzard”"
+msgstr "서리부 “크리스탈 블리자드”"
+
+#: src/stages/stage2/stage2.c:25
+msgid "Shard “Amulet of Harm”"
+msgstr "파편 “해악의 부적”"
+
+#: src/stages/stage2/stage2.c:30
+msgid "Lottery Sign “Bad Pick”"
+msgstr "추첨부 “꽝 뽑기”"
+
+#: src/stages/stage2/stage2.c:35
+msgid "Lottery Sign “Wheel of Fortune”"
+msgstr "추첨부 “운명의 수레바퀴”"
+
+#: src/stages/stage2/stage2.c:42
+msgid "Lottery Sign “Monty Hall Danmaku”"
+msgstr "추첨부 “몬티 홀 탄막”"
+
+#: src/stages/stage2/wriggle.c:15
+msgid "Wriggle"
+msgstr "리글"
+
+#: src/stages/stage3/stage3.c:32
+msgid "Disruption “Logic Bomb”"
+msgstr "교란 “논리 폭탄”"
+
+#: src/stages/stage3/stage3.c:40
+msgid "Firefly Sign “Moonlight Rocket”"
+msgstr "반딧불부 “달빛 로켓”"
+
+#: src/stages/stage3/stage3.c:45
+msgid "Attractor “Moths to a Flame”"
+msgstr "끌개 “불꽃을 향한 나방”"
+
+#: src/stages/stage3/stage3.c:50
+msgid "Bug Sign “Firefly Storm”"
+msgstr "벌레부 “반딧불 폭풍”"
+
+#: src/stages/stage3/stage3.c:57
+msgid "Lamp Sign “Light Singularity”"
+msgstr "등불부 “빛의 특이점”"
+
+#: src/stages/stage3/wriggle.c:31
+msgid "Wriggle EX"
+msgstr "리글 EX"
+
+#: src/stages/stage4/stage4.c:30
+msgid "Bloodless “Gate of Walachia”"
+msgstr "무혈 “왈라키아의 문”"
+
+#: src/stages/stage4/stage4.c:35
+msgid "Bloodless “Dry Fountain”"
+msgstr "무혈 “마른 분수”"
+
+#: src/stages/stage4/stage4.c:40
+msgid "Bloodless “Red Spike”"
+msgstr "무혈 “붉은 말뚝”"
+
+#: src/stages/stage4/stage4.c:48
+msgid "Limit “Animate Wall”"
+msgstr "한계 “살아 움직이는 벽”"
+
+#: src/stages/stage4/stage4.c:53
+msgid "Summoning “Demon Wall”"
+msgstr "소환 “마의 벽”"
+
+#: src/stages/stage4/stage4.c:58
+msgid "Power Sign “Blow the Walls”"
+msgstr "힘부 “벽 날려버리기”"
+
+#: src/stages/stage4/stage4.c:63
+msgid "Predation “Vampiric Vapor”"
+msgstr "포식 “흡혈 증기”"
+
+#: src/stages/stage4/stage4.c:70
+msgid "Blood Magic “Vlad’s Army”"
+msgstr "혈마법 “블라드의 군대”"
+
+#: src/stages/stage5/stage5.c:25
+msgid "High Voltage “Static Bomb”"
+msgstr "고전압 “정전기 폭탄”"
+
+#: src/stages/stage5/stage5.c:33
+msgid "High Voltage “Atmospheric Discharge”"
+msgstr "고전압 “대기 방전”"
+
+#: src/stages/stage5/stage5.c:38
+msgid "Charge Sign “Artificial Lightning”"
+msgstr "전하부 “인공 번개”"
+
+#: src/stages/stage5/stage5.c:43
+msgid "Current Sign “Induction Field”"
+msgstr "전류부 “유도장”"
+
+#: src/stages/stage5/stage5.c:48
+msgid "Current Sign “Inductive Resonance”"
+msgstr "전류부 “유도 공진”"
+
+#: src/stages/stage5/stage5.c:53
+msgid "Spark Sign “Natural Cathode”"
+msgstr "불꽃부 “천연 음극”"
+
+#: src/stages/stage5/stage5.c:60
+msgid "Circuit Sign “Overload”"
+msgstr "회로부 “과부하”"
+
+#: src/stages/stage5/timeline.c:34
+msgid "Bombs?"
+msgstr "폭탄?"
+
+#: src/stages/stage6/nonspells/boss_nonspell_3.c:64
+msgid "Paradigm Shift!"
+msgstr "패러다임 전환!"
+
+#: src/stages/stage6/spells/toe.c:662
+msgid "Symmetry broken!"
+msgstr "대칭 붕괴!"
+
+#: src/stages/stage6/spells/toe.c:775
+msgid "Coupling the Higgs!"
+msgstr "힉스 결합!"
+
+#: src/stages/stage6/spells/toe.c:781
+msgid "Perturbation theory"
+msgstr "섭동 이론이"
+
+#: src/stages/stage6/spells/toe.c:782
+msgid "breaking down!"
+msgstr "무너진다!"
+
+#: src/stages/stage6/stage6.c:29
+msgid "Newton Sign “Occam’s Razor”"
+msgstr "뉴턴부 “오컴의 면도날”"
+
+#: src/stages/stage6/stage6.c:34
+msgid "Kepler Sign “Orbital Clockwork”"
+msgstr "케플러부 “궤도 태엽장치”"
+
+#: src/stages/stage6/stage6.c:39
+msgid "Maxwell Sign “Wave Theory”"
+msgstr "맥스웰부 “파동 이론”"
+
+#: src/stages/stage6/stage6.c:47
+msgid "Eigenstate “Many-World Interpretation”"
+msgstr "고유상태 “다세계 해석”"
+
+#: src/stages/stage6/stage6.c:52
+msgid "de Broglie Sign “Wave-Particle Duality”"
+msgstr "드브로이부 “파동-입자 이중성”"
+
+#: src/stages/stage6/stage6.c:57
+msgid "Ricci Sign “Spacetime Curvature”"
+msgstr "리치부 “시공간 곡률”"
+
+#: src/stages/stage6/stage6.c:62
+msgid "LHC “Higgs Boson Uncovered”"
+msgstr "LHC “힉스 입자 발견”"
+
+#: src/stages/stage6/stage6.c:70
+msgid "Forgotten Universe “Curvature Domination”"
+msgstr "잊힌 우주 “곡률 지배”"
+
+#: src/stages/stage6/stage6.c:78
+msgid "Tower of Truth “Theory of Everything”"
+msgstr "진리의 탑 “만물의 이론”"
+
+#: src/video.h:17 po/extra_strings.c:4 po/extra_strings.c:8
+#: po/extra_strings.c:12 po/extra_strings.c:16 po/extra_strings.c:20
+#: po/extra_strings.c:24 po/extra_strings.c:28 po/extra_strings.c:32
+#: po/extra_strings.c:36 po/extra_strings.c:40 po/extra_strings.c:44
+#: po/extra_strings.c:48 po/extra_strings.c:52 po/extra_strings.c:56
+#: po/extra_strings.c:60 po/extra_strings.c:64 po/extra_strings.c:68
+#: po/extra_strings.c:72 po/extra_strings.c:76 po/extra_strings.c:80
+#: po/extra_strings.c:84
+msgid "Taisei Project"
+msgstr "Taisei Project"
+
+#: po/extra_strings.c:2
+msgid "Divine Correction for Outliers"
+msgstr "Divine Correction for Outliers"
+
+#: po/extra_strings.c:3 po/extra_strings.c:7 po/extra_strings.c:11
+#: po/extra_strings.c:23 po/extra_strings.c:27 po/extra_strings.c:31
+#: po/extra_strings.c:35 po/extra_strings.c:39 po/extra_strings.c:43
+#: po/extra_strings.c:47 po/extra_strings.c:51 po/extra_strings.c:55
+#: po/extra_strings.c:59 po/extra_strings.c:63 po/extra_strings.c:67
+#: po/extra_strings.c:71 po/extra_strings.c:75 po/extra_strings.c:79
+#: po/extra_strings.c:83
+msgid "Tuck V"
+msgstr "Tuck V"
+
+#: po/extra_strings.c:5
+msgid ""
+"The decision to arrange a character’s existing theme or to come up with something entirely new is difficult and likely one ZUN himself struggles with.\n"
+"\n"
+"I know my strengths lie in the latter, which ultimately resulted in the stormy composition usually heard at the top of the tower, but Iku has such an interesting original theme I had to at least accept the challenge.\n"
+"\n"
+"Ultimately, I can’t decide if I did the original justice with this one or not, but I know it holds a special place in my heart."
+msgstr ""
+"캐릭터의 기존 테마를 편곡할지, 아예 새로운 곡을 만들지는 어려운 결정이며, 아마 ZUN 본인도 고민할 문제일 것이다.\n"
+"\n"
+"내 장기가 후자에 있다는 건 알고 있고, 그래서 결국 탑 꼭대기에서 흔히 들리는 폭풍 같은 곡이 나왔지만, 이쿠에게는 워낙 흥미로운 원곡 테마가 있어서 적어도 도전은 받아들여야 했다.\n"
+"\n"
+"결국 이 곡이 원곡에 걸맞은 작업이었는지는 나도 판단이 서지 않는다. 다만 내 마음속에서 특별한 자리를 차지하고 있다는 것만은 안다."
+
+#: po/extra_strings.c:6
+msgid "Existential Field"
+msgstr "Existential Field"
+
+#: po/extra_strings.c:9
+msgid ""
+"The staff roll theme.\n"
+"\n"
+"A sense of inspiration and the future is maintained from Excitation Field.\n"
+"\n"
+"One that’s a lot gentler than a thunderstorm… perhaps a bit more like a rainbow."
+msgstr ""
+"스태프 롤 테마.\n"
+"\n"
+"Excitation Field에서 이어지는 영감과 미래에 대한 느낌을 그대로 이어 간다.\n"
+"\n"
+"뇌우보다 훨씬 부드러운 곡이다… 어쩌면 무지개에 좀 더 가까울지도."
+
+#: po/extra_strings.c:10
+msgid "Dream Cycle"
+msgstr "Dream Cycle"
+
+#: po/extra_strings.c:13
+msgid ""
+"The ending’s theme.\n"
+"\n"
+"In summation, class, what have we learned today?\n"
+"\n"
+"Knowledge is the forbidden fruit; from it stem the powers of light and darkness. But it’s about time the protagonists have had a snack."
+msgstr ""
+"엔딩 테마.\n"
+"\n"
+"자, 여러분, 정리해 봅시다. 오늘 우리는 무엇을 배웠나요?\n"
+"\n"
+"지식은 금단의 열매이고, 거기서 빛과 어둠의 힘이 갈라져 나온다. 하지만 주인공들도 슬슬 간식을 먹을 때가 됐다."
+
+#: po/extra_strings.c:14
+msgid "Delta Conclusion"
+msgstr "Delta Conclusion"
+
+#: po/extra_strings.c:15
+msgid "RickyRister"
+msgstr "RickyRister"
+
+#: po/extra_strings.c:17
+msgid ""
+"Gahhhhhh why am *I* the one who has to name this, Akari?!\n"
+"Every song I’ve ever made was named by the recipient.\n"
+"You’re putting too much pressure on meeeeeee.\n"
+"\n"
+"*Ahem* So yeah, it’s a player’s score theme.\n"
+"It incorporates bits from the final boss theme and Kanako’s theme, just like any other PS theme.\n"
+"What else were you expecting?"
+msgstr ""
+"으아아아아 왜 이걸 *내*가 지어야 하는 거야, 아카리?!\n"
+"내가 만든 곡은 전부 받는 사람이 이름을 붙여 줬단 말이야.\n"
+"나한테 너무 부담을 주고 있잖아아아아아.\n"
+"\n"
+"*에헴* 아무튼, 플레이어 점수 테마야.\n"
+"다른 PS 테마와 똑같이 최종 보스 테마와 카나코의 테마 조각들이 들어 있어.\n"
+"뭘 더 기대한 거야?"
+
+#: po/extra_strings.c:18
+msgid "Unsettling Knowledge"
+msgstr "Unsettling Knowledge"
+
+#: po/extra_strings.c:19
+msgid "jneen-collective"
+msgstr "jneen-collective"
+
+#: po/extra_strings.c:21
+msgid ""
+"The intro cutscene theme.\n"
+"\n"
+"Crackles and flashes of otherworldly knowlege. Maybe a bit sinister, unclear whether to be trusted."
+msgstr ""
+"오프닝 컷신 테마.\n"
+"\n"
+"이 세상 것이 아닌 지식이 지직거리며 번쩍인다. 어딘가 불길하고, 믿어도 되는 건지 알 수 없다."
+
+#: po/extra_strings.c:22
+msgid "Delta Concision"
+msgstr "Delta Concision"
+
+#: po/extra_strings.c:25
+msgid ""
+"An introduction to the occident.\n"
+"\n"
+"Many paths branch from one. Echoes from across the sea yield a new adventure."
+msgstr ""
+"서양으로의 소개.\n"
+"\n"
+"하나에서 수많은 길이 갈라져 나간다. 바다 건너에서 들려오는 메아리가 새로운 모험을 낳는다."
+
+#: po/extra_strings.c:26
+msgid "Logic Bombardier"
+msgstr "Logic Bombardier"
+
+#: po/extra_strings.c:29
+msgid ""
+"A secret theme for a most beloved character…\n"
+"\n"
+"I wanted to play with the concept of Scuttle’s motif as heard in the tunnel of light and try to apply it to a full-length song.\n"
+"\n"
+"The results were interesting! Her theme is as much an experiment as her existence.\n"
+"\n"
+"Supposing she were to appear as a boss, I think it might sound different given a different role in the incident."
+msgstr ""
+"가장 사랑받는 캐릭터를 위한 비밀 테마…\n"
+"\n"
+"빛의 터널에서 들었던 스커틀의 모티브를 가지고 놀면서, 그걸 한 곡 분량으로 확장해 보고 싶었다.\n"
+"\n"
+"결과가 꽤 흥미로웠다! 그녀의 테마는 그녀의 존재만큼이나 실험적이다.\n"
+"\n"
+"만약 그녀가 보스로 등장한다면, 이번 사건에서 맡은 역할이 달라지는 만큼 곡도 다르게 들릴 것 같다."
+
+#: po/extra_strings.c:30
+msgid "The Fog Invites Unseen Mischief"
+msgstr "The Fog Invites Unseen Mischief"
+
+#: po/extra_strings.c:33
+msgid ""
+"The first stage’s theme.\n"
+"\n"
+"A relaxing mist illustrated with subdued instruments. Familiar shadows stir trouble just out of view. Ripples of times past dance across Misty Lake."
+msgstr ""
+"1면 테마.\n"
+"\n"
+"차분한 악기들로 그려 낸 편안한 안개. 낯익은 그림자들이 눈에 보이지 않는 곳에서 소동을 일으킨다. 지나간 시간의 잔물결이 안개의 호수 위에서 춤춘다."
+
+#: po/extra_strings.c:34
+msgid "An Impish Reflection on the Water"
+msgstr "An Impish Reflection on the Water"
+
+#: po/extra_strings.c:37
+msgid ""
+"Cirno’s theme.\n"
+"\n"
+"She’s feeling just as brave this time around, and acting a fair bit stronger.\n"
+"\n"
+"However, she’s really just a minor annoyance, cold and brittle. The protagonists brush off her pranks and move on."
+msgstr ""
+"치르노의 테마.\n"
+"\n"
+"이번에도 여전히 용감하고, 꽤 더 강해진 모습으로 나타난다.\n"
+"\n"
+"하지만 사실 차갑고 부서지기 쉬운, 그저 조금 성가신 존재일 뿐이다. 주인공들은 그녀의 장난을 가볍게 털어 내고 갈 길을 간다."
+
+#: po/extra_strings.c:38
+msgid "Treasure the Wager, Treasure the Odds"
+msgstr "Treasure the Wager, Treasure the Odds"
+
+#: po/extra_strings.c:41
+msgid ""
+"The second stage’s theme.\n"
+"\n"
+"For such a calm and serene path, there sure are a lot of troublemakers — a deceptively fast-paced theme, to be sure. One excitable example makes a brief appearance. The rhythm of this theme is meant to make you feel lucky."
+msgstr ""
+"2면 테마.\n"
+"\n"
+"이렇게 고요하고 평온한 길에 말썽쟁이가 어쩜 이리 많은지. 겉보기와 달리 템포가 빠른 곡이다. 들뜬 말썽쟁이 하나가 잠깐 얼굴을 내민다. 이 곡의 리듬은 듣는 사람이 운이 좋다고 느끼게 만들려는 것이다."
+
+#: po/extra_strings.c:42
+msgid "The Cheerful Presence of a Dark God"
+msgstr "The Cheerful Presence of a Dark God"
+
+#: po/extra_strings.c:45
+msgid ""
+"Hina Kagiyama’s theme.\n"
+"\n"
+"This time, it’s all up to chance.\n"
+"\n"
+"It’s a little merciful sometimes, but you still have to do your best, no matter what. Gambling might be a poor stress-reliever…"
+msgstr ""
+"카기야마 히나의 테마.\n"
+"\n"
+"이번에는 모든 것이 운에 달려 있다.\n"
+"\n"
+"가끔은 좀 봐주기도 하지만, 그래도 무슨 일이 있어도 최선을 다해야 한다. 도박은 스트레스 해소법으로는 별로일지도…"
+
+#: po/extra_strings.c:46
+msgid "Fizeau’s Finding ~ Lightray Vector"
+msgstr "Fizeau’s Finding ~ Lightray Vector"
+
+#: po/extra_strings.c:49
+msgid ""
+"The third stage’s theme.\n"
+"\n"
+"It’s usually tricky to see in the dark. It pulls you in, engulfs you, like a sense-smothering flame. But this time, it might be best to protect your eyes. A fluttering little bug feels most at home in the dead of night, and most alive in a sea of light."
+msgstr ""
+"3면 테마.\n"
+"\n"
+"어둠 속에서는 보통 앞을 보기 어렵다. 감각을 질식시키는 불길처럼 당신을 끌어당기고 집어삼킨다. 하지만 이번에는 눈을 보호하는 편이 좋을지도 모른다. 팔랑거리는 작은 벌레는 깊은 밤에 가장 편안하고, 빛의 바다 속에서 가장 생기 넘친다."
+
+#: po/extra_strings.c:50
+msgid "Lightningbug ~ Lightning Heart"
+msgstr "Lightningbug ~ Lightning Heart"
+
+#: po/extra_strings.c:53
+msgid ""
+"Wriggle Nightbug’s theme.\n"
+"\n"
+"A very motivated bug. She’s at the top of the world! — No, someone else is, she’s in the middle of a tunnel. Regardless, she knows she can do anything if she puts her mind to it, right?\n"
+"\n"
+"Sounds a little “beach”-like in the introduction…"
+msgstr ""
+"리글 나이트버그의 테마.\n"
+"\n"
+"의욕 넘치는 벌레다. 세상 꼭대기에 오른 기분이다! — 아니, 꼭대기에 있는 건 다른 사람이고, 그녀는 터널 한복판에 있다. 어쨌든 마음만 먹으면 뭐든 할 수 있다고 알고 있다, 맞지?\n"
+"\n"
+"도입부가 조금 “해변” 같은 소리가 난다…"
+
+#: po/extra_strings.c:54
+msgid "Evidence of Ki Domestication"
+msgstr "Evidence of Ki Domestication"
+
+#: po/extra_strings.c:57
+msgid ""
+"The fourth stage’s theme.\n"
+"\n"
+"Another trip back into the orient… like a pendulum swinging back and forth.\n"
+"\n"
+"This theme draws inspiration from a particularly elusive musician living on the other side of the sea known for the Chinese influences in his music.\n"
+"\n"
+"Smells like rust."
+msgstr ""
+"4면 테마.\n"
+"\n"
+"또다시 동양으로 떠나는 여행… 앞뒤로 흔들리는 추처럼.\n"
+"\n"
+"이 곡은 바다 건너에 사는, 음악에 중국풍 영향이 짙기로 유명한 몹시 종잡을 수 없는 한 음악가에게서 영감을 받았다.\n"
+"\n"
+"녹슨 냄새가 난다."
+
+#: po/extra_strings.c:58
+msgid "Marginal Red ~ The Red Word"
+msgstr "Marginal Red ~ The Red Word"
+
+#: po/extra_strings.c:61
+msgid ""
+"Kurumi’s theme.\n"
+"\n"
+"Old faces and new dreams. She’s taken a new residence, something a little more comfortable than a Lake of Blood, but this confrontation is anything but. A mix of fears make the walls feel like they’re closing in."
+msgstr ""
+"쿠루미의 테마.\n"
+"\n"
+"낯익은 얼굴들과 새로운 꿈. 그녀는 피의 호수보다 조금 더 편안한 새 거처를 마련했지만, 이번 대결은 결코 편안하지 않다. 뒤섞인 공포가 벽이 점점 조여 오는 듯한 기분을 준다."
+
+#: po/extra_strings.c:62
+msgid "Speak Not Falsely ~ Excitation Field"
+msgstr "Speak Not Falsely ~ Excitation Field"
+
+#: po/extra_strings.c:65
+msgid ""
+"The fifth stage’s theme.\n"
+"\n"
+"And back again… how did that song go? “No reason to get excited…”\n"
+"\n"
+"But in honesty, this is a combination of Eastern and Western influences now. If it were like a pendulum up to this point, then this theme is like an oscillating electric current.\n"
+"\n"
+"Those who climb risk a long fall, so look to the top and don’t make a single dishonest step."
+msgstr ""
+"5면 테마.\n"
+"\n"
+"그리고 다시 돌아와서… 그 노래가 어떻게 흘러갔더라? “흥분할 이유 같은 건 없어…”\n"
+"\n"
+"하지만 솔직히 말하면 이 곡은 이제 동양과 서양의 영향을 합친 것이다. 지금까지가 추 같았다면, 이 곡은 진동하는 교류 전류 같다.\n"
+"\n"
+"오르는 자는 높은 곳에서 떨어질 위험을 안으니, 꼭대기를 바라보며 단 한 걸음도 거짓된 발걸음을 내딛지 마라."
+
+#: po/extra_strings.c:66
+msgid "A Prayer Worth Three Hundred Coulombs"
+msgstr "A Prayer Worth Three Hundred Coulombs"
+
+#: po/extra_strings.c:69
+msgid ""
+"Iku Nagae’s theme.\n"
+"\n"
+"This song went through the wringer. Perhaps that’s appropriate for what the protagonists have to do. Imagine climbing a tower in the middle of a vicious thunderstorm and try not to feel exhausted.\n"
+"\n"
+"Iku provides the first tribulation."
+msgstr ""
+"나가에 이쿠의 테마.\n"
+"\n"
+"이 곡은 갖은 고생을 다 겪었다. 어쩌면 주인공들이 해야 할 일에는 그게 어울리는지도 모른다. 사나운 뇌우 속에서 탑을 오른다고 상상해 보고, 지치지 않으려고 애써 보자.\n"
+"\n"
+"이쿠가 첫 번째 시련을 내려 준다."
+
+#: po/extra_strings.c:70
+msgid "Summit of Revelations"
+msgstr "Summit of Revelations"
+
+#: po/extra_strings.c:73
+msgid ""
+"The sixth stage’s theme.\n"
+"\n"
+"At the top of the tower, you can see the world, and at what risk?\n"
+"\n"
+"A grand architectural marvel may take thousands of years to complete… this song was no different! But the end result feels like a great discovery."
+msgstr ""
+"6면 테마.\n"
+"\n"
+"탑 꼭대기에서는 세상이 내려다보인다. 하지만 어떤 위험을 무릅쓰고서일까?\n"
+"\n"
+"웅장한 건축의 경이는 완성되기까지 수천 년이 걸릴 수도 있다… 이 곡도 마찬가지였다! 하지만 완성된 결과물은 위대한 발견처럼 느껴진다."
+
+#: po/extra_strings.c:74
+msgid "Cosmological Battle ~ The Vacuum Catastrophe"
+msgstr "Cosmological Battle ~ The Vacuum Catastrophe"
+
+#: po/extra_strings.c:77
+msgid ""
+"Elly’s first theme.\n"
+"\n"
+"An old friend. I always found myself inspired by the idea of a completely inconsequential character from forgotten times climbing to great heights after fading into obscurity.\n"
+"\n"
+"She may have been a lowly gate guard the last time you saw her, but the apple’s fallen on her head. She’s a guard of a different kind of gate now."
+msgstr ""
+"엘리의 첫 번째 테마.\n"
+"\n"
+"오랜 친구. 잊힌 시대의 전혀 중요하지 않던 캐릭터가 무명 속으로 사라졌다가 높은 곳으로 올라선다는 발상에 나는 늘 영감을 받았다.\n"
+"\n"
+"지난번에 봤을 때는 보잘것없는 문지기였을지 몰라도, 이제 그녀의 머리 위로 사과가 떨어졌다. 지금 그녀는 다른 종류의 문을 지키는 문지기다."
+
+#: po/extra_strings.c:78
+msgid "Deified Emergent Property ~ Ambivalent Soul"
+msgstr "Deified Emergent Property ~ Ambivalent Soul"
+
+#: po/extra_strings.c:81
+msgid ""
+"Elly’s second theme.\n"
+"\n"
+"The most frightening and wondrous powers of the world remain just out of reach to our mortal minds. But a couple of truly brilliant people just may have found the bridge between our world and theirs…\n"
+"\n"
+"Elly is a new person now, so an arrange wouldn’t speak the truth."
+msgstr ""
+"엘리의 두 번째 테마.\n"
+"\n"
+"세상에서 가장 무섭고도 경이로운 힘은 우리 필멸자의 정신이 닿지 않는 곳에 남아 있다. 하지만 정말 뛰어난 두어 사람이 우리 세계와 그들의 세계를 잇는 다리를 찾아냈을지도 모른다…\n"
+"\n"
+"엘리는 이제 새로운 사람이므로, 편곡은 진실을 말해 주지 못할 것이다."
+
+#: po/extra_strings.c:82
+msgid "Immutable Truth"
+msgstr "Immutable Truth"
+
+#: po/extra_strings.c:85
+msgid ""
+"Elly’s last spell.\n"
+"\n"
+"The most ambitious and impossibly necessary tasks must encapsulate absolutely everything. Many think of science as a body of knowledge, a sealed bubble, within which all “great discoveries” have already been achieved, but the contrary could not be more true. Science is an unending series of dark curtains to pull back, each new finding more magnificent and imperceptible than the last."
+msgstr ""
+"엘리의 마지막 스펠.\n"
+"\n"
+"가장 야심 차고 불가능할 만큼 꼭 필요한 과업은 그야말로 모든 것을 담아내야 한다. 많은 이들이 과학을 지식의 덩어리, 즉 모든 “위대한 발견”이 이미 이루어진 봉인된 거품 같은 것으로 생각하지만, 실상은 정반대다. 과학은 걷어 내야 할 어두운 장막이 끝없이 이어지는 것이며, 새로운 발견은 매번 이전 것보다 더 장엄하고 더 감지하기 어렵다."
+
+#. 옵션 Language 값. i18n.h가 POTFILES에 없어 pot에는 없지만 실행 시 번역된다
+#: src/i18n/i18n.h:17
+msgid "System"
+msgstr "시스템"
