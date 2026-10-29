@@ -8,6 +8,7 @@
 
 #include "player.h"
 
+#include "ai_bridge.h"
 #include "audio/audio.h"
 #include "entity.h"
 #include "gamepad.h"
@@ -675,6 +676,7 @@ static bool player_bomb(Player *plr) {
 
 	if(player_can_bomb(plr)) {
 		stats_track_bomb_used(&plr->stats);
+		ai_bridge_on_bomb();
 		player_fail_spell(plr);
 		// player_cancel_powersurge(plr);
 		// stage_clear_hazards(CLEAR_HAZARDS_ALL);
@@ -890,6 +892,7 @@ void player_realdeath(Player *plr) {
 
 	if(global.stage->type != STAGE_SPELL && global.boss && global.boss->current && global.boss->current->type == AT_ExtraSpell) {
 		// deaths in extra spells "don't count"
+		ai_bridge_on_death(false);
 		return;
 	}
 
@@ -904,6 +907,7 @@ void player_realdeath(Player *plr) {
 	plr->voltage *= 0.9;
 	plr->lives--;
 	stats_track_life_used(&plr->stats);
+	ai_bridge_on_death(true);
 }
 
 static void player_death_effect_draw_overlay(Projectile *p, int t, ProjDrawRuleArgs args) {
@@ -967,6 +971,7 @@ void player_death(Player *plr) {
 		return;
 	}
 
+	ai_bridge_on_hit();
 	play_sfx("death");
 
 	for(int i = 0; i < 60; i++) {
@@ -1196,6 +1201,10 @@ PlayerEventResult player_event(
 			break;
 	}
 
+	if(cheat) {
+		ai_bridge_on_cheat();
+	}
+
 	if(rpy_in && rpy_in->stage) {
 		assert(rpy_in->mode == REPLAY_PLAY);
 
@@ -1360,8 +1369,17 @@ void player_fix_input(Player *plr, ReplayState *rpy_out) {
 
 	PlrInputFlag newflags = plr->inputflags;
 	bool invert_shot = config_get_int(CONFIG_SHOT_INVERTED);
+	bool ai_input = ai_bridge_owns_input();
 
-	for(KeyIndex key = KEYIDX_FIRST; key <= KEYIDX_LAST; ++key) {
+	if(ai_input) {
+		// AI bridge owns the input: the held state comes from its action instead of the
+		// physical keys (shot inversion only applies to physical keys). The result still goes
+		// through player_event() below, so it is recorded in the replay like a human input.
+		newflags = ai_bridge_hold_flags();
+		plr->gamepadmove = false;
+	}
+
+	for(KeyIndex key = KEYIDX_FIRST; !ai_input && key <= KEYIDX_LAST; ++key) {
 		int flag = key_to_inflag(key);
 
 		if(flag && !(plr->gamepadmove && (flag & INFLAGS_MOVE))) {
@@ -1384,8 +1402,11 @@ void player_fix_input(Player *plr, ReplayState *rpy_out) {
 		player_event(plr, NULL, rpy_out, EV_INFLAGS, newflags);
 	}
 
-	int axis_lr, axis_ud;
-	gamepad_get_player_analog_input(&axis_lr, &axis_ud);
+	int axis_lr = 0, axis_ud = 0;
+
+	if(!ai_input) {
+		gamepad_get_player_analog_input(&axis_lr, &axis_ud);
+	}
 
 	if(plr->axis_lr != axis_lr) {
 		player_event(plr, NULL, rpy_out, EV_AXIS_LR, axis_lr);
@@ -1402,6 +1423,10 @@ void player_fix_input(Player *plr, ReplayState *rpy_out) {
 		!dialog_is_active(global.dialog)
 	) {
 		player_event(plr, NULL, rpy_out, EV_PRESS, KEY_SPECIAL);
+	}
+
+	if(ai_input) {
+		ai_bridge_apply_edges(plr, rpy_out);
 	}
 }
 
