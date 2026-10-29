@@ -36,6 +36,7 @@ typedef enum AIReason {
 	AI_REASON_BRIDGE_ERROR,
 	AI_REASON_GAME_OVER,
 	AI_REASON_NOT_PLAYING,
+	AI_REASON_ACTION_TIMEOUT,
 	AI_REASON_COUNT,
 } AIReason;
 
@@ -73,4 +74,6 @@ void taisei_ai_disable(int reason);
 void taisei_ai_request_restart(void);
 void taisei_ai_set_seed(int lo, int hi, int sticky);
 void taisei_ai_clear_seed(void);
+void taisei_ai_set_missing_limit(int limit);
+void taisei_ai_set_limits(int bullets, int lasers, int segs, int enemies);
 int taisei_ai_submit(int episode, int target_frame, int hold, int edges);

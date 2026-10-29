@@ -310,7 +310,7 @@ if host_machine.system() == 'emscripten'
         '-s', 'ENVIRONMENT=web',
         '-s', 'EXIT_RUNTIME=0',
         '-s', 'EXPORT_NAME=createTaisei',
-        '-s', 'EXPORTED_FUNCTIONS=["_main", "_vfs_sync_callback", "_taisei_ai_abi_version", "_taisei_ai_layout", "_taisei_ai_layout_size", "_taisei_ai_set_observe", "_taisei_ai_enable", "_taisei_ai_resume", "_taisei_ai_suspend", "_taisei_ai_disable", "_taisei_ai_request_restart", "_taisei_ai_set_seed", "_taisei_ai_clear_seed", "_taisei_ai_submit"]',
+        '-s', 'EXPORTED_FUNCTIONS=["_main", "_vfs_sync_callback", "_taisei_ai_abi_version", "_taisei_ai_layout", "_taisei_ai_layout_size", "_taisei_ai_set_observe", "_taisei_ai_enable", "_taisei_ai_resume", "_taisei_ai_suspend", "_taisei_ai_disable", "_taisei_ai_request_restart", "_taisei_ai_set_seed", "_taisei_ai_clear_seed", "_taisei_ai_submit", "_taisei_ai_set_missing_limit", "_taisei_ai_set_limits"]',
         '-s', 'EXPORTED_RUNTIME_METHODS=["ccall","callMain","FS","ENV","HEAPU8"]',
         '-s', 'FETCH_SUPPORT_INDEXEDDB=0',
         '-s', 'FETCH',

@@ -38,6 +38,7 @@
 #define AI_MAX_LASERS 64
 #define AI_MAX_SEGS 4096
 #define AI_MAX_ENEMIES 256
+#define AI_DEFAULT_MISSING_LIMIT 30
 
 // Field names are the contract. Order only matters inside this file.
 #define AI_I32_FIELDS(X) \
@@ -46,7 +47,7 @@
 	X(seed_source) X(cheat_flags) X(cheat_events) X(overflow) X(n_bullets) X(n_lasers) X(n_segs) \
 	X(n_enemies) X(total_bullets) X(total_lasers) X(total_segs) X(total_enemies) X(owner_state) \
 	X(owner_reason) X(owner_events) X(act_applied) X(act_stale) X(act_dup) X(act_missing) \
-	X(act_rejected) X(act_last_obs_frame) X(hold_applied) \
+	X(act_rejected) X(act_last_obs_frame) X(hold_applied) X(act_missing_run) X(act_missing_limit) \
 	X(p_alive) X(p_vulnerable) X(p_phase) X(p_inputflags) X(p_focus) X(p_lives) X(p_bombs) \
 	X(p_power) X(p_power_stored) X(p_graze) X(p_deathtime) X(p_respawntime) X(p_recoverytime) \
 	X(p_bomb_endtime) X(p_bomb_active) X(p_powersurge) X(p_ev_hit) X(p_ev_death) \
@@ -138,6 +139,9 @@ static struct {
 	uint cur_edges;           // edges to fire this tick
 
 	int applied, stale, dup, missing, rejected;
+	int missing_run;          // consecutive ticks without an accepted action while ai_active
+	int missing_limit;        // allowed consecutive missing ticks before ai_suspended(action_timeout)
+	int lim_bullets, lim_lasers, lim_segs, lim_enemies;   // effective capture limits (<= static maxima)
 	int last_applied_obs_frame;
 
 	int ev_hit, ev_death, ev_death_uncounted, ev_bomb, cheat_events;
@@ -154,12 +158,20 @@ static struct {
 
 	char *layout;
 	int layout_len;
-} ai = { .last_obs_frame = -1, .last_applied_obs_frame = -1 };
+} ai = {
+	.last_obs_frame = -1,
+	.last_applied_obs_frame = -1,
+	.missing_limit = AI_DEFAULT_MISSING_LIMIT,
+	.lim_bullets = AI_MAX_BULLETS,
+	.lim_lasers = AI_MAX_LASERS,
+	.lim_segs = AI_MAX_SEGS,
+	.lim_enemies = AI_MAX_ENEMIES,
+};
 
 static const char *const ai_reason_names[AI_REASON_COUNT] = {
 	"none", "pause", "focus_lost", "dialog", "stage_end", "restart", "host_request",
 	"user_input", "policy_error", "policy_deadline", "observation_invalid", "bridge_error",
-	"game_over", "not_playing",
+	"game_over", "not_playing", "action_timeout",
 };
 
 // ---------------------------------------------------------------- status / owner
@@ -183,6 +195,7 @@ static void clear_pending_input(void) {
 	ai.cur_hold = 0;
 	ai.cur_edges = 0;
 	ai.armed = false;
+	ai.missing_run = 0;
 }
 
 static void set_owner(AIOwner owner, AIReason reason) {
@@ -273,6 +286,25 @@ AI_EXPORT void taisei_ai_set_seed(int lo, int hi, int sticky) {
 AI_EXPORT void taisei_ai_clear_seed(void) {
 	ai.seed_armed = false;
 	ai.seed_sticky = false;
+}
+
+// Consecutive ticks without an accepted action that ai_active tolerates before it drops to
+// ai_suspended(action_timeout). 0 = no tolerance. Negative values restore the default.
+AI_EXPORT void taisei_ai_set_missing_limit(int limit) {
+	ai.missing_limit = limit < 0 ? AI_DEFAULT_MISSING_LIMIT : limit;
+}
+
+static int clamp_limit(int v, int max) {
+	return (v <= 0 || v > max) ? max : v;
+}
+
+// Lowers the number of entries a capture may store (<= the static maxima; <= 0 restores the
+// maximum). Used to exercise the overflow path with small, deterministic numbers.
+AI_EXPORT void taisei_ai_set_limits(int bullets, int lasers, int segs, int enemies) {
+	ai.lim_bullets = clamp_limit(bullets, AI_MAX_BULLETS);
+	ai.lim_lasers = clamp_limit(lasers, AI_MAX_LASERS);
+	ai.lim_segs = clamp_limit(segs, AI_MAX_SEGS);
+	ai.lim_enemies = clamp_limit(enemies, AI_MAX_ENEMIES);
 }
 
 // 0 accepted, 1 stale, 2 dup, 3 wrong_episode, 4 not_active, 5 future, 6 no_stage
@@ -551,7 +583,9 @@ static int capture_bullets(int frame, int *out_total) {
 	*out_total = total;
 	int n = 0;
 
-	if(total <= AI_MAX_BULLETS) {
+	const int max_b = ai.lim_bullets;
+
+	if(total <= max_b) {
 		for(Projectile *p = global.projs.first; p; p = p->next) {
 			if(bullet_eligible(p)) {
 				put_bullet(n++, p, frame);
@@ -574,16 +608,16 @@ static int capture_bullets(int frame, int *out_total) {
 	int cum = 0, cutoff = 0;
 
 	for(; cutoff < DIST_BUCKETS; ++cutoff) {
-		if(cum + hist[cutoff] >= AI_MAX_BULLETS) {
+		if(cum + hist[cutoff] >= max_b) {
 			break;
 		}
 
 		cum += hist[cutoff];
 	}
 
-	int quota = AI_MAX_BULLETS - cum;
+	int quota = max_b - cum;
 
-	for(Projectile *p = global.projs.first; p && n < AI_MAX_BULLETS; p = p->next) {
+	for(Projectile *p = global.projs.first; p && n < max_b; p = p->next) {
 		if(!bullet_eligible(p)) {
 			continue;
 		}
@@ -607,15 +641,15 @@ static void capture_lasers(int *out_n, int *out_segs, int *out_total, int *out_t
 		const LaserSegment *segs = laser_get_segments(l, &count);
 		total_segs += count;
 
-		if(n >= AI_MAX_LASERS) {
+		if(n >= ai.lim_lasers) {
 			flags |= 2;
 			continue;
 		}
 
 		int take = count;
 
-		if(nseg + take > AI_MAX_SEGS) {
-			take = AI_MAX_SEGS - nseg;
+		if(nseg + take > ai.lim_segs) {
+			take = ai.lim_segs - nseg;
 			flags |= 4;
 		}
 
@@ -660,7 +694,7 @@ static void capture_enemies(int *out_n, int *out_total) {
 
 		++total;
 
-		if(n >= AI_MAX_ENEMIES) {
+		if(n >= ai.lim_enemies) {
 			continue;
 		}
 
@@ -759,6 +793,8 @@ void ai_bridge_capture(void) {
 	v[I_act_rejected] = ai.rejected;
 	v[I_act_last_obs_frame] = ai.last_applied_obs_frame;
 	v[I_hold_applied] = (int32_t)global.plr.inputflags;
+	v[I_act_missing_run] = ai.missing_run;
+	v[I_act_missing_limit] = ai.missing_limit;
 
 	ai.last_obs_frame = frame;
 
@@ -812,6 +848,7 @@ void ai_bridge_begin_input(void) {
 		ai.cur_edges = ai.slot.edges;
 		ai.last_applied_obs_frame = global.frames - 1;
 		ai.applied++;
+		ai.missing_run = 0;
 		ai.slot.valid = false;
 		return;
 	}
@@ -823,6 +860,14 @@ void ai_bridge_begin_input(void) {
 
 	if(ai.armed) {
 		ai.missing++;
+		ai.missing_run++;
+
+		if(ai.missing_run > ai.missing_limit) {
+			// The host stopped answering: drop the held input instead of moving and shooting
+			// forever. set_owner() clears the slot, hold and edges; this tick's input then
+			// comes from the physical keys again.
+			set_owner(AI_OWNER_SUSPENDED, AI_REASON_ACTION_TIMEOUT);
+		}
 	}
 }
 
@@ -888,6 +933,7 @@ void ai_bridge_on_stage_enter(uint64_t seed, int seed_source) {
 	ai.last_applied_obs_frame = -1;
 	ai.restart_pending = false;
 	ai.applied = ai.stale = ai.dup = ai.missing = ai.rejected = 0;
+	ai.missing_run = 0;
 	ai.ev_hit = ai.ev_death = ai.ev_death_uncounted = ai.ev_bomb = ai.cheat_events = 0;
 	ai.cur_seed = seed;
 	ai.cur_seed_source = seed_source;
