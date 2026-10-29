@@ -128,6 +128,19 @@ bool laser_is_active(Laser *l) {
 	return l->collision_active;
 }
 
+const LaserSegment *laser_get_segments(Laser *l, int *out_count) {
+	int ofs = l->_internal.segments_ofs;
+	int num = l->_internal.num_segments;
+
+	if(num <= 0 || ofs < 0 || ofs + num > (int)lintern.segments.num_elements) {
+		*out_count = 0;
+		return NULL;
+	}
+
+	*out_count = num;
+	return dynarray_get_ptr(&lintern.segments, ofs);
+}
+
 bool laser_is_clearable(Laser *l) {
 	return !l->unclearable && laser_is_active(l);
 }

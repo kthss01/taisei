@@ -66,6 +66,8 @@ void laserline_set_posdir(Laser *l, cmplx pos, cmplx dir);
 Laser *create_laser(cmplx pos, float time, float deathtime, Color color, LaserRule rule);
 
 bool laser_is_active(Laser *l);
+// Collision segments built by the last process_lasers() call (read-only; used by the AI bridge).
+const struct LaserSegment *laser_get_segments(Laser *l, int *out_count);
 bool laser_is_clearable(Laser *l);
 bool clear_laser(Laser *l, uint flags);
 

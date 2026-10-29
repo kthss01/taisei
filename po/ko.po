@@ -6745,3 +6745,11 @@ msgstr "에어로"
 #: src/dialog/dialog_macros.h src/menu/charprofile.c
 msgid "Aero Road Sprinter"
 msgstr "에어로 로드의 승부사"
+
+#: src/menu/mainmenu.c
+msgid "Z  Select   ·   X  Back"
+msgstr "Z  선택   ·   X  뒤로"
+
+#: src/menu/charselect.c
+msgid "‹ ›  Character     Up / Down  Shot     Z  Confirm     X  Back"
+msgstr "‹ ›  캐릭터     위 / 아래  샷     Z  확인     X  뒤로"

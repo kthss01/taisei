@@ -228,12 +228,66 @@ void draw_menu_selector(float x, float y, float w, float h, float t) {
 }
 
 void draw_menu_title(MenuData *m, const char *title) {
+	Font *font = res_font("heading");
+	float w = text_width(font, title, 0);
+	float fade = menu_fade(m);
+	float shown = 1 - fade;
+	float x = 24 - (w + 48) * fade;  // 기존처럼 왼쪽에서 밀려 들어온다
+
 	text_draw(title, &(TextParams) {
-		.pos = { (text_width(res_font("big"), title, 0) + 10) * (1.0 - menu_fade(m)), 30 },
-		.align = ALIGN_RIGHT,
-		.font = "big",
-		.color = RGB(1, 1, 1),
-		.shader_ptr = res_shader("text_default"),
+		.pos = { x, 44 },
+		.font_ptr = font,
+		.shader_ptr = res_shader("text_ui"),
+		.color = RGBA_MUL_ALPHA(1, 1, 1, 0.9 * shown),
+	});
+
+	// 제목 아래 짧은 강조선
+	draw_ui_panel(&(UIPanelParams) {
+		.x = x + 20, .y = 56,
+		.w = 40, .h = 3,
+		.radius = 1.5,
+		.fill = RGBA(0.96, 0.78, 0.42, 0.9 * shown),
+	});
+}
+
+void draw_ui_panel(const UIPanelParams *p) {
+	Color fill2 = p->fill2;
+
+	if(fill2.r == 0 && fill2.g == 0 && fill2.b == 0 && fill2.a == 0) {
+		fill2 = p->fill;
+	}
+
+	float gx = p->gradient_dir_x;
+	float gy = p->gradient_dir_y;
+
+	if(gx == 0 && gy == 0) {
+		gy = 1;
+	}
+
+	r_state_push();
+	r_shader("ui_panel");
+	r_uniform_vec2("size", p->w, p->h);
+	r_uniform_float("radius", p->radius);
+	r_uniform_float("border", p->border);
+	r_uniform_vec4_rgba("fill_color", p->fill);
+	r_uniform_vec4_rgba("fill_color2", fill2);
+	r_uniform_vec4_rgba("border_color", p->border_color);
+	r_uniform_vec2("gradient_dir", gx, gy);
+	r_color4(1, 1, 1, 1);
+	r_mat_mv_push();
+	r_mat_mv_translate(p->x, p->y, 0);
+	r_mat_mv_scale(p->w, p->h, 1);
+	r_draw_quad();
+	r_mat_mv_pop();
+	r_state_pop();
+}
+
+void draw_ui_dot(float x, float y, float diameter, Color color) {
+	draw_ui_panel(&(UIPanelParams) {
+		.x = x, .y = y,
+		.w = diameter, .h = diameter,
+		.radius = diameter,
+		.fill = color,
 	});
 }
 

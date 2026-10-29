@@ -8,6 +8,7 @@
 
 #include "stage.h"
 
+#include "ai_bridge.h"
 #include "audio/audio.h"
 #include "common_tasks.h"  // IWYU pragma: keep
 #include "config.h"
@@ -249,6 +250,8 @@ static void stage_leave_ingame_menu(CallChainResult ccr) {
 		return;
 	}
 
+	ai_bridge_on_menu_leave();
+
 	if(global.gameover > 0) {
 		stop_all_sfx();
 
@@ -298,6 +301,7 @@ static void stage_pause(StageFrameState *fstate) {
 	}
 
 	fstate->paused = true;
+	ai_bridge_on_menu_enter(AI_REASON_PAUSE);
 	stage_enter_ingame_menu(m, NULL, CALLCHAIN(stage_unpause, fstate));
 }
 
@@ -364,6 +368,7 @@ void stage_gameover(void) {
 		.quickload_enabled = _current_stage_state->quicksave != NULL,
 	});
 
+	ai_bridge_on_menu_enter(AI_REASON_GAME_OVER);
 	stage_enter_ingame_menu(menu, bgm, CALLCHAIN(gameover_menu_result, action));
 }
 
@@ -508,6 +513,13 @@ static bool stage_input_handler_gameplay(SDL_Event *event, void *arg) {
 	int32_t code = event->user.code;
 
 	if(stage_input_common(event, arg)) {
+		return false;
+	}
+
+	if(
+		(type == TE_GAME_KEY_DOWN || type == TE_GAME_KEY_UP) &&
+		ai_bridge_filter_key(code, type == TE_GAME_KEY_DOWN)
+	) {
 		return false;
 	}
 
@@ -673,6 +685,7 @@ static void stage_input(StageFrameState *fstate) {
 		}, EFLAG_GAME);
 	}
 
+	ai_bridge_begin_input();
 	player_fix_input(&global.plr, &global.replay.output);
 	player_applymovement(&global.plr);
 }
@@ -807,6 +820,8 @@ void stage_finish(int gameover) {
 	if(global.gameover == GAMEOVER_TRANSITIONING) {
 		return;
 	}
+
+	ai_bridge_on_stage_finish(gameover);
 
 	int prev_gameover = global.gameover;
 	global.gameover_time = global.frames;
@@ -1003,6 +1018,8 @@ static LogicFrameAction stage_logic_frame(void *arg) {
 		cosched_run_tasks(&fstate->sched);
 		update_all_sfx();
 		stage_replay_sync(fstate);
+
+		ai_bridge_capture();
 
 		global.frames++;
 
@@ -1209,6 +1226,7 @@ static void _stage_enter(
 	stage_start(stage);
 
 	uint64_t start_time, seed;
+	int seed_source = 2;    // 0: random, 1: injected by the AI bridge, 2: replay
 
 	if(global.replay.input.replay) {
 		ReplayStage *rstg = NOT_NULL(global.replay.input.stage);
@@ -1225,12 +1243,14 @@ static void _stage_enter(
 	} else {
 		start_time = (uint64_t)time(0);
 		seed = makeseed();
+		seed_source = ai_bridge_seed_override(&seed) ? 1 : 0;
 
 		StageProgress *p = NOT_NULL(stageinfo_get_progress(stage, global.diff, true));
 		progress_register_stage_played(p, global.plr.mode);
 	}
 
 	rng_seed(&global.rand_game, seed);
+	ai_bridge_on_stage_enter(seed, seed_source);
 
 	if(global.replay.input.replay) {
 		player_init(&global.plr);
@@ -1289,6 +1309,7 @@ void stage_end_loop(void *ctx) {
 	StageFrameState *s = ctx;
 	assert(s == _current_stage_state);
 
+	ai_bridge_on_stage_leave();
 	recover_after_skip(s);
 
 	Replay *quicksave = s->quicksave;
