@@ -158,7 +158,8 @@ void draw_main_menu_bg(MenuData* menu, double center_x, double center_y, double 
 }
 
 void draw_main_menu(MenuData *menu) {
-	draw_main_menu_bg(menu, 0, 0, 0.05, "menu/mainmenubg", "stage1/cirnobg");
+	// 렌즈 배경의 검은 구멍이 오른쪽으로 옮긴 로고 아래에 오도록 중심을 맞춘다
+	draw_main_menu_bg(menu, 160, -50, 0.05, "menu/mainmenubg", "stage1/cirnobg");
 	r_state_push();
 
 	float fade = menu_fade(menu);
