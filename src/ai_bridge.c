@@ -55,7 +55,7 @@
 
 #define AI_F32_FIELDS(X) \
 	X(p_x) X(p_y) X(p_vx) X(p_vy) X(p_speed_normal) X(p_speed_focus) X(p_hit_radius) \
-	X(b_hp) X(b_maxhp) X(b_x) X(b_y)
+	X(b_hp) X(b_maxhp) X(b_x) X(b_y) \n	X(cap_ms_last) X(cap_ms_avg) X(cap_ms_max)
 
 #define AI_STATUS_FIELDS(X) \
 	X(in_stage) X(paused) X(episode_id) X(last_frame) X(owner_state) X(owner_reason) \
@@ -145,6 +145,11 @@ static struct {
 	uint64_t seed_value;
 	uint64_t cur_seed;
 	int cur_seed_source;
+
+	// capture cost (milliseconds, measured inside ai_bridge_capture without the host callback)
+	double cap_ms_sum;
+	double cap_ms_max;
+	int cap_frames;
 
 	char *layout;
 	int layout_len;
@@ -630,8 +635,8 @@ static void capture_lasers(int *out_n, int *out_segs, int *out_total, int *out_t
 			obs.laser_segs.bx[nseg] = re(s->pos.b);
 			obs.laser_segs.by[nseg] = im(s->pos.b);
 			// Same radius the laser collision uses: max(width / 2 - 4, 2)
-			obs.laser_segs.ra[nseg] = fmaxf(s->width.a * 0.5f - 4.0f, 2.0f);
-			obs.laser_segs.rb[nseg] = fmaxf(s->width.b * 0.5f - 4.0f, 2.0f);
+			obs.laser_segs.ra[nseg] = max(s->width.a * 0.5f - 4.0f, 2.0f);
+			obs.laser_segs.rb[nseg] = max(s->width.b * 0.5f - 4.0f, 2.0f);
 		}
 
 		++n;
@@ -671,11 +676,18 @@ static void capture_enemies(int *out_n, int *out_total) {
 	*out_total = total;
 }
 
+#ifdef __EMSCRIPTEN__
+	#define AI_NOW_MS() emscripten_get_now()
+#else
+	#define AI_NOW_MS() 0.0
+#endif
+
 void ai_bridge_capture(void) {
 	if(!ai.observe && ai.owner == AI_OWNER_MANUAL) {
 		return;
 	}
 
+	double t_begin = AI_NOW_MS();
 	int frame = global.frames;
 	int32_t *v = obs.i32;
 
@@ -752,6 +764,14 @@ void ai_bridge_capture(void) {
 	if(ai.owner == AI_OWNER_ACTIVE) {
 		ai.armed = true;
 	}
+
+	double cost = AI_NOW_MS() - t_begin;
+	ai.cap_ms_sum += cost;
+	ai.cap_frames++;
+	ai.cap_ms_max = fmax(ai.cap_ms_max, cost);
+	obs.f32[F_cap_ms_last] = (float)cost;
+	obs.f32[F_cap_ms_avg] = (float)(ai.cap_ms_sum / ai.cap_frames);
+	obs.f32[F_cap_ms_max] = (float)ai.cap_ms_max;
 
 	sync_status();
 
@@ -870,6 +890,8 @@ void ai_bridge_on_stage_enter(uint64_t seed, int seed_source) {
 	ai.ev_hit = ai.ev_death = ai.ev_death_uncounted = ai.ev_bomb = ai.cheat_events = 0;
 	ai.cur_seed = seed;
 	ai.cur_seed_source = seed_source;
+	ai.cap_ms_sum = ai.cap_ms_max = 0;
+	ai.cap_frames = 0;
 	clear_pending_input();
 
 	if(ai.owner == AI_OWNER_ACTIVE) {
