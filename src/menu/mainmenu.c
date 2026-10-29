@@ -158,45 +158,76 @@ void draw_main_menu_bg(MenuData* menu, double center_x, double center_y, double 
 }
 
 void draw_main_menu(MenuData *menu) {
-	draw_main_menu_bg(menu, 0, 0, 0.05, "menu/mainmenubg", "stage1/cirnobg");
+	// 렌즈 배경의 검은 구멍이 오른쪽으로 옮긴 로고 아래에 오도록 중심을 맞춘다
+	draw_main_menu_bg(menu, 160, -50, 0.05, "menu/mainmenubg", "stage1/cirnobg");
 	r_state_push();
 
+	float fade = menu_fade(menu);
+	float shown = 1 - fade;
+
+	// 왼쪽 열 가독성용 그라데이션
+	draw_ui_panel(&(UIPanelParams) {
+		.x = 190, .y = SCREEN_H / 2,
+		.w = 380, .h = SCREEN_H,
+		.fill = RGBA(0.02, 0.03, 0.06, 0.62 * shown),
+		.fill2 = RGBA(0.02, 0.03, 0.06, 0),
+		.gradient_dir_x = 1,
+	});
+
+	// 로고는 오른쪽에 두고, 회전하며 나타나는 기존 연출은 각도만 줄여 유지한다
 	float rot = sqrt(menu->frames/120.0);
-	float rotfac = (1 - pow(menu_fade(menu), 2.0));
+	float rotfac = (1 - pow(fade, 2.0));
 
 	r_draw_sprite(&(SpriteParams) {
 		.sprite = res_sprite("menu/logo"),
 		.shader = res_shader("sprite_default"),
-		.pos = { SCREEN_W/2, SCREEN_H/2 },
+		.pos = { SCREEN_W - 240, 250 },
 		.rotation.vector = { 0, -1, 0 },
-		.rotation.angle = max(0, M_PI/1.5 - min(M_PI/1.5, rot) * rotfac),
+		.rotation.angle = max(0, M_PI/3 - min(M_PI/3, rot) * rotfac),
 		.color = color_mul_scalar(RGBA(1, 1, 1, 1), min(1, rot) * rotfac),
 	});
 
-	r_mat_mv_push();
-	r_mat_mv_translate(0, SCREEN_H/2, 0);
-	r_shader("text_default");
-
-	float o = 0.7;
+	Font *menu_font = res_font("heading");
+	ShaderProgram *text_shader = res_shader("text_ui");
+	const float list_x = 64;
+	const float list_y = 212;
+	const float spacing = 36;
 
 	dynarray_foreach(&menu->entries, int i, MenuEntry *e, {
+		float sel = e->drawdata;  // 선택 항목이 1
+		float y = list_y + spacing * i;
 		Color clr;
 
 		if(e->action == NULL) {
-			clr = RGBA(0.2 * o, 0.3 * o, 0.5 * o, o);
+			clr = RGBA_MUL_ALPHA(1, 1, 1, 0.22 * shown);
 		} else {
-			float a = 1 - e->drawdata;
-			clr = RGBA(o, min(1, 0.7 + a) * o, min(1, 0.4 + a) * o, o);
+			clr = color_mul_scalar(color_lerp(RGBA_MUL_ALPHA(1, 1, 1, 0.62), UI_COLOR_ACCENT, sel), shown);
+
+			// 선택 항목 앞의 강조 바
+			if(sel > 0.01) {
+				draw_ui_panel(&(UIPanelParams) {
+					.x = list_x - 18, .y = y - 8,
+					.w = 4, .h = 22 * sel,
+					.radius = 2,
+					.fill = RGBA(0.96, 0.78, 0.42, sel * shown),
+				});
+			}
 		}
 
 		text_draw(_(e->name), &(TextParams) {
-			.pos = { 50 - 15 * e->drawdata, 20 * (i - menu->drawdata[1]) },
-			.font = "standard",
+			.pos = { list_x + 10 * sel - 40 * fade, y },
+			.font_ptr = menu_font,
+			.shader_ptr = text_shader,
 			.color = clr,
 		});
 	});
 
-	r_mat_mv_pop();
+	text_draw(_("Z  Select   ·   X  Back"), &(TextParams) {
+		.pos = { list_x - 18, SCREEN_H - 28 },
+		.font = "small",
+		.shader_ptr = text_shader,
+		.color = RGBA_MUL_ALPHA(1, 1, 1, 0.45 * shown),
+	});
 
 	r_disable(RCAP_CULL_FACE);
 	r_shader("sprite_default");
@@ -253,7 +284,7 @@ void draw_main_menu(MenuData *menu) {
 		.pos = { SCREEN_W-5, SCREEN_H - disclaimer_height - version_height },
 		.font_ptr = font,
 		.shader_ptr = shader,
-		.color = RGBA_MUL_ALPHA(1, 1, 1, 0.5),
+		.color = RGBA_MUL_ALPHA(1, 1, 1, 0.35),
 	});
 
 	text_draw(TAISEI_VERSION, &(TextParams) {
@@ -293,6 +324,8 @@ void menu_preload(ResourceGroup *rg) {
 	res_group_preload(rg, RES_FONT, RESF_DEFAULT,
 		"big",
 		"small",
+		"title",
+		"heading",
 	NULL);
 
 	res_group_preload(rg, RES_TEXTURE, RESF_DEFAULT,
@@ -309,12 +342,16 @@ void menu_preload(ResourceGroup *rg) {
 		"menu/logo",
 		"menu/arrow",
 		"star",
+		"ui/glow",
 	NULL);
 
 	res_group_preload(rg, RES_SHADER_PROGRAM, RESF_DEFAULT,
 		"gamepad_circle",
 		"mainmenubg",
 		"sprite_circleclipped_indicator",
+		"sprite_portrait",
+		"text_ui",
+		"ui_panel",
 	NULL);
 
 	res_group_preload(rg, RES_SFX, RESF_OPTIONAL,

@@ -74,38 +74,74 @@ void draw_difficulty_menu(MenuData *menu) {
 	draw_main_menu_bg(menu, 0, 0, 0.05, "menu/mainmenubg", "stage1/cirnobg");
 	draw_menu_title(menu, _("Select Difficulty"));
 
-	r_color(color_mul(diff_color, RGBA(0.07, 0.07, 0.07, 0.7)));
+	float shown = 1 - menu_fade(menu);
+	Color dc = diff_color;
 
-	r_mat_mv_push();
-	r_mat_mv_translate(SCREEN_W/2, SCREEN_H/2,0);
-	r_mat_mv_rotate((4 * menu->drawdata[0] - 4) * DEG2RAD, 0, 0, 1);
-	r_mat_mv_push();
-	r_mat_mv_scale(SCREEN_W*1.5,120,1);
-	r_shader_standard_notex();
-	r_draw_quad();
-	r_mat_mv_pop();
+	const float panel_w = 620;
+	const float panel_h = 190;
+	const float panel_x = SCREEN_W / 2;
+	const float panel_y = SCREEN_H / 2 + 10;
 
-	r_shader("text_default");
-
-	float amp = menu->cursor/2.;
-	float shake = 0.3*amp*menu->frames;
-	text_draw(dynarray_get(&menu->entries, menu->cursor).name, &(TextParams) {
-		.pos = { 120+15*menu->drawdata[0]+amp*sin(shake), -12+amp*cos(1.57*shake) },
-		.color = RGB(1, 1, 1),
+	// 중앙 유리 패널: 테두리는 현재 난이도 색
+	draw_ui_panel(&(UIPanelParams) {
+		.x = panel_x, .y = panel_y,
+		.w = panel_w, .h = panel_h,
+		.radius = 18, .border = 1,
+		.fill = RGBA(0.03, 0.04, 0.08, 0.74 * shown),
+		.fill2 = RGBA(0.03, 0.04, 0.08, 0.58 * shown),
+		.border_color = RGBA(dc.r, dc.g, dc.b, 0.85 * shown),
 	});
 
-	r_shader("sprite_default");
+	// 왼쪽: 붓글씨 난이도 그림을 세로로 넘기는 캐러셀
+	const float carousel_x = panel_x - panel_w / 2 + 150;
+	ShaderProgram *sprite_shader = res_shader("sprite_default");
 
 	dynarray_foreach(&menu->entries, int i, MenuEntry *e, {
-		float scale = 0.5 + e->drawdata - 0.2 * (e->action == NULL);
+		float sel = e->drawdata;
+		float scale = (0.32 + 0.26 * sel) * (e->action ? 1.0f : 0.85f);
+		float yofs = 170 * tanh(0.8 * (i - menu->drawdata[0]));
+		float a = (0.25 + 0.75 * sel) * shown;
+
 		r_draw_sprite(&(SpriteParams) {
 			.sprite = res_sprite(difficulty_sprite_name(D_Easy + i)),
-			.pos = { 0, 240 * tanh(0.7 * (i - menu->drawdata[0])) },
-			.color = RGBA(scale, scale, scale, scale),
+			.shader = sprite_shader,
+			.pos = { carousel_x, panel_y + yofs },
+			.color = RGBA(a, a, a, a),
 			.scale.both = scale,
 		});
 	});
 
-	r_mat_mv_pop();
+	// 오른쪽: 난이도 이름과 설명. 높은 난이도일수록 살짝 떨린다(기존 연출, 진폭은 절반)
+	Difficulty diff = D_Easy + menu->cursor;
+	float amp = menu->cursor / 4.0;
+	float shake = 0.3 * amp * menu->frames;
+	const float text_x = panel_x - panel_w / 2 + 300;
+	ShaderProgram *text_shader = res_shader("text_ui");
+
+	text_draw(difficulty_name(diff), &(TextParams) {
+		.pos = { text_x + amp * sin(shake), panel_y - 28 + amp * cos(1.57 * shake) },
+		.font = "title",
+		.shader_ptr = text_shader,
+		.color = RGBA_MUL_ALPHA(dc.r, dc.g, dc.b, shown),
+	});
+
+	text_draw_wrapped(dynarray_get(&menu->entries, menu->cursor).name, 280, &(TextParams) {
+		.pos = { text_x, panel_y + 6 },
+		.font = "standard",
+		.shader_ptr = text_shader,
+		.color = RGBA_MUL_ALPHA(1, 1, 1, 0.85 * shown),
+	});
+
+	// 아래: 난이도 수만큼 점 인디케이터
+	int n = menu->entries.num_elements;
+
+	dynarray_foreach(&menu->entries, int i, MenuEntry *e, {
+		float sel = e->drawdata;
+		Color c = difficulty_color(D_Easy + i);
+		float a = (0.3 + 0.7 * sel) * shown * (e->action ? 1.0f : 0.4f);
+		float x = panel_x + (i - (n - 1) * 0.5f) * 24;
+		draw_ui_dot(x, panel_y + panel_h / 2 + 26, 8 + 3 * sel, RGBA(c.r, c.g, c.b, a));
+	});
+
 	r_state_pop();
 }
