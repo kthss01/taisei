@@ -32,8 +32,8 @@ TASK_WITH_INTERFACE(midboss_flee, BossAttack) {
 TASK(spawn_midboss) {
 	STAGE_BOOKMARK(midboss);
 	Boss *boss = global.boss = create_boss(N_("Bombs?"), "iku_mid", VIEWPORT_W + 800.0 * I);
-	boss->glowcolor = RGB(0.2, 0.4, 0.5);
-	boss->shadowcolor = RGBA_MUL_ALPHA(0.65, 0.2, 0.75, 0.5);
+	boss->glowcolor = RGB(0.8, 0.1, 0.15);
+	boss->shadowcolor = RGBA_MUL_ALPHA(0.9, 0.2, 0.2, 0.5);
 
 	Attack *a = boss_add_attack_from_info(boss, &stage5_spells.mid.static_bomb, false);
 	boss_set_attack_bonus(a, 5);

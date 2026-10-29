@@ -12,8 +12,8 @@
 #include "i18n/i18n.h"
 
 Boss *stage2_spawn_wriggle(cmplx pos) {
-	Boss *wriggle = create_boss(N_("Wriggle"), "wriggle", pos);
-	wriggle->glowcolor = RGB(0.2, 0.4, 0.5);
-	wriggle->shadowcolor = RGBA_MUL_ALPHA(0.4, 0.2, 0.6, 0.5);
+	Boss *wriggle = create_boss(N_("RANDONNEUR"), "wriggle", pos);
+	wriggle->glowcolor = RGB(0.25, 0.3, 0.6);
+	wriggle->shadowcolor = RGBA_MUL_ALPHA(0.9, 0.75, 0.35, 0.5);
 	return wriggle;
 }

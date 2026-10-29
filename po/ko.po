@@ -6604,6 +6604,148 @@ msgstr ""
 msgid "System"
 msgstr "시스템"
 
+# ---- 자전거 의인화 테마 1차 시험: 스테이지 1 보스 MINIVELO(임시 이름). 말투: 발랄하고 장난기 있는 반말 ----
+
+#: src/stages/stage1/cirno.c src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "MINIVELO"
+msgstr "미니벨로"
+
+#: src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "Folding Bike Trickster"
+msgstr "접이식 자전거 장난꾸러기"
+
+#: src/menu/charprofile.c
+msgid "Folding Bicycle"
+msgstr "접이식 자전거"
+
+#: src/menu/charprofile.c
+msgid "Shortcuts"
+msgstr "지름길"
+
+#: src/menu/charprofile.c
+msgid ""
+"A pocket-sized folding bike who treats every lake, mountain pass, and shrine road as her personal tour route.\n"
+"\n"
+"She collects ticket stubs, stamps, and shortcuts—and she will absolutely cut in line.\n"
+"\n"
+"Try not to let her get a head start."
+msgstr ""
+"주머니에 쏙 들어가는 접이식 자전거 아가씨. 호수든 고갯길이든 신사 참배길이든 전부 자기 투어 코스로 여긴다.\n"
+"\n"
+"티켓 조각과 도장과 지름길을 모으는 게 취미이고, 새치기는 기본이다.\n"
+"\n"
+"먼저 출발하게 두지 않는 게 좋다."
+
+#: src/dialog/reimu.c
+msgid "Ding-ding! Coming through~!"
+msgstr "따르릉! 지나갈게~!"
+
+#: src/dialog/reimu.c
+msgid "Whoa, a shrine maiden! You’re just in time for my grand tour!"
+msgstr "우와, 무녀다! 내 그랜드 투어에 딱 맞춰 왔네!"
+
+#: src/dialog/reimu.c
+msgid "A tour? Who are you supposed to be?"
+msgstr "투어? 넌 또 뭐야?"
+
+#: src/dialog/reimu.c
+msgid "MINIVELO, at your service! This lake is my new shortcut, so I’m collecting tolls!"
+msgstr "미니벨로, 잘 부탁해! 이 호수는 내 새 지름길이니까 통행료를 받는 중이야!"
+
+#: src/dialog/reimu.c
+msgid "Tolls? On a frozen lake?"
+msgstr "통행료? 얼어붙은 호수에서?"
+
+#: src/dialog/reimu.c
+msgid "No skipping the line! Catch me if you can~!"
+msgstr "새치기 금지! 잡을 수 있으면 잡아 봐~!"
+
+#: src/dialog/reimu.c
+msgid "Owww… I folded up a little too fast there…"
+msgstr "아야야… 너무 급하게 접혀 버렸어…"
+
+#: src/dialog/reimu.c
+msgid "Not fair! You didn’t even buy a ticket…"
+msgstr "치사해! 표도 안 샀으면서…"
+
+#: src/dialog/marisa.c
+msgid "Beep beep! Move it, broom girl!"
+msgstr "빵빵! 비켜, 빗자루 언니!"
+
+#: src/dialog/marisa.c
+msgid "I brought this cold air straight down from the mountain pass. Pretty neat, huh?"
+msgstr "이 찬 공기, 고갯길에서 곧장 싣고 내려온 거야. 멋지지?"
+
+#: src/dialog/marisa.c
+msgid "Pay YOU? Nope! Around here, *you* pay the toll!"
+msgstr "내가 너한테? 싫어! 여기선 *네가* 통행료를 내는 거라고!"
+
+#: src/dialog/marisa.c
+msgid "Let’s race! Loser pushes the bike home!"
+msgstr "경주하자! 지는 쪽이 자전거 끌고 집에 가기!"
+
+#: src/dialog/marisa.c
+msgid "Race a broom? You’re on."
+msgstr "빗자루랑 경주? 좋다구."
+
+#: src/dialog/marisa.c
+msgid "Thought a bike could outrun a broom?"
+msgstr "자전거로 빗자루를 따돌릴 수 있을 줄 알았냐?"
+
+#: src/dialog/marisa.c
+msgid "Come back when you’ve got a tailwind."
+msgstr "순풍이라도 등에 업고 다시 오라구."
+
+#: src/dialog/marisa.c
+msgid "I-I only lost ’cause my chain slipped! Next time you’re toast!"
+msgstr "체, 체인이 빠져서 진 것뿐이야! 다음엔 네가 끝장이라고!"
+
+#: src/dialog/youmu.c
+msgid "This path’s mine today! Got a ticket, sword girl?"
+msgstr "오늘 이 길은 내 거야! 표는 있어, 칼잡이 언니?"
+
+#: src/dialog/youmu.c
+msgid "A ticket? For a lake?"
+msgstr "표라니요? 호수에 들어가는 데요?"
+
+#: src/dialog/youmu.c
+msgid "Then I’ll bury you in snow and ride right over you!"
+msgstr "그럼 눈 속에 파묻고 그 위로 달려 버릴 거야!"
+
+# ---- 자전거 테마 임시 이름: 나머지 보스 4명 ----
+
+#: src/stages/stage2/hina.c src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "CLIMBER"
+msgstr "클라이머"
+
+#: src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "Mountain Pass Ascender"
+msgstr "고갯길의 등반가"
+
+#: src/stages/stage2/wriggle.c src/stages/stage3/wriggle.c src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "RANDONNEUR"
+msgstr "랑도너"
+
+#: src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "Long-Distance Wayfarer"
+msgstr "장거리 여행자"
+
+#: src/stages/stage4/kurumi.c src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "CLASSIC"
+msgstr "클래식"
+
+#: src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "Vintage Boulevard Lady"
+msgstr "빈티지 대로의 숙녀"
+
+#: src/stages/stage5/iku.c src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "AERO"
+msgstr "에어로"
+
+#: src/dialog/dialog_macros.h src/menu/charprofile.c
+msgid "Aero Road Sprinter"
+msgstr "에어로 로드의 승부사"
+
 #: src/menu/mainmenu.c
 msgid "Z  Select   ·   X  Back"
 msgstr "Z  선택   ·   X  뒤로"
@@ -6611,3 +6753,1018 @@ msgstr "Z  선택   ·   X  뒤로"
 #: src/menu/charselect.c
 msgid "‹ ›  Character     Up / Down  Shot     Z  Confirm     X  Back"
 msgstr "‹ ›  캐릭터     위 / 아래  샷     Z  확인     X  뒤로"
+
+# ---- 자전거 테마: 스테이지 2~5 보스 대사 ----
+
+#: src/dialog/reimu.c
+msgid "…Footsteps. On my climb."
+msgstr "…발소리. 내 오르막에."
+
+#: src/dialog/reimu.c
+msgid "Ms. Hakurei. I thought you might come."
+msgstr "하쿠레이. 올 줄 알았어."
+
+#: src/dialog/reimu.c
+msgid "But this pass is steeper than it looks."
+msgstr "하지만 이 고개, 보기보다 가팔라."
+
+#: src/dialog/reimu.c
+msgid "And you don’t even have low gears…"
+msgstr "게다가 넌 저단 기어도 없잖아…"
+
+#: src/dialog/reimu.c
+msgid "Gears? Who are you, and why are you guarding the road?"
+msgstr "기어? 너 누군데, 왜 길을 막고 있어?"
+
+#: src/dialog/reimu.c
+msgid "CLIMBER. I ride this mountain every morning."
+msgstr "클라이머. 매일 아침 이 산을 올라."
+
+#: src/dialog/reimu.c
+msgid "Today the wind up top feels wrong. The summit is dangerous."
+msgstr "오늘은 정상 바람이 이상해. 위험해."
+
+#: src/dialog/reimu.c
+msgid "Turn back. Coast down while your legs are still fresh."
+msgstr "돌아가. 다리 멀쩡할 때 내려가."
+
+#: src/dialog/reimu.c
+msgid "(She talks like she’s saving her breath for the hill.)"
+msgstr "(오르막용으로 숨이라도 아끼는 것 같은 말투네.)"
+
+#: src/dialog/reimu.c
+msgid "The Gods don’t climb. I do."
+msgstr "신들은 안 올라. 오르는 건 나야."
+
+#: src/dialog/reimu.c
+msgid "If you won’t turn back, I’ll drop you on the next switchback."
+msgstr "안 돌아가겠다면, 다음 헤어핀에서 떨궈 줄게."
+
+#: src/dialog/reimu.c
+msgid "So I lost… go on, then. The summit is yours."
+msgstr "졌네… 가. 정상은 네 거야."
+
+#: src/dialog/reimu.c
+msgid "I can handle a hill. Why are you being so overbearing?"
+msgstr "언덕쯤은 문제없어. 왜 그렇게 참견이야?"
+
+#: src/dialog/reimu.c
+msgid "Just don’t say I didn’t warn you, when you run out of legs halfway up…"
+msgstr "중간에 다리 풀려도, 경고 안 했단 말은 하지 마…"
+
+#: src/dialog/reimu.c
+msgid "Nothing abnormal? Then you haven’t checked the stars tonight!"
+msgstr "이상한 게 없다고? 그럼 오늘 밤 별은 안 봤구나!"
+
+#: src/dialog/reimu.c
+msgid "The whole route is written up there, checkpoint by checkpoint!"
+msgstr "경로가 전부 저 위에 적혀 있어. 체크포인트 하나하나!"
+
+#: src/dialog/reimu.c
+msgid "Eh? Who are you? Aren’t you a bit far from home?"
+msgstr "에? 넌 누구야? 집에서 좀 멀리 나온 거 아냐?"
+
+#: src/dialog/reimu.c
+msgid "Besides, a route in the sky? Nobody draws roads on constellations."
+msgstr "게다가 하늘에 경로? 별자리에 길 그리는 사람이 어딨어."
+
+#: src/dialog/reimu.c
+msgid "‘Far from home’ is my whole job! I’m RANDONNEUR, and you’re on my checkpoint!"
+msgstr "‘집에서 멀리’가 내 일인걸! 난 랑도너, 그리고 넌 지금 내 체크포인트에 서 있어!"
+
+#: src/dialog/reimu.c
+msgid "Haven’t you heard of the great Bre—…"
+msgstr "그 위대한 브레—… 들어 본 적 없어?"
+
+#: src/dialog/reimu.c
+msgid "Brev—…"
+msgstr "브레베—…"
+
+#: src/dialog/reimu.c
+msgid "That really, really long ride?"
+msgstr "그 엄청, 엄청 긴 라이딩 말이야!"
+
+#: src/dialog/reimu.c
+msgid "Twelve hundred kilometers, barely any sleep! Everyone should’ve heard of it by now!"
+msgstr "1200킬로미터, 잠은 거의 없이! 이쯤이면 다들 들어 봤어야지!"
+
+#: src/dialog/reimu.c
+msgid "Seems pretty far-fetched to me, honestly. Who rides that far for fun?"
+msgstr "솔직히 좀 말이 안 되는 것 같은데. 누가 재미로 그렇게 멀리 달려?"
+
+#: src/dialog/reimu.c
+msgid "Don’t lump us long-haulers in with weekend cruisers!"
+msgstr "우리 장거리 라이더를 주말 산책족이랑 같이 묶지 마!"
+
+#: src/dialog/reimu.c
+msgid "I’m going to stamp every checkpoint in Gensōkyō, one constellation at a time!"
+msgstr "환상향의 체크포인트를 전부 찍을 거야, 별자리 하나씩!"
+
+#: src/dialog/reimu.c
+msgid "Every checkpoint? But you’re just one girl with a map."
+msgstr "전부? 넌 그냥 지도 한 장 든 여자애 하나잖아."
+
+#: src/dialog/reimu.c
+msgid "And I still don’t know what any of this has to do with me."
+msgstr "그리고 그게 나랑 무슨 상관인지 아직도 모르겠어."
+
+#: src/dialog/reimu.c
+msgid "Nobody passes this control without a stamp. Those are the rules!"
+msgstr "도장 없이는 아무도 이 통제소를 못 지나가. 그게 규칙이야!"
+
+#: src/dialog/reimu.c
+msgid "Allow me to be your checkpoint!"
+msgstr "내가 네 체크포인트가 되어 줄게!"
+
+#: src/dialog/reimu.c
+msgid "Stamping the whole night sky, huh?"
+msgstr "밤하늘 전체에 도장을 찍겠다고?"
+
+#: src/dialog/reimu.c
+msgid "Sounds like one of Sanae’s ‘weekend projects.’"
+msgstr "사나에의 ‘주말 프로젝트’ 같은 소리네."
+
+#: src/dialog/reimu.c
+msgid "B-but I plotted it so carefully… every star a checkpoint…"
+msgstr "그, 그래도 정말 꼼꼼하게 짰는데… 별 하나하나가 체크포인트였는데…"
+
+#: src/dialog/reimu.c
+msgid "You already know every road in Gensōkyō by heart."
+msgstr "환상향 길은 이미 전부 외우고 있잖아."
+
+#: src/dialog/reimu.c
+msgid "But can’t I ever hope for one more kilometer…?"
+msgstr "그래도 딱 1킬로미터만 더 바라면 안 되는 걸까…?"
+
+#: src/dialog/reimu.c
+msgid "Goodness, a guest barging in before teatime? I should be asking you that."
+msgstr "어머나, 티타임 전에 불쑥 들어오는 손님이라니요? 그건 제가 여쭐 말씀이에요."
+
+#: src/dialog/reimu.c
+msgid "I am CLASSIC. I know nothing of ‘strange thoughts’, but I must be honest…"
+msgstr "저는 클래식이랍니다. ‘이상한 생각’은 모르겠지만, 솔직히 말씀드리자면…"
+
+#: src/dialog/reimu.c
+msgid "Your attire is giving me some rather strange thoughts."
+msgstr "당신의 옷차림이 제게 꽤나 이상한 생각을 들게 하네요."
+
+#: src/dialog/reimu.c
+msgid "Those enormous sleeves! They would tangle in a chain before the first corner."
+msgstr "그 커다란 소매 좀 보세요! 첫 모퉁이도 돌기 전에 체인에 감기겠어요."
+
+#: src/dialog/reimu.c
+msgid "Once you learn to dress for a proper ride, perhaps I shall."
+msgstr "제대로 된 라이딩 복장을 갖추신다면, 그때는 생각해 보지요."
+
+#: src/dialog/reimu.c
+msgid "A shrine maiden? Without a basket? Without a bell?"
+msgstr "무녀라고요? 바구니도 없이요? 벨도 없이요?"
+
+#: src/dialog/reimu.c
+msgid "However do you carry the offerings home, dear?"
+msgstr "그럼 공물은 대체 어떻게 실어 가시나요?"
+
+#: src/dialog/reimu.c
+msgid "A uniform? Oh, surely you jest."
+msgstr "제복이라고요? 어머, 농담도 참."
+
+#: src/dialog/reimu.c
+msgid "I once met a real shrine maiden, and she wore a long skirt with a proper skirt guard!"
+msgstr "진짜 무녀님을 뵌 적이 있는데, 긴 치마에 제대로 된 스커트 가드까지 갖추셨답니다!"
+
+#: src/dialog/reimu.c
+msgid "And those patterns! No mudguards, no lamp, not even a kickstand! Most unorthodox!"
+msgstr "게다가 그 무늬! 흙받이도, 라이트도, 스탠드조차 없다니! 정말 파격적이네요!"
+
+#: src/dialog/reimu.c
+msgid "Do go home and change, Miss Imitation."
+msgstr "돌아가서 갈아입고 오세요, 모조품 아가씨."
+
+#: src/dialog/reimu.c
+msgid "Oh dear, I didn’t mean to upset you so— shall I put the kettle on?"
+msgstr "어머, 그렇게까지 화나게 할 생각은 아니었는데요— 차라도 끓여 드릴까요?"
+
+#: src/dialog/reimu.c
+msgid "Ouch ouch ouch… my poor spokes…"
+msgstr "아야야야… 제 가여운 스포크가…"
+
+#: src/dialog/reimu.c
+msgid "(P-perhaps if I pretend a bolt came loose in my memory… yes, quite…!)"
+msgstr "(호, 혹시 기억 속 볼트가 하나 풀린 척하면… 그래요, 그거예요…!)"
+
+#: src/dialog/reimu.c
+msgid "O-oh, my head! Wherever am I? Has someone forgotten to oil me?"
+msgstr "아, 아이고 머리야! 여기가 어디죠? 누가 제게 기름칠하는 걸 잊었나요?"
+
+#: src/dialog/reimu.c
+msgid "Huh? I-I couldn’t say! I barely remember a thing!"
+msgstr "네? 저, 전 잘 모르겠어요! 거의 아무것도 기억나지 않아요!"
+
+#: src/dialog/reimu.c
+msgid "(Those sleeves really would catch in a chain, though…)"
+msgstr "(그래도 저 소매는 정말 체인에 걸리겠는걸요…)"
+
+#: src/dialog/reimu.c
+msgid "Or maybe you just can’t handle the speed up here?"
+msgstr "아니면 그냥 여기 속도를 못 따라오는 거 아냐?"
+
+#: src/dialog/reimu.c
+msgid "Ha! Sorry, you drifted into my line. Racing incident."
+msgstr "하! 미안, 네가 내 라인으로 들어왔거든. 레이스 사고야."
+
+#: src/dialog/reimu.c
+msgid "Things get hectic in a crosswind like this. No hard feelings."
+msgstr "이런 옆바람 속에선 정신없기 마련이지. 악감정은 없어."
+
+#: src/dialog/reimu.c
+msgid "But it’s been a while, hasn’t it? AERO, remember?"
+msgstr "그나저나 오랜만이지? 에어로야, 기억나?"
+
+#: src/dialog/reimu.c
+msgid "This tower is unlike any course I’ve ever ridden."
+msgstr "이 탑은 내가 달려 본 어떤 코스와도 달라."
+
+#: src/dialog/reimu.c
+msgid "Word travels fast in the clouds. The culprit is tied to ‘parallel universes.’"
+msgstr "구름 속 소문은 빠르거든. 범인은 ‘평행 우주’랑 얽혀 있대."
+
+#: src/dialog/reimu.c
+msgid "It’s not just the Netherworld and Gensōkyō feeling the drag."
+msgstr "명계랑 환상향만 발목 잡힌 게 아니야."
+
+#: src/dialog/reimu.c
+msgid "In Bhava-agra, the Eldest Daughter’s personality has shifted, too."
+msgstr "비상천에서도 총령 아가씨 성격이 변했어."
+
+#: src/dialog/reimu.c
+msgid "Honestly? I wasn’t planning to get involved."
+msgstr "솔직히? 끼어들 생각은 없었어."
+
+#: src/dialog/reimu.c
+msgid "But the tower’s pull kept getting stronger, and nobody was taking a turn at the front."
+msgstr "그런데 탑의 끌어당김이 점점 세지는데, 아무도 선두를 끌려고 하지 않더라고."
+
+#: src/dialog/reimu.c
+msgid "As more minds got dropped from the pack, I came up with a theory…"
+msgstr "점점 더 많은 녀석들이 무리에서 떨어져 나가는 걸 보고, 가설을 하나 세웠지…"
+
+#: src/dialog/reimu.c
+msgid "This machine is a headwind against fantasy itself."
+msgstr "이 기계는 환상 그 자체에 부는 맞바람이야."
+
+#: src/dialog/reimu.c
+msgid "That’s why this place feels like riding straight into a gale."
+msgstr "그래서 여기가 돌풍 속으로 달리는 느낌인 거고."
+
+#: src/dialog/reimu.c
+msgid "Straight ahead. But frankly? I’m not sure you can hold the pace."
+msgstr "바로 앞이야. 근데 솔직히? 네가 페이스를 버틸 수 있을지 모르겠어."
+
+#: src/dialog/reimu.c
+msgid "You’re still composed, sure, but you’re starting to wobble."
+msgstr "아직 침착하긴 한데, 슬슬 흔들리기 시작했거든."
+
+#: src/dialog/reimu.c
+msgid "Wobble? But I just got here!"
+msgstr "흔들려? 난 방금 왔는데!"
+
+#: src/dialog/reimu.c
+msgid "Sit on my wheel and I’ll tow you home before you crack."
+msgstr "내 뒷바퀴에 붙어. 퍼지기 전에 집까지 끌어다 줄게."
+
+#: src/dialog/reimu.c
+msgid "Come again?"
+msgstr "뭐라고?"
+
+#: src/dialog/reimu.c
+msgid "Ha! Now that’s a rider’s answer. Fine."
+msgstr "하! 그게 라이더다운 대답이지. 좋아."
+
+#: src/dialog/reimu.c
+msgid "Show me you can hold your line against their machine — starting with me!"
+msgstr "저 녀석들 기계 앞에서 네 라인을 지킬 수 있는지 보여 줘 — 나부터 상대로!"
+
+#: src/dialog/reimu.c
+msgid "Guess I shouldn’t have doubted you…"
+msgstr "내가 널 의심한 게 잘못이었나 봐…"
+
+#: src/dialog/reimu.c
+msgid "Truth is, I’m glad you showed up after all."
+msgstr "사실, 네가 와 줘서 다행이야."
+
+#: src/dialog/reimu.c
+msgid "I couldn’t have taken her down solo. Not into this headwind."
+msgstr "나 혼자선 그녀를 못 이겼을 거야. 이런 맞바람 속에선."
+
+#: src/dialog/reimu.c
+msgid "But you’re still riding straight. Maybe Gensōkyō will make it after all."
+msgstr "그래도 넌 아직 똑바로 달리고 있어. 환상향도 어쩌면 버틸 수 있겠어."
+
+#: src/dialog/reimu.c
+msgid "Good. The road ahead is yours."
+msgstr "좋아. 앞길은 네 거야."
+
+#: src/dialog/marisa.c
+msgid "Geez, this mountain road just keeps goin’ up ‘n up."
+msgstr "어휴, 이 산길은 끝도 없이 오르막이다구."
+
+#: src/dialog/marisa.c
+msgid "What’s got the yōkai around here all twitchy, anyways?"
+msgstr "근데 이 근처 요괴들은 왜 다들 저렇게 들떠 있는 거지?"
+
+#: src/dialog/marisa.c
+msgid "…You’re climbing without gears."
+msgstr "…기어도 없이 오르는구나."
+
+#: src/dialog/marisa.c
+msgid "The grade gets steeper past here. Turn back."
+msgstr "여기서부턴 경사가 더 가팔라. 돌아가."
+
+#: src/dialog/marisa.c
+msgid "Gears? I’ve got a broom. Brooms don’t do ‘steep’."
+msgstr "기어? 난 빗자루가 있다구. 빗자루한텐 ‘가파르다’ 같은 거 없거든."
+
+#: src/dialog/marisa.c
+msgid "See ya at the top."
+msgstr "정상에서 보자구."
+
+#: src/dialog/marisa.c
+msgid "…You skipped the warm-up."
+msgstr "…워밍업도 건너뛰었고."
+
+#: src/dialog/marisa.c
+msgid "And you laugh at the mountain."
+msgstr "산을 비웃기까지 하네."
+
+#: src/dialog/marisa.c
+msgid "I laugh at everything. It’s part of my charm."
+msgstr "난 뭐든 비웃는다구. 그게 내 매력인걸."
+
+#: src/dialog/marisa.c
+msgid "The mountain doesn’t forgive those who sprint the first switchback."
+msgstr "첫 굽잇길부터 전력 질주하는 사람은, 산이 용서하지 않아."
+
+#: src/dialog/marisa.c
+msgid "Lowest gear. Full climb. Try to keep up."
+msgstr "제일 가벼운 기어. 끝까지 오르막. 따라와 봐."
+
+#: src/dialog/marisa.c
+msgid "You’re way quieter than a bike oughta be. Not even a bell?"
+msgstr "자전거치곤 너무 조용하잖아. 벨 소리 한 번 안 내고?"
+
+#: src/dialog/marisa.c
+msgid "Kinda spooky, honestly."
+msgstr "솔직히 좀 으스스하다구."
+
+#: src/dialog/marisa.c
+msgid "…Out of breath."
+msgstr "…숨 차."
+
+#: src/dialog/marisa.c
+msgid "I only wanted you to pace yourself… The summit is still far."
+msgstr "페이스 조절하라고 말한 것뿐인데… 정상은 아직 멀어."
+
+#: src/dialog/marisa.c
+msgid "Don’t go all coach on me now."
+msgstr "이제 와서 코치 행세는 하지 말라구."
+
+#: src/dialog/marisa.c
+msgid "I’ve had enough folks tellin’ me to slow down for a lifetime."
+msgstr "천천히 가라는 잔소리는 평생 들을 만큼 들었는걸."
+
+#: src/dialog/marisa.c
+msgid "Checkpoint ahead! Stop and get your card stamped!"
+msgstr "앞에 체크포인트야! 멈춰서 카드에 도장 받고 가!"
+
+#: src/dialog/marisa.c
+msgid "Card? I don’t remember signin’ up for anything."
+msgstr "카드? 난 뭘 신청한 기억이 없는걸."
+
+#: src/dialog/marisa.c
+msgid "Everyone on this road is riding the brevet! Six hundred kilometers, no excuses!"
+msgstr "이 길 위에 있는 사람은 다 브레베 참가자야! 600킬로미터, 핑계는 안 받아!"
+
+#: src/dialog/marisa.c
+msgid "Oh, so you’re the gatekeeper?"
+msgstr "오, 그럼 네가 문지기냐?"
+
+#: src/dialog/marisa.c
+msgid "Mind wavin’ me through?"
+msgstr "그냥 통과시켜 주면 안 될까?"
+
+#: src/dialog/marisa.c
+msgid "Gatekeeper?! I’m not some checkpoint volunteer!"
+msgstr "문지기?! 난 체크포인트 자원봉사자가 아니야!"
+
+#: src/dialog/marisa.c
+msgid "I’m RANDONNEUR! I ride the whole route, start to finish!"
+msgstr "난 랑도너야! 출발부터 골인까지 전 구간을 달리지!"
+
+#: src/dialog/marisa.c
+msgid "The whole route? What, on purpose? For fun?"
+msgstr "전 구간을? 일부러? 재미로?"
+
+#: src/dialog/marisa.c
+msgid "Yes, for fun! Rain, night, headwinds — that’s the best part!"
+msgstr "응, 재미로! 비, 밤길, 맞바람 — 그게 제일 즐거운 부분이라고!"
+
+#: src/dialog/marisa.c
+msgid "Anyway, you had a question?"
+msgstr "아무튼, 뭐 물어볼 거 있었지?"
+
+#: src/dialog/marisa.c
+msgid "A true randonneur lives by three rules:"
+msgstr "진정한 랑도너에겐 세 가지 규칙이 있어:"
+
+#: src/dialog/marisa.c
+msgid "First: always carry your own spare tube!"
+msgstr "하나: 예비 튜브는 언제나 직접 챙길 것!"
+
+#: src/dialog/marisa.c
+msgid "Second: when the map gets soggy, navigate by the stars!"
+msgstr "둘: 지도가 비에 젖으면 별을 보고 길을 찾을 것!"
+
+#: src/dialog/marisa.c
+msgid "Third: never, EVER skip a checkpoint!"
+msgstr "셋: 체크포인트는 절대, 절대로 건너뛰지 말 것!"
+
+#: src/dialog/marisa.c
+msgid "Maybe my map shows more than you think."
+msgstr "내 지도엔 네 생각보다 많은 게 그려져 있을지도 몰라."
+
+#: src/dialog/marisa.c
+msgid "But I’m NOT sharing my route with someone who cuts corners on a broom!"
+msgstr "하지만 빗자루 타고 지름길로 새는 녀석한텐 내 루트를 절대 안 알려 줘!"
+
+#: src/dialog/marisa.c
+msgid "Aw! I, um… plotted them from the constellations!"
+msgstr "아! 그, 그건… 별자리를 보고 짰어!"
+
+#: src/dialog/marisa.c
+msgid "Follow the Great Bicycle in the sky and you never get lost!"
+msgstr "하늘의 큰자전거자리만 따라가면 절대 길을 안 잃거든!"
+
+#: src/dialog/marisa.c
+msgid "‘Great Bicycle’? In the sky?"
+msgstr "‘큰자전거자리’? 하늘에?"
+
+#: src/dialog/marisa.c
+msgid "Oh, ya must mean that old star chart with the wheels drawn in. Two big circles ‘n a handlebar."
+msgstr "아, 바퀴가 그려진 그 옛날 성도 말이구나. 커다란 동그라미 두 개에 핸들 하나."
+
+#: src/dialog/marisa.c
+msgid "I remember that doctor at Eientei goin’ off about star charts once."
+msgstr "영원정의 그 의사가 성도 얘기로 한참 떠들던 게 기억나는걸."
+
+#: src/dialog/marisa.c
+msgid "Wanna ride the next brevet with me? I’ll lend you a spare map!"
+msgstr "다음 브레베, 나랑 같이 달릴래? 예비 지도 빌려줄게!"
+
+#: src/dialog/marisa.c
+msgid "And a witch arriving on a broom, no less. How very traditional."
+msgstr "게다가 빗자루를 타고 오신 마녀님까지. 참으로 전통적이네요."
+
+#: src/dialog/marisa.c
+msgid "Do mind the gravel, dear. It scratches the paintwork."
+msgstr "자갈은 조심해 주세요. 도장에 흠집이 나니까요."
+
+#: src/dialog/marisa.c
+msgid "Traditional? I’m the fastest thing in Gensōkyō. Ask any bike girl."
+msgstr "전통적? 난 환상향에서 제일 빠르다구. 자전거 아가씨 누구한테든 물어보라구."
+
+#: src/dialog/marisa.c
+msgid "Fastest… Everyone is in such a hurry these days."
+msgstr "제일 빠르다니… 요즘은 다들 왜 그리 서두르시는지."
+
+#: src/dialog/marisa.c
+msgid "What comes next? Frames as light as a feather?"
+msgstr "그다음은 뭔가요? 깃털처럼 가벼운 프레임?"
+
+#: src/dialog/marisa.c
+msgid "Twenty-two gears, and not a single basket to carry flowers home in?"
+msgstr "기어는 스물두 단인데, 꽃 한 다발 담아 올 바구니 하나 없고요?"
+
+#: src/dialog/marisa.c
+msgid "Tires so thin they cannot even manage a cobblestone lane?"
+msgstr "타이어는 너무 가늘어서 돌길 하나 제대로 못 지나가고요?"
+
+#: src/dialog/marisa.c
+msgid "Maybe they’ll paint ‘em red ‘n black to make ‘em look even faster."
+msgstr "더 빨라 보이라고 빨강이랑 검정으로 칠할지도 모르겠는걸."
+
+#: src/dialog/marisa.c
+msgid "Oh my. Perhaps I have been reading too many of those tengu racing magazines."
+msgstr "어머나. 텐구들이 내는 레이스 잡지를 너무 많이 읽었나 봐요."
+
+#: src/dialog/marisa.c
+msgid "The tengu write about bike races now?"
+msgstr "텐구들이 이젠 자전거 경주 기사도 쓰냐?"
+
+#: src/dialog/marisa.c
+msgid "Well, at least they can’t fake the finish times. Probably."
+msgstr "뭐, 골인 기록은 못 지어내겠지. 아마도."
+
+#: src/dialog/marisa.c
+msgid "Indeed they do."
+msgstr "네, 쓰고말고요."
+
+#: src/dialog/marisa.c
+msgid "Pages and pages of riders panting up hills, and not a single teacup in sight!"
+msgstr "언덕을 헐떡이며 오르는 라이더들만 몇 페이지씩, 찻잔은 하나도 안 나오고요!"
+
+#: src/dialog/marisa.c
+msgid "And do not even get me started on those frames. Not one has a proper chain guard!"
+msgstr "프레임 얘기는 꺼내지도 마세요. 제대로 된 체인 커버 하나 달린 게 없다니까요!"
+
+#: src/dialog/marisa.c
+msgid "Maybe they oughta hire someone with some class."
+msgstr "품격 있는 녀석을 하나 고용하는 게 좋겠는걸."
+
+#: src/dialog/marisa.c
+msgid "That would be me, I suppose."
+msgstr "그렇다면 제가 적임자겠네요."
+
+#: src/dialog/marisa.c
+msgid "A step-through frame, a wicker basket, a bell that rings like a spoon on porcelain…"
+msgstr "발을 넘기기 쉬운 낮은 프레임, 등나무 바구니, 찻잔에 스푼이 닿는 듯한 벨 소리…"
+
+#: src/dialog/marisa.c
+msgid "Eh? Sounds kinda slow…"
+msgstr "엥? 좀 느릴 것 같은데…"
+
+#: src/dialog/marisa.c
+msgid "I beg your pardon?!"
+msgstr "방금 뭐라고 하셨나요?!"
+
+#: src/dialog/marisa.c
+msgid "Your ride’s missin’ somethin’… y’know, speed."
+msgstr "네 자전거엔 뭔가 빠졌다구… 그러니까, 속도 말이야."
+
+#: src/dialog/marisa.c
+msgid "H-Hmph! I could say the same about your broom!"
+msgstr "흐, 흥! 그 빗자루에 대해서라면 저도 할 말이 있답니다!"
+
+#: src/dialog/marisa.c
+msgid "Honestly, it is just a stick with bristles! No fenders, no lamp, not even a kickstand!"
+msgstr "솔직히 솔 달린 막대기일 뿐이잖아요! 흙받이도, 라이트도, 스탠드조차 없고요!"
+
+#: src/dialog/marisa.c
+msgid "Who needs fenders? It’s summer!"
+msgstr "흙받이 같은 게 왜 필요해? 여름인걸!"
+
+#: src/dialog/marisa.c
+msgid "My broom’s legendary. Girls across Gensōkyō talk about it."
+msgstr "내 빗자루는 전설이라구. 환상향 아가씨들 사이에서 유명하다구."
+
+#: src/dialog/marisa.c
+msgid "In fact, there’s a few books on broom-ridin’, uh, deeper inside this mansion."
+msgstr "실은 이 저택 안쪽에, 어, 빗자루 비행에 관한 책이 몇 권 있거든."
+
+#: src/dialog/marisa.c
+msgid "Oh, I shall not let you pass before teatime is over!"
+msgstr "어머, 티타임이 끝나기 전엔 지나가게 둘 수 없어요!"
+
+#: src/dialog/marisa.c
+msgid "Shall we take a leisurely little ride, witch? Do try to mind your manners."
+msgstr "느긋하게 한 바퀴 달려 볼까요, 마녀님? 예의는 꼭 지켜 주시고요."
+
+#: src/dialog/marisa.c
+msgid "Whoever gets there first gets the tea. It’s a scientific fact."
+msgstr "먼저 도착한 쪽이 차를 마시는 거다. 과학적 사실이라구."
+
+#: src/dialog/marisa.c
+msgid "Oh dear, where was I riding to again?"
+msgstr "어머나, 제가 어디로 가던 중이었더라?"
+
+#: src/dialog/marisa.c
+msgid "(Yes, that’s it, play it off as a gentle afternoon daze…)"
+msgstr "(그래요, 나른한 오후에 멍해진 척 넘어가는 거예요…)"
+
+#: src/dialog/marisa.c
+msgid "(But… have I not seen this nerdy-looking girl somewhere before…?)"
+msgstr "(그런데… 이 책벌레 같은 아가씨, 어디선가 본 적 있지 않나요…?)"
+
+#: src/dialog/marisa.c
+msgid "Goodness, I do not remember a thing!"
+msgstr "세상에, 아무것도 기억나지 않아요!"
+
+#: src/dialog/marisa.c
+msgid "Ah, sorry, sorry. I think ya hit a pothole ‘n bumped your head."
+msgstr "아, 미안 미안. 아무래도 웅덩이에 걸려서 머리를 부딪친 모양인걸."
+
+#: src/dialog/marisa.c
+msgid "I’m Gensōkyō’s… bicycle inspector."
+msgstr "난 환상향의… 자전거 검사관이다구."
+
+#: src/dialog/marisa.c
+msgid "I’m here to inspect the, uh, bike manuals in this here mansion."
+msgstr "이 저택에 있는, 어, 자전거 설명서를 검사하러 왔지."
+
+#: src/dialog/marisa.c
+msgid "Hmm, I rather doubt that…"
+msgstr "음, 그건 좀 의심스러운데요…"
+
+#: src/dialog/marisa.c
+msgid "Not that I could ever catch you at my pace…"
+msgstr "제 속도로는 어차피 따라잡을 수도 없겠지만요…"
+
+#: src/dialog/marisa.c
+msgid "Oh, I did not enter this ride to be overtaken like this!"
+msgstr "이렇게 추월당하려고 이 라이딩에 참가한 게 아닌데요!"
+
+#: src/dialog/marisa.c
+msgid "‘Enter this ride’? I thought you didn’t remember anything."
+msgstr "‘참가했다’고? 아무것도 기억 안 난다며."
+
+#: src/dialog/marisa.c
+msgid "N-Never mind that!"
+msgstr "그, 그건 신경 쓰지 마세요!"
+
+#: src/dialog/marisa.c
+msgid "Eyes forward, witch! Don’t stop in the middle of the lane!"
+msgstr "시선은 앞으로, 마녀! 차선 한가운데서 멈추지 마!"
+
+#: src/dialog/marisa.c
+msgid "Didn’t expect to see you this high up. Nice climb — for a broom."
+msgstr "여기까지 올라올 줄은 몰랐네. 잘 올라왔어 — 빗자루치곤."
+
+#: src/dialog/marisa.c
+msgid "… hey. Are you talking to yourself?"
+msgstr "… 저기. 너 혼잣말하는 거야?"
+
+#: src/dialog/marisa.c
+msgid "Interesting theory. Wrong, but interesting."
+msgstr "재밌는 이론이네. 틀렸지만, 재밌어."
+
+#: src/dialog/marisa.c
+msgid "Your theory’s got more drag than a flapping raincoat."
+msgstr "네 이론은 펄럭이는 우비보다 공기 저항이 크다고."
+
+#: src/dialog/marisa.c
+msgid "Whatever built this tower is way past anything we understand. Feel the wind? Perfectly smooth."
+msgstr "이 탑을 만든 건 우리 이해를 한참 넘어서. 바람 느껴져? 완벽하게 매끄럽잖아."
+
+#: src/dialog/marisa.c
+msgid "I-I doubt she uses grimoires. Or magic, for that matter."
+msgstr "그, 그 사람은 마도서 같은 거 안 쓸걸. 마법도 마찬가지고."
+
+#: src/dialog/marisa.c
+msgid "This is serious engineering. Smooth airflow, precise geometry, advanced computational—"
+msgstr "이건 진짜 공학이야. 매끄러운 기류, 정밀한 지오메트리, 고도의 연산—"
+
+#: src/dialog/marisa.c
+msgid "I-I haven’t worked out every detail yet—"
+msgstr "나, 나도 세부까진 아직 다 파악 못 했어—"
+
+#: src/dialog/marisa.c
+msgid "The thin air up here must be getting to you. I’m not telling you anything else, for your own good."
+msgstr "여기 공기가 희박해서 머리가 어떻게 됐나 보네. 너를 위해서라도 더는 아무것도 안 알려 줘."
+
+#: src/dialog/marisa.c
+msgid "Why won’t you listen to me…?"
+msgstr "왜 내 말을 안 듣는 거야…?"
+
+#: src/dialog/marisa.c
+msgid "I’m trying to keep you out of a crash, and you just keep talking over me. Give me some room!"
+msgstr "사고 안 나게 막아 주려는데 넌 계속 내 말을 끊잖아. 거리 좀 둬!"
+
+#: src/dialog/marisa.c
+msgid "I figured you’d hold a clean line and sprint this incident to the finish, but it looks like—"
+msgstr "깔끔한 라인으로 이 이변을 결승선까지 질주할 줄 알았는데, 보아하니—"
+
+#: src/dialog/marisa.c
+msgid "They say a good, strong headwind clears the mind."
+msgstr "강한 맞바람은 머리를 맑게 해 준대."
+
+#: src/dialog/marisa.c
+msgid "Point that broom forward — I’ll give you one you won’t forget!"
+msgstr "빗자루 앞으로 겨눠 — 평생 못 잊을 맞바람을 맛보여 줄게!"
+
+#: src/dialog/marisa.c
+msgid "Oof, that headwind made my hair a total mess."
+msgstr "으, 맞바람 때문에 머리가 엉망이 됐다구."
+
+#: src/dialog/marisa.c
+msgid "L-listen. She doesn’t do spells. She won’t teach you any…"
+msgstr "자, 잘 들어. 그 사람은 주문 같은 거 안 써. 너한테 가르쳐 줄 것도 없어…"
+
+#: src/dialog/marisa.c
+msgid "Her tower runs on technology and the scientific method. I’d bet my best wheels on it."
+msgstr "그 탑은 기술과 과학적 방법으로 돌아가. 내 제일 좋은 휠을 걸어도 좋아."
+
+#: src/dialog/marisa.c
+msgid "Ugh. Hopeless."
+msgstr "하아. 구제 불능이네."
+
+#: src/dialog/marisa.c
+msgid "But maybe you’re riding just straight enough to finish this incident after all…"
+msgstr "그래도 이번 이변을 끝낼 만큼은 똑바로 달리고 있는 걸지도…"
+
+#: src/dialog/youmu.c
+msgid "…Shh. Listen."
+msgstr "…쉿. 들어 봐."
+
+#: src/dialog/youmu.c
+msgid "The mountain is breathing hard today. Who are you?"
+msgstr "오늘은 산이 숨을 거칠게 쉬어. 넌 누구야?"
+
+#: src/dialog/youmu.c
+msgid "Two swords. A half-phantom. That’s a lot of weight for this climb."
+msgstr "검 두 자루. 반령까지. 이 오르막에는 너무 무거워."
+
+#: src/dialog/youmu.c
+msgid "Turn back. The summit doesn’t forgive extra grams."
+msgstr "돌아가. 정상은 군더더기 그램을 용서하지 않아."
+
+#: src/dialog/youmu.c
+msgid "‘E-Extra grams’?! I’ll have you know these blades are perfectly balanced—"
+msgstr "‘구, 군더더기 그램’이라니요?! 말씀드리지만 이 검들은 완벽하게 균형 잡혀 있습니다—"
+
+#: src/dialog/youmu.c
+msgid "—forged and honed over *decades*—"
+msgstr "—*수십 년*에 걸쳐 단련하고 갈고닦은—"
+
+#: src/dialog/youmu.c
+msgid "—dare I say the finest steel in Gensōkyō—"
+msgstr "—감히 말하자면 환상향 최고의 강철이에요—"
+
+#: src/dialog/youmu.c
+msgid "Steel is heavy."
+msgstr "강철은 무거워."
+
+#: src/dialog/youmu.c
+msgid "And the ghost. Does it count as luggage?"
+msgstr "그리고 그 유령. 짐으로 치는 거야?"
+
+#: src/dialog/youmu.c
+msgid "It is NOT luggage! Both halves of me together weigh barely forty ki—"
+msgstr "짐이 아닙니다! 저는 두 쪽을 합쳐도 겨우 40킬—"
+
+#: src/dialog/youmu.c
+msgid "Did you just tell me your weight…?"
+msgstr "방금… 몸무게 말한 거야…?"
+
+#: src/dialog/youmu.c
+msgid "It must be the thin mountain air playing tricks on your ears."
+msgstr "산 위의 희박한 공기 때문에 잘못 들으신 거겠지요."
+
+#: src/dialog/youmu.c
+msgid "…Good power-to-weight ratio."
+msgstr "…무게 대비 출력, 좋네."
+
+#: src/dialog/youmu.c
+msgid "Don’t you dare write that down."
+msgstr "절대 적어 두지 마세요."
+
+#: src/dialog/youmu.c
+msgid "Amiss? Nope!"
+msgstr "이상하다고? 아니야!"
+
+#: src/dialog/youmu.c
+msgid "You’re right on course! This is checkpoint three of the Great Night Brevet!"
+msgstr "제대로 코스 위에 있어! 여긴 ‘대야간 브레베’의 세 번째 체크포인트야!"
+
+#: src/dialog/youmu.c
+msgid "Races do not concern me at the moment."
+msgstr "지금 저는 경주 따위에는 관심 없습니다."
+
+#: src/dialog/youmu.c
+msgid "A race?! A brevet is NOT a race, it’s a journey! I see how it is!"
+msgstr "경주?! 브레베는 경주가 아니라 여행이야! 그렇게 나온다 이거지!"
+
+#: src/dialog/youmu.c
+msgid "Ever heard of control cards? Night lamps? Napping in a ditch at 3 AM? Show some respect!"
+msgstr "컨트롤 카드 알아? 야간 라이트는? 새벽 3시 길가 쪽잠은? 좀 존중해 줘!"
+
+#: src/dialog/youmu.c
+msgid "Oh, oh, I get it now!"
+msgstr "아, 아하, 이제 알겠다!"
+
+#: src/dialog/youmu.c
+msgid "A thousand riders rolling through the night by starlight would surely raise some concerns."
+msgstr "별빛 아래 밤새 달리는 천 명의 라이더라면 걱정할 만도 하지."
+
+#: src/dialog/youmu.c
+msgid "Simply put, we’re charting a route that goes all the way up to the stars!"
+msgstr "간단히 말해서, 우린 별까지 이어지는 루트를 그리고 있거든!"
+
+#: src/dialog/youmu.c
+msgid "Of course folks down the mountain get nervous when that many headlamps come their way!"
+msgstr "그 많은 헤드라이트가 몰려오면 산 아래 사람들이 긴장하는 것도 당연하지!"
+
+#: src/dialog/youmu.c
+msgid "Don’t worry, I’ll stamp your card too. You’re welcome to ride along—"
+msgstr "걱정 마, 네 카드에도 도장 찍어 줄게. 같이 달려도 좋아—"
+
+#: src/dialog/youmu.c
+msgid "… no, no, a few cyclists wouldn’t cause this kind of disturbance…"
+msgstr "…아니, 아니에요. 자전거 몇 대로 이런 소동이 일어날 리 없습니다…"
+
+#: src/dialog/youmu.c
+msgid "All they’re capable of is leaving tire tracks across my carefully raked garden paths."
+msgstr "기껏해야 제가 정성껏 고른 정원 길에 타이어 자국이나 남기는 정도겠지요."
+
+#: src/dialog/youmu.c
+msgid "Did you just say you…"
+msgstr "너 방금…"
+
+#: src/dialog/youmu.c
+msgid "… don’t want your card stamped?!"
+msgstr "…카드에 도장 안 받겠다고 했어?!"
+
+#: src/dialog/youmu.c
+msgid "Skipping a checkpoint is the one thing a randonneur can never forgive!"
+msgstr "체크포인트를 건너뛰는 건 랑도너가 절대 용서 못 하는 일이야!"
+
+#: src/dialog/youmu.c
+msgid "My lamp shines brighter than ever now! I’ll guide you to every control point by force!"
+msgstr "내 램프가 그 어느 때보다 밝게 빛나! 모든 컨트롤 포인트까지 억지로라도 데려갈 거야!"
+
+#: src/dialog/youmu.c
+msgid "Follow my map, and no one will ever get lost under these stars again!"
+msgstr "내 지도만 따라오면 이 별 아래에서 다시는 아무도 길을 잃지 않아!"
+
+#: src/dialog/youmu.c
+msgid "It was said its blade could sever anything that so much as touched its edge."
+msgstr "그 칼날은 날에 닿기만 해도 무엇이든 베어 버렸다고 전해집니다."
+
+#: src/dialog/youmu.c
+msgid "Undoubtedly, your map met the same fate today."
+msgstr "틀림없이 오늘 당신의 지도도 같은 운명을 맞았겠지요."
+
+#: src/dialog/youmu.c
+msgid "That’s not the route I planned…"
+msgstr "이건 내가 짠 루트가 아닌데…"
+
+#: src/dialog/youmu.c
+msgid "Seems about right, honestly… I’ll stamp your card anyway."
+msgstr "솔직히 딱 맞는 말 같은데… 그래도 카드에 도장은 찍어 줄게."
+
+#: src/dialog/youmu.c
+msgid "Oh my, such a hurry. You’ll never enjoy the ride at that pace, dear."
+msgstr "어머, 참 급하시네요. 그런 속도로는 라이딩을 즐길 수 없답니다."
+
+#: src/dialog/youmu.c
+msgid "I am CLASSIC. Steel frame, wicker basket, and a bell I polish every morning."
+msgstr "저는 클래식이에요. 강철 프레임, 등나무 바구니, 그리고 매일 아침 닦는 벨이 자랑이지요."
+
+#: src/dialog/youmu.c
+msgid "Do remember that, won’t you?"
+msgstr "기억해 주시겠지요?"
+
+#: src/dialog/youmu.c
+msgid "Goodness, no. Whatever gave you that idea?"
+msgstr "어머나, 설마요. 어쩌다 그런 생각을 하셨나요?"
+
+#: src/dialog/youmu.c
+msgid "I would never associate myself with the sort who run this mansion."
+msgstr "이 저택을 운영하는 그런 분들과 어울릴 생각은 전혀 없답니다."
+
+#: src/dialog/youmu.c
+msgid "They ride in clip-in shoes and drink their tea from plastic bottles. Unthinkable."
+msgstr "클릿 슈즈를 신고 달리고, 차를 페트병으로 마신다니까요. 상상도 못 할 일이에요."
+
+#: src/dialog/youmu.c
+msgid "… what is a ‘clip-in shoe’, though, if I may ask?"
+msgstr "…그런데 실례지만, ‘클릿 슈즈’가 무엇인가요?"
+
+#: src/dialog/youmu.c
+msgid "I haven’t the faintest idea, dear."
+msgstr "저도 전혀 모른답니다."
+
+#: src/dialog/youmu.c
+msgid "The lady in the tower speaks of them constantly, so they must be dreadful indeed."
+msgstr "탑에 계신 분이 늘 그 얘기를 하시니, 분명 끔찍한 물건이겠지요."
+
+#: src/dialog/youmu.c
+msgid "Ah, yes. That was a little fib, to see how gullible you were. More tea?"
+msgstr "아, 그거요. 얼마나 잘 속는지 보려고 한 작은 거짓말이었어요. 차 더 드릴까요?"
+
+#: src/dialog/youmu.c
+msgid "I’m afraid not. You have a slow waltz around the garden scheduled first."
+msgstr "유감이지만 안 돼요. 먼저 정원을 도는 느린 왈츠 일정이 잡혀 있거든요."
+
+#: src/dialog/youmu.c
+msgid "Mind the bell, hurried swordsgirl!"
+msgstr "벨 소리에 조심하세요, 성급한 검사 아가씨!"
+
+#: src/dialog/youmu.c
+msgid "Despite your leisurely technique, I must thank you."
+msgstr "느긋한 기술이었지만, 감사 인사는 드려야겠군요."
+
+#: src/dialog/youmu.c
+msgid "‘Waltzing’ with you has been a pleasant distraction on the path to completing my mission."
+msgstr "당신과의 ‘왈츠’는 임무를 완수하는 길에 즐거운 기분 전환이었습니다."
+
+#: src/dialog/youmu.c
+msgid "(She speaks like the hero of a penny novel… how charming.)"
+msgstr "(싸구려 소설 주인공처럼 말하네요… 귀엽기도 하지.)"
+
+#: src/dialog/youmu.c
+msgid "Oh, very well, dear."
+msgstr "어머, 좋아요."
+
+#: src/dialog/youmu.c
+msgid "I’m quite weary of being parked in this creepy, spooky mansion anyway."
+msgstr "어차피 이 으스스하고 무서운 저택에 세워져 있는 것도 꽤 지쳤거든요."
+
+#: src/dialog/youmu.c
+msgid "… why, yes! I expected a proper bicycle shed, but they made it haunted, with ghosts and such!"
+msgstr "…어머, 그렇답니다! 번듯한 자전거 보관소인 줄 알았는데, 유령이 나오는 흉가로 만들었지 뭐예요!"
+
+#: src/dialog/youmu.c
+msgid "Dreadful vengeful ghosts! They ring their bells in the dark, even!"
+msgstr "무시무시한 원한 맺힌 유령들이요! 어둠 속에서 벨까지 울린답니다!"
+
+#: src/dialog/youmu.c
+msgid "(Hehe, so gullible. Now, where did I leave the teapot?)"
+msgstr "(후후, 정말 잘 속네요. 그런데 찻주전자를 어디 뒀더라?)"
+
+#: src/dialog/youmu.c
+msgid "Oh? The gardener from the Netherworld, finally catching up?"
+msgstr "오? 명계의 정원사가 이제야 따라잡았네?"
+
+#: src/dialog/youmu.c
+msgid "Took you long enough. I’ve been up here since sunrise."
+msgstr "꽤 오래 걸렸네. 난 해 뜰 때부터 여기 있었어."
+
+#: src/dialog/youmu.c
+msgid "Let me guess. Your mistress got blown off course by the Tower’s winds?"
+msgstr "맞혀 볼까. 네 주인은 탑의 바람에 코스를 이탈했지?"
+
+#: src/dialog/youmu.c
+msgid "The Hakurei Shrine. Downhill, sheltered, free tea. Obviously."
+msgstr "하쿠레이 신사겠지. 내리막에, 바람 막히고, 차도 공짜. 뻔하잖아."
+
+#: src/dialog/youmu.c
+msgid "Nobody. Where else would anyone sit out a headwind like this?"
+msgstr "아무도. 이런 맞바람을 피할 데가 거기 말고 또 어디 있어?"
+
+#: src/dialog/youmu.c
+msgid "Wrong. This is my stretch of road."
+msgstr "틀렸어. 여긴 내 구간이야."
+
+#: src/dialog/youmu.c
+msgid "I scouted ahead. First one up the tower, of course."
+msgstr "먼저 정찰해 뒀지. 탑에 제일 먼저 오른 것도 당연히 나고."
+
+#: src/dialog/youmu.c
+msgid "This tower is driven by a machine…"
+msgstr "이 탑은 기계로 움직여…"
+
+#: src/dialog/youmu.c
+msgid "… and its wind is blowing well past Gensōkyō’s boundaries."
+msgstr "…그리고 그 바람은 환상향의 경계를 훨씬 넘어서까지 불고 있어."
+
+#: src/dialog/youmu.c
+msgid "Looks like the machine pumped your ego way past its rated pressure, Swordswoman of Hakugyokurō."
+msgstr "그 기계가 네 자존심을 적정 공기압보다 한참 빵빵하게 넣었나 봐, 백옥루의 검사."
+
+#: src/dialog/youmu.c
+msgid "Blow out on a descent like this and nobody’s catching you."
+msgstr "이런 내리막에서 펑크 나면 아무도 못 잡아 줘."
+
+#: src/dialog/youmu.c
+msgid "W-wait, I said ease off the pace, not sprint for the line—"
+msgstr "자, 잠깐, 페이스를 늦추라고 했지, 결승선까지 스프린트하라는 게 아니라—"
+
+#: src/dialog/youmu.c
+msgid "Ugh, fine! You want a sprint? You’ve got one!"
+msgstr "에잇, 좋아! 스프린트를 원해? 해 주지!"
+
+#: src/dialog/youmu.c
+msgid "Stay on my wheel if you can! I won’t let you crash out before the top!"
+msgstr "따라올 수 있으면 내 뒷바퀴에 붙어 봐! 정상 전에 넘어지게 두진 않아!"
+
+#: src/dialog/youmu.c
+msgid "You didn’t even draft once… Who rides like that…"
+msgstr "드래프팅 한 번을 안 하다니… 누가 그렇게 달려…"
+
+#: src/dialog/youmu.c
+msgid "Whatever. The machine’s wind probably got to you long before you got here."
+msgstr "뭐 됐어. 넌 여기 오기 한참 전부터 그 기계 바람을 맞았을 테니까."
+
+#: src/dialog/youmu.c
+msgid "I don’t like it, but a loss is a loss. The road’s yours."
+msgstr "마음에 안 들지만 진 건 진 거야. 길은 네 거야."
+
+#: src/dialog/youmu.c
+msgid "Maybe there’s a decent rider hiding under all that ego."
+msgstr "그 자존심 밑에 꽤 괜찮은 라이더가 숨어 있을지도 모르겠네."
+
+#: src/dialog/youmu.c
+msgid "O-okay then."
+msgstr "그, 그래."
+
+#: src/dialog/youmu.c
+msgid "Climb the staircase. The one behind all this is waiting at the top."
+msgstr "계단을 올라가. 이 모든 일의 배후가 꼭대기에서 기다리고 있어."
+
+#: src/dialog/youmu.c
+msgid "Heads up. Her machine is built from parts out of a so-called ‘parallel universe’."
+msgstr "조심해. 그녀의 기계는 이른바 ‘평행 우주’에서 온 부품으로 만들어졌어."
+
+#: src/dialog/youmu.c
+msgid "Nothing I’ve ever raced against. Even I can’t read its line."
+msgstr "지금까지 붙어 본 적 없는 상대야. 나조차 그 라인을 못 읽겠어."
+
