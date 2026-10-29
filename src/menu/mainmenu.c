@@ -186,7 +186,7 @@ void draw_main_menu(MenuData *menu) {
 		.color = color_mul_scalar(RGBA(1, 1, 1, 1), min(1, rot) * rotfac),
 	});
 
-	Font *font = res_font("heading");
+	Font *menu_font = res_font("heading");
 	ShaderProgram *text_shader = res_shader("text_ui");
 	const float list_x = 64;
 	const float list_y = 212;
@@ -215,7 +215,7 @@ void draw_main_menu(MenuData *menu) {
 
 		text_draw(_(e->name), &(TextParams) {
 			.pos = { list_x + 10 * sel - 40 * fade, y },
-			.font_ptr = font,
+			.font_ptr = menu_font,
 			.shader_ptr = text_shader,
 			.color = clr,
 		});
