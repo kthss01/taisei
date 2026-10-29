@@ -55,7 +55,8 @@
 
 #define AI_F32_FIELDS(X) \
 	X(p_x) X(p_y) X(p_vx) X(p_vy) X(p_speed_normal) X(p_speed_focus) X(p_hit_radius) \
-	X(b_hp) X(b_maxhp) X(b_x) X(b_y) \n	X(cap_ms_last) X(cap_ms_avg) X(cap_ms_max)
+	X(b_hp) X(b_maxhp) X(b_x) X(b_y) \
+	X(cap_ms_last) X(cap_ms_avg) X(cap_ms_max)
 
 #define AI_STATUS_FIELDS(X) \
 	X(in_stage) X(paused) X(episode_id) X(last_frame) X(owner_state) X(owner_reason) \
@@ -768,7 +769,7 @@ void ai_bridge_capture(void) {
 	double cost = AI_NOW_MS() - t_begin;
 	ai.cap_ms_sum += cost;
 	ai.cap_frames++;
-	ai.cap_ms_max = fmax(ai.cap_ms_max, cost);
+	ai.cap_ms_max = max(ai.cap_ms_max, cost);
 	obs.f32[F_cap_ms_last] = (float)cost;
 	obs.f32[F_cap_ms_avg] = (float)(ai.cap_ms_sum / ai.cap_frames);
 	obs.f32[F_cap_ms_max] = (float)ai.cap_ms_max;
