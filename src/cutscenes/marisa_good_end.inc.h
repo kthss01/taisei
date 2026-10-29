@@ -46,6 +46,13 @@
 		T_NARRATOR("And so, they drank, and caught up on alternate worlds, uncanny timelines, and the strangeness of their circumstances.\n"),
 		{},
 	}},
+	// 자전거 의인화 테마: 프롤로그의 라이더 이야기를 마무리하는 장면.
+	{ "cutscenes/marisa_good/01", {
+		T_MARISA("Say, Elly, those riders on the mountain road— were they with you too?"),
+		T_ELLY("Riders? No… but the Tower calls to anything that wanders between worlds. Perhaps they heard it, just as I did."),
+		T_MARISA("Heh. Then I’ll just have to race ’em next time they come by!"),
+		{},
+	}},
 	{ "cutscenes/marisa_good/02", {
 		T_MARISA("I mean, ‘course ya lost. Mathematics has always had a soft spot for magic. Don’t ya know about Isaac Newton?"),
 		T_ELLY("The famous European mathematician? I studied his works, yes. But what about him?"),

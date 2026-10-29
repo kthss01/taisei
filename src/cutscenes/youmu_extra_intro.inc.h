@@ -56,6 +56,12 @@
 		T_YOUMU("However, don’t think you've gotten off so easily. When I return, it shall be your turn to pay for dinner. Understand?"),
 		{},
 	}},
+	// 자전거 의인화 테마: 프롤로그의 라이더 이야기를 마무리하는 장면.
+	{ "cutscenes/youmu_extra/02", {
+		T_NARRATOR("Even in the Netherworld, faint bells could be heard from below, racing toward the Tower.\n"),
+		T_YOUMU("The riders are moving as well. It seems everyone has heard its call."),
+		{},
+	}},
 	{ "cutscenes/youmu_extra/02", {
 		T_NARRATOR("Elly couldn’t help but laugh, despite her fears.\n"),
 		T_NARRATOR("After bidding Elly and Lady Yuyuko farewell, Yōmu returned to Gensōkyō, and headed towards the infernal Tower, as it began to shake and groan with impending doom…"),

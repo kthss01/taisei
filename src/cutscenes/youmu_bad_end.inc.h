@@ -42,6 +42,12 @@
 		T_YUYUKO("We could go on a fun date! And I’m feeling a bit peckish…"),
 		{},
 	}},
+	// 자전거 의인화 테마: 프롤로그의 라이더 이야기를 마무리하는 장면.
+	{ "cutscenes/locations/tower", {
+		T_NARRATOR("Even the riders who had once filled the mountain roads were gone.\n"),
+		T_NARRATOR("Only their tracks remained, ending abruptly at the foot of the Tower."),
+		{},
+	}},
 	{ "cutscenes/youmu_bad/02", {
 		T_NARRATOR("The kappa of Yōkai Mountain were throwing a ‘Gaze Upon The Incredible Tower (From A Safe Distance)’ festival, to encourage human and yōkai tourism after everyone had been scared off by the Tower.\n"),
 		T_NARRATOR("Although, Yōmu found it difficult to enjoy herself, of course.\n"),

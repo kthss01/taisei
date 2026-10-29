@@ -45,6 +45,13 @@
 		T_YOUMU("Perhaps we could even visit a popular ramen shop nearby. I’m feeling generous, so it shall be my treat!"),
 		{},
 	}},
+	// 자전거 의인화 테마: 프롤로그의 라이더 이야기를 마무리하는 장면.
+	{ "cutscenes/youmu_good/02", {
+		T_YOUMU("By the way, have you seen the riders on the mountain road?"),
+		T_ELLY("The ones with the bells? They pass the shrine at dawn. They seem… happier, now that the Tower is quiet."),
+		T_YOUMU("Then perhaps one day I shall challenge one of them to a contest of speed."),
+		{},
+	}},
 	{ "cutscenes/youmu_good/02", {
 		T_ELLY("O-oh! S-sure, that would be wonderful!"),
 		T_ELLY("W-Well, I ought to return to my duties at the shrine."),
