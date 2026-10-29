@@ -4670,7 +4670,7 @@ msgstr "Y"
 #: src/menu/options.c:874 src/menu/options.c:938 src/menu/options.c:1082
 #: src/menu/options.c:1191 src/menu/options.c:1282 src/menu/replayview.c:488
 msgid "Back"
-msgstr "백"
+msgstr "뒤로"
 
 #: src/gamepad.c:910
 msgid "Guide"
@@ -5651,11 +5651,11 @@ msgstr "사용 가능한 장치 없음"
 
 #: src/menu/options.c:1499
 msgid "Move an axis to assign, Back to cancel"
-msgstr "할당할 축을 움직이세요. 취소는 백"
+msgstr "할당할 축을 움직이세요. 취소하려면 뒤로 버튼"
 
 #: src/menu/options.c:1500
 msgid "Press a button to assign, Back to cancel"
-msgstr "할당할 버튼을 누르세요. 취소는 백"
+msgstr "할당할 버튼을 누르세요. 취소하려면 뒤로 버튼"
 
 #: src/menu/options.c:1516
 msgid "Unbound"
@@ -6598,3 +6598,8 @@ msgstr ""
 "엘리의 마지막 스펠.\n"
 "\n"
 "가장 야심 차고 불가능할 만큼 꼭 필요한 과업은 그야말로 모든 것을 담아내야 한다. 많은 이들이 과학을 지식의 덩어리, 즉 모든 “위대한 발견”이 이미 이루어진 봉인된 거품 같은 것으로 생각하지만, 실상은 정반대다. 과학은 걷어 내야 할 어두운 장막이 끝없이 이어지는 것이며, 새로운 발견은 매번 이전 것보다 더 장엄하고 더 감지하기 어렵다."
+
+#. 옵션 Language 값. i18n.h가 POTFILES에 없어 pot에는 없지만 실행 시 번역된다
+#: src/i18n/i18n.h:17
+msgid "System"
+msgstr "시스템"
