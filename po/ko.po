@@ -6603,3 +6603,11 @@ msgstr ""
 #: src/i18n/i18n.h:17
 msgid "System"
 msgstr "시스템"
+
+#: src/menu/mainmenu.c
+msgid "Z  Select   ·   X  Back"
+msgstr "Z  선택   ·   X  뒤로"
+
+#: src/menu/charselect.c
+msgid "‹ ›  Character     Up / Down  Shot     Z  Confirm     X  Back"
+msgstr "‹ ›  캐릭터     위 / 아래  샷     Z  확인     X  뒤로"

@@ -5,4 +5,4 @@ size = 22
 border_inner = 0.2
 border_outer = 1.2
 
-fallbacks = standard_cjk
+fallbacks = heading_cjk
