@@ -28,6 +28,12 @@
 		T_NARRATOR("She didn’t feel like drinking, however. She cradled it without even uncorking it, sighing to herself."),
 		{},
 	}},
+	// 자전거 의인화 테마: 프롤로그의 라이더 이야기를 마무리하는 장면.
+	{ "cutscenes/locations/hakurei", {
+		T_NARRATOR("The tracks still crossed the shrine road, but no bell had rung since the Tower fell silent.\n"),
+		T_REIMU("And those riders just vanished too. Didn’t even leave a donation."),
+		{},
+	}},
 	{ "cutscenes/reimu_bad/02", {
 		T_YUKARI("Oh my, a little dissatisfied, aren’t we?"),
 		T_NARRATOR("\nReimu was never surprised by Yukari’s sudden appearances anymore, of course.\n"),

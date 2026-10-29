@@ -114,211 +114,111 @@ msgstr "“%s”"
 msgid "Introduction"
 msgstr "프롤로그"
 
-#: src/cutscenes/intro.inc.h:7 src/cutscenes/reimu_bad_end.inc.h:7
+#: src/cutscenes/intro.inc.h:9 src/cutscenes/reimu_bad_end.inc.h:7
 msgid "— The Hakurei Shrine\n"
 msgstr "— 하쿠레이 신사\n"
 
-#: src/cutscenes/intro.inc.h:8 src/cutscenes/reimu_bad_end.inc.h:8
+#: src/cutscenes/intro.inc.h:10 src/cutscenes/reimu_bad_end.inc.h:8
 msgid "The shrine at the border of fantasy and reality.\n"
 msgstr "환상과 현실의 경계에 선 신사.\n"
 
-#: src/cutscenes/intro.inc.h:9
+#: src/cutscenes/intro.inc.h:11
 msgid ""
 "Three heroines of Gensōkyō sat drinking tea on a calm day at the end of "
 "summer.\n"
 msgstr "여름이 끝나가는 어느 고요한 날, 환상향의 세 여걸이 모여 차를 마시고 있었다.\n"
 
-#: src/cutscenes/intro.inc.h:10
+#: src/cutscenes/intro.inc.h:12
 msgid "There was something unsettling in the air—"
 msgstr "공기 속에는 어딘가 꺼림칙한 기운이 감돌고 있었다—"
 
-#: src/cutscenes/intro.inc.h:14
-msgid "What’s got ya both so down? Did I mess up the tea?"
-msgstr "둘 다 왜 그렇게 풀이 죽었어? 내가 차를 잘못 탄 거냐?"
-
-#: src/cutscenes/intro.inc.h:15
-msgid ""
-"\n"
-"Reimu and Yōmu shared a knowing glance.\n"
-msgstr ""
-"\n"
-"레이무와 요우무는 알겠다는 듯 의미심장한 눈빛을 주고받았다.\n"
-
 #: src/cutscenes/intro.inc.h:16
-msgid "The tea’s fine. I just feel weird. I can’t put my finger on it."
-msgstr "차는 괜찮아. 그냥 기분이 이상해서 그래. 딱 꼬집어 말하진 못하겠지만."
+msgid "Ring-ring! A bright little bell, then the whir of spinning wheels racing past the torii.\n"
+msgstr "따릉따릉! 맑은 방울 소리에 이어, 바퀴 구르는 소리가 도리이 앞을 휙 스쳐 지나갔다.\n"
 
 #: src/cutscenes/intro.inc.h:17
-msgid "I’m feeling something similar, I’m afraid."
-msgstr "저도 비슷한 느낌이 들어요."
+msgid "Whoa! Somethin’ just zoomed right past the gate!"
+msgstr "우왓! 방금 뭔가 문 앞을 쌩 지나갔다구!"
 
-#: src/cutscenes/intro.inc.h:21
-msgid "The bells of the shrine tolled outside. Someone had made a donation.\n"
-msgstr "밖에서 신사의 종이 울렸다. 누군가 새전을 넣은 것이다.\n"
+#: src/cutscenes/intro.inc.h:18
+msgid "And it didn’t even stop to make a donation."
+msgstr "새전도 안 넣고 그냥 지나갔네."
 
 #: src/cutscenes/intro.inc.h:22
-msgid "A minute later, there was another.\n"
-msgstr "잠시 뒤, 또 한 번 울렸다.\n"
+msgid "There are tracks in the dirt. Two thin lines, perfectly straight."
+msgstr "흙바닥에 자국이 있어요. 가느다란 줄 두 개가 똑바로 나 있습니다."
 
 #: src/cutscenes/intro.inc.h:23
-msgid "And another."
-msgstr "그리고 또 한 번."
+msgid "Too narrow for a cart… What leaves a trail like that?"
+msgstr "수레치고는 너무 좁은데… 뭐가 저런 자국을 남기는 거야?"
 
-#: src/cutscenes/intro.inc.h:27
-msgid "Something’s definitely not right…"
-msgstr "역시 뭔가 이상해…"
+#: src/cutscenes/intro.inc.h:24
+msgid "Beats me. But whoever it was, they sure were in a hurry."
+msgstr "낸들 아냐. 누군지 몰라도 엄청 급했던 모양인걸."
 
 #: src/cutscenes/intro.inc.h:28
-msgid "Isn’t it normally comforting for the shrine to receive donations?"
-msgstr "신사에 새전이 들어오는 건 원래 반가운 일 아닌가요?"
+msgid "Over the next few days, the same tracks appeared all across Gensōkyō.\n"
+msgstr "그 뒤 며칠 사이, 같은 자국이 환상향 곳곳에 나타났다.\n"
 
 #: src/cutscenes/intro.inc.h:29
-msgid "Normally it *would* be comforting, but…"
-msgstr "원래라면 *반가운* 일이지, 하지만…"
+msgid "Along the shore of Misty Lake, through the Forest of Magic, up mountain passes no human dared to climb.\n"
+msgstr "안개의 호수 기슭을 따라, 마법의 숲을 가로질러, 인간은 감히 오르지 못하는 산길 위까지.\n"
 
-#: src/cutscenes/intro.inc.h:33
-msgid ""
-"Outside the shrine, nearly every resident of Yōkai Mountain was lined up one"
-" after another.\n"
-msgstr "신사 밖에는 요괴의 산 주민 거의 전부가 줄줄이 늘어서 있었다.\n"
+#: src/cutscenes/intro.inc.h:30
+msgid "Those who glimpsed the riders could describe only a blur of color— red and black, white and lavender, navy and gold, mint and cream, burgundy and ivory."
+msgstr "그 라이더들을 본 이들은 스쳐 간 색깔밖에 말하지 못했다— 빨강과 검정, 흰색과 연보라, 남색과 금색, 민트와 크림, 버건디와 아이보리."
 
 #: src/cutscenes/intro.inc.h:34
-msgid "Everyone seemed vaguely fearful."
-msgstr "다들 어딘가 겁먹은 기색이었다."
+msgid "Wheels, huh? Since when do yōkai need wheels to get around?"
+msgstr "바퀴라고? 요괴가 언제부터 바퀴를 타고 다녔다는 거야?"
 
-#: src/cutscenes/intro.inc.h:38
-msgid "Eh? What’s all this, then?"
-msgstr "응? 다들 무슨 일이야?"
+#: src/cutscenes/intro.inc.h:35
+msgid "Perhaps they aren’t yōkai at all."
+msgstr "어쩌면 요괴가 아닐지도 모릅니다."
 
-#: src/cutscenes/intro.inc.h:39
-msgid "We’ve come to ask a favour."
-msgstr "부탁할 게 있어서 찾아왔다."
+#: src/cutscenes/intro.inc.h:36
+msgid "Ghosts, gods, whatever— if it’s fast, I wanna race it!"
+msgstr "유령이든 신이든 상관없어— 빠르다면 한번 겨뤄 봐야지!"
 
 #: src/cutscenes/intro.inc.h:40
-msgid "What kinda favour?"
-msgstr "무슨 부탁인데?"
+msgid "Every set of tracks led the same way— up toward Yōkai Mountain.\n"
+msgstr "모든 자국은 한 방향을 가리켰다— 요괴의 산 위쪽으로.\n"
 
-#: src/cutscenes/intro.inc.h:44
-msgid ""
-"A mysterious force was slowly causing yōkai and humans alike to succumb to "
-"an intense feeling of “knowing everything.”\n"
-msgstr "정체 모를 힘이 요괴와 인간을 가리지 않고 서서히 “모든 것을 안다”는 강렬한 감각에 빠뜨리고 있었다.\n"
+#: src/cutscenes/intro.inc.h:41
+msgid "And the closer one came to the mountain, the stronger that unsettling feeling grew.\n"
+msgstr "그리고 산에 가까워질수록 그 꺼림칙한 기운도 짙어졌다.\n"
 
-#: src/cutscenes/intro.inc.h:45
-msgid ""
-"It would start with figuring out trivial problems that they’d been "
-"struggling with - a technical issue with a machine, or coming up with the "
-"perfect newspaper headline.\n"
-msgstr "처음에는 오랫동안 씨름하던 사소한 문제가 풀린다. 기계의 기술적인 결함이라든가, 신문 기사에 딱 맞는 헤드라인이라든가.\n"
+#: src/cutscenes/intro.inc.h:42
+msgid "So it all points to the mountain again. Figures."
+msgstr "결국 또 그 산이란 거지. 그럴 줄 알았어."
 
-#: src/cutscenes/intro.inc.h:46
-msgid ""
-"But as it progressed, they’d become completely enthralled by it, unable to "
-"act rationally.\n"
-msgstr "그러나 증세가 깊어지면 그 힘에 완전히 사로잡혀 이성적으로 행동할 수 없게 되었다.\n"
+#: src/cutscenes/intro.inc.h:43
+msgid "Then the riders and this strange air may be connected."
+msgstr "그렇다면 그 라이더들과 이 이상한 기운은 관계가 있을지도 모르겠네요."
 
 #: src/cutscenes/intro.inc.h:47
-msgid ""
-"Yōkai Mountain was usually protected by the Moriya shrine maiden, but even "
-"she had been carried away into madness."
-msgstr "요괴의 산은 평소 모리야의 무녀가 지켜 왔지만, 그녀마저 광기에 휩쓸리고 말았다."
+msgid "Ring-ring! The bell sounded once more— from far down the shrine road, as if waiting for them.\n"
+msgstr "따릉따릉! 방울 소리가 다시 울렸다— 신사 길 저 아래에서, 마치 셋을 기다리기라도 하듯.\n"
 
-#: src/cutscenes/intro.inc.h:51
-msgid "Sanae just keeps talking about ‘video game consoles.’"
-msgstr "사나에가 ‘비디오 게임기’ 얘기만 계속해."
+#: src/cutscenes/intro.inc.h:48
+msgid "Hear that? They’re callin’ us out!"
+msgstr "들었어? 우리한테 덤비라는 거라구!"
 
-#: src/cutscenes/intro.inc.h:52
-msgid "Eh? Like those toys you hook up to TVs, the kind you find at Kōrindō?"
-msgstr "엥? 향림당에 있는, TV에 연결해서 노는 그 장난감 같은 거 말이야?"
+#: src/cutscenes/intro.inc.h:49
+msgid "Then we shouldn’t keep them waiting."
+msgstr "그렇다면 기다리게 할 수는 없지요."
 
-#: src/cutscenes/intro.inc.h:53
-msgid ""
-"Right, but she just won’t stop. I’ve seen her excited, but not like this."
-msgstr "그래, 그런데 도무지 멈추질 않는구나. 들뜬 모습이야 자주 봤다만, 이 정도는 처음이다."
+#: src/cutscenes/intro.inc.h:50
+msgid "Fine. Let’s go see who’s been tearing up my road."
+msgstr "좋아. 누가 내 길을 이렇게 파 놨는지 보러 가자."
 
-#: src/cutscenes/intro.inc.h:57
-msgid "Hmm. Quite fascinating."
-msgstr "흐음. 꽤 흥미롭네요."
+#: src/cutscenes/intro.inc.h:54
+msgid "And so the three heroines set out, following two thin lines in the dirt…\n"
+msgstr "그렇게 세 여걸은 흙바닥에 난 가느다란 두 줄을 따라 길을 나섰다…\n"
 
-#: src/cutscenes/intro.inc.h:58
-msgid "Where the heck did *you* come from?!"
-msgstr "*넌* 대체 어디서 튀어나온 거야?!"
-
-#: src/cutscenes/intro.inc.h:59
-msgid ""
-"I couldn’t help overhearing your conversation. Based on my gut feeling, and "
-"what you’ve described, the answer is obvious."
-msgstr "대화가 귀에 들어와 버렸어요. 제 직감과 여러분이 설명해 주신 내용을 종합하면, 답은 뻔해요."
-
-#: src/cutscenes/intro.inc.h:60
-msgid "Is that so? Care to share it with us?"
-msgstr "그런가요? 저희에게도 알려 주시겠어요?"
-
-#: src/cutscenes/intro.inc.h:64
-msgid ""
-"Some entity on Yōkai Mountain is emitting a powerful eldritch lunacy, likely"
-" in all directions from a singular point, given how indiscriminate it is."
-msgstr ""
-"요괴의 산에 있는 어떤 존재가 강력한 기괴한 광기를 내뿜고 있어요. 영향이 무차별한 걸 보면, 아마 한 점에서 사방으로 퍼지고 있을 "
-"거예요."
-
-#: src/cutscenes/intro.inc.h:65
-msgid ""
-"Too much knowledge all at once… mm, mm, it can potentially be fatal, at "
-"least for those with weaker minds."
-msgstr "한꺼번에 너무 많은 지식이… 음, 음, 잘못하면 치명적일 수도 있어요. 적어도 정신이 약한 사람에게는요."
-
-#: src/cutscenes/intro.inc.h:66
-msgid "Heh, wanna handle it then, Sumi?"
-msgstr "헤헤, 그럼 네가 해결해 볼래, 스미?"
-
-#: src/cutscenes/intro.inc.h:67
-msgid ""
-"A-ah, n-no, you all know the lay of the land better, a-after all, and with "
-"it being such a dire situation—"
-msgstr "아, 아뇨, 그, 그게, 이곳 사정은 여러분이 더 잘 아시고, 게, 게다가 이렇게 심각한 상황이라—"
-
-#: src/cutscenes/intro.inc.h:71
-msgid ""
-"Yōmu became distracted at the sight of Lady Yuyuko peeking out from behind "
-"the Moriya Gods.\n"
-msgstr "요우무는 모리야의 신들 뒤에서 얼굴을 내민 유유코 님을 보고 정신이 팔렸다.\n"
-
-#: src/cutscenes/intro.inc.h:72
-msgid "Lady Yuyuko, why are you—?"
-msgstr "유유코 님, 어째서—?"
-
-#: src/cutscenes/intro.inc.h:73
-msgid ""
-"The spirits seem drawn to Yōkai Mountain as well, as if they long for "
-"something. It’s growing difficult to placate them all…"
-msgstr "영혼들도 무언가를 그리워하듯 요괴의 산에 이끌리는 모양이란다. 다들 달래기가 점점 어려워지고 있어…"
-
-#: src/cutscenes/intro.inc.h:74
-msgid "I see. Shall I investigate as well?"
-msgstr "그렇군요. 저도 조사해 볼까요?"
-
-#: src/cutscenes/intro.inc.h:75
-msgid "Please do."
-msgstr "그래 주렴."
-
-#: src/cutscenes/intro.inc.h:79
-msgid ""
-"Elsewhere at the shrine, the kappa were all huddled into a group, talking "
-"intensely in hushed tones…\n"
-msgstr "신사 한쪽에서는 캇파들이 한데 모여 소곤소곤 열띤 이야기를 나누고 있었다…\n"
-
-#: src/cutscenes/intro.inc.h:80
-msgid ""
-"And the tengu were furiously scribbling on their notepads, as if they’d just"
-" gotten the scoop of their careers.\n"
-msgstr "텐구들은 평생 최고의 특종이라도 잡은 듯 수첩에 정신없이 뭔가를 휘갈기고 있었다.\n"
-
-#: src/cutscenes/intro.inc.h:81
-msgid ""
-"Even here, away from Yōkai Mountain, the effects of the so-called ‘eldritch "
-"lunacy’ seemed to be reaching everyone…"
-msgstr "요괴의 산에서 떨어진 이곳에서도, 이른바 ‘기괴한 광기’의 영향은 모두에게 퍼지고 있는 듯했다…"
+#: src/cutscenes/intro.inc.h:55
+msgid "toward a race that would carry them to the very top of Yōkai Mountain."
+msgstr "요괴의 산 꼭대기까지 이어질 경주를 향해."
 
 #: src/cutscenes/marisa_bad_end.inc.h:2
 msgid "Marisa (Bad Ending)"
@@ -390,6 +290,14 @@ msgstr "제안은 고맙지만 사양할게, 플랑드르."
 #: src/cutscenes/marisa_bad_end.inc.h:30
 msgid "Awww… how boring…"
 msgstr "에이~ 시시해…"
+
+#: src/cutscenes/marisa_bad_end.inc.h:35
+msgid "And those riders I was chasin’? Gone, just like that. Not even a skid mark."
+msgstr "내가 쫓던 그 라이더들은 어떻고? 그냥 싹 사라졌다구. 바퀴 자국 하나 안 남기고."
+
+#: src/cutscenes/marisa_bad_end.inc.h:36
+msgid "Perhaps they never belonged to this world to begin with."
+msgstr "처음부터 이 세계에 속한 존재가 아니었을지도 모르지."
 
 #: src/cutscenes/marisa_bad_end.inc.h:34
 msgid ""
@@ -611,6 +519,14 @@ msgstr "그래, 바벨탑에 무슨 변화가 생기면 알아채려고 말이�
 msgid "Ah heck, and I guess that means…"
 msgstr "아이고, 이거 설마…"
 
+#: src/cutscenes/marisa_extra_intro.inc.h:70
+msgid "Outside the window, a streak of color shot past— then another, bells ringing, all racing toward the mountain.\n"
+msgstr "창밖으로 색색의 줄기가 휙 지나갔다— 또 하나, 방울을 울리며 모두 산을 향해 달려갔다.\n"
+
+#: src/cutscenes/marisa_extra_intro.inc.h:71
+msgid "Those riders again! Oh no ya don’t— I ain’t losin’ this race!"
+msgstr "또 그 라이더들이잖아! 어림없지— 이번 경주는 절대 안 진다구!"
+
 #: src/cutscenes/marisa_extra_intro.inc.h:69
 msgid "Y-you saw me back there, right?! You were there! I didn’t do anything!"
 msgstr "저, 저기, 아까 봤지?! 너도 거기 있었잖아! 나는 아무것도 안 했어!"
@@ -792,6 +708,18 @@ msgid ""
 "And so, they drank, and caught up on alternate worlds, uncanny timelines, "
 "and the strangeness of their circumstances.\n"
 msgstr "그렇게 둘은 술잔을 기울이며 다른 세계와 기묘한 시간선, 그리고 자신들이 처한 낯선 처지에 대한 이야기를 나누었다.\n"
+
+#: src/cutscenes/marisa_good_end.inc.h:51
+msgid "Say, Elly, those riders on the mountain road— were they with you too?"
+msgstr "그런데 엘리, 산길의 그 라이더들도 너희 편이었냐?"
+
+#: src/cutscenes/marisa_good_end.inc.h:52
+msgid "Riders? No… but the Tower calls to anything that wanders between worlds. Perhaps they heard it, just as I did."
+msgstr "라이더요? 아니요… 하지만 탑은 세계 사이를 떠도는 것이라면 무엇이든 불러들여요. 저처럼 그 부름을 들었는지도 모르겠네요."
+
+#: src/cutscenes/marisa_good_end.inc.h:53
+msgid "Heh. Then I’ll just have to race ’em next time they come by!"
+msgstr "헤헤. 그럼 다음에 지나가면 한판 붙어 봐야겠는걸!"
 
 #: src/cutscenes/marisa_good_end.inc.h:50
 msgid ""
@@ -995,6 +923,14 @@ msgid ""
 "She didn’t feel like drinking, however. She cradled it without even "
 "uncorking it, sighing to herself."
 msgstr "하지만 마실 기분이 아니었다. 마개도 따지 않은 채 병을 품에 안고 혼자 한숨만 쉬었다."
+
+#: src/cutscenes/reimu_bad_end.inc.h:33
+msgid "The tracks still crossed the shrine road, but no bell had rung since the Tower fell silent.\n"
+msgstr "바퀴 자국은 여전히 신사 길을 가로지르고 있었지만, 탑이 멈춘 뒤로 방울 소리는 한 번도 울리지 않았다.\n"
+
+#: src/cutscenes/reimu_bad_end.inc.h:34
+msgid "And those riders just vanished too. Didn’t even leave a donation."
+msgstr "그 라이더들도 그냥 사라져 버렸고. 새전 한 푼 안 남기고 말이야."
 
 #: src/cutscenes/reimu_bad_end.inc.h:32
 msgid "Oh my, a little dissatisfied, aren’t we?"
@@ -1289,6 +1225,18 @@ msgstr ""
 "\n"
 "유카리는 아무 말 없이 온화한 미소로만 답했다."
 
+#: src/cutscenes/reimu_extra_intro.inc.h:100
+msgid "Down the mountain, bells began to ring— one, then another, then five at once.\n"
+msgstr "산 아래에서 방울이 울리기 시작했다— 하나, 또 하나, 그리고 다섯이 한꺼번에.\n"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:101
+msgid "Thin tracks raced up the slopes toward the Tower, as if answering its call.\n"
+msgstr "가느다란 바퀴 자국이 탑의 부름에 답하듯 비탈을 타고 올라갔다.\n"
+
+#: src/cutscenes/reimu_extra_intro.inc.h:102
+msgid "Them again? Great. Now it’s a race."
+msgstr "또 그 녀석들이야? 잘됐네. 이제 경주가 됐어."
+
 #: src/cutscenes/reimu_extra_intro.inc.h:99
 msgid ""
 "In the distance, the Tower of Babel began to emit a low, eerie rumble, as "
@@ -1438,6 +1386,18 @@ msgstr "그래도 다른 환상향에서 온 잊힌 요괴들이 있었다는 �
 #: src/cutscenes/reimu_good_end.inc.h:60
 msgid "Ah, whatever. As long as it stays quiet."
 msgstr "아, 몰라. 조용하기만 하면 됐지."
+
+#: src/cutscenes/reimu_good_end.inc.h:65
+msgid "Ring-ring! Every so often, a bell still sounded on the mountain road, and fresh tracks appeared in the morning dew.\n"
+msgstr "따릉따릉! 산길에서는 이따금 방울 소리가 들렸고, 아침 이슬 위에는 새 바퀴 자국이 나 있었다.\n"
+
+#: src/cutscenes/reimu_good_end.inc.h:66
+msgid "They’re still out there, huh? Whoever they are."
+msgstr "아직 어딘가 있는 모양이네. 누군지는 몰라도."
+
+#: src/cutscenes/reimu_good_end.inc.h:67
+msgid "…Guess I’ll be ‘keeping watch’ a little longer."
+msgstr "…‘감시’는 조금 더 계속해야겠어."
 
 #: src/cutscenes/reimu_good_end.inc.h:64
 msgid ""
@@ -1634,6 +1594,14 @@ msgstr "사건 해결 기념으로 말이야…?"
 msgid "We could go on a fun date! And I’m feeling a bit peckish…"
 msgstr "즐거운 데이트도 하고! 슬슬 출출하기도 하구나…"
 
+#: src/cutscenes/youmu_bad_end.inc.h:47
+msgid "Even the riders who had once filled the mountain roads were gone.\n"
+msgstr "한때 산길을 가득 메웠던 라이더들도 사라지고 없었다.\n"
+
+#: src/cutscenes/youmu_bad_end.inc.h:48
+msgid "Only their tracks remained, ending abruptly at the foot of the Tower."
+msgstr "바퀴 자국만이 남아, 탑 아래에서 뚝 끊겨 있었다."
+
 #: src/cutscenes/youmu_bad_end.inc.h:46
 msgid ""
 "The kappa of Yōkai Mountain were throwing a ‘Gaze Upon The Incredible Tower "
@@ -1794,6 +1762,14 @@ msgid ""
 " your turn to pay for dinner. Understand?"
 msgstr "다만 이렇게 쉽게 넘어갔다고 생각하진 마세요. 제가 돌아오면 이번엔 엘리가 저녁을 사는 겁니다. 아시겠죠?"
 
+#: src/cutscenes/youmu_extra_intro.inc.h:61
+msgid "Even in the Netherworld, faint bells could be heard from below, racing toward the Tower.\n"
+msgstr "명계에서도 저 아래로부터 희미한 방울 소리가 탑을 향해 달려가는 것이 들려왔다.\n"
+
+#: src/cutscenes/youmu_extra_intro.inc.h:62
+msgid "The riders are moving as well. It seems everyone has heard its call."
+msgstr "라이더들도 움직이고 있군요. 모두가 그 부름을 들은 모양입니다."
+
 #: src/cutscenes/youmu_extra_intro.inc.h:60
 msgid "Elly couldn’t help but laugh, despite her fears.\n"
 msgstr "엘리는 두려움 속에서도 웃음을 참을 수 없었다.\n"
@@ -1913,6 +1889,18 @@ msgid ""
 "Perhaps we could even visit a popular ramen shop nearby. I’m feeling "
 "generous, so it shall be my treat!"
 msgstr "근처의 인기 라멘집에도 가 볼까요. 기분이 좋으니 제가 사겠습니다!"
+
+#: src/cutscenes/youmu_good_end.inc.h:50
+msgid "By the way, have you seen the riders on the mountain road?"
+msgstr "그런데 산길의 라이더들은 보셨나요?"
+
+#: src/cutscenes/youmu_good_end.inc.h:51
+msgid "The ones with the bells? They pass the shrine at dawn. They seem… happier, now that the Tower is quiet."
+msgstr "방울 달린 그 아이들 말이죠? 새벽마다 신사 앞을 지나가요. 탑이 조용해진 뒤로는… 더 즐거워 보이더라고요."
+
+#: src/cutscenes/youmu_good_end.inc.h:52
+msgid "Then perhaps one day I shall challenge one of them to a contest of speed."
+msgstr "그렇다면 언젠가 그중 한 명에게 속도 겨루기를 청해 봐야겠군요."
 
 #: src/cutscenes/youmu_good_end.inc.h:49
 msgid "O-oh! S-sure, that would be wonderful!"

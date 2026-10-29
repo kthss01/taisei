@@ -95,6 +95,13 @@
 		T_NARRATOR("\nYukari remained silent, responding only with a gentle smile."),
 		{},
 	}},
+	// 자전거 의인화 테마: 프롤로그의 라이더 이야기를 마무리하는 장면.
+	{ "cutscenes/reimu_extra/02", {
+		T_NARRATOR("Down the mountain, bells began to ring— one, then another, then five at once.\n"),
+		T_NARRATOR("Thin tracks raced up the slopes toward the Tower, as if answering its call.\n"),
+		T_REIMU("Them again? Great. Now it’s a race."),
+		{},
+	}},
 	{ "cutscenes/reimu_extra/02", {
 		T_NARRATOR("In the distance, the Tower of Babel began to emit a low, eerie rumble, as Reimu flew off to meet her next challenge…"),
 		{},

@@ -60,6 +60,13 @@
 		T_REIMU("Ah, whatever. As long as it stays quiet."),
 		{},
 	}},
+	// 자전거 의인화 테마: 프롤로그의 라이더 이야기를 마무리하는 장면.
+	{ "cutscenes/locations/moriya", {
+		T_NARRATOR("Ring-ring! Every so often, a bell still sounded on the mountain road, and fresh tracks appeared in the morning dew.\n"),
+		T_REIMU("They’re still out there, huh? Whoever they are."),
+		T_REIMU("…Guess I’ll be ‘keeping watch’ a little longer."),
+		{},
+	}},
 	{ "cutscenes/reimu_good/03", {
 		T_NARRATOR("With the maddening feelings gone, everyone seemed to relax more than usual, like a burden had been lifted off of them.\n"),
 		T_NARRATOR("But for some reason, Reimu in particular seemed to have a difficult time settling down.\n"),

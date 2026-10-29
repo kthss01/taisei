@@ -30,6 +30,12 @@
 		T_FLANDRE("Awww… how boring…"),
 		{},
 	}},
+	// 자전거 의인화 테마: 프롤로그의 라이더 이야기를 마무리하는 장면.
+	{ "cutscenes/marisa_bad/01", {
+		T_MARISA("And those riders I was chasin’? Gone, just like that. Not even a skid mark."),
+		T_PATCHOULI("Perhaps they never belonged to this world to begin with."),
+		{},
+	}},
 	{ "cutscenes/marisa_bad/02", {
 		T_NARRATOR("After having tea with the pair of them, Marisa wandered the stacks, looking for inspiration.\n"),
 		T_NARRATOR("Suddenly, she felt as if she'd stepped into a pothole, tripping and falling flat on her face.\n"),

@@ -65,6 +65,12 @@
 		T_MARISA("Ah heck, and I guess that means…"),
 		{},
 	}},
+	// 자전거 의인화 테마: 프롤로그의 라이더 이야기를 마무리하는 장면.
+	{ "cutscenes/marisa_extra/02", {
+		T_NARRATOR("Outside the window, a streak of color shot past— then another, bells ringing, all racing toward the mountain.\n"),
+		T_MARISA("Those riders again! Oh no ya don’t— I ain’t losin’ this race!"),
+		{},
+	}},
 	{ "cutscenes/marisa_extra/02", {
 		T_KURUMI("Y-you saw me back there, right?! You were there! I didn’t do anything!"),
 		T_MARISA("Hey, nobody's accusin’ ya of anythin’. All ya did was shut a door, right? To keep the fairies out?"),
